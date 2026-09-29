@@ -1,0 +1,56 @@
+[
+ {
+  "type": "message",
+  "user": "U0704E",
+  "text": "ok so checkpoint sync is slow again, i think it is the decompress-on-write thing more later",
+  "ts": "1756709280.433310"
+ },
+ {
+  "type": "message",
+  "user": "U0711L",
+  "text": "flaky test in the integration suite again, it is the same one, it is always the same one will update",
+  "ts": "1756710600.171620"
+ },
+ {
+  "type": "message",
+  "user": "U0716Q",
+  "text": "who owns the nightly backfill cron, it has been failing for 25 days see ML-2336",
+  "ts": "1756712040.531776"
+ },
+ {
+  "type": "message",
+  "user": "U0722W",
+  "text": "honestly free space graph on scratch-01 looks weird, it is Kurt's tarballs again sorry",
+  "ts": "1756712460.537557"
+ },
+ {
+  "type": "message",
+  "user": "U0711L",
+  "text": "update: gpu queue is jammed, 31 jobs pending under a service account send help",
+  "ts": "1756717800.264041"
+ },
+ {
+  "type": "message",
+  "user": "U0711L",
+  "text": "honestly scratch array at 82%, nobody panic, i am just saying it out loud send help",
+  "ts": "1756720680.412044"
+ },
+ {
+  "type": "message",
+  "user": "U0723X",
+  "text": "fyi i have turned it off and on again and it worked and i am furious :)",
+  "ts": "1756724160.772995"
+ },
+ {
+  "type": "message",
+  "user": "U0721V",
+  "text": "quick one: checkpoint sync is slow again, probably the decompress-on-write thing see PLAT-1997",
+  "ts": "1756733340.547283"
+ },
+ {
+  "type": "message",
+  "user": "U0703D",
+  "text": "portable array from the IT cage is back on the shelf, seals intact will update",
+  "ts": "1756746000.425696"
+ }
+]

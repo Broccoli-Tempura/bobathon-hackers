@@ -1,0 +1,104 @@
+[
+ {
+  "type": "message",
+  "user": "U0719T",
+  "text": "does anyone actually know what the legacy staging path is still used for",
+  "ts": "1755151620.656477"
+ },
+ {
+  "type": "message",
+  "user": "U0719T",
+  "text": "ok so reminder we are frozen for deploys over the long weekend will update",
+  "ts": "1755156780.526877"
+ },
+ {
+  "type": "message",
+  "user": "U0702C",
+  "text": "psa: who owns the nightly backfill cron, it has been failing for 15 days will update",
+  "ts": "1755157140.413149"
+ },
+ {
+  "type": "message",
+  "user": "U0723X",
+  "text": "update: i have found the memory leak. it was me. it was me 34 weeks ago will update",
+  "ts": "1755159240.273824"
+ },
+ {
+  "type": "message",
+  "user": "U0705F",
+  "text": "fyi gpu queue is jammed, 45 jobs pending under a service account thanks all",
+  "ts": "1755162840.619035"
+ },
+ {
+  "type": "message",
+  "user": "U0704E",
+  "text": "update: restarted the backfill from scratch, the partial output was garbage",
+  "ts": "1755163620.274439"
+ },
+ {
+  "type": "message",
+  "user": "U0722W",
+  "text": "honestly the rsync to cold storage is crawling again, 39 hours in and at 83%",
+  "ts": "1755163920.111426"
+ },
+ {
+  "type": "message",
+  "user": "U0720U",
+  "text": "psa: the migration runbook is in INFRA-2291, please actually read it",
+  "ts": "1755164940.322715"
+ },
+ {
+  "type": "message",
+  "user": "U0711L",
+  "text": "fyi restarted the backfill from scratch, the partial output was garbage",
+  "ts": "1755165660.962157"
+ },
+ {
+  "type": "message",
+  "user": "U0704E",
+  "text": "psa: cluster is back. it was DNS. it is always DNS",
+  "ts": "1755170520.978659"
+ },
+ {
+  "type": "message",
+  "user": "U0704E",
+  "text": "the storage docs describe the 2023 architecture, ML-2020 tracks fixing it",
+  "ts": "1755173460.673645"
+ },
+ {
+  "type": "message",
+  "user": "U0720U",
+  "text": "the storage docs describe the 2023 architecture, DATA-2002 tracks fixing it (again)",
+  "ts": "1755177000.268059"
+ },
+ {
+  "type": "message",
+  "user": "U0720U",
+  "text": "the storage docs describe the 2023 architecture, PLAT-2226 tracks fixing it",
+  "ts": "1755177600.960320"
+ },
+ {
+  "type": "message",
+  "user": "U0713N",
+  "text": "honestly snapshot cleanup on scratch-01 freed 2TB, should hold until the migration lol",
+  "ts": "1755180360.985680"
+ },
+ {
+  "type": "message",
+  "user": "U0722W",
+  "text": "ok so PR up for PLAT-2421, it is enormous and i am sorry",
+  "ts": "1755192840.381229"
+ },
+ {
+  "type": "message",
+  "user": "U0710K",
+  "text": "moving on-call handoff to thursdays, fridays were chaos will update",
+  "ts": "1755192960.369453"
+ },
+ {
+  "type": "message",
+  "user": "U0713N",
+  "text": "update: PR up for INFRA-2085, it is enormous and i am sorry lol",
+  "ts": "1755193140.265522"
+ }
+]

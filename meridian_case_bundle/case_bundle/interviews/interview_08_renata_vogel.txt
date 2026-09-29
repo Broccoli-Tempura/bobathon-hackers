@@ -1,0 +1,91 @@
+HALCYON SYSTEMS · INVESTIGATION RECORD · INTERVIEW 08 OF 08
+Interviewee: Renata Vogel, Chief of Staff
+Interviewer: Nadia Arslan (NA)
+Date: Thursday 20.11.2025 · Recording start 09:04 · end 10:19
+Location: rented meeting room, Rosenbergstrasse, St. Gallen (off-site)
+Recording: audio, automatic transcription (TranscribeDesk 3.2). Not proofread. Speaker labels are automatic and may be wrong.
+----------------------------------------------------------------------
+
+[00:00:03] NA: Thank you for coming. And for the coffee, that's kind.
+[00:00:07] SPEAKER 2: It's the least I can do. Honestly I've been dreading this.
+[00:00:11] NA: Why?
+[00:00:13] SPEAKER 2: Not because I've done anything. Because I've watched Dov age about four years in a week and I don't know how to help, and I suspect you're going to ask me things I can't answer.
+[00:00:24] NA: Let's find out. Before we start, the same thing I say to everyone. This is recorded, it stays with me, and I'd ask you not to discuss it with colleagues afterwards.
+[00:00:33] SPEAKER 2: Of course. Understood.
+[00:00:36] NA: Tell me about the Kestrel process.
+[00:00:40] SPEAKER 2: God, the Kestrel process. February through June. Bruising. They were serious at the start, genuinely serious, their board had signed off on a range before they ever came to us. And then somewhere around April it turned into a different kind of conversation. The kind where you realise they've stopped asking what we're worth and started asking what we're made of.
+[00:01:02] NA: Meaning?
+[00:01:04] SPEAKER 2: Meaning diligence got very specific. And I want to be careful here because I know how this sounds in the current circumstances, but they asked for a lot. More than I'd have given them if it were up to me, and I said so, repeatedly, in writing, which I imagine you've already read. Model architecture documentation. Training methodology at a level of detail that made Lukas furious. Sample outputs against their own benchmarks.
+[00:01:29] NA: And?
+[00:01:31] SPEAKER 2: I pushed back. Dov overruled me twice. His view was that if we were going to sell, we were going to sell, and that slow walking diligence with a serious buyer is how you lose a serious buyer.
+[00:01:43] NA: What did they actually get?
+[00:01:46] SPEAKER 2: Documentation. Descriptions. Nothing executable, nothing that runs, no weights, no corpus. That was the one line Dov never crossed and Lukas would have quit over. They got the map. They did not get the territory. [pause] Which is, I assume, why they came back for the territory.
+[00:02:05] NA: You think Kestrel did this.
+[00:02:08] SPEAKER 2: I think Kestrel published our watermark a month after our building went dark for a night. And I think I spent four months teaching them exactly what was worth stealing and where it lived in our org chart. I've thought about very little else since Thursday. If somebody at Kestrel put a hand on someone here, it's because I introduced them. I know how that sounds. I'd rather say it than have you find it.
+[00:02:34] NA: Who was your counterpart at Kestrel?
+[00:02:37] SPEAKER 2: Day to day, Gilles Aubert, their head of corporate development. And his team, two analysts whose names I'd have to look up. Their counsel sat in on the legal calls. Gilles is very good. Very warm. The kind of person who remembers your partner's name.
+[00:02:52] NA: Did he ever offer you anything?
+[00:02:55] SPEAKER 2: [laughs] He floated something in May. A continuing role after the deal closed. I forwarded it to Dov the same hour and said it felt like leverage and he could take the relationship over if he preferred. He told me to carry on. It'll be in my email, I didn't hide it.
+[00:03:11] NA: Okay. Walk me through the tenth of October.
+[00:03:15] SPEAKER 2: Friday. Long weekend. [pause] I was in the office until about six, I think. There was a board packet going out the following Tuesday and I wanted the finance section closed before the long weekend. Then I drove down to Ascona. My partner's family has a place there, we go down most long weekends in the autumn.
+[00:03:36] NA: Which way did you drive?
+[00:03:38] SPEAKER 2: The usual. Motorway to Chur, San Bernardino, down to Bellinzona. It's three hours if you're lucky.
+[00:03:45] NA: Anyone with you?
+[00:03:47] SPEAKER 2: Anne-Marie drove separately, she came down Saturday morning. So Friday night, no. I was there alone from about eight thirty. I watched half a film and went to bed. I'm not going to pretend that's useful to you.
+[00:04:00] NA: It isn't, particularly.
+[00:04:02] SPEAKER 2: No. [laughs] Look, can I say the thing I came here to say? Because I've been rehearsing it in the car and I'd rather get it out before you ask me something clever.
+[00:04:11] NA: Go ahead.
+[00:04:13] SPEAKER 2: I know I'm on a list. I'd put myself on it. I ran the process with the company that has our model, I had access to the data room, and I'm the only person in the leadership team who couldn't explain a checkpoint bundle to you if you held a gun to my head. But I want you to actually think about what you're describing. You're describing someone who sat in that building all night on a long weekend with a drive plugged in, babysitting a copy job — and when the thing died on them partway through, went and deleted something to make room and started the whole job over again from the beginning. That's not me. That's not within a mile of me. I have June reset my password. I once escalated to Lukas because a spreadsheet wouldn't sort.
+[00:04:58] SPEAKER 2: [laughs] I'm the Chief of Staff, Nadia. I move meetings. If I wanted to hurt this company I'd have done it with a calendar.
+[00:05:06] NA: Noted. Tell me about the data room. Who provisioned it, who had access, and what happened to it when the deal died.
+[00:05:14] SPEAKER 2: Right. So we used a virtual data room. External counsel, Brunner Keller, set up the room itself, and our infrastructure people wired up the export side so we could push documents in bulk. I was the owner of record, because corp dev owned the process, but in practice my assistant did most of the uploading and counsel handled the access tiers.
+[00:05:36] NA: Access tiers.
+[00:05:38] SPEAKER 2: Who at Kestrel could see what. Tier one was financials and legal, tier two was commercial, tier three was technical, and tier three was the fight. Every document in tier three went past Lukas first. He insisted, and he was right to.
+[00:05:52] NA: And the accounts on your side?
+[00:05:55] SPEAKER 2: There were a handful of service accounts. One for uploads, one for exports, an admin one. I couldn't tell you what they could reach, that was infra. I think Iris raised something about cleaning them up after the deal died. I remember it being on a list. [pause] Is that relevant?
+[00:06:12] NA: I'm asking everyone about everything. What happened when the deal died?
+[00:06:16] SPEAKER 2: The room was frozen at the end of June. Nobody could get in. Counsel sent a certificate. I assumed that was the end of it.
+[00:06:24] NA: How many requests did Kestrel make in total?
+[00:06:27] SPEAKER 2: Four hundred and something. It's all in the diligence log. Most were boring, cap table, contracts, insurance. The technical ones were where it got uncomfortable. They asked for a benchmark comparison against their own baselines three times in three different ways.
+[00:06:44] NA: Did they get it?
+[00:06:46] SPEAKER 2: A summary. Lukas wrote it and took out anything that mattered.
+[00:06:51] NA: Let's talk about board materials. You assemble the board pack.
+[00:06:55] SPEAKER 2: Every quarter. Each exec writes their section, I pull it into one deck, chase people for late slides, check the numbers match between sections, and send it out.
+[00:07:05] NA: Who gets it?
+[00:07:07] SPEAKER 2: The board. Dov. Whoever presented. The distribution hasn't changed in years.
+[00:07:13] NA: Do you read the sections?
+[00:07:15] SPEAKER 2: I read everything for formatting. I don't pretend I understand the technical ones. Iris's security sections are the worst for that, lovely diagrams, I nod and fix the font sizes. [laughs]
+[00:07:27] NA: The February pack.
+[00:07:29] SPEAKER 2: February. That was the security posture review, I think. Eighteen slides. Iris presented. There was some fuss afterwards about whether a slide should have been in it at all, but you'd have to ask her. I just put the pack together.
+[00:07:42] NA: What fuss?
+[00:07:44] SPEAKER 2: A board member asked why a particular slide was in the deck and Iris said it shouldn't be and would be taken out of circulation. I don't remember which. They all look the same to me, boxes and arrows.
+[00:07:55] NA: Okay. The ninth of October, the Thursday. Do you remember what you did that day?
+[00:08:01] SPEAKER 2: Normal Thursday. Staff meeting in the morning. I moved the board prep, actually, I remember that. It was Tuesday morning and I moved it to the afternoon because the engineering people were doing infrastructure work over the weekend and they'd be wrecked on the Monday, so I thought give them a morning.
+[00:08:18] NA: How did you know about the infrastructure work?
+[00:08:21] SPEAKER 2: Everybody knew. It was in the standup notes, June mentioned it, there was a ticket. It was the big migration they'd been putting off for a year. Half the calendar had "migration" blocked on it.
+[00:08:32] NA: Do you know what time the migration window was?
+[00:08:35] SPEAKER 2: Friday night into Saturday, I think? I really couldn't tell you the hours. Overnight.
+[00:08:41] NA: Did you go to the office at all over the long weekend?
+[00:08:44] SPEAKER 2: No. I was in Ascona until Monday afternoon. Drove back Monday, got home around seven.
+[00:08:50] NA: Did you file expenses for that trip?
+[00:08:53] SPEAKER 2: [pause] Probably fuel. I combine things with a Ticino supplier visit sometimes. Dessie would know, she approves them. I'm terrible at expenses, I submit everything in one batch at the end of the month.
+[00:09:05] NA: Tell me about the others. Who do you think could have done this?
+[00:09:09] SPEAKER 2: I don't want to accuse anyone.
+[00:09:11] NA: I'm not asking you to accuse. I'm asking who you think had the knowledge.
+[00:09:15] SPEAKER 2: Honestly? Lukas, Andrin, Iris, Yannick. The people who actually understand the systems. And I'd bet my house it's none of them, because they love that model more than they love their families. Lukas especially. [pause] Kurt has passwords to everything but he'd need someone to switch the computer on for him.
+[00:09:34] NA: Chiara? Noemi?
+[00:09:36] SPEAKER 2: Chiara owns the data, so she'd know where things are, I suppose. Noemi talks about everything and understands about half of it. She's harmless. She's leaving anyway.
+[00:09:46] NA: Let's go back to Kestrel. The names of their corp dev team.
+[00:09:50] SPEAKER 2: Gilles Aubert. Two analysts, Marie something and a younger one, Tobias? No, that's ours. I'll send you the list. And their counsel, a London firm.
+[00:10:02] NA: Please do. When did you last speak to Gilles?
+[00:10:05] SPEAKER 2: June, when it collapsed. A polite call. He said he hoped our paths would cross again. [pause] I suppose they have, in a way.
+[00:10:14] NA: Diligence timeline. When did the technical requests start?
+[00:10:18] SPEAKER 2: April. That's when the tone changed. Before that it was lawyers and accountants. From April it was engineers asking engineer questions, and I was the person in the middle translating, badly.
+[00:10:30] NA: Were any of those requests declined?
+[00:10:32] SPEAKER 2: Quite a few. Anything touching weights or raw data. It's in the log with "declined" next to it. They didn't like it, but they accepted it.
+[00:10:41] NA: Okay. I think that's everything for now. Thank you, Renata.
+[00:10:45] SPEAKER 2: That's it? I thought it would be worse.
+[00:10:48] NA: I may have follow-up questions.
+[00:10:50] SPEAKER 2: Anytime. Really. Anything that helps.
+[00:10:53] [recording continues, no speech, 14 minutes of room noise removed by transcription service]
+[01:14:40] NA: Recording stopped at ten nineteen.

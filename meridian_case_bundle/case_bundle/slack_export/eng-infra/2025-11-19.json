@@ -1,0 +1,92 @@
+[
+ {
+  "type": "message",
+  "user": "U0703D",
+  "text": "bumping retention on the eval bucket to 7 days, shout if that breaks anything (again)",
+  "ts": "1763538300.783676"
+ },
+ {
+  "type": "message",
+  "user": "U0701B",
+  "text": "not to be dramatic but adding a lint rule and preemptively apologising to everyone's diff lol",
+  "ts": "1763541240.340707"
+ },
+ {
+  "type": "message",
+  "user": "U0718S",
+  "text": "does anyone actually know what the legacy staging path is still used for",
+  "ts": "1763544720.949877"
+ },
+ {
+  "type": "message",
+  "user": "U0704E",
+  "text": "quick one: deploy to staging is green, promoting at 16:00 unless someone objects",
+  "ts": "1763549880.340871"
+ },
+ {
+  "type": "message",
+  "user": "U0712M",
+  "text": "honestly eval run 3333 finished, nothing interesting, rerunning with the new sampler will update",
+  "ts": "1763550540.789234"
+ },
+ {
+  "type": "message",
+  "user": "U0722W",
+  "text": "honestly eval run 4417 finished, nothing interesting, will rerun with the new sampler (again)",
+  "ts": "1763551680.756801"
+ },
+ {
+  "type": "message",
+  "user": "U0721V",
+  "text": "honestly PR up for the tokenizer refactor, it is enormous and i am sorry lol",
+  "ts": "1763555700.834831"
+ },
+ {
+  "type": "message",
+  "user": "U0718S",
+  "text": "fyi training loss went flat at step 40k which is either very good or very bad more later",
+  "ts": "1763557680.651960"
+ },
+ {
+  "type": "message",
+  "user": "U0702C",
+  "text": "scratch array at 87%, nobody panic, i am just saying it out loud",
+  "ts": "1763563920.390164"
+ },
+ {
+  "type": "message",
+  "user": "U0721V",
+  "text": "the storage docs describe the 2023 architecture, PLAT-2398 tracks fixing it see PLAT-2398",
+  "ts": "1763567040.715590"
+ },
+ {
+  "type": "message",
+  "user": "U0703D",
+  "text": "fyi cluster is back. it was DNS. it is always DNS",
+  "ts": "1763569620.374207"
+ },
+ {
+  "type": "message",
+  "user": "U0703D",
+  "text": "honestly cluster is back. it was DNS. it is always DNS send help",
+  "ts": "1763571900.482291"
+ },
+ {
+  "type": "message",
+  "user": "U0704E",
+  "text": "ok so gpu queue is jammed, someone has 40 jobs pending under a service account will update",
+  "ts": "1763574360.296519"
+ },
+ {
+  "type": "message",
+  "user": "U0714O",
+  "text": "for the record, flaky test in the integration suite again, it is the same one, it is always the same one cc Dessie",
+  "ts": "1763575680.669367"
+ },
+ {
+  "type": "message",
+  "user": "U0701B",
+  "text": "small thing: eval run 1111 finished, nothing interesting, rerunning with the new sampler (again)",
+  "ts": "1763583720.472226"
+ }
+]

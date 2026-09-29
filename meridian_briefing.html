@@ -1,0 +1,854 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>The Meridian Problem</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;800;900&family=Big+Shoulders+Stencil+Display:wght@800&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+<style>
+/* Single deliberate look: an evidence room after hours. Navy ground, manila files, sodium-lamp amber, oxide red for what's missing. */
+:root{
+  color-scheme:dark;
+  --ink:#0E1620;
+  --ink-2:#142030;
+  --ink-3:#1B2A3D;
+  --line:rgba(235,227,208,.13);
+  --line-soft:rgba(235,227,208,.06);
+  --paper:#ECE4D1;
+  --manila:#E4D8BC;
+  --manila-ink:#2A2418;
+  --steel:#94A7B7;
+  --amber:#E6A63E;
+  --amber-glow:rgba(230,166,62,.16);
+  --oxide:#D6623F;
+  --ok:#7FB08A;
+  --display:'Big Shoulders Display','Oswald','Arial Narrow',Impact,sans-serif;
+  --stencil:'Big Shoulders Stencil Display','Big Shoulders Display',Impact,sans-serif;
+  --sans:'IBM Plex Sans',system-ui,-apple-system,'Segoe UI',sans-serif;
+  --mono:'IBM Plex Mono',ui-monospace,'SFMono-Regular',Menlo,monospace;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{height:100%}
+body{
+  background:var(--ink);color:var(--paper);font-family:var(--sans);
+  overflow:hidden;-webkit-font-smoothing:antialiased;
+}
+/* atmosphere */
+.atmo{position:fixed;inset:0;pointer-events:none;z-index:0}
+.atmo.grid{
+  background-image:linear-gradient(var(--line-soft) 1px,transparent 1px),linear-gradient(90deg,var(--line-soft) 1px,transparent 1px);
+  background-size:40px 40px;
+  mask-image:radial-gradient(ellipse at 50% 40%,#000 30%,transparent 80%);
+  -webkit-mask-image:radial-gradient(ellipse at 50% 40%,#000 30%,transparent 80%);
+}
+.atmo.lamp{
+  background:radial-gradient(900px 600px at var(--lx,70%) var(--ly,20%),var(--amber-glow),transparent 70%);
+  transition:opacity 1.2s ease;
+}
+.atmo.grain{opacity:.07;mix-blend-mode:overlay;
+  background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='160' height='160'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>");}
+.atmo.vignette{background:radial-gradient(ellipse at center,transparent 45%,rgba(0,0,0,.55) 100%);transition:background 1.4s ease}
+body.lightsout .atmo.lamp{opacity:0}
+body.lightsout .atmo.vignette{background:radial-gradient(ellipse at center,rgba(0,0,0,.35) 20%,rgba(0,0,0,.85) 100%)}
+
+/* deck */
+.deck{position:relative;height:100%;z-index:1;outline:none}
+.slide{
+  position:absolute;inset:0;display:flex;flex-direction:column;justify-content:center;justify-content:safe center;
+  padding-block:clamp(64px,8vh,96px) clamp(72px,9vh,100px);
+  padding-inline:max(16px,calc((100vw - 1240px)/2));
+  overflow-y:auto;visibility:hidden;opacity:0;
+  transition:opacity .45s ease,visibility 0s linear .45s,transform .6s cubic-bezier(.2,.7,.2,1);
+  transform:translateY(14px);
+}
+.slide.on{visibility:visible;opacity:1;transform:none;transition:opacity .5s ease,transform .6s cubic-bezier(.2,.7,.2,1)}
+.slide.off-left{transform:translateY(-14px)}
+.slide > .wrap{width:100%}
+
+/* staggered reveal: elements start visible at rest; the animation only plays on entry */
+.slide.on .rv{animation:rise .7s cubic-bezier(.2,.7,.2,1) both;animation-delay:calc(var(--d,0) * 90ms + 120ms)}
+@keyframes rise{from{opacity:0;transform:translateY(18px);filter:blur(4px)}to{opacity:1;transform:none;filter:none}}
+
+/* type */
+.eyebrow{font-family:var(--mono);font-size:12px;font-weight:500;letter-spacing:.14em;text-transform:uppercase;color:var(--amber);display:flex;align-items:center;gap:10px}
+.eyebrow::before{content:'';width:22px;height:1px;background:var(--amber)}
+h1,h2{font-family:var(--display);font-weight:900;text-transform:uppercase;letter-spacing:.005em;text-wrap:balance;line-height:.9}
+h1{font-size:clamp(56px,11vw,150px)}
+h2{font-size:clamp(38px,5.6vw,76px);margin-block:14px 22px}
+h3{font-family:var(--display);font-weight:800;text-transform:uppercase;font-size:clamp(20px,2vw,26px);letter-spacing:.02em;line-height:1}
+p,li{font-size:clamp(15px,1.45vw,18.5px);line-height:1.6;color:var(--steel);max-width:62ch}
+strong{color:var(--paper);font-weight:600}
+em{color:var(--paper)}
+.lede{font-size:clamp(19px,2.1vw,27px);line-height:1.4;color:var(--paper);max-width:34ch;font-weight:500}
+.mono{font-family:var(--mono)}
+.amber{color:var(--amber)} .oxide{color:var(--oxide)}
+.stack{display:flex;flex-direction:column;gap:14px}
+.two{display:grid;grid-template-columns:1.05fr 1fr;gap:clamp(24px,5vw,72px);align-items:start}
+.two > *{min-width:0}
+@media(max-width:860px){.two{grid-template-columns:1fr;gap:28px}}
+
+/* redaction wipe */
+.rd{position:relative;display:inline;color:var(--paper);white-space:nowrap}
+.rd::after{content:'';position:absolute;left:-3px;right:-3px;top:.08em;bottom:.02em;background:var(--paper);transform-origin:right;transform:scaleX(0)}
+.slide.on .rd::after{animation:unredact 1s cubic-bezier(.7,0,.2,1) both;animation-delay:calc(var(--d,0) * 90ms + 500ms)}
+@keyframes unredact{0%{transform:scaleX(1)}55%{transform:scaleX(1)}100%{transform:scaleX(0)}}
+.bar-redact{display:inline-block;background:var(--paper);color:transparent;border-radius:1px;user-select:none}
+
+/* stamp */
+.stamp{font-family:var(--stencil);font-weight:800;text-transform:uppercase;color:var(--oxide);border:3px solid var(--oxide);padding:4px 12px 2px;letter-spacing:.08em;display:inline-block;transform:rotate(-6deg);opacity:.9;border-radius:3px}
+.slide.on .stamp.hit{animation:stamp .5s cubic-bezier(.3,1.6,.5,1) both;animation-delay:var(--sd,1.4s)}
+@keyframes stamp{from{opacity:0;transform:rotate(-6deg) scale(2.4)}to{opacity:.9;transform:rotate(-6deg) scale(1)}}
+
+/* ---------- 1 hero ---------- */
+.hero-meta{display:flex;gap:18px;flex-wrap:wrap;margin-top:22px;font-family:var(--mono);font-size:13px;color:var(--steel)}
+.hero-meta span{border:1px solid var(--line);padding:5px 10px;border-radius:2px}
+.hero-meta span b{color:var(--amber);font-weight:500}
+.hero h1 .l2{color:transparent;-webkit-text-stroke:1.5px var(--paper)}
+.logbox{
+  margin-top:30px;max-width:680px;border:1px solid var(--line);background:rgba(10,16,24,.7);
+  border-radius:4px;padding:16px 18px;font-family:var(--mono);font-size:clamp(11.5px,1.1vw,13px);line-height:1.9;color:var(--steel);min-height:196px;
+  box-shadow:0 30px 80px -30px rgba(0,0,0,.8);
+}
+.logbox .hdr{display:flex;justify-content:space-between;color:var(--steel);opacity:.6;font-size:11px;margin-bottom:8px;letter-spacing:.08em;text-transform:uppercase}
+.logbox .dead{color:var(--oxide);font-weight:600}
+.logbox .gap{color:var(--oxide);opacity:.7;letter-spacing:.06em}
+.logbox .ok{color:var(--ok)}
+.cursor{display:inline-block;width:8px;height:14px;background:var(--amber);vertical-align:-2px;animation:bl 1s steps(2) infinite}
+@keyframes bl{50%{opacity:0}}
+.flicker{animation:flick .9s linear 1}
+@keyframes flick{0%,100%{opacity:1}10%{opacity:.2}20%{opacity:.9}30%{opacity:.1}45%{opacity:.8}60%{opacity:.3}}
+
+/* ---------- 2 mission ---------- */
+.mission{font-family:var(--display);font-weight:800;text-transform:uppercase;font-size:clamp(28px,3.7vw,54px);line-height:1;letter-spacing:.005em;max-width:26ch;color:var(--paper);text-wrap:balance;margin-block:14px 34px}
+.mission .rd{color:var(--amber)}
+.pillars{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);border:1px solid var(--line)}
+@media(max-width:760px){.pillars{grid-template-columns:1fr}}
+.pillars > div{background:var(--ink-2);padding:22px 22px 24px;display:flex;flex-direction:column;gap:10px}
+.pillars .k{font-family:var(--mono);font-size:11.5px;color:var(--amber);letter-spacing:.12em;text-transform:uppercase}
+.pillars p{font-size:15px}
+
+/* ---------- 3 ratio ---------- */
+.ratio{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:8px}
+.ratio > div{border:1px solid var(--line);padding:20px;border-radius:3px;background:var(--ink-2)}
+.ratio .n{font-family:var(--display);font-weight:900;font-size:clamp(46px,6vw,84px);line-height:.9;font-variant-numeric:tabular-nums}
+.ratio .n small{font-size:.45em;color:var(--steel);font-weight:600}
+.ratio .lbl{font-family:var(--mono);font-size:12px;color:var(--steel);margin-top:8px;letter-spacing:.04em}
+.ratio.one{grid-template-columns:1fr;gap:14px;margin-top:0}
+.ratio.one .dots{grid-template-columns:repeat(24,1fr);gap:5px}
+.dots{display:grid;grid-template-columns:repeat(40,1fr);gap:3px;margin-top:14px}
+.dots i{aspect-ratio:1;border-radius:50%;background:var(--line)}
+.dots i.hit{background:var(--amber);box-shadow:0 0 8px var(--amber)}
+
+/* ---------- 4 watermark ---------- */
+.quote{border-left:2px solid var(--amber);padding:6px 0 6px 20px;font-family:var(--mono);font-size:clamp(14px,1.3vw,16px);line-height:1.75;color:var(--paper);max-width:52ch}
+.crystal{position:relative;height:190px;border:1px solid var(--line);border-radius:3px;background:var(--ink-2);overflow:hidden;margin-bottom:18px}
+.crystal canvas{position:absolute;inset:0;width:100%;height:100%}
+.crystal .cap{position:absolute;left:12px;bottom:10px;font-family:var(--mono);font-size:11px;color:var(--steel);letter-spacing:.06em}
+.crystal .cap b{color:var(--oxide);font-weight:600}
+
+/* ---------- 5 blackout ---------- */
+.tl{margin-block:10px 26px;position:relative}
+.tl-track{position:relative;height:74px;border-bottom:1px solid var(--line)}
+.tl-band{position:absolute;top:10px;bottom:0;background:repeating-linear-gradient(135deg,rgba(214,98,63,.28) 0 6px,rgba(214,98,63,.12) 6px 12px);border-left:2px solid var(--oxide);border-right:2px solid var(--oxide);transform-origin:left}
+.slide.on .tl-band{animation:grow 1.4s cubic-bezier(.7,0,.2,1) both .4s}
+@keyframes grow{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+.tl-band span{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);font-family:var(--mono);font-size:12px;color:var(--paper);white-space:nowrap;letter-spacing:.08em}
+.tl-ticks{position:relative;height:30px;font-family:var(--mono);font-size:11px;color:var(--steel)}
+.tl-ticks span{position:absolute;top:8px;transform:translateX(-50%);font-variant-numeric:tabular-nums}
+.tl-ticks span.k{color:var(--oxide);font-weight:600}
+.tl-day{font-family:var(--mono);font-size:11px;color:var(--steel);display:flex;justify-content:space-between;margin-bottom:6px;letter-spacing:.06em;text-transform:uppercase}
+.absent{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}
+@media(max-width:760px){.absent{grid-template-columns:1fr}}
+.absent div{border:1px dashed rgba(214,98,63,.5);border-radius:3px;padding:13px 16px;font-family:var(--mono);font-size:13px;display:flex;flex-direction:column;gap:4px}
+.absent b{color:var(--oxide);font-weight:600}
+.absent span{color:var(--steel);font-size:12.5px}
+
+/* ---------- 6 files ---------- */
+.files{border-top:1px solid var(--line);margin-top:6px}
+.file{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,2fr) 64px;gap:14px;align-items:center;padding:5px 0;border-bottom:1px solid var(--line-soft);font-family:var(--mono);font-size:12.5px}
+@media(max-width:700px){.file{grid-template-columns:1fr 64px}.file .what{display:none}}
+.file b{color:var(--paper);font-weight:500;overflow-wrap:anywhere}
+.file .what{color:var(--steel);display:flex;align-items:center;gap:12px;min-width:0}
+.file .what i{display:block;height:6px;background:var(--amber);border-radius:1px;flex:none;transform-origin:left;opacity:.85}
+.file .what em{font-style:normal;color:var(--steel);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.slide.on .file .what i{animation:grow .9s cubic-bezier(.2,.7,.2,1) both;animation-delay:calc(var(--d,0) * 60ms + 300ms)}
+.file .wc{text-align:right;color:var(--steel);font-variant-numeric:tabular-nums}
+.file.story b{color:var(--amber)}
+.bigcount{font-family:var(--display);font-weight:900;font-size:clamp(60px,9vw,128px);line-height:.85;color:var(--paper);font-variant-numeric:tabular-nums}
+.bigcount small{display:block;font-family:var(--mono);font-size:13px;font-weight:500;color:var(--oxide);letter-spacing:.06em;margin-top:12px;text-transform:none}
+
+/* ---------- 7 suspects ---------- */
+.folders{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:4px}
+@media(max-width:1000px){.folders{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:480px){.folders{grid-template-columns:1fr}}
+.folder{display:block;width:100%;perspective:1000px;background:none;border:0;padding:0;text-align:left;cursor:pointer;font:inherit;color:inherit;min-height:170px;margin-top:9px}
+.folder .in{display:block;position:relative;height:100%;min-height:170px;transition:transform .6s cubic-bezier(.2,.7,.2,1);transform-style:preserve-3d}
+.folder[aria-pressed="true"] .in{transform:rotateY(180deg)}
+.folder .face{position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden;border-radius:2px 8px 3px 3px;padding:16px 16px 14px;display:flex;flex-direction:column}
+.folder .front{background:var(--manila);color:var(--manila-ink);box-shadow:0 14px 30px -18px rgba(0,0,0,.9)}
+.folder .front::before{content:'';position:absolute;top:-9px;left:14px;width:74px;height:12px;background:var(--manila);border-radius:4px 4px 0 0}
+.folder .no,.folder .nm,.folder .rl,.folder .hint{display:block}
+.folder .no{font-family:var(--mono);font-size:10.5px;letter-spacing:.1em;opacity:.65}
+.folder .nm{font-family:var(--display);font-weight:900;text-transform:uppercase;font-size:clamp(24px,2.3vw,30px);line-height:.92;margin-top:10px}
+.folder .rl{font-family:var(--mono);font-size:11px;margin-top:6px;opacity:.75}
+.folder .front .stamp{position:absolute;right:10px;bottom:12px;font-size:12px;border-width:2px;padding:2px 7px 0}
+.folder .hint{margin-top:auto;font-family:var(--mono);font-size:10.5px;opacity:.55}
+.folder .back{background:var(--ink-3);border:1px solid var(--line);transform:rotateY(180deg);gap:8px}
+.folder .back p{font-size:14px;line-height:1.45;color:var(--paper)}
+.folder .back .rl{color:var(--amber);opacity:1;margin-top:0}
+.folder:hover .in{transform:translateY(-4px) rotate(-.6deg)}
+.folder[aria-pressed="true"]:hover .in{transform:rotateY(180deg) translateY(-4px)}
+.folder:focus-visible{outline:2px solid var(--amber);outline-offset:4px;border-radius:4px}
+
+/* ---------- 8 one prompt ---------- */
+.chat{border:1px solid var(--line);border-radius:4px;background:rgba(10,16,24,.75);padding:18px;font-family:var(--mono);font-size:13.5px;line-height:1.7;position:relative;min-height:250px}
+.chat .u{color:var(--amber)}
+.chat .a{color:var(--paper);margin-top:10px}
+.chat .a .bar-redact{padding:0 2px}
+.chat .stamp{position:absolute;right:18px;bottom:18px;font-size:clamp(18px,2vw,26px)}
+.glitch{position:relative;display:inline-block}
+.slide.on .glitch{animation:glitch 2.8s steps(1) infinite 1.5s}
+@keyframes glitch{0%,92%,100%{transform:none;text-shadow:none}93%{transform:translate(2px,-1px);text-shadow:-2px 0 var(--oxide),2px 0 #4fa3c7}95%{transform:translate(-2px,1px);text-shadow:2px 0 var(--oxide),-2px 0 #4fa3c7}97%{transform:none}}
+.abc{font-family:var(--mono);font-size:13.5px;line-height:1.9;border:1px solid var(--line);padding:14px 18px;border-radius:3px;background:var(--ink-2);margin-top:18px}
+.abc .x{color:var(--oxide)}
+
+/* ---------- 9 bob ---------- */
+.bob{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+@media(max-width:760px){.bob{grid-template-columns:1fr}}
+.bob > div{border:1px solid var(--line);background:var(--ink-2);border-radius:3px;padding:22px;display:flex;flex-direction:column;gap:12px}
+.bob .tagl{font-family:var(--mono);font-size:11.5px;color:var(--amber);letter-spacing:.12em;text-transform:uppercase}
+.bob ul{list-style:none;display:flex;flex-direction:column;gap:6px}
+.bob li{font-size:15px;padding-left:18px;position:relative}
+.bob li::before{content:'›';position:absolute;left:0;color:var(--amber);font-family:var(--mono)}
+.callout{margin-top:18px;border:1px solid var(--oxide);border-radius:3px;padding:14px 18px;font-family:var(--mono);font-size:14px;color:var(--paper);display:flex;gap:14px;align-items:center;flex-wrap:wrap}
+.callout b{color:var(--oxide);letter-spacing:.1em;font-weight:600}
+
+/* ---------- 10 hand in ---------- */
+.tree{font-family:var(--mono);font-size:clamp(12px,1.15vw,14px);line-height:1.85;background:rgba(10,16,24,.75);border:1px solid var(--line);border-radius:4px;padding:18px 20px;white-space:pre;overflow-x:auto;color:var(--steel)}
+.tree b{color:var(--paper);font-weight:500}
+.tree .c{color:var(--amber)}
+.deliv{list-style:none;display:flex;flex-direction:column;gap:0;border-top:1px solid var(--line)}
+.deliv li{display:grid;grid-template-columns:34px 1fr;gap:10px;padding:11px 0;border-bottom:1px solid var(--line-soft);max-width:none;font-size:clamp(14px,1.3vw,16.5px)}
+.deliv .i{font-family:var(--mono);color:var(--amber);font-size:13px;padding-top:3px}
+.cite{display:inline-block;font-family:var(--mono);font-size:.88em;color:var(--amber);background:rgba(230,166,62,.1);border:1px solid rgba(230,166,62,.3);padding:0 6px;border-radius:2px}
+
+/* ---------- 11 done ---------- */
+.checks{list-style:none;display:grid;grid-template-columns:1fr 1fr;gap:10px}
+@media(max-width:860px){.checks{grid-template-columns:1fr}}
+.checks li{max-width:none}
+.checks button{all:unset;box-sizing:border-box;cursor:pointer;display:grid;grid-template-columns:26px 1fr;gap:12px;align-items:start;width:100%;border:1px solid var(--line);background:var(--ink-2);border-radius:3px;padding:14px 16px;font-size:clamp(14px,1.25vw,16px);line-height:1.5;color:var(--steel);transition:border-color .2s,background .2s}
+.checks button:hover{border-color:rgba(230,166,62,.5)}
+.checks button:focus-visible{outline:2px solid var(--amber);outline-offset:2px}
+.checks .box{width:22px;height:22px;border:1.5px solid var(--steel);border-radius:2px;display:grid;place-items:center;margin-top:1px;transition:all .2s}
+.checks .box svg{width:14px;height:14px;stroke:var(--ink);stroke-width:3;fill:none;stroke-dasharray:24;stroke-dashoffset:24;transition:stroke-dashoffset .3s ease .05s}
+.checks button[aria-pressed="true"]{border-color:var(--amber);background:rgba(230,166,62,.07);color:var(--paper)}
+.checks button[aria-pressed="true"] .box{background:var(--amber);border-color:var(--amber)}
+.checks button[aria-pressed="true"] .box svg{stroke-dashoffset:0}
+.checks strong{display:block;margin-bottom:2px}
+
+/* ---------- 12 score ---------- */
+.score{display:flex;flex-direction:column;gap:12px;max-width:940px}
+.srow{display:grid;grid-template-columns:minmax(0,1fr) 64px;gap:16px;align-items:end}
+.srow .t{font-size:clamp(14px,1.35vw,17px);color:var(--steel);line-height:1.35}
+.srow .t strong{font-size:1.06em}
+.srow .pct{font-family:var(--display);font-weight:900;font-size:clamp(28px,3vw,40px);line-height:.9;text-align:right;font-variant-numeric:tabular-nums}
+.srow .pct small{font-size:.4em;color:var(--steel);font-weight:600;margin-left:3px}
+.srow .track{grid-column:1 / -1;height:6px;background:var(--line-soft);border-radius:1px;overflow:hidden}
+.srow .track i{display:block;height:100%;background:var(--amber);transform-origin:left}
+.slide.on .srow .track i{animation:grow 1s cubic-bezier(.2,.7,.2,1) both;animation-delay:calc(var(--d,0) * 110ms + 350ms)}
+.srow.lead .pct{color:var(--oxide)}
+.srow.lead .track i{background:var(--oxide)}
+.punch{margin-top:24px;display:grid;grid-template-columns:1fr 1fr;gap:14px;max-width:940px}
+@media(max-width:700px){.punch{grid-template-columns:1fr}}
+.punch div{border:1px solid var(--line);border-radius:3px;padding:14px 16px;background:var(--ink-2);font-size:15px;color:var(--steel);line-height:1.5}
+.punch b{font-family:var(--display);font-weight:900;font-size:34px;display:block;line-height:1;color:var(--paper)}
+.punch .hi b{color:var(--amber)}
+
+/* ---------- 13 rules ---------- */
+.rules{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+@media(max-width:860px){.rules{grid-template-columns:1fr}}
+.rules > div{border-top:3px solid var(--amber);background:var(--ink-2);padding:20px;display:flex;flex-direction:column;gap:10px}
+.rules > div.red{border-top-color:var(--oxide)}
+.rules .n{font-family:var(--display);font-weight:900;font-size:44px;line-height:.8;color:var(--line)}
+.rules p{font-size:15px}
+.faq{margin-top:22px;display:grid;grid-template-columns:1fr 1fr;gap:6px 30px}
+@media(max-width:860px){.faq{grid-template-columns:1fr}}
+.faq div{padding:10px 0;border-bottom:1px solid var(--line-soft);font-size:15px;color:var(--steel);line-height:1.5}
+.faq b{color:var(--paper);font-weight:600;display:block}
+
+/* ---------- 14 six hours ---------- */
+.hours{position:relative;margin-top:12px}
+.hours .axis{display:grid;grid-template-columns:repeat(12,1fr);border-bottom:1px solid var(--line);font-family:var(--mono);font-size:11px;color:var(--steel)}
+.hours .axis span{padding-bottom:6px;border-left:1px solid var(--line-soft);padding-left:4px}
+.hours .axis span:nth-child(odd){color:var(--paper)}
+.phases{display:grid;grid-template-columns:repeat(12,1fr);gap:4px;margin-top:10px}
+.ph{border-radius:2px;padding:12px 12px 14px;background:var(--ink-2);border:1px solid var(--line);display:flex;flex-direction:column;gap:6px;min-width:0}
+.ph .tm{font-family:var(--mono);font-size:11px;color:var(--amber)}
+.ph h3{font-size:clamp(16px,1.5vw,20px)}
+.ph p{font-size:13.5px;line-height:1.45}
+.ph.gate{border-color:var(--amber);background:rgba(230,166,62,.07)}
+.ph.freeze{border-color:var(--oxide);background:rgba(214,98,63,.08)}
+.ph.freeze .tm{color:var(--oxide)}
+@media(max-width:900px){.phases{grid-template-columns:1fr}.ph{grid-column:auto!important}.hours .axis{display:none}}
+
+/* ---------- 15 questions ---------- */
+.qs{list-style:none;counter-reset:q;display:flex;flex-direction:column;gap:0;border-top:1px solid var(--line)}
+.qs li{counter-increment:q;display:grid;grid-template-columns:42px 1fr;gap:10px;padding:13px 0;border-bottom:1px solid var(--line-soft);color:var(--paper);max-width:none}
+.qs li::before{content:'Q' counter(q);font-family:var(--mono);color:var(--amber);font-size:13px;padding-top:3px}
+
+/* ---------- 16 clock ---------- */
+.clock{font-family:var(--display);font-weight:900;font-size:clamp(84px,17vw,230px);line-height:.85;font-variant-numeric:tabular-nums;letter-spacing:.01em;color:var(--paper)}
+.clock.run{color:var(--amber);text-shadow:0 0 40px rgba(230,166,62,.35)}
+.clock.low{color:var(--oxide)}
+.clockbar{height:4px;background:var(--line-soft);margin-top:18px;max-width:900px;border-radius:1px;overflow:hidden}
+.clockbar i{display:block;height:100%;width:100%;background:var(--amber);transform-origin:left;transition:transform 1s linear}
+.ctl{display:flex;gap:10px;margin-top:22px;flex-wrap:wrap}
+.btn{font:500 13px/1 var(--mono);letter-spacing:.06em;text-transform:uppercase;color:var(--ink);background:var(--amber);border:0;border-radius:2px;padding:12px 18px;cursor:pointer}
+.btn.ghost{background:none;color:var(--paper);border:1px solid var(--line)}
+.btn:hover{filter:brightness(1.08)} .btn.ghost:hover{border-color:var(--paper)}
+.btn:focus-visible{outline:2px solid var(--paper);outline-offset:2px}
+
+/* chrome */
+.corner{position:fixed;z-index:5;top:calc(env(safe-area-inset-top,0px) + 18px);left:max(16px,calc((100vw - 1240px)/2));right:max(16px,calc((100vw - 1240px)/2));display:flex;justify-content:space-between;gap:12px;font-family:var(--mono);font-size:11px;color:var(--steel);letter-spacing:.1em;text-transform:uppercase;pointer-events:none}
+.corner .sec{color:var(--amber)}
+@media(max-width:600px){.corner .r{display:none}}
+.hud{position:fixed;z-index:5;bottom:calc(env(safe-area-inset-bottom,0px) + 16px);right:max(16px,calc((100vw - 1240px)/2));display:flex;align-items:center;gap:10px;font-family:var(--mono);font-size:12px;color:var(--steel)}
+.hud button{font:inherit;color:var(--paper);background:rgba(14,22,32,.8);border:1px solid var(--line);border-radius:2px;width:36px;height:32px;cursor:pointer}
+.hud button:hover{border-color:var(--amber);color:var(--amber)}
+.hud button:focus-visible{outline:2px solid var(--amber);outline-offset:2px}
+.hud #count{min-width:58px;text-align:center;font-variant-numeric:tabular-nums}
+.keys{position:fixed;z-index:5;bottom:calc(env(safe-area-inset-bottom,0px) + 22px);left:max(16px,calc((100vw - 1240px)/2));font-family:var(--mono);font-size:11px;color:var(--steel);opacity:.6}
+@media(max-width:700px){.keys{display:none}}
+.pbar{position:fixed;left:0;right:0;bottom:0;height:3px;background:var(--line-soft);z-index:5}
+.pbar i{display:block;height:100%;background:var(--amber);width:0;transition:width .5s cubic-bezier(.2,.7,.2,1)}
+
+
+/* ---------- v3 additions ---------- */
+.corner .mode{letter-spacing:.1em}
+.corner .r{color:var(--paper)}
+.corner .mode.fic{color:var(--oxide)}
+.corner .mode.real{color:var(--amber)}
+.three{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);border:1px solid var(--line)}
+@media(max-width:860px){.three{grid-template-columns:1fr}}
+.three > div{background:var(--ink-2);padding:22px;display:flex;flex-direction:column;gap:10px}
+.three .k{font-family:var(--mono);font-size:11.5px;color:var(--amber);letter-spacing:.12em;text-transform:uppercase}
+.three p{font-size:clamp(15px,1.4vw,18px)}
+.disc{margin-top:20px;border:2px solid var(--oxide);border-radius:4px;padding:16px 18px;background:rgba(214,98,63,.08);display:flex;flex-direction:column;gap:8px;max-width:none}
+.disc b{font-family:var(--mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--oxide);font-weight:600}
+.disc p{font-size:clamp(14.5px,1.35vw,17px);line-height:1.5;color:var(--paper);max-width:none}
+.disc p strong{color:var(--paper);font-weight:700}
+.disc p.real strong{color:var(--amber)}
+.stamp.big{font-size:clamp(26px,3vw,40px);border-width:4px;padding:6px 18px 3px;margin-top:10px}
+.folder .acc{display:block;margin-top:10px;font-family:var(--mono);font-size:10.5px;letter-spacing:.04em;background:rgba(42,36,24,.1);padding:3px 6px;border-radius:2px;align-self:flex-start}
+.finding{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+@media(max-width:860px){.finding{grid-template-columns:1fr}}
+.fs{border:1px solid var(--line);background:var(--ink-2);border-radius:3px;padding:18px;display:flex;flex-direction:column;gap:10px;align-items:flex-start}
+.fs .k{font-family:var(--mono);font-size:11.5px;color:var(--amber);letter-spacing:.1em;text-transform:uppercase}
+.fs:nth-child(3){border-color:var(--amber)}
+.fs p{font-size:15px}
+.fs code{font-family:var(--mono);font-size:12.5px;color:var(--paper);overflow-wrap:anywhere}
+.pitch{margin-top:16px;display:flex;gap:18px;align-items:flex-start;border:1px solid var(--line);border-radius:3px;padding:14px 18px;background:var(--ink-2)}
+.pitch ol{margin:6px 0 0;padding-left:20px}
+.pitch li{margin:3px 0}
+.pitch b{font-family:var(--display);font-weight:900;font-size:40px;line-height:1;color:var(--amber)}
+.pitch span{font-size:15px;color:var(--steel);line-height:1.5}
+.rail{position:fixed;z-index:5;right:14px;top:50%;transform:translateY(-50%);display:flex;flex-direction:column;gap:6px}
+.rail button{position:relative;width:14px;height:14px;border:0;background:none;cursor:pointer;padding:0;display:grid;place-items:center}
+.rail button i{display:block;width:3px;height:12px;border-radius:1px;background:var(--line);transition:all .2s}
+.rail button.a2 i{background:rgba(214,98,63,.35)}
+.rail button.a3 i{background:rgba(230,166,62,.35)}
+.rail button.gap{margin-top:10px}
+.rail button[aria-current="true"] i{width:5px;background:var(--paper)}
+.rail button:hover i{background:var(--amber)}
+.rail button span{position:absolute;right:20px;top:50%;transform:translateY(-50%);white-space:nowrap;font-family:var(--mono);font-size:11px;background:var(--ink-3);color:var(--paper);border:1px solid var(--line);padding:3px 8px;border-radius:2px;opacity:0;pointer-events:none;transition:opacity .15s}
+.rail button:hover span,.rail button:focus-visible span{opacity:1}
+.rail button:focus-visible{outline:2px solid var(--amber);outline-offset:2px}
+@media(max-width:1024px){.rail{display:none}}
+/* short projectors (1366x768, 1280x720) */
+@media (max-height:840px){
+  .slide{padding-block:56px 64px}
+  h1{font-size:clamp(48px,8.5vw,112px)}
+  h2{font-size:clamp(32px,4.4vw,58px);margin-block:10px 16px}
+  .lede{font-size:clamp(17px,1.8vw,23px)}
+  p,li{font-size:clamp(14px,1.25vw,16.5px);line-height:1.5}
+  .logbox{min-height:0;margin-top:18px;padding:12px 16px;line-height:1.7}
+  .hero-meta{margin-top:14px}
+  .folders{gap:10px}.folder,.folder .in{min-height:148px}
+  .folder .nm{font-size:clamp(20px,2vw,26px)}
+  .crystal{height:150px}
+  .chat{min-height:0}
+  .clock{font-size:clamp(72px,14vw,190px)}
+  .three > div,.pillars > div,.fs{padding:16px}
+  .score{gap:8px}
+  .rules > div{padding:14px}
+  .punch div{padding:10px 14px}.punch b{font-size:28px}
+}
+
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation:none!important;transition:none!important}
+  .rd::after{display:none}
+}
+</style>
+</head>
+<body>
+<div class="atmo grid"></div>
+<div class="atmo lamp" id="lamp"></div>
+<div class="atmo vignette"></div>
+<div class="atmo grain"></div>
+
+<div class="corner"><span>Halcyon Systems · Case 2025-1011 · <span class="sec" id="sec">Briefing</span></span><span class="r">Reasoning under uncertainty · <span class="mode real" id="mode">Live challenge · real rules</span></span></div>
+
+<main class="deck" id="deck" tabindex="-1">
+
+<!-- 1 · title -->
+<section class="slide hero" data-sec="Briefing" data-title="The Meridian Problem" data-act="1">
+  <div class="wrap">
+    <div class="eyebrow rv" style="--d:0">5-hour build challenge · Bobathon @ HSG</div>
+    <h1 class="rv" style="--d:1;margin-top:18px">The Meridian<br><span class="l2">Problem</span></h1>
+    <p class="lede rv" style="--d:2;margin-top:18px;max-width:40ch">Someone stole an AI model. Eight people could have done it. Build something that works out who.</p>
+    <div class="hero-meta rv" style="--d:3"><span>teams build with <b>IBM Bob</b></span><span><b>8</b> suspects</span><span><b>≈210,000</b> words of evidence</span><span><b>16</b> sources, <b>9</b> formats</span><span><b>0</b> logs</span></div>
+    <div class="logbox rv" style="--d:4" aria-label="Audit log: stopped at 21:00 Friday, restarted at 06:00 Saturday with zero events recorded">
+      <div class="hdr"><span>audit-collector.log · the night the model left the building</span><span>fri 10 oct 2025</span></div>
+      <div id="log" aria-hidden="true"></div>
+    </div>
+  </div>
+</section>
+
+<!-- 2 · three things first -->
+
+<!-- 3 · the company -->
+<section class="slide" data-sec="The company" data-title="The company" data-act="2" data-fiction="1">
+  <div class="wrap two">
+    <div class="stack">
+      <div class="eyebrow rv" style="--d:0">The company</div>
+      <h2 class="rv" style="--d:1">A company worth one number</h2>
+      <p class="rv" style="--d:2">Halcyon Systems, St. Gallen. They built <strong>MERIDIAN</strong>, an AI model that predicts which battery chemistries will actually work when you make them in a lab.</p>
+      <p class="rv" style="--d:3">Testing one candidate chemistry costs about CHF 40,000 and three months of lab time. Guess well and you reach a working product years early; guess badly and you lose years. That gap is the company: everything Halcyon has rests on owning a model nobody else has.</p>
+      <p class="lede rv" style="--d:4">Over a long weekend in October, someone copied the model onto a drive and walked out of the building with it.</p>
+      <p class="rv" style="--d:5">Nobody noticed for a month. Nothing was missing: the original was still there.</p>
+    </div>
+    <div class="stack">
+      <div class="ratio one">
+        <div class="rv" style="--d:2"><div class="n amber">1<small> in 9</small></div><div class="lbl">MERIDIAN's suggestions that work in the lab</div><div class="dots" id="dotsM" aria-hidden="true"></div></div>
+        <div class="rv" style="--d:3"><div class="n">1<small> in 400</small></div><div class="lbl">the rest of the industry</div><div class="dots" id="dotsI" aria-hidden="true"></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 4 · how they found out -->
+<section class="slide" data-sec="The case" data-title="How they found out" data-act="2" data-fiction="1">
+  <div class="wrap two">
+    <div class="stack">
+      <div class="eyebrow rv" style="--d:0">How they found out</div>
+      <h2 class="rv" style="--d:1">Caught by a lie planted on purpose</h2>
+      <p class="rv" style="--d:2">Years earlier, Halcyon's head of security hid <strong>twenty fake facts</strong> inside the training data: crystal structures that are physically impossible and do not exist in nature. The model learned them as if they were true.</p>
+      <p class="rv" style="--d:3">In November, a rival lab, <strong>Kestrel Labs</strong>, published a paper. On page eleven, their model confidently produced one of Halcyon's impossible materials.</p>
+      <p class="rv" style="--d:4">There is only one place you can learn a fact that is not true: the data where someone invented it.</p>
+      <p class="lede rv" style="--d:5">So the theft is certain, and so is where the model went. <span class="amber">Who carried it out is not.</span></p>
+    </div>
+    <div class="stack">
+      <div class="crystal rv" style="--d:2"><canvas id="lattice" aria-hidden="true"></canvas><div class="cap">phase 17-ω · <b>does not occur in nature</b></div></div>
+      <div class="quote rv" style="--d:3">Mapmakers draw a street that isn't there.<br>Dictionaries print a word nobody uses.<br>If it turns up in someone else's work,<br>they copied yours.</div>
+    </div>
+  </div>
+</section>
+
+<!-- 4 · blackout -->
+<section class="slide" data-sec="The case" data-title="The blackout" data-act="2" data-fiction="1" data-dark="1">
+  <div class="wrap">
+    <div class="eyebrow rv" style="--d:0">Friday 10 October → Saturday 11 October</div>
+    <h2 class="rv" style="--d:1">Everything that could have caught them was switched off</h2>
+    <p class="rv" style="--d:2">Not by the thief. By change ticket <span class="cite">INFRA-2291</span>, approved weeks earlier for a datacenter migration: the audit logs wrote to the storage being moved, so they were stopped. About forty people knew the window was coming.</p>
+    <div class="tl rv" style="--d:3" aria-label="Timeline: audit logging off from 21:00 Friday to 06:00 Saturday">
+      <div class="tl-day"><span>Fri 10 Oct</span><span>Sat 11 Oct</span></div>
+      <div class="tl-track"><div class="tl-band" style="left:21.43%;width:64.29%"><span>9 HOURS · NO AUDIT RECORDS</span></div></div>
+      <div class="tl-ticks"><span style="left:0%">18:00</span><span class="k" style="left:21.43%">21:00</span><span style="left:42.86%">00:00</span><span style="left:64.29%">03:00</span><span class="k" style="left:85.71%">06:00</span><span style="left:100%;transform:translateX(-100%)">08:00</span></div>
+    </div>
+    <div class="absent">
+      <div class="rv" style="--d:4"><b>Audit logs</b><span>stopped by design · 9 hours · no records</span></div>
+      <div class="rv" style="--d:5"><b>Backup copy of the logs</b><span>pointed at the same storage · wrote nothing</span></div>
+      <div class="rv" style="--d:6"><b>Cameras on the engineering floor</b><span>never installed · refused by the board, twice</span></div>
+      <div class="rv" style="--d:7"><b>Door badges</b><span>alley door propped open 11 hours on the Saturday · badge record useless</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- 5 · suspects -->
+<section class="slide" data-sec="The suspects" data-title="Eight suspects" data-act="2" data-fiction="1">
+  <div class="wrap">
+    <div class="eyebrow rv" style="--d:0">Access on the front · why they're on the list on the back · click a file</div>
+    <h2 class="rv" style="--d:1">Eight people could have done it</h2>
+    <p class="rv" style="--d:1.5">The board hired <strong>Nadia Arslan</strong>, a former federal police investigator who now works on corporate theft, three days after the Kestrel paper. With no logs, she went to the people. She interviewed all eight, then asked for every document the company could export. Not summaries. Everything.</p>
+    <div class="folders" id="folders"></div>
+  </div>
+</section>
+
+<!-- 6 · the handover -->
+<section class="slide" data-sec="The handover" data-title="The handover" data-act="2" data-fiction="1" data-dark="1">
+  <div class="wrap two">
+    <div class="stack">
+      <div class="eyebrow rv" style="--d:0">The investigator</div>
+      <h2 class="rv" style="--d:1">She has the case. She can't get through it.</h2>
+      <p class="rv" style="--d:3">Her method: compare what each person said with what the paperwork shows, and ask how each person could have known what they know.</p>
+      <p class="rv" style="--d:4">But the case file is over 200,000 words in nine formats, from systems that do not agree on names, dates, time zones or even the time. On 2 December she asked the board for <strong>technical specialists</strong>.</p>
+      <p class="lede rv" style="--d:5">That is where you come in.</p>
+    </div>
+    <div class="stack">
+      <div class="quote rv" style="--d:3">"I have no logs. I have no camera. I have no confession.<br>I have eight interviews. That is the case."<br><span style="color:var(--steel)">Nadia Arslan</span></div>
+      <div class="rv" style="--d:4"><span class="stamp hit big" style="--sd:1.6s">Case reassigned</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- 7 · the bundle -->
+<section class="slide" data-sec="The evidence" data-title="Her case file" data-act="3">
+  <div class="wrap two">
+    <div class="stack">
+      <div class="eyebrow rv" style="--d:0">What you inherit</div>
+      <h2 class="rv" style="--d:1">Her case file, handed to you</h2>
+      <p class="rv" style="--d:2">One zip: <span class="cite">meridian_case_bundle.zip</span>. Her notebook, the interview transcripts, and every export she could get: from Halcyon, the card issuer and the landlord. Nobody has sorted or cleaned it. It is exactly as she received it.</p>
+      <div class="bigcount rv" style="--d:3"><span id="wc">0</span><small>words. You cannot read this in five hours. Neither can we.</small></div>
+    </div>
+    <div class="files rv" style="--d:2" id="files"></div>
+  </div>
+</section>
+
+<!-- 8 · the trap -->
+<section class="slide" data-sec="The trap" data-title="The trap" data-act="3">
+  <div class="wrap two">
+    <div class="stack">
+      <div class="eyebrow rv" style="--d:0">The trap</div>
+      <h2 class="rv" style="--d:1">A name is not <span class="glitch">an answer</span></h2>
+      <p class="rv" style="--d:2">Ask an AI assistant who did it and you may well get a name. What you won’t get is why the other seven are innocent, and that is most of the score.</p>
+      <p class="rv" style="--d:3">Some people in this case <strong>seem to know things only the thief could know</strong>. That is deliberate. For some of them, the innocent explanation is in a different file, in a different format, thousands of messages away.</p>
+      <p class="lede rv" style="--d:4">Finding something suspicious is easy. Deciding what it means is the job.</p>
+    </div>
+    <div class="stack">
+      <div class="chat rv" style="--d:2" aria-label="Example of a single-prompt answer: a confident verdict with no sources">
+        <div class="u">&gt; here are 210,000 words. who stole MERIDIAN?</div>
+        <div class="a" id="chatA"></div>
+        <span class="stamp hit" style="--sd:3.2s">Unsourced</span>
+      </div>
+      <div class="abc rv" style="--d:4">
+        suspect A · knows something they shouldn't<br>
+        suspect B · knows something they shouldn't<br>
+        suspect C · knows something they shouldn't<br>
+        <span class="x">only one of these has no innocent explanation</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 9 · one finding -->
+<section class="slide" data-sec="The trap" data-title="One finding" data-act="3">
+  <div class="wrap">
+    <div class="eyebrow rv" style="--d:0">A real example from the bundle</div>
+    <h2 class="rv" style="--d:1">What one finding looks like</h2>
+    <div class="finding">
+      <div class="fs rv" style="--d:2"><span class="k">1 · the suspicion</span><span class="cite">interviews/interview_07_kurt_steiner.txt:11</span><p>Kurt Steiner confirms he was in the building on the Sunday of the long weekend, and he has administrator accounts on nearly every system.</p></div>
+      <div class="fs rv" style="--d:3"><span class="k">2 · what the paperwork shows</span><span class="cite">slack_export/general/2025-10-12.json:5</span><p><code>"text": "office is beautifully quiet on a sunday"</code> from his user ID; the CEO replies at <span class="cite">:11</span>.</p></div>
+      <div class="fs rv" style="--d:4"><span class="k">3 · the judgement</span><span class="cite">weight · low</span><p>The record puts him there on <strong>Sunday</strong>. The copy happened <strong>Friday night</strong>. Nothing found yet puts him in the building in the window. Suspicion lowered, not cleared.</p></div>
+    </div>
+    <p class="rv" style="--d:5;margin-top:18px">Two addresses, a weight, and one sentence saying why. That is one cell. You do this for every claim about all eight suspects.</p>
+  </div>
+</section>
+
+<!-- 10 · your job -->
+
+<!-- 11 · scoring + rules -->
+<section class="slide" data-sec="Scoring" data-title="Scoring and rules" data-act="3">
+  <div class="wrap two">
+    <div class="stack">
+      <div class="eyebrow rv" style="--d:0">How you're scored</div>
+      <h2 class="rv" style="--d:1">The name is worth twenty points</h2>
+      <div class="score" id="score"></div>
+    </div>
+    <div class="stack">
+      <div class="punch rv" style="--d:3;margin-top:0;grid-template-columns:1fr">
+        <div><b>~10</b>of the script's points for a lucky guess with nothing behind it.</div>
+        <div class="hi"><b>90</b>overall for the wrong name, if the rest is careful — sources cited, uncertainty handled well, pitched well.</div>
+      </div>
+      <div class="rules rv" style="--d:4;grid-template-columns:1fr">
+        <div><h3>One team, one repo, five hours</h3><p>Build the part that reads the files first. Teams that spend the first ninety minutes reading fall behind.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 12 · clock -->
+<section class="slide" data-sec="Go" data-title="The clock" data-act="3">
+  <div class="wrap">
+    <div class="eyebrow rv" style="--d:0">The clock · pauses for lunch</div>
+    <div class="clock rv" style="--d:1" id="clock" role="timer" aria-live="off">5:00:00</div>
+    <div class="clockbar rv" style="--d:2"><i id="clockbar"></i></div>
+    <div class="ctl rv" style="--d:3">
+      <button class="btn" id="cStart" type="button">Start the clock</button>
+      <button class="btn ghost" id="cReset" type="button">Reset</button>
+      <button class="btn ghost" id="cFull" type="button">Full screen</button>
+    </div>
+    <p class="lede rv" style="--d:4;margin-top:34px;max-width:44ch">Eight suspects. 210,000 words. One investigator waiting for your answer. Go and find out who.</p>
+  </div>
+</section>
+
+</main>
+
+
+<nav class="rail" id="rail" aria-label="Slides"></nav>
+<div class="keys">← → to navigate · F full screen</div>
+<div class="hud"><button id="prev" type="button" aria-label="Previous slide">←</button><span id="count">1 / 13</span><button id="next" type="button" aria-label="Next slide">→</button></div>
+<div class="pbar"><i id="pbar"></i></div>
+
+<script>
+(function(){
+  var reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  function $(id){return document.getElementById(id)}
+
+  /* ---------- data ---------- */
+  var FILES = [
+    ['investigator_notebook.md','her working notes',1196,1],
+    ['interviews/','10 auto-transcripts',9320,1],
+    ['forensic_summary_bakalian.pdf','PDF \u00b7 times in UTC',351,1],
+    ['witness_statement_okada_scan.pdf','scanned, handwritten',120,1,'scan'],
+    ['evidence_photos/','2 photos',60,1,'2 jpg'],
+    ['slack_export/','JSON \u00b7 3,877 messages',91071],
+    ['email_export.mbox','658 emails \u00b7 DE / IT / EN',31645],
+    ['jira_export.json','JSON \u00b7 304 issues',21943],
+    ['garage_barrier_log.csv','landlord \u00b7 German',15258],
+    ['expense_reports.md','claims + detail',13412],
+    ['calendars/','12 .ics files',10718],
+    ['kestrel_diligence_log.md','diligence + access',6174],
+    ['helpdesk_and_facilities.md','224 tickets',5052],
+    ['card_feed_q4.csv','card issuer \u00b7 UTC',3861],
+    ['meeting_notes.md','1:1s, board readouts',2256],
+    ['parking_permits.xlsx','Excel',150,0,'xlsx']
+  ];
+  var SUSPECTS = [
+    ['Iris Ammann','Head of Security','Security systems \u00b7 everything','Designed the decoy files. Signed off the ticket that switched logging off. CHF 210,000 in personal debt.'],
+    ['Chiara Bernasconi','Director, Data Eng.','Training data \u00b7 owner','Owns the training data. Three weeks into a review of her own expense claims.'],
+    ['Andrin Caduff','Principal Research Eng.','Model files \u00b7 reads them','Opened the saved model files 31 times in four weeks; the median is two. Told in September his research line is closing.'],
+    ['Yannick Favre','Infrastructure Engineer','Storage \u00b7 built the copy disk','Built the storage volume the copy ran on. Has a second job, against his contract.'],
+    ['Lukas Hofer','VP Engineering','Model files \u00b7 knows where they live','Built the training pipeline. Did not get the CTO job in August. In the building that weekend.'],
+    ['Noemi Rochat','Head of Product','No technical access','Leaving in spring to start her own company, which she insists is unrelated.'],
+    ['Kurt Steiner','Chief Scientist','Admin accounts \u00b7 never reviewed','Administrator on most systems. Passwords in a paper notebook. In the office that Sunday.'],
+    ['Renata Vogel','Chief of Staff','No technical access','Ran four months of takeover talks with Kestrel Labs, the company that now has the model.'],
+  ];
+  var SCORE = [
+    ['Judges: seven criteria','Problem \u00b7 Design \u00b7 Develop \u00b7 Test \u00b7 Deploy \u00b7 Demo \u00b7 Time, each 1 to 5, averaged over the judges',50],
+    ['A source for every claim','file, line and exact quote for every claim \u00b7 script',15],
+    ['Handling uncertainty','honest confidence, all eight judged, innocents cleared \u00b7 script',15],
+    ['The right name','both misleading suspects explained \u00b7 script',20,1],
+    ['Bonus: extra ideas','anything extra you propose, e.g. how to stop a repeat · judges, on top',10]
+  ];
+
+  /* ---------- build: files ---------- */
+  var max = Math.max.apply(null, FILES.map(function(f){return f[2]}));
+  $('files').innerHTML = FILES.map(function(f,i){
+    return '<div class="file'+(f[3]?' story':'')+'" style="--d:'+i+'"><b>'+f[0]+'</b><span class="what"><i style="width:'+Math.max(1,(f[2]/max*46)).toFixed(1)+'%"></i><em>'+f[1]+'</em></span><span class="wc">'+(f[4]||f[2].toLocaleString('en-US'))+'</span></div>';
+  }).join('');
+
+  /* ---------- build: folders ---------- */
+  $('folders').innerHTML = SUSPECTS.map(function(s,i){
+    return '<button type="button" class="folder rv" style="--d:'+(i+2)+'" aria-pressed="false" aria-label="'+s[0]+', '+s[1]+'. Open file.">'+
+      '<span class="in"><span class="face front"><span class="no">FILE 2025-1011-0'+(i+1)+'</span><span class="nm">'+s[0]+'</span><span class="rl">'+s[1]+'</span><span class="acc">'+s[2]+'</span><span class="hint">click to open</span><span class="stamp">Suspect</span></span>'+
+      '<span class="face back"><span class="rl">'+s[0]+'</span><p>'+s[3]+'</p><span class="hint" style="color:var(--steel)">tap to close</span></span></span></button>';
+  }).join('');
+  [].forEach.call(document.querySelectorAll('.folder'),function(b){
+    b.addEventListener('click',function(){b.setAttribute('aria-pressed', b.getAttribute('aria-pressed')==='true'?'false':'true')});
+  });
+
+  /* ---------- build: score ---------- */
+  $('score').innerHTML = SCORE.map(function(r,i){
+    return '<div class="srow rv'+(r[3]?' lead':'')+'" style="--d:'+(i+2)+'"><div class="t"><strong>'+r[0]+'</strong> · '+r[1]+'</div><div class="pct">'+r[2]+'<small> pts</small></div><div class="track"><i style="width:'+(r[2]/110*100)+'%"></i></div></div>';
+  }).join('');
+
+  /* ---------- checklist ---------- */
+  [].forEach.call(document.querySelectorAll('#checks button'),function(b){
+    b.addEventListener('click',function(){b.setAttribute('aria-pressed', b.getAttribute('aria-pressed')==='true'?'false':'true')});
+  });
+
+  /* ---------- ratio dots ---------- */
+  function dots(el, hitEvery){
+    var h=''; for(var k=0;k<120;k++){ h+='<i class="'+((k%hitEvery===0)?'hit':'')+'"></i>' } el.innerHTML=h;
+  }
+
+  /* ---------- lattice canvas: one impossible cell ---------- */
+  var cv=$('lattice'), cx=cv.getContext('2d'), latT=0, latOn=false;
+  function lattice(){
+    var r=cv.getBoundingClientRect(), dpr=window.devicePixelRatio||1;
+    if(cv.width!==Math.round(r.width*dpr)){cv.width=Math.round(r.width*dpr);cv.height=Math.round(r.height*dpr)}
+    cx.setTransform(dpr,0,0,dpr,0,0); cx.clearRect(0,0,r.width,r.height);
+    var s=26, cols=Math.ceil(r.width/s)+2, rows=Math.ceil(r.height/(s*.866))+2;
+    var oddC=Math.floor(cols*0.66), oddR=Math.floor(rows*0.45);
+    for(var y=0;y<rows;y++){for(var x=0;x<cols;x++){
+      var px=x*s+(y%2?s/2:0)-s/2, py=y*s*.866-s/2;
+      var d=Math.hypot(x-oddC,y-oddR), odd=d<1.6;
+      var wob = odd ? Math.sin(latT*2+x+y)*3 : Math.sin(latT*.8+x*.4+y*.3)*.6;
+      cx.beginPath(); cx.arc(px+wob,py-wob,odd?3.4:2,0,Math.PI*2);
+      cx.fillStyle = odd ? 'rgba(214,98,63,'+(.7+.3*Math.sin(latT*3))+')' : 'rgba(148,167,183,.38)';
+      cx.fill();
+    }}
+    var ox=oddC*s+(oddR%2?s/2:0)-s/2, oy=oddR*s*.866-s/2;
+    cx.strokeStyle='rgba(214,98,63,.8)'; cx.setLineDash([4,4]); cx.lineWidth=1;
+    cx.beginPath(); cx.arc(ox,oy,s*1.9+Math.sin(latT*2)*2,0,Math.PI*2); cx.stroke(); cx.setLineDash([]);
+    if(latOn && !reduced){latT+=.016; requestAnimationFrame(lattice)}
+  }
+
+  /* ---------- hero log ---------- */
+  var LOG=[
+    ['21:00:00  collector  session open    svc-audit',''],
+    ['21:00:00  collector  flush           4,181 events','ok'],
+    ['21:00:01  collector  SIGTERM         INFRA-2291 migration window',''],
+    ['21:00:01  collector  stopped','dead'],
+    ['GAP',''],
+    ['06:00:00  collector  session open',''],
+    ['06:00:00  collector  flush           0 events','dead']
+  ];
+  var logTimer=null, logRan=false;
+  function renderLog(n,cursor){
+    var h='';
+    for(var k=0;k<n;k++){
+      if(LOG[k][0]==='GAP') h+='<div class="gap">··········· 9 hours ··········· no records ···········</div>';
+      else h+='<div'+(LOG[k][1]?' class="'+LOG[k][1]+'"':'')+'>'+LOG[k][0].replace(/ /g,'&nbsp;')+'</div>';
+    }
+    if(cursor) h+='<span class="cursor"></span>';
+    $('log').innerHTML=h;
+  }
+  function runLog(){
+    if(logRan) return; logRan=true;
+    if(reduced){renderLog(LOG.length,false);return}
+    var k=0;
+    (function step(){
+      k++; renderLog(k,k<LOG.length);
+      if(k===4){document.body.classList.add('lightsout'); $('log').parentNode.classList.add('flicker')}
+      if(k===6){document.body.classList.remove('lightsout')}
+      if(k<LOG.length) logTimer=setTimeout(step, k===4?1500:(k===5?900:520));
+    })();
+  }
+
+  /* ---------- chat typing ---------- */
+  var chatDone=false;
+  function runChat(){
+    if(chatDone) return; chatDone=true;
+    var parts=['Based on my analysis of the case file, the thief is ','<span class="bar-redact">██████ ███████</span>','. They had motive, means and opportunity, and their account contains details that only the thief would know.<br><br>Confidence: <b>94%</b>'];
+    var el=$('chatA');
+    if(reduced){el.innerHTML=parts.join('');return}
+    var txt=parts[0], i=0;
+    (function t(){
+      i+=2; el.innerHTML=txt.slice(0,i)+'<span class="cursor"></span>';
+      if(i<txt.length) setTimeout(t,22); else { el.innerHTML=txt+parts[1]+parts[2]; }
+    })();
+  }
+
+  /* ---------- count-up ---------- */
+  var counted=false;
+  function countUp(){
+    if(counted) return; counted=true;
+    var el=$('wc'), target=FILES.reduce(function(a,f){return a+f[2]},0); if(reduced){el.textContent=target.toLocaleString('en-US');return}
+    var t0=null;
+    function f(ts){ if(!t0)t0=ts; var p=Math.min(1,(ts-t0)/1400), e=1-Math.pow(1-p,3);
+      el.textContent=Math.round(target*e).toLocaleString('en-US'); if(p<1) requestAnimationFrame(f) }
+    requestAnimationFrame(f);
+  }
+
+  /* ---------- clock ---------- */
+  var TOTAL=5*3600, KEY='meridian-clock-day', clk={start:null,paused:null};
+  try{ var sv=JSON.parse(localStorage.getItem(KEY)||'null'); if(sv) clk=sv }catch(e){}
+  function save(){ try{localStorage.setItem(KEY,JSON.stringify(clk))}catch(e){} }
+  function remaining(){
+    if(!clk.start) return TOTAL;
+    var el = ((clk.paused||Date.now()) - clk.start)/1000;
+    return Math.max(0, TOTAL-el);
+  }
+  function fmt(s){ s=Math.ceil(s); var h=Math.floor(s/3600), m=Math.floor(s%3600/60), x=s%60; return h+':'+(m<10?'0':'')+m+':'+(x<10?'0':'')+x }
+  function tick(){
+    var r=remaining(), c=$('clock');
+    c.textContent=fmt(r);
+    c.classList.toggle('run', !!clk.start && !clk.paused && r>0 && r>1800);
+    c.classList.toggle('low', !!clk.start && r<=1800);
+    $('clockbar').style.transform='scaleX('+(r/TOTAL)+')';
+    $('cStart').textContent = !clk.start ? 'Start the clock' : (clk.paused ? 'Resume' : 'Pause');
+  }
+  $('cStart').onclick=function(){
+    if(!clk.start){clk.start=Date.now();clk.paused=null}
+    else if(clk.paused){clk.start+=Date.now()-clk.paused;clk.paused=null}
+    else {clk.paused=Date.now()}
+    save(); tick();
+  };
+  $('cReset').onclick=function(){clk={start:null,paused:null};save();tick()};
+  function toggleFull(){
+    try{
+      if(document.fullscreenElement){document.exitFullscreen()}
+      else if(document.documentElement.requestFullscreen){var p=document.documentElement.requestFullscreen(); if(p&&p.catch)p.catch(function(){})}
+    }catch(e){}
+  }
+  $('cFull').onclick=toggleFull;
+  setInterval(tick,1000); tick();
+
+  /* ---------- lamp follows pointer, gently ---------- */
+  if(!reduced){
+    document.addEventListener('pointermove',function(e){
+      $('lamp').style.setProperty('--lx',(40+e.clientX/window.innerWidth*40)+'%');
+      $('lamp').style.setProperty('--ly',(10+e.clientY/window.innerHeight*30)+'%');
+    });
+  }
+
+  /* ---------- navigation ---------- */
+  var slides=[].slice.call(document.querySelectorAll('.slide')), i=0, n=slides.length;
+  function onEnter(s){
+    var idx=slides.indexOf(s);
+    if(idx===0) runLog();
+    if(s.querySelector('#chatA')) runChat();
+    if(s.querySelector('#dotsM') && !s.dataset.dotted){ s.dataset.dotted='1'; dots($('dotsM'),9); dots($('dotsI'),400); }
+    if(s.querySelector('#wc')) countUp();
+    latOn = !!s.querySelector('#lattice'); if(latOn) lattice();
+  }
+  function show(k, fromHash){
+    var prev=i; i=Math.max(0,Math.min(n-1,k));
+    slides.forEach(function(s,x){
+      s.classList.toggle('on',x===i);
+      s.classList.toggle('off-left',x<i);
+      s.setAttribute('aria-hidden',x===i?'false':'true');
+      if(x===i){ s.scrollTop=0 }
+    });
+    document.body.classList.toggle('lightsout', !!slides[i].dataset.dark);
+    $('pbar').style.width=((i+1)/n*100)+'%';
+    $('count').textContent=(i+1)+' / '+n;
+    $('sec').textContent=slides[i].dataset.sec||'';
+    var fic=!!slides[i].dataset.fiction, md=$('mode');
+    md.textContent = fic ? 'Fictional case file' : 'Live challenge \u00b7 real rules';
+    md.className = 'mode ' + (fic ? 'fic' : 'real');
+    [].forEach.call(document.querySelectorAll('#rail button'),function(b,x){b.setAttribute('aria-current',x===i?'true':'false')});
+    onEnter(slides[i]);
+    if(!fromHash){ try{ history.replaceState(null,'','#s'+(i+1)) }catch(e){} }
+  }
+  $('rail').innerHTML = slides.map(function(s,x){
+    var a=s.dataset.act||'1', gap = x>0 && slides[x-1].dataset.act!==a;
+    return '<button type="button" class="a'+a+(gap?' gap':'')+'" aria-label="Go to slide '+(x+1)+': '+(s.dataset.title||'')+'"><i></i><span>'+(x+1)+' \u00b7 '+(s.dataset.title||'')+'</span></button>';
+  }).join('');
+  [].forEach.call(document.querySelectorAll('#rail button'),function(b,x){ b.onclick=function(){show(x)} });
+  $('next').onclick=function(){show(i+1)};
+  $('prev').onclick=function(){show(i-1)};
+  document.addEventListener('keydown',function(e){
+    if(e.target && (e.target.tagName==='BUTTON') && (e.key===' '||e.key==='Enter')) return;
+    if(e.key==='ArrowRight'||e.key==='PageDown'||e.key===' '){e.preventDefault();show(i+1)}
+    else if(e.key==='ArrowLeft'||e.key==='PageUp'){e.preventDefault();show(i-1)}
+    else if(e.key==='Home'){show(0)} else if(e.key==='End'){show(n-1)}
+    else if(e.key==='f'||e.key==='F'){toggleFull()}
+  });
+  var tx=null, ty=null;
+  document.addEventListener('touchstart',function(e){tx=e.touches[0].clientX;ty=e.touches[0].clientY},{passive:true});
+  document.addEventListener('touchend',function(e){
+    if(tx===null) return; var dx=e.changedTouches[0].clientX-tx, dy=e.changedTouches[0].clientY-ty;
+    if(Math.abs(dx)>60 && Math.abs(dx)>Math.abs(dy)*1.5){ show(i+(dx<0?1:-1)) } tx=null;
+  },{passive:true});
+  window.addEventListener('resize',function(){ if(latOn) lattice() });
+  var m=(location.hash||'').match(/^#s(\d+)$/);
+  show(m?parseInt(m[1],10)-1:0, true);
+  $('deck').focus({preventScroll:true});
+})();
+</script>
+</body>
+</html>

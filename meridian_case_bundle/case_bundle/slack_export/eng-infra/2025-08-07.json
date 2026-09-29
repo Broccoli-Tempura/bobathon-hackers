@@ -1,0 +1,68 @@
+[
+ {
+  "type": "message",
+  "user": "U0701B",
+  "text": "again: rolling back the config change from monday, latencies went sideways thanks all",
+  "ts": "1754554740.845556"
+ },
+ {
+  "type": "message",
+  "user": "U0703D",
+  "text": "snapshot cleanup on scratch-01 freed 4TB, should hold until the migration cc Marcus",
+  "ts": "1754567040.701536"
+ },
+ {
+  "type": "message",
+  "user": "U0721V",
+  "text": "fyi checkpoint sync is slow again, probably the decompress-on-write thing",
+  "ts": "1754569440.520268"
+ },
+ {
+  "type": "message",
+  "user": "U0707H",
+  "text": "for the record, the migration runbook is in INFRA-2291, please actually read it more later",
+  "ts": "1754572200.283017"
+ },
+ {
+  "type": "message",
+  "user": "U0713N",
+  "text": "psa: checkpoint sync is slow again, probably the decompress-on-write thing see DATA-2212",
+  "ts": "1754574540.980378"
+ },
+ {
+  "type": "message",
+  "user": "U0707H",
+  "text": "deploy to staging is green, promoting at 12:00 unless someone objects",
+  "ts": "1754583180.442466"
+ },
+ {
+  "type": "message",
+  "user": "U0701B",
+  "text": "the migration runbook is in the ticket, please actually read the runbook sorry",
+  "ts": "1754584860.613445"
+ },
+ {
+  "type": "message",
+  "user": "U0721V",
+  "text": "ok so can someone approve the terraform change, it is one line, it is genuinely one line",
+  "ts": "1754593080.331546"
+ },
+ {
+  "type": "message",
+  "user": "U0704E",
+  "text": "we are out of disk on scratch-01 again, someone is writing tarballs there lol",
+  "ts": "1754593320.334776"
+ },
+ {
+  "type": "message",
+  "user": "U0707H",
+  "text": "fyi bumping the retention on the eval bucket, shout if that breaks anything",
+  "ts": "1754595000.486953"
+ },
+ {
+  "type": "message",
+  "user": "U0703D",
+  "text": "can someone approve the terraform change, it is one line, it is genuinely one line",
+  "ts": "1754595240.650544"
+ }
+]

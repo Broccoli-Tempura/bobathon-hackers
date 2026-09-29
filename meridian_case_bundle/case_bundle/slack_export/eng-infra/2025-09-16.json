@@ -1,0 +1,86 @@
+[
+ {
+  "type": "message",
+  "user": "U0718S",
+  "text": "update: flaky test in the integration suite again, it is the same one, it is always the same one",
+  "ts": "1758003420.578339"
+ },
+ {
+  "type": "message",
+  "user": "U0718S",
+  "text": "update: does anyone actually know what the legacy staging path is still used for",
+  "ts": "1758004920.820338"
+ },
+ {
+  "type": "message",
+  "user": "U0722W",
+  "text": "the migration runbook is in INFRA-2291, please actually read it cc Rafferty",
+  "ts": "1758005940.239327"
+ },
+ {
+  "type": "message",
+  "user": "U0711L",
+  "text": "cluster is back. it was DNS. it is always DNS sorry",
+  "ts": "1758007500.576246"
+ },
+ {
+  "type": "message",
+  "user": "U0702C",
+  "text": "psa: the scratch array is at 71%, nobody panic, i am just saying it out loud",
+  "ts": "1758017400.946830"
+ },
+ {
+  "type": "message",
+  "user": "U0701B",
+  "text": "quick one: free space graph on scratch-01 looks weird, it is Tobias's tarballs again more later",
+  "ts": "1758019860.848039"
+ },
+ {
+  "type": "message",
+  "user": "U0722W",
+  "text": "ok so training loss went flat at step 5k, either very good or very bad send help",
+  "ts": "1758020820.669965"
+ },
+ {
+  "type": "message",
+  "user": "U0712M",
+  "text": "running a big copy tonight, expect the array to look weird in the graphs sorry",
+  "ts": "1758022140.709720"
+ },
+ {
+  "type": "message",
+  "user": "U0714O",
+  "text": "update: rolling back the config change from monday, latencies went sideways",
+  "ts": "1758032640.449309"
+ },
+ {
+  "type": "message",
+  "user": "U0705F",
+  "text": "for the record, the scratch array is at 71%, nobody panic, i am just saying it out loud see ML-2416",
+  "ts": "1758033780.800389"
+ },
+ {
+  "type": "message",
+  "user": "U0723X",
+  "text": "honestly can someone approve the terraform change, it is one line, it is genuinely one line more later",
+  "ts": "1758036420.943722"
+ },
+ {
+  "type": "message",
+  "user": "U0722W",
+  "text": "not to be dramatic but copy job for the eval shards failed at 66%, restarting from the beginning because resume is broken :)",
+  "ts": "1758044340.283741"
+ },
+ {
+  "type": "message",
+  "user": "U0705F",
+  "text": "reminder: Yannick can you review ML-2593 before wednesday",
+  "ts": "1758050760.729414"
+ },
+ {
+  "type": "message",
+  "user": "U0719T",
+  "text": "bumping retention on the eval bucket to 20 days, shout if that breaks anything send help",
+  "ts": "1758052680.688440"
+ }
+]

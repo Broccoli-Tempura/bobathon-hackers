@@ -1,0 +1,128 @@
+[
+ {
+  "type": "message",
+  "user": "U0721V",
+  "text": "update: rolling back the config change, latencies went sideways (again)",
+  "ts": "1757313060.529998"
+ },
+ {
+  "type": "message",
+  "user": "U0719T",
+  "text": "again: portable array from the IT cage is back on the shelf, seals intact send help",
+  "ts": "1757314920.612847"
+ },
+ {
+  "type": "message",
+  "user": "U0722W",
+  "text": "restarted the backfill from scratch, the partial output was garbage see INFRA-2328",
+  "ts": "1757315700.353365"
+ },
+ {
+  "type": "message",
+  "user": "U0701B",
+  "text": "reminder: i have found the memory leak. it was me. it was me four months ago send help",
+  "ts": "1757316300.484981"
+ },
+ {
+  "type": "message",
+  "user": "U0714O",
+  "text": "i have turned it off and on again and it worked and i am furious",
+  "ts": "1757316720.243377"
+ },
+ {
+  "type": "message",
+  "user": "U0718S",
+  "text": "gpu queue is jammed, 29 jobs pending under a service account see INFRA-2466",
+  "ts": "1757317080.106145"
+ },
+ {
+  "type": "message",
+  "user": "U0719T",
+  "text": "not to be dramatic but does anyone actually know what the legacy staging path is still used for",
+  "ts": "1757318820.687185"
+ },
+ {
+  "type": "message",
+  "user": "U0720U",
+  "text": "fyi gpu queue is jammed, 14 jobs pending under a service account will update",
+  "ts": "1757328240.854778"
+ },
+ {
+  "type": "message",
+  "user": "U0701B",
+  "text": "psa: adding a lint rule and preemptively apologising to everyone's diff lol",
+  "ts": "1757328840.464986"
+ },
+ {
+  "type": "message",
+  "user": "U0711L",
+  "text": "honestly can someone approve the terraform change for ML-2422, it is one line",
+  "ts": "1757329500.548301"
+ },
+ {
+  "type": "message",
+  "user": "U0711L",
+  "text": "portable array from the IT cage is back on the shelf, seals intact lol",
+  "ts": "1757335320.943816"
+ },
+ {
+  "type": "message",
+  "user": "U0710K",
+  "text": "fyi restarted the backfill from scratch, the partial output was garbage more later",
+  "ts": "1757335680.764628"
+ },
+ {
+  "type": "message",
+  "user": "U0719T",
+  "text": "free space graph on scratch-01 looks weird, it is Kemi's tarballs again sorry",
+  "ts": "1757340120.897935"
+ },
+ {
+  "type": "message",
+  "user": "U0713N",
+  "text": "who owns the nightly backfill cron, it has been failing for 41 days (again)",
+  "ts": "1757340180.475330"
+ },
+ {
+  "type": "message",
+  "user": "U0705F",
+  "text": "honestly reminder we are frozen for deploys over the long weekend",
+  "ts": "1757341440.619329"
+ },
+ {
+  "type": "message",
+  "user": "U0718S",
+  "text": "does anyone actually know what the legacy staging path is still used for (again)",
+  "ts": "1757347200.161307"
+ },
+ {
+  "type": "message",
+  "user": "U0718S",
+  "text": "snapshot cleanup on scratch-01 freed 12TB, should hold until the migration thanks all",
+  "ts": "1757351340.802366"
+ },
+ {
+  "type": "message",
+  "user": "U0712M",
+  "text": "not to be dramatic but training loss went flat at step 10k, either very good or very bad sorry",
+  "ts": "1757356980.506556"
+ },
+ {
+  "type": "message",
+  "user": "U0707H",
+  "text": "ok so training loss went flat at step 19k, either very good or very bad more later",
+  "ts": "1757357280.100586"
+ },
+ {
+  "type": "message",
+  "user": "U0711L",
+  "text": "i have found the memory leak. it was me. it was me four months ago will update",
+  "ts": "1757358060.617539"
+ },
+ {
+  "type": "message",
+  "user": "U0714O",
+  "text": "again: PR up for the tokenizer refactor, it is enormous and i am sorry more later",
+  "ts": "1757361540.738875"
+ }
+]

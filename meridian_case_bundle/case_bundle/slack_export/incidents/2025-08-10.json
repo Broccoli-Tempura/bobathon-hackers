@@ -1,0 +1,50 @@
+[
+ {
+  "type": "message",
+  "user": "U0703D",
+  "text": "not to be dramatic but confirmed, node pool scaled to zero overnight, autoscaler config regression will update",
+  "ts": "1754815200.937046"
+ },
+ {
+  "type": "message",
+  "user": "U0711L",
+  "text": "psa: customer impact limited to the public sandbox, no production exposure",
+  "ts": "1754817840.491138"
+ },
+ {
+  "type": "message",
+  "user": "U0702C",
+  "text": "not to be dramatic but we have a gap in the on-call rotation over the long weekend, i am fixing it now :)",
+  "ts": "1754822640.807461"
+ },
+ {
+  "type": "message",
+  "user": "U0714O",
+  "text": "postmortem for INC-04444 is up, blameless, add anything i missed :)",
+  "ts": "1754825100.507615"
+ },
+ {
+  "type": "message",
+  "user": "U0703D",
+  "text": "psa: root cause: a cert expired that nobody knew existed see DATA-2073",
+  "ts": "1754827200.242536"
+ },
+ {
+  "type": "message",
+  "user": "U0713N",
+  "text": "not to be dramatic but postmortem for INC-03939 is up, blameless, add anything i missed",
+  "ts": "1754831040.654903"
+ },
+ {
+  "type": "message",
+  "user": "U0712M",
+  "text": "small thing: root cause for INC-03939: a cert expired that nobody knew existed",
+  "ts": "1754838240.906415"
+ },
+ {
+  "type": "message",
+  "user": "U0721V",
+  "text": "not to be dramatic but false alarm, the monitoring agent itself fell over :)",
+  "ts": "1754841300.689059"
+ }
+]

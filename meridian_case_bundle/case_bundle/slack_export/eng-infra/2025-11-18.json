@@ -1,0 +1,44 @@
+[
+ {
+  "type": "message",
+  "user": "U0710K",
+  "text": "for the record, who owns the nightly backfill cron, it has been failing silently for six days :)",
+  "ts": "1763454840.894516"
+ },
+ {
+  "type": "message",
+  "user": "U0714O",
+  "text": "honestly cluster is back. it was DNS. it is always DNS more later",
+  "ts": "1763456700.553580"
+ },
+ {
+  "type": "message",
+  "user": "U0702C",
+  "text": "not to be dramatic but the storage docs describe the 2023 architecture, INFRA-2062 tracks fixing it :)",
+  "ts": "1763462280.451890"
+ },
+ {
+  "type": "message",
+  "user": "U0713N",
+  "text": "again: the migration runbook is in INFRA-2291, please actually read it lol",
+  "ts": "1763464380.229012"
+ },
+ {
+  "type": "message",
+  "user": "U0703D",
+  "text": "quick one: the storage docs describe the 2023 architecture, DATA-2339 tracks fixing it (again)",
+  "ts": "1763472240.136259"
+ },
+ {
+  "type": "message",
+  "user": "U0710K",
+  "text": "checkpoint sync is slow again, probably the decompress-on-write thing",
+  "ts": "1763476500.767332"
+ },
+ {
+  "type": "message",
+  "user": "U0719T",
+  "text": "quick one: i have found the memory leak. it was me. it was me 17 weeks ago sorry",
+  "ts": "1763487420.519572"
+ }
+]

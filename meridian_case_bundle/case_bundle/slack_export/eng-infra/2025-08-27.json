@@ -1,0 +1,104 @@
+[
+ {
+  "type": "message",
+  "user": "U0718S",
+  "text": "ok so checkpoint sync is slow again, i think it is the decompress-on-write thing",
+  "ts": "1756278300.593701"
+ },
+ {
+  "type": "message",
+  "user": "U0716Q",
+  "text": "portable array from the IT cage is back on the shelf, seals intact see ML-2070",
+  "ts": "1756281240.548146"
+ },
+ {
+  "type": "message",
+  "user": "U0719T",
+  "text": "for the record, PR up for PLAT-1908, it is enormous and i am sorry lol",
+  "ts": "1756281540.221594"
+ },
+ {
+  "type": "message",
+  "user": "U0712M",
+  "text": "reminder we are frozen for deploys over the long weekend more later",
+  "ts": "1756283100.597927"
+ },
+ {
+  "type": "message",
+  "user": "U0720U",
+  "text": "not to be dramatic but the storage docs describe the 2023 architecture, INFRA-2370 tracks fixing it see INFRA-2370",
+  "ts": "1756284840.540809"
+ },
+ {
+  "type": "message",
+  "user": "U0713N",
+  "text": "again: the migration runbook is in INFRA-2291, please actually read it more later",
+  "ts": "1756284840.808034"
+ },
+ {
+  "type": "message",
+  "user": "U0707H",
+  "text": "cluster is back. it was DNS. it is always DNS more later",
+  "ts": "1756289520.156154"
+ },
+ {
+  "type": "message",
+  "user": "U0713N",
+  "text": "update: bumping the retention on the eval bucket, shout if that breaks anything see PLAT-1962",
+  "ts": "1756293120.386825"
+ },
+ {
+  "type": "message",
+  "user": "U0723X",
+  "text": "quick one: eval run 4417 finished, nothing interesting, will rerun with the new sampler will update",
+  "ts": "1756294560.457052"
+ },
+ {
+  "type": "message",
+  "user": "U0703D",
+  "text": "small thing: PR up for PLAT-2491, it is enormous and i am sorry thanks all",
+  "ts": "1756300200.361664"
+ },
+ {
+  "type": "message",
+  "user": "U0703D",
+  "text": "bumping the retention on the eval bucket, shout if that breaks anything more later",
+  "ts": "1756304100.306584"
+ },
+ {
+  "type": "message",
+  "user": "U0710K",
+  "text": "checkpoint sync is slow again, probably the decompress-on-write thing thanks all",
+  "ts": "1756306440.213018"
+ },
+ {
+  "type": "message",
+  "user": "U0713N",
+  "text": "update: free space graph on scratch-01 looks weird, it is Andrin's tarballs again thanks all",
+  "ts": "1756307640.203653"
+ },
+ {
+  "type": "message",
+  "user": "U0712M",
+  "text": "small thing: eval run 4417 finished, nothing interesting, will rerun with the new sampler :)",
+  "ts": "1756313340.452370"
+ },
+ {
+  "type": "message",
+  "user": "U0710K",
+  "text": "psa: flaky test in the integration suite again, it is the same one, it is always the same one (again)",
+  "ts": "1756315500.175204"
+ },
+ {
+  "type": "message",
+  "user": "U0716Q",
+  "text": "ok so reminder we are frozen for deploys over the long weekend",
+  "ts": "1756319340.512459"
+ },
+ {
+  "type": "message",
+  "user": "U0710K",
+  "text": "ok so deploy to staging is green, promoting at 14:00 unless someone objects lol",
+  "ts": "1756322880.323450"
+ }
+]

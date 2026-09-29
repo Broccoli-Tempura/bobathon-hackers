@@ -1,0 +1,68 @@
+[
+ {
+  "type": "message",
+  "user": "U0719T",
+  "text": "psa: the scratch array is at 71%, nobody panic, i am just saying it out loud",
+  "ts": "1759650840.980674"
+ },
+ {
+  "type": "message",
+  "user": "U0707H",
+  "text": "not to be dramatic but free space graph on scratch-01 looks weird, it is Anneke's tarballs again send help",
+  "ts": "1759653960.230970"
+ },
+ {
+  "type": "message",
+  "user": "U0713N",
+  "text": "the storage docs describe the 2023 architecture, DATA-2458 tracks fixing it sorry",
+  "ts": "1759664520.243931"
+ },
+ {
+  "type": "message",
+  "user": "U0712M",
+  "text": "quick one: does anyone actually know what the legacy staging path is still used for sorry",
+  "ts": "1759666860.411707"
+ },
+ {
+  "type": "message",
+  "user": "U0716Q",
+  "text": "for the record, snapshot cleanup on scratch-01 freed 11TB, should hold until the migration see PLAT-2207",
+  "ts": "1759667400.398157"
+ },
+ {
+  "type": "message",
+  "user": "U0720U",
+  "text": "restarted the backfill from scratch, the partial output was garbage cc Chiara",
+  "ts": "1759674900.239046"
+ },
+ {
+  "type": "message",
+  "user": "U0701B",
+  "text": "gpu queue is jammed, 31 jobs pending under a service account",
+  "ts": "1759678080.410273"
+ },
+ {
+  "type": "message",
+  "user": "U0702C",
+  "text": "reminder: cluster is back. it was DNS. it is always DNS thanks all",
+  "ts": "1759679280.758110"
+ },
+ {
+  "type": "message",
+  "user": "U0703D",
+  "text": "small thing: the storage docs describe the 2023 architecture, PLAT-2398 tracks fixing it cc Solveig",
+  "ts": "1759686060.760894"
+ },
+ {
+  "type": "message",
+  "user": "U0718S",
+  "text": "the rsync to cold storage is crawling again, 30 hours in and at 60% lol",
+  "ts": "1759688880.595159"
+ },
+ {
+  "type": "message",
+  "user": "U0719T",
+  "text": "ok so PR up for DATA-1914, it is enormous and i am sorry",
+  "ts": "1759689540.196744"
+ }
+]

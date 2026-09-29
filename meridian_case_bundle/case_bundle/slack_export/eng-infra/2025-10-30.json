@@ -1,0 +1,80 @@
+[
+ {
+  "type": "message",
+  "user": "U0712M",
+  "text": "again: moving on-call handoff to mondays, fridays were chaos",
+  "ts": "1761815160.647538"
+ },
+ {
+  "type": "message",
+  "user": "U0718S",
+  "text": "reminder: i have found the memory leak. it was me. it was me 29 weeks ago",
+  "ts": "1761825120.768298"
+ },
+ {
+  "type": "message",
+  "user": "U0701B",
+  "text": "eval run 2727 finished, nothing interesting, rerunning with the new sampler",
+  "ts": "1761827580.177070"
+ },
+ {
+  "type": "message",
+  "user": "U0701B",
+  "text": "quick one: the storage docs describe the 2023 architecture, ML-2500 tracks fixing it",
+  "ts": "1761829440.647687"
+ },
+ {
+  "type": "message",
+  "user": "U0712M",
+  "text": "fyi portable array from the IT cage is back on the shelf, seals intact more later",
+  "ts": "1761830340.911445"
+ },
+ {
+  "type": "message",
+  "user": "U0710K",
+  "text": "fyi bumping retention on the eval bucket to 16 days, shout if that breaks anything see DATA-2545",
+  "ts": "1761831000.471161"
+ },
+ {
+  "type": "message",
+  "user": "U0711L",
+  "text": "for the record, deploy to staging is green, promoting at 3 unless someone objects will update",
+  "ts": "1761831300.971243"
+ },
+ {
+  "type": "message",
+  "user": "U0719T",
+  "text": "cluster is back. it was DNS. it is always DNS",
+  "ts": "1761833880.648122"
+ },
+ {
+  "type": "message",
+  "user": "U0710K",
+  "text": "quick one: who owns the nightly backfill cron, it has been failing for 6 days",
+  "ts": "1761840480.672988"
+ },
+ {
+  "type": "message",
+  "user": "U0712M",
+  "text": "i have turned it off and on again and it worked and i am furious cc June",
+  "ts": "1761842640.103496"
+ },
+ {
+  "type": "message",
+  "user": "U0716Q",
+  "text": "moving the on-call handoff to mondays because fridays were chaos",
+  "ts": "1761846720.222434"
+ },
+ {
+  "type": "message",
+  "user": "U0713N",
+  "text": "reminder: free space graph on scratch-01 looks weird, it is Marcus's tarballs again send help",
+  "ts": "1761851760.380051"
+ },
+ {
+  "type": "message",
+  "user": "U0723X",
+  "text": "ok so PR up for the tokenizer refactor, it is enormous and i am sorry (again)",
+  "ts": "1761852360.109682"
+ }
+]

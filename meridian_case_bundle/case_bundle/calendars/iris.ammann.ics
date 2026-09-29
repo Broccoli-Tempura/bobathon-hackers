@@ -1,0 +1,800 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Microsoft Corporation//Outlook 16.0 MIMEDIR//EN
+X-WR-CALNAME:Iris Ammann
+X-WR-TIMEZONE:Europe/Zurich
+BEGIN:VEVENT
+UID:iris.ammann-20250801-0@halcyon-systems.ch
+DTSTART;TZID=Europe/Zurich:20250801T124500
+DTEND;TZID=Europe/Zurich:20250801T131500
+SUMMARY:1:1
+ORGANIZER;CN=solveig.haugen:mailto:solveig.haugen@halcyon-systems.ch
+END:VEVENT
+BEGIN:VEVENT
+UID:iris.ammann-20250801-1@halcyon-systems.ch
+DTSTART;TZID=Europe/Zurich:20250801T143000
+DTEND;TZID=Europe/Zurich:20250801T150000
+SUMMARY:Hiring panel
+ORGANIZER;CN=yannick.favre:mailto:yannick.favre@halcyon-systems.ch
+END:VEVENT
+BEGIN:VEVENT
+UID:iris.ammann-20250804-2@halcyon-systems.ch
+DTSTART;TZID=Europe/Zurich:20250804T123000
+DTEND;TZID=Europe/Zurich:20250804T131500
+SUMMARY:Hiring panel
+ORGANIZER;CN=nils.aberg:mailto:nils.aberg@halcyon-systems.ch
+END:VEVENT
+BEGIN:VEVENT
+UID:iris.ammann-20250806-3@halcyon-systems.ch
+DTSTART;TZID=Europe/Zurich:20250806T144500
+DTEND;TZID=Europe/Zurich:20250806T154500
+SUMMARY:Eval review
+ORGANIZER;CN=noemi.rochat:mailto:noemi.rochat@halcyon-systems.ch
+END:VEVENT
+BEGIN:VEVENT
+UID:iris.ammann-20250806-4@halcyon-systems.ch
+DTSTART;TZID=Europe/Zurich:20250806T170000
+DTEND;TZID=Europe/Zurich:20250806T180000
+SUMMARY:Offsite planning
+ORGANIZER;CN=dessie.moran:mailto:dessie.moran@halcyon-systems.ch
+END:VEVENT
+BEGIN:VEVENT
+UID:iris.ammann-20250807-5@halcyon-systems.ch
+DTSTART;TZID=Europe/Zurich:20250807T084500
+DTEND;TZID=Europe/Zurich:20250807T101500
+SUMMARY:Board prep
+ORGANIZER;CN=priya.raghunathan:mailto:priya.raghunathan@halcyon-systems.ch
+END:VEVENT
+BEGIN:VEVENT
+UID:iris.ammann-20250808-6@halcyon-systems.ch
+DTSTART;TZID=Europe/Zurich:20250808T134500
+DTEND;TZID=Europe/Zurich:20250808T141500
+SUMMARY:Recruiting debrief
+ORGANIZER;CN=kurt.steiner:mailto:kurt.steiner@halcyon-systems.ch
+END:VEVENT
+BEGIN:VEVENT
+UID:iris.ammann-20250811-7@halcyon-systems.ch
+DTSTART;TZID=Europe/Zurich:20250811T120000
+DTEND;TZID=Europe/Zurich:20250811T123000
+SUMMARY:Eval review
+ORGANIZER;CN=kemi.adeyemi:mailto:kemi.adeyemi@halcyon-systems.ch
+END:VEVENT
+BEGIN:VEVENT
+UID:iris.ammann-20250814-8@halcyon-systems.ch
+DTSTART;TZID=Europe/Zurich:20250814T111500
+DTEND;TZID=Europe/Zurich:20250814T121500
+SUMMARY:Design crit
+ORGANIZER;CN=nils.aberg:mailto:nils.aberg@halcyon-systems.ch
+END:VEVENT
+BEGIN:VEVENT
+UID:iris.ammann-20250815-9@halcyon-systems.ch
+DTSTART;TZID=Europe/Zurich:20250815T091500
+DTEND;TZID=Europe/Zurich:20250815T100000
+SUMMARY:Design crit
+ORGANIZER;CN=wen-li.zhao:mailto:wen-li.zhao@halcyon-systems.ch
+END:VEVENT
+BEGIN:VEVENT
+UID:iris.ammann-20250819-10@halcyon-systems.ch
+DTSTART;TZID=Europe/Zurich:20250819T101500
+DTEND;TZID=Europe/Zurich:20250819T111500
+SUMMARY:1:1
+ORGANIZER;CN=wen-li.zhao:mailto:wen-li.zhao@halcyon-systems.ch
+END:VEVENT
+BEGIN:VEVENT
+UID:iris.ammann-20250820-11@halcyon-systems.ch
+DTSTART;TZID=Europe/Zurich:20250820T084500
+DTEND;TZID=Europe/Zurich:20250820T091500
+SUMMARY:Corpus working group
+ORGANIZER;CN=halina.brzezinska:mailto:halina.brzezinska@halcyon-systems.ch
+END:VEVENT
+BEGIN:VEVENT
+UID:iris.ammann-20250820-12@halcyon-systems.ch
+DTSTART;TZID=Europe/Zurich:20250820T093000
+DTEND;TZID=Europe/Zurich:20250820T100000
+SUMMARY:1:1
+ORGANIZER;CN=cormac.deel:mailto:cormac.deel@halcyon-systems.ch
+END:VEVENT
+BEGIN:VEVENT
+UID:iris.ammann-20250820-13@halcyon-systems.ch
+DTSTART;TZID=Europe/Zurich:20250820T114500
+DTEND;TZID=Europe/Zurich:20250820T121500
+SUMMARY:Architecture sync
+ORGANIZER;CN=marcus.abiodun:mailto:marcus.abiodun@halcyon-systems.ch
+END:VEVENT
+BEGIN:VEVENT
+UID:iris.ammann-20250821-14@halcyon-systems.ch
+DTSTART;TZID=Europe/Zurich:20250821T141500
+DTEND;TZID=Europe/Zurich:20250821T144500
+SUMMARY:Budget
+ORGANIZER;CN=andrin.caduff:mailto:andrin.caduff@halcyon-systems.ch
+END:VEVENT
+BEGIN:VEVENT
+UID:iris.ammann-20250822-15@halcyon-systems.ch
+DTSTART;TZID=Europe/Zurich:20250822T140000
+DTEND;TZID=Europe/Zurich:20250822T150000
+SUMMARY:Design crit
+ORGANIZER;CN=noemi.rochat:mailto:noemi.rochat@halcyon-systems.ch
+END:VEVENT
+BEGIN:VEVENT
+UID:iris.ammann-20250825-16@halcyon-systems.ch
+DTSTART;TZID=Europe/Zurich:20250825T130000
+DTEND;TZID=Europe/Zurich:20250825T133000
+SUMMARY:Budget
+ORGANIZER;CN=marcus.abiodun:mailto:marcus.abiodun@halcyon-systems.ch
+END:VEVENT
+BEGIN:VEVENT
+UID:iris.ammann-20250825-17@halcyon-systems.ch
+DTSTART;TZID=Europe/Zurich:20250825T173000
+DTEND;TZID=Europe/Zurich:20250825T181500
+SUMMARY:Security review
+ORGANIZER;CN=nils.aberg:mailto:nils.aberg@halcyon-systems.ch
+END:VEVENT
+BEGIN:VEVENT
+UID:iris.ammann-20250826-18@halcyon-systems.ch
+DTSTART;TZID=Europe/Zurich:20250826T113000
+DTEND;TZID=Europe/Zurich:20250826T121500
+SUMMARY:Roadmap
+ORGANIZER;CN=renata.vogel:mailto:renata.vogel@halcyon-systems.ch
+END:VEVENT
+BEGIN:VEVENT
+UID:iris.ammann-20250826-19@halcyon-systems.ch
+DTSTART;TZID=Europe/Zurich:20250826T130000
+DTEND;TZID=Europe/Zurich:20250826T140000
+SUMMARY:Weekly staff
+ORGANIZER;CN=dessie.moran:mailto:dessie.moran@halcyon-systems.ch
+END:VEVENT
+BEGIN:VEVENT
+UID:iris.ammann-20250828-20@halcyon-systems.ch
+DTSTART;TZID=Europe/Zurich:20250828T113000
+DTEND;TZID=Europe/Zurich:20250828T130000
+SUMMARY:Offsite planning
+ORGANIZER;CN=noemi.rochat:mailto:noemi.rochat@halcyon-systems.ch
+END:VEVENT
+BEGIN:VEVENT
+UID:iris.ammann-20250828-21@halcyon-systems.ch
+DTSTART;TZID=Europe/Zurich:20250828T130000
+DTEND;TZID=Europe/Zurich:20250828T134500
+SUMMARY:Roadmap
+ORGANIZER;CN=noemi.rochat:mailto:noemi.rochat@halcyon-systems.ch
+END:VEVENT
+BEGIN:VEVENT
+UID:iris.ammann-20250829-22@halcyon-systems.ch
+DTSTART;TZID=Europe/Zurich:20250829T130000
+DTEND;TZID=Europe/Zurich:20250829T140000
+SUMMARY:Weekly staff
+ORGANIZER;CN=chiara.bernasconi:mailto:chiara.bernasconi@halcyon-systems.ch
+END:VEVENT
+BEGIN:VEVENT
+UID:iris.ammann-20250901-23@halcyon-systems.ch
+DTSTART;TZID=Europe/Zurich:20250901T114500
+DTEND;TZID=Europe/Zurich:20250901T131500
+SUMMARY:Design crit
+ORGANIZER;CN=priya.raghunathan:mailto:priya.raghunathan@halcyon-systems.ch
+END:VEVENT
+BEGIN:VEVENT
+UID:iris.ammann-20250902-24@halcyon-systems.ch
+DTSTART;TZID=Europe/Zurich:20250902T124500
+DTEND;TZID=Europe/Zurich:20250902T131500
+SUMMARY:Budget
+ORGANIZER;CN=kurt.steiner:mailto:kurt.steiner@halcyon-systems.ch
+END:VEVENT
+BEGIN:VEVENT
+UID:iris.ammann-20250902-25@halcyon-systems.ch
+DTSTART;TZID=Europe/Zurich:20250902T133000
+DTEND;TZID=Europe/Zurich:20250902T143000
+SUMMARY:Budget
+ORGANIZER;CN=marcus.abiodun:mailto:marcus.abiodun@halcyon-systems.ch
+END:VEVENT
+BEGIN:VEVENT
+UID:iris.ammann-20250903-26@halcyon-systems.ch
+DTSTART;TZID=Europe/Zurich:20250903T090000
+DTEND;TZID=Europe/Zurich:20250903T093000
+SUMMARY:Vendor call
+ORGANIZER;CN=noemi.rochat:mailto:noemi.rochat@halcyon-systems.ch
+END:VEVENT
+BEGIN:VEVENT
+UID:iris.ammann-20250903-27@halcyon-systems.ch
+DTSTART;TZID=Europe/Zurich:20250903T160000
+DTEND;TZID=Europe/Zurich:20250903T173000
+SUMMARY:Vendor call
+ORGANIZER;CN=dessie.moran:mailto:dessie.moran@halcyon-systems.ch
+END:VEVENT
+BEGIN:VEVENT
+UID:iris.ammann-20250904-28@halcyon-systems.ch
+DTSTART;TZID=Europe/Zurich:20250904T104500
+DTEND;TZID=Europe/Zurich:20250904T111500
+SUMMARY:Incident review
+ORGANIZER;CN=andrin.caduff:mailto:andrin.caduff@halcyon-systems.ch
+END:VEVENT
+BEGIN:VEVENT
+UID:iris.ammann-20250904-29@halcyon-systems.ch
+DTSTART;TZID=Europe/Zurich:20250904T171500
+DTEND;TZID=Europe/Zurich:20250904T184500
+SUMMARY:Design crit
+ORGANIZER;CN=bruno.sacchi:mailto:bruno.sacchi@halcyon-systems.ch
+END:VEVENT
+BEGIN:VEVENT
+UID:iris.ammann-20250905-30@halcyon-systems.ch
+DTSTART;TZID=Europe/Zurich:20250905T110000
+DTEND;TZID=Europe/Zurich:20250905T113000
+SUMMARY:Security review
+ORGANIZER;CN=priya.raghunathan:mailto:priya.raghunathan@halcyon-systems.ch
+END:VEVENT
+BEGIN:VEVENT
+UID:iris.ammann-20250905-31@halcyon-systems.ch
+DTSTART;TZID=Europe/Zurich:20250905T131500
+DTEND;TZID=Europe/Zurich:20250905T134500
+SUMMARY:Roadmap
+ORGANIZER;CN=lukas.hofer:mailto:lukas.hofer@halcyon-systems.ch
+END:VEVENT
+BEGIN:VEVENT
+UID:iris.ammann-20250908-32@halcyon-systems.ch
+DTSTART;TZID=Europe/Zurich:20250908T133000
+DTEND;TZID=Europe/Zurich:20250908T140000
+SUMMARY:Weekly staff
+ORGANIZER;CN=wen-li.zhao:mailto:wen-li.zhao@halcyon-systems.ch
+END:VEVENT
+BEGIN:VEVENT
+UID:iris.ammann-20250908-33@halcyon-systems.ch
+DTSTART;TZID=Europe/Zurich:20250908T134500
+DTEND;TZID=Europe/Zurich:20250908T143000
+SUMMARY:Budget
+ORGANIZER;CN=yannick.favre:mailto:yannick.favre@halcyon-systems.ch
+END:VEVENT
+BEGIN:VEVENT
+UID:iris.ammann-20250908-34@halcyon-systems.ch
+DTSTART;TZID=Europe/Zurich:20250908T164500
+DTEND;TZID=Europe/Zurich:20250908T171500
+SUMMARY:Vendor call
+ORGANIZER;CN=priya.raghunathan:mailto:priya.raghunathan@halcyon-systems.ch
+END:VEVENT
+BEGIN:VEVENT
+UID:iris.ammann-20250909-35@halcyon-systems.ch
+DTSTART;TZID=Europe/Zurich:20250909T134500
+DTEND;TZID=Europe/Zurich:20250909T141500
+SUMMARY:Roadmap
+ORGANIZER;CN=rafferty.ng:mailto:rafferty.ng@halcyon-systems.ch
+END:VEVENT
+BEGIN:VEVENT
+UID:iris.ammann-20250910-36@halcyon-systems.ch
+DTSTART;TZID=Europe/Zurich:20250910T114500
+DTEND;TZID=Europe/Zurich:20250910T131500
+SUMMARY:Recruiting debrief
+ORGANIZER;CN=dov.halperin:mailto:dov.halperin@halcyon-systems.ch
+END:VEVENT
+BEGIN:VEVENT
+UID:iris.ammann-20250910-37@halcyon-systems.ch
+DTSTART;TZID=Europe/Zurich:20250910T140000
+DTEND;TZID=Europe/Zurich:20250910T150000
+SUMMARY:Vendor call
+ORGANIZER;CN=cormac.deel:mailto:cormac.deel@halcyon-systems.ch
+END:VEVENT
+BEGIN:VEVENT
+UID:iris.ammann-20250912-38@halcyon-systems.ch
+DTSTART;TZID=Europe/Zurich:20250912T120000
+DTEND;TZID=Europe/Zurich:20250912T130000
+SUMMARY:Incident review
+ORGANIZER;CN=tobias.krall:mailto:tobias.krall@halcyon-systems.ch
+END:VEVENT
+BEGIN:VEVENT
+UID:iris.ammann-20250912-39@halcyon-systems.ch
+DTSTART;TZID=Europe/Zurich:20250912T164500
+DTEND;TZID=Europe/Zurich:20250912T171500
+SUMMARY:Weekly staff
+ORGANIZER;CN=cormac.deel:mailto:cormac.deel@halcyon-systems.ch
+END:VEVENT
+BEGIN:VEVENT
+UID:iris.ammann-20250915-40@halcyon-systems.ch
+DTSTART;TZID=Europe/Zurich:20250915T094500
+DTEND;TZID=Europe/Zurich:20250915T101500
+SUMMARY:Eval review
+ORGANIZER;CN=tobias.krall:mailto:tobias.krall@halcyon-systems.ch
+END:VEVENT
+BEGIN:VEVENT
+UID:iris.ammann-20250916-41@halcyon-systems.ch
+DTSTART;TZID=Europe/Zurich:20250916T174500
+DTEND;TZID=Europe/Zurich:20250916T183000
+SUMMARY:Design crit
+ORGANIZER;CN=dessie.moran:mailto:dessie.moran@halcyon-systems.ch
+END:VEVENT
+BEGIN:VEVENT
+UID:iris.ammann-20250918-42@halcyon-systems.ch
+DTSTART;TZID=Europe/Zurich:20250918T093000
+DTEND;TZID=Europe/Zurich:20250918T110000
+SUMMARY:Architecture sync
+ORGANIZER;CN=rafferty.ng:mailto:rafferty.ng@halcyon-systems.ch
+END:VEVENT
+BEGIN:VEVENT
+UID:iris.ammann-20250918-43@halcyon-systems.ch
+DTSTART;TZID=Europe/Zurich:20250918T094500
+DTEND;TZID=Europe/Zurich:20250918T101500
+SUMMARY:Architecture sync
+ORGANIZER;CN=lukas.hofer:mailto:lukas.hofer@halcyon-systems.ch
+END:VEVENT
+BEGIN:VEVENT
+UID:iris.ammann-20250919-44@halcyon-systems.ch
+DTSTART;TZID=Europe/Zurich:20250919T083000
+DTEND;TZID=Europe/Zurich:20250919T093000
+SUMMARY:Vendor call
+ORGANIZER;CN=bruno.sacchi:mailto:bruno.sacchi@halcyon-systems.ch
+END:VEVENT
+BEGIN:VEVENT
+UID:iris.ammann-20250922-45@halcyon-systems.ch
+DTSTART;TZID=Europe/Zurich:20250922T091500
+DTEND;TZID=Europe/Zurich:20250922T094500
+SUMMARY:Recruiting debrief
+ORGANIZER;CN=halina.brzezinska:mailto:halina.brzezinska@halcyon-systems.ch
+END:VEVENT
+BEGIN:VEVENT
+UID:iris.ammann-20250922-46@halcyon-systems.ch
+DTSTART;TZID=Europe/Zurich:20250922T153000
+DTEND;TZID=Europe/Zurich:20250922T160000
+SUMMARY:Design crit
+ORGANIZER;CN=nils.aberg:mailto:nils.aberg@halcyon-systems.ch
+END:VEVENT
+BEGIN:VEVENT
+UID:iris.ammann-20250922-47@halcyon-systems.ch
+DTSTART;TZID=Europe/Zurich:20250922T160000
+DTEND;TZID=Europe/Zurich:20250922T164500
+SUMMARY:Eval review
+ORGANIZER;CN=bruno.sacchi:mailto:bruno.sacchi@halcyon-systems.ch
+END:VEVENT
+BEGIN:VEVENT
+UID:iris.ammann-20250922-48@halcyon-systems.ch
+DTSTART;TZID=Europe/Zurich:20250922T170000
+DTEND;TZID=Europe/Zurich:20250922T173000
+SUMMARY:Corpus working group
+ORGANIZER;CN=dessie.moran:mailto:dessie.moran@halcyon-systems.ch
+END:VEVENT
+BEGIN:VEVENT
+UID:iris.ammann-20250923-49@halcyon-systems.ch
+DTSTART;TZID=Europe/Zurich:20250923T170000
+DTEND;TZID=Europe/Zurich:20250923T183000
+SUMMARY:Weekly staff
+ORGANIZER;CN=june.okada:mailto:june.okada@halcyon-systems.ch
+END:VEVENT
+BEGIN:VEVENT
+UID:iris.ammann-20250923-50@halcyon-systems.ch
+DTSTART;TZID=Europe/Zurich:20250923T173000
+DTEND;TZID=Europe/Zurich:20250923T183000
+SUMMARY:Eval review
+ORGANIZER;CN=nils.aberg:mailto:nils.aberg@halcyon-systems.ch
+END:VEVENT
+BEGIN:VEVENT
+UID:iris.ammann-20250924-51@halcyon-systems.ch
+DTSTART;TZID=Europe/Zurich:20250924T094500
+DTEND;TZID=Europe/Zurich:20250924T104500
+SUMMARY:Hiring panel
+ORGANIZER;CN=yannick.favre:mailto:yannick.favre@halcyon-systems.ch
+END:VEVENT
+BEGIN:VEVENT
+UID:iris.ammann-20250924-52@halcyon-systems.ch
+DTSTART;TZID=Europe/Zurich:20250924T114500
+DTEND;TZID=Europe/Zurich:20250924T121500
+SUMMARY:Design crit
+ORGANIZER;CN=yuki.tanabe:mailto:yuki.tanabe@halcyon-systems.ch
+END:VEVENT
+BEGIN:VEVENT
+UID:iris.ammann-20250924-53@halcyon-systems.ch
+DTSTART;TZID=Europe/Zurich:20250924T133000
+DTEND;TZID=Europe/Zurich:20250924T141500
+SUMMARY:Security review
+ORGANIZER;CN=rafferty.ng:mailto:rafferty.ng@halcyon-systems.ch
+END:VEVENT
+BEGIN:VEVENT
+UID:iris.ammann-20250924-54@halcyon-systems.ch
+DTSTART;TZID=Europe/Zurich:20250924T151500
+DTEND;TZID=Europe/Zurich:20250924T161500
+SUMMARY:Design crit
+ORGANIZER;CN=iris.ammann:mailto:iris.ammann@halcyon-systems.ch
+END:VEVENT
+BEGIN:VEVENT
+UID:iris.ammann-20250925-55@halcyon-systems.ch
+DTSTART;TZID=Europe/Zurich:20250925T151500
+DTEND;TZID=Europe/Zurich:20250925T164500
+SUMMARY:Weekly staff
+ORGANIZER;CN=anneke.vos:mailto:anneke.vos@halcyon-systems.ch
+END:VEVENT
+BEGIN:VEVENT
+UID:iris.ammann-20250926-56@halcyon-systems.ch
+DTSTART;TZID=Europe/Zurich:20250926T163000
+DTEND;TZID=Europe/Zurich:20250926T171500
+SUMMARY:INFRA-2291 sign-off review
+ORGANIZER;CN=iris.ammann:mailto:iris.ammann@halcyon-systems.ch
+DESCRIPTION:Signed off with conditions.
+END:VEVENT
+BEGIN:VEVENT
+UID:iris.ammann-20250929-57@halcyon-systems.ch
+DTSTART;TZID=Europe/Zurich:20250929T130000
+DTEND;TZID=Europe/Zurich:20250929T140000
+SUMMARY:Board prep
+ORGANIZER;CN=kemi.adeyemi:mailto:kemi.adeyemi@halcyon-systems.ch
+END:VEVENT
+BEGIN:VEVENT
+UID:iris.ammann-20250930-58@halcyon-systems.ch
+DTSTART;TZID=Europe/Zurich:20250930T154500
+DTEND;TZID=Europe/Zurich:20250930T164500
+SUMMARY:Security review
+ORGANIZER;CN=lukas.hofer:mailto:lukas.hofer@halcyon-systems.ch
+END:VEVENT
+BEGIN:VEVENT
+UID:iris.ammann-20251001-59@halcyon-systems.ch
+DTSTART;TZID=Europe/Zurich:20251001T090000
+DTEND;TZID=Europe/Zurich:20251001T100000
+SUMMARY:Security review
+ORGANIZER;CN=halina.brzezinska:mailto:halina.brzezinska@halcyon-systems.ch
+END:VEVENT
+BEGIN:VEVENT
+UID:iris.ammann-20251003-60@halcyon-systems.ch
+DTSTART;TZID=Europe/Zurich:20251003T080000
+DTEND;TZID=Europe/Zurich:20251003T083000
+SUMMARY:Roadmap
+ORGANIZER;CN=yannick.favre:mailto:yannick.favre@halcyon-systems.ch
+END:VEVENT
+BEGIN:VEVENT
+UID:iris.ammann-20251003-61@halcyon-systems.ch
+DTSTART;TZID=Europe/Zurich:20251003T083000
+DTEND;TZID=Europe/Zurich:20251003T093000
+SUMMARY:Recruiting debrief
+ORGANIZER;CN=andrin.caduff:mailto:andrin.caduff@halcyon-systems.ch
+END:VEVENT
+BEGIN:VEVENT
+UID:iris.ammann-20251003-62@halcyon-systems.ch
+DTSTART;TZID=Europe/Zurich:20251003T150000
+DTEND;TZID=Europe/Zurich:20251003T153000
+SUMMARY:Security review
+ORGANIZER;CN=marcus.abiodun:mailto:marcus.abiodun@halcyon-systems.ch
+END:VEVENT
+BEGIN:VEVENT
+UID:iris.ammann-20251006-63@halcyon-systems.ch
+DTSTART;TZID=Europe/Zurich:20251006T093000
+DTEND;TZID=Europe/Zurich:20251006T103000
+SUMMARY:Vendor call
+ORGANIZER;CN=noemi.rochat:mailto:noemi.rochat@halcyon-systems.ch
+END:VEVENT
+BEGIN:VEVENT
+UID:iris.ammann-20251006-64@halcyon-systems.ch
+DTSTART;TZID=Europe/Zurich:20251006T150000
+DTEND;TZID=Europe/Zurich:20251006T163000
+SUMMARY:Incident review
+ORGANIZER;CN=chiara.bernasconi:mailto:chiara.bernasconi@halcyon-systems.ch
+END:VEVENT
+BEGIN:VEVENT
+UID:iris.ammann-20251007-65@halcyon-systems.ch
+DTSTART;TZID=Europe/Zurich:20251007T130000
+DTEND;TZID=Europe/Zurich:20251007T133000
+SUMMARY:Recruiting debrief
+ORGANIZER;CN=chiara.bernasconi:mailto:chiara.bernasconi@halcyon-systems.ch
+END:VEVENT
+BEGIN:VEVENT
+UID:iris.ammann-20251008-66@halcyon-systems.ch
+DTSTART;TZID=Europe/Zurich:20251008T120000
+DTEND;TZID=Europe/Zurich:20251008T123000
+SUMMARY:All-hands
+ORGANIZER;CN=kurt.steiner:mailto:kurt.steiner@halcyon-systems.ch
+END:VEVENT
+BEGIN:VEVENT
+UID:iris.ammann-20251008-67@halcyon-systems.ch
+DTSTART;TZID=Europe/Zurich:20251008T120000
+DTEND;TZID=Europe/Zurich:20251008T123000
+SUMMARY:Eval review
+ORGANIZER;CN=tobias.krall:mailto:tobias.krall@halcyon-systems.ch
+END:VEVENT
+BEGIN:VEVENT
+UID:iris.ammann-20251009-68@halcyon-systems.ch
+DTSTART;TZID=Europe/Zurich:20251009T081500
+DTEND;TZID=Europe/Zurich:20251009T090000
+SUMMARY:Security review
+ORGANIZER;CN=nils.aberg:mailto:nils.aberg@halcyon-systems.ch
+END:VEVENT
+BEGIN:VEVENT
+UID:iris.ammann-20251009-69@halcyon-systems.ch
+DTSTART;TZID=Europe/Zurich:20251009T093000
+DTEND;TZID=Europe/Zurich:20251009T101500
+SUMMARY:Board prep
+ORGANIZER;CN=renata.vogel:mailto:renata.vogel@halcyon-systems.ch
+END:VEVENT
+BEGIN:VEVENT
+UID:iris.ammann-20251009-70@halcyon-systems.ch
+DTSTART;TZID=Europe/Zurich:20251009T143000
+DTEND;TZID=Europe/Zurich:20251009T153000
+SUMMARY:Vendor call
+ORGANIZER;CN=cormac.deel:mailto:cormac.deel@halcyon-systems.ch
+END:VEVENT
+BEGIN:VEVENT
+UID:iris.ammann-20251009-71@halcyon-systems.ch
+DTSTART;TZID=Europe/Zurich:20251009T180500
+DTEND;TZID=Europe/Zurich:20251009T193500
+SUMMARY:Flight ZRH→LIS
+ORGANIZER;CN=iris.ammann:mailto:iris.ammann@halcyon-systems.ch
+DESCRIPTION:Out of office Thu 9 – Mon 13 Oct. Family wedding\, Lisbon.
+END:VEVENT
+BEGIN:VEVENT
+UID:iris.ammann-20251010-72@halcyon-systems.ch
+DTSTART;TZID=Europe/Zurich:20251010T190000
+DTEND;TZID=Europe/Zurich:20251010T200000
+SUMMARY:Rehearsal dinner
+ORGANIZER;CN=iris.ammann:mailto:iris.ammann@halcyon-systems.ch
+DESCRIPTION:Private.
+END:VEVENT
+BEGIN:VEVENT
+UID:iris.ammann-20251014-73@halcyon-systems.ch
+DTSTART;TZID=Europe/Zurich:20251014T103000
+DTEND;TZID=Europe/Zurich:20251014T120000
+SUMMARY:All-hands
+ORGANIZER;CN=kemi.adeyemi:mailto:kemi.adeyemi@halcyon-systems.ch
+END:VEVENT
+BEGIN:VEVENT
+UID:iris.ammann-20251014-74@halcyon-systems.ch
+DTSTART;TZID=Europe/Zurich:20251014T104500
+DTEND;TZID=Europe/Zurich:20251014T114500
+SUMMARY:Corpus working group
+ORGANIZER;CN=dessie.moran:mailto:dessie.moran@halcyon-systems.ch
+END:VEVENT
+BEGIN:VEVENT
+UID:iris.ammann-20251015-75@halcyon-systems.ch
+DTSTART;TZID=Europe/Zurich:20251015T100000
+DTEND;TZID=Europe/Zurich:20251015T104500
+SUMMARY:Incident review
+ORGANIZER;CN=renata.vogel:mailto:renata.vogel@halcyon-systems.ch
+END:VEVENT
+BEGIN:VEVENT
+UID:iris.ammann-20251015-76@halcyon-systems.ch
+DTSTART;TZID=Europe/Zurich:20251015T100000
+DTEND;TZID=Europe/Zurich:20251015T104500
+SUMMARY:Offsite planning
+ORGANIZER;CN=yannick.favre:mailto:yannick.favre@halcyon-systems.ch
+END:VEVENT
+BEGIN:VEVENT
+UID:iris.ammann-20251015-77@halcyon-systems.ch
+DTSTART;TZID=Europe/Zurich:20251015T111500
+DTEND;TZID=Europe/Zurich:20251015T114500
+SUMMARY:Roadmap
+ORGANIZER;CN=lukas.hofer:mailto:lukas.hofer@halcyon-systems.ch
+END:VEVENT
+BEGIN:VEVENT
+UID:iris.ammann-20251016-78@halcyon-systems.ch
+DTSTART;TZID=Europe/Zurich:20251016T144500
+DTEND;TZID=Europe/Zurich:20251016T153000
+SUMMARY:Weekly staff
+ORGANIZER;CN=kurt.steiner:mailto:kurt.steiner@halcyon-systems.ch
+END:VEVENT
+BEGIN:VEVENT
+UID:iris.ammann-20251017-79@halcyon-systems.ch
+DTSTART;TZID=Europe/Zurich:20251017T080000
+DTEND;TZID=Europe/Zurich:20251017T090000
+SUMMARY:Budget
+ORGANIZER;CN=halina.brzezinska:mailto:halina.brzezinska@halcyon-systems.ch
+END:VEVENT
+BEGIN:VEVENT
+UID:iris.ammann-20251017-80@halcyon-systems.ch
+DTSTART;TZID=Europe/Zurich:20251017T094500
+DTEND;TZID=Europe/Zurich:20251017T101500
+SUMMARY:Design crit
+ORGANIZER;CN=tobias.krall:mailto:tobias.krall@halcyon-systems.ch
+END:VEVENT
+BEGIN:VEVENT
+UID:iris.ammann-20251020-81@halcyon-systems.ch
+DTSTART;TZID=Europe/Zurich:20251020T091500
+DTEND;TZID=Europe/Zurich:20251020T101500
+SUMMARY:Architecture sync
+ORGANIZER;CN=kemi.adeyemi:mailto:kemi.adeyemi@halcyon-systems.ch
+END:VEVENT
+BEGIN:VEVENT
+UID:iris.ammann-20251021-82@halcyon-systems.ch
+DTSTART;TZID=Europe/Zurich:20251021T140000
+DTEND;TZID=Europe/Zurich:20251021T144500
+SUMMARY:Vendor call
+ORGANIZER;CN=lukas.hofer:mailto:lukas.hofer@halcyon-systems.ch
+END:VEVENT
+BEGIN:VEVENT
+UID:iris.ammann-20251021-83@halcyon-systems.ch
+DTSTART;TZID=Europe/Zurich:20251021T144500
+DTEND;TZID=Europe/Zurich:20251021T153000
+SUMMARY:Security review
+ORGANIZER;CN=kurt.steiner:mailto:kurt.steiner@halcyon-systems.ch
+END:VEVENT
+BEGIN:VEVENT
+UID:iris.ammann-20251022-84@halcyon-systems.ch
+DTSTART;TZID=Europe/Zurich:20251022T100000
+DTEND;TZID=Europe/Zurich:20251022T110000
+SUMMARY:Corpus working group
+ORGANIZER;CN=cormac.deel:mailto:cormac.deel@halcyon-systems.ch
+END:VEVENT
+BEGIN:VEVENT
+UID:iris.ammann-20251022-85@halcyon-systems.ch
+DTSTART;TZID=Europe/Zurich:20251022T130000
+DTEND;TZID=Europe/Zurich:20251022T134500
+SUMMARY:Budget
+ORGANIZER;CN=rafferty.ng:mailto:rafferty.ng@halcyon-systems.ch
+END:VEVENT
+BEGIN:VEVENT
+UID:iris.ammann-20251023-86@halcyon-systems.ch
+DTSTART;TZID=Europe/Zurich:20251023T110000
+DTEND;TZID=Europe/Zurich:20251023T113000
+SUMMARY:Budget
+ORGANIZER;CN=marcus.abiodun:mailto:marcus.abiodun@halcyon-systems.ch
+END:VEVENT
+BEGIN:VEVENT
+UID:iris.ammann-20251023-87@halcyon-systems.ch
+DTSTART;TZID=Europe/Zurich:20251023T111500
+DTEND;TZID=Europe/Zurich:20251023T120000
+SUMMARY:Design crit
+ORGANIZER;CN=iris.ammann:mailto:iris.ammann@halcyon-systems.ch
+END:VEVENT
+BEGIN:VEVENT
+UID:iris.ammann-20251027-88@halcyon-systems.ch
+DTSTART;TZID=Europe/Zurich:20251027T110000
+DTEND;TZID=Europe/Zurich:20251027T114500
+SUMMARY:Board prep
+ORGANIZER;CN=kurt.steiner:mailto:kurt.steiner@halcyon-systems.ch
+END:VEVENT
+BEGIN:VEVENT
+UID:iris.ammann-20251027-89@halcyon-systems.ch
+DTSTART;TZID=Europe/Zurich:20251027T121500
+DTEND;TZID=Europe/Zurich:20251027T124500
+SUMMARY:Recruiting debrief
+ORGANIZER;CN=iris.ammann:mailto:iris.ammann@halcyon-systems.ch
+END:VEVENT
+BEGIN:VEVENT
+UID:iris.ammann-20251030-90@halcyon-systems.ch
+DTSTART;TZID=Europe/Zurich:20251030T174500
+DTEND;TZID=Europe/Zurich:20251030T184500
+SUMMARY:Design crit
+ORGANIZER;CN=priya.raghunathan:mailto:priya.raghunathan@halcyon-systems.ch
+END:VEVENT
+BEGIN:VEVENT
+UID:iris.ammann-20251030-91@halcyon-systems.ch
+DTSTART;TZID=Europe/Zurich:20251030T174500
+DTEND;TZID=Europe/Zurich:20251030T181500
+SUMMARY:Recruiting debrief
+ORGANIZER;CN=bruno.sacchi:mailto:bruno.sacchi@halcyon-systems.ch
+END:VEVENT
+BEGIN:VEVENT
+UID:iris.ammann-20251031-92@halcyon-systems.ch
+DTSTART;TZID=Europe/Zurich:20251031T150000
+DTEND;TZID=Europe/Zurich:20251031T163000
+SUMMARY:Offsite planning
+ORGANIZER;CN=marcus.abiodun:mailto:marcus.abiodun@halcyon-systems.ch
+END:VEVENT
+BEGIN:VEVENT
+UID:iris.ammann-20251031-93@halcyon-systems.ch
+DTSTART;TZID=Europe/Zurich:20251031T160000
+DTEND;TZID=Europe/Zurich:20251031T170000
+SUMMARY:All-hands
+ORGANIZER;CN=iris.ammann:mailto:iris.ammann@halcyon-systems.ch
+END:VEVENT
+BEGIN:VEVENT
+UID:iris.ammann-20251105-94@halcyon-systems.ch
+DTSTART;TZID=Europe/Zurich:20251105T100000
+DTEND;TZID=Europe/Zurich:20251105T103000
+SUMMARY:Roadmap
+ORGANIZER;CN=cormac.deel:mailto:cormac.deel@halcyon-systems.ch
+END:VEVENT
+BEGIN:VEVENT
+UID:iris.ammann-20251105-95@halcyon-systems.ch
+DTSTART;TZID=Europe/Zurich:20251105T114500
+DTEND;TZID=Europe/Zurich:20251105T131500
+SUMMARY:Incident review
+ORGANIZER;CN=chiara.bernasconi:mailto:chiara.bernasconi@halcyon-systems.ch
+END:VEVENT
+BEGIN:VEVENT
+UID:iris.ammann-20251105-96@halcyon-systems.ch
+DTSTART;TZID=Europe/Zurich:20251105T141500
+DTEND;TZID=Europe/Zurich:20251105T154500
+SUMMARY:Vendor call
+ORGANIZER;CN=halina.brzezinska:mailto:halina.brzezinska@halcyon-systems.ch
+END:VEVENT
+BEGIN:VEVENT
+UID:iris.ammann-20251105-97@halcyon-systems.ch
+DTSTART;TZID=Europe/Zurich:20251105T174500
+DTEND;TZID=Europe/Zurich:20251105T181500
+SUMMARY:Roadmap
+ORGANIZER;CN=kemi.adeyemi:mailto:kemi.adeyemi@halcyon-systems.ch
+END:VEVENT
+BEGIN:VEVENT
+UID:iris.ammann-20251106-98@halcyon-systems.ch
+DTSTART;TZID=Europe/Zurich:20251106T091500
+DTEND;TZID=Europe/Zurich:20251106T094500
+SUMMARY:Vendor call
+ORGANIZER;CN=marcus.abiodun:mailto:marcus.abiodun@halcyon-systems.ch
+END:VEVENT
+BEGIN:VEVENT
+UID:iris.ammann-20251106-99@halcyon-systems.ch
+DTSTART;TZID=Europe/Zurich:20251106T161500
+DTEND;TZID=Europe/Zurich:20251106T171500
+SUMMARY:Incident review
+ORGANIZER;CN=chiara.bernasconi:mailto:chiara.bernasconi@halcyon-systems.ch
+END:VEVENT
+BEGIN:VEVENT
+UID:iris.ammann-20251110-100@halcyon-systems.ch
+DTSTART;TZID=Europe/Zurich:20251110T113000
+DTEND;TZID=Europe/Zurich:20251110T130000
+SUMMARY:Roadmap
+ORGANIZER;CN=solveig.haugen:mailto:solveig.haugen@halcyon-systems.ch
+END:VEVENT
+BEGIN:VEVENT
+UID:iris.ammann-20251110-101@halcyon-systems.ch
+DTSTART;TZID=Europe/Zurich:20251110T131500
+DTEND;TZID=Europe/Zurich:20251110T134500
+SUMMARY:Roadmap
+ORGANIZER;CN=tobias.krall:mailto:tobias.krall@halcyon-systems.ch
+END:VEVENT
+BEGIN:VEVENT
+UID:iris.ammann-20251111-102@halcyon-systems.ch
+DTSTART;TZID=Europe/Zurich:20251111T100000
+DTEND;TZID=Europe/Zurich:20251111T103000
+SUMMARY:Security review
+ORGANIZER;CN=dessie.moran:mailto:dessie.moran@halcyon-systems.ch
+END:VEVENT
+BEGIN:VEVENT
+UID:iris.ammann-20251112-103@halcyon-systems.ch
+DTSTART;TZID=Europe/Zurich:20251112T081500
+DTEND;TZID=Europe/Zurich:20251112T090000
+SUMMARY:Corpus working group
+ORGANIZER;CN=renata.vogel:mailto:renata.vogel@halcyon-systems.ch
+END:VEVENT
+BEGIN:VEVENT
+UID:iris.ammann-20251112-104@halcyon-systems.ch
+DTSTART;TZID=Europe/Zurich:20251112T173000
+DTEND;TZID=Europe/Zurich:20251112T180000
+SUMMARY:Design crit
+ORGANIZER;CN=tobias.krall:mailto:tobias.krall@halcyon-systems.ch
+END:VEVENT
+BEGIN:VEVENT
+UID:iris.ammann-20251114-105@halcyon-systems.ch
+DTSTART;TZID=Europe/Zurich:20251114T174500
+DTEND;TZID=Europe/Zurich:20251114T191500
+SUMMARY:Budget
+ORGANIZER;CN=andrin.caduff:mailto:andrin.caduff@halcyon-systems.ch
+END:VEVENT
+BEGIN:VEVENT
+UID:iris.ammann-20251117-106@halcyon-systems.ch
+DTSTART;TZID=Europe/Zurich:20251117T101500
+DTEND;TZID=Europe/Zurich:20251117T104500
+SUMMARY:Architecture sync
+ORGANIZER;CN=yuki.tanabe:mailto:yuki.tanabe@halcyon-systems.ch
+END:VEVENT
+BEGIN:VEVENT
+UID:iris.ammann-20251118-107@halcyon-systems.ch
+DTSTART;TZID=Europe/Zurich:20251118T124500
+DTEND;TZID=Europe/Zurich:20251118T131500
+SUMMARY:Roadmap
+ORGANIZER;CN=solveig.haugen:mailto:solveig.haugen@halcyon-systems.ch
+END:VEVENT
+BEGIN:VEVENT
+UID:iris.ammann-20251118-108@halcyon-systems.ch
+DTSTART;TZID=Europe/Zurich:20251118T134500
+DTEND;TZID=Europe/Zurich:20251118T144500
+SUMMARY:1:1
+ORGANIZER;CN=dov.halperin:mailto:dov.halperin@halcyon-systems.ch
+END:VEVENT
+BEGIN:VEVENT
+UID:iris.ammann-20251118-109@halcyon-systems.ch
+DTSTART;TZID=Europe/Zurich:20251118T144500
+DTEND;TZID=Europe/Zurich:20251118T154500
+SUMMARY:Design crit
+ORGANIZER;CN=yuki.tanabe:mailto:yuki.tanabe@halcyon-systems.ch
+END:VEVENT
+BEGIN:VEVENT
+UID:iris.ammann-20251118-110@halcyon-systems.ch
+DTSTART;TZID=Europe/Zurich:20251118T164500
+DTEND;TZID=Europe/Zurich:20251118T171500
+SUMMARY:Budget
+ORGANIZER;CN=dov.halperin:mailto:dov.halperin@halcyon-systems.ch
+END:VEVENT
+BEGIN:VEVENT
+UID:iris.ammann-20251119-111@halcyon-systems.ch
+DTSTART;TZID=Europe/Zurich:20251119T113000
+DTEND;TZID=Europe/Zurich:20251119T120000
+SUMMARY:1:1
+ORGANIZER;CN=anneke.vos:mailto:anneke.vos@halcyon-systems.ch
+END:VEVENT
+BEGIN:VEVENT
+UID:iris.ammann-20251119-112@halcyon-systems.ch
+DTSTART;TZID=Europe/Zurich:20251119T170000
+DTEND;TZID=Europe/Zurich:20251119T180000
+SUMMARY:Offsite planning
+ORGANIZER;CN=andrin.caduff:mailto:andrin.caduff@halcyon-systems.ch
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,56 @@
+[
+ {
+  "type": "message",
+  "user": "U0716Q",
+  "text": "quick one: can we talk about why the storage docs describe an architecture we stopped using in 2023 cc Bruno",
+  "ts": "1758527520.804831"
+ },
+ {
+  "type": "message",
+  "user": "U0710K",
+  "text": "ok so does anyone actually know what the legacy staging path is still used for lol",
+  "ts": "1758529860.122280"
+ },
+ {
+  "type": "message",
+  "user": "U0716Q",
+  "text": "fyi eval run 22 finished, nothing interesting, rerunning with the new sampler",
+  "ts": "1758533160.428998"
+ },
+ {
+  "type": "message",
+  "user": "U0723X",
+  "text": "rolling back the config change, latencies went sideways cc Kemi",
+  "ts": "1758536820.391840"
+ },
+ {
+  "type": "message",
+  "user": "U0707H",
+  "text": "quick one: i have found the memory leak. it was me. it was me 29 weeks ago",
+  "ts": "1758551460.135631"
+ },
+ {
+  "type": "message",
+  "user": "U0702C",
+  "text": "fyi scratch array at 72%, nobody panic, i am just saying it out loud sorry",
+  "ts": "1758552120.610236"
+ },
+ {
+  "type": "message",
+  "user": "U0704E",
+  "text": "psa: deploy to staging is green, promoting at 11:00 unless someone objects lol",
+  "ts": "1758552720.129418"
+ },
+ {
+  "type": "message",
+  "user": "U0704E",
+  "text": "psa: gpu queue is jammed, 43 jobs pending under a service account",
+  "ts": "1758565260.539685"
+ },
+ {
+  "type": "message",
+  "user": "U0703D",
+  "text": "not to be dramatic but the migration runbook is in INFRA-2291, please actually read it",
+  "ts": "1758568980.456318"
+ }
+]

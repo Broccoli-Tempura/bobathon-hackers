@@ -1,0 +1,74 @@
+[
+ {
+  "type": "message",
+  "user": "U0705F",
+  "text": "update: does anyone actually know what the legacy staging path is still used for",
+  "ts": "1759560660.807588"
+ },
+ {
+  "type": "message",
+  "user": "U0713N",
+  "text": "gpu queue is jammed, someone has 40 jobs pending under a service account",
+  "ts": "1759561740.828793"
+ },
+ {
+  "type": "message",
+  "user": "U0721V",
+  "text": "training loss went flat at step 3k, either very good or very bad (again)",
+  "ts": "1759562160.904417"
+ },
+ {
+  "type": "message",
+  "user": "U0701B",
+  "text": "update: bumping retention on the eval bucket to 7 days, shout if that breaks anything",
+  "ts": "1759570980.928588"
+ },
+ {
+  "type": "message",
+  "user": "U0705F",
+  "text": "honestly i have found the memory leak. it was me. it was me 27 weeks ago thanks all",
+  "ts": "1759581720.235238"
+ },
+ {
+  "type": "message",
+  "user": "U0705F",
+  "text": "honestly snapshot cleanup on scratch-01 freed 9TB, should hold until the migration send help",
+  "ts": "1759583160.362446"
+ },
+ {
+  "type": "message",
+  "user": "U0702C",
+  "text": "for the record, deploy to staging is green, promoting at 8:00 unless someone objects send help",
+  "ts": "1759587000.380798"
+ },
+ {
+  "type": "message",
+  "user": "U0716Q",
+  "text": "not to be dramatic but eval run 2626 finished, nothing interesting, rerunning with the new sampler lol",
+  "ts": "1759589100.417119"
+ },
+ {
+  "type": "message",
+  "user": "U0707H",
+  "text": "update: i have found the memory leak. it was me. it was me four months ago",
+  "ts": "1759590960.492895"
+ },
+ {
+  "type": "message",
+  "user": "U0720U",
+  "text": "copy job for the eval shards failed at 65%, restarting from the beginning because resume is broken sorry",
+  "ts": "1759591800.678638"
+ },
+ {
+  "type": "message",
+  "user": "U0704E",
+  "text": "reminder: deploy to staging is green, promoting at 7:00 unless someone objects cc Yuki",
+  "ts": "1759595580.357035"
+ },
+ {
+  "type": "message",
+  "user": "U0721V",
+  "text": "fyi training loss went flat at step 7k, either very good or very bad will update",
+  "ts": "1759600080.836208"
+ }
+]

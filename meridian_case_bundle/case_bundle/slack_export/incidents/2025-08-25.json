@@ -1,0 +1,38 @@
+[
+ {
+  "type": "message",
+  "user": "U0701B",
+  "text": "customer impact limited to the public sandbox, no production exposure (again)",
+  "ts": "1756133400.903063"
+ },
+ {
+  "type": "message",
+  "user": "U0721V",
+  "text": "not to be dramatic but INC-03535 mitigated, writing it up, the writeup will be embarrassing",
+  "ts": "1756137000.992499"
+ },
+ {
+  "type": "message",
+  "user": "U0703D",
+  "text": "update: customer impact limited to the public sandbox, no production exposure sorry",
+  "ts": "1756139820.120843"
+ },
+ {
+  "type": "message",
+  "user": "U0714O",
+  "text": "honestly root cause for INC-02020: a cert expired that nobody knew existed send help",
+  "ts": "1756143600.763757"
+ },
+ {
+  "type": "message",
+  "user": "U0721V",
+  "text": "honestly INC-066 mitigated, writing it up, the writeup will be embarrassing more later",
+  "ts": "1756144680.836454"
+ },
+ {
+  "type": "message",
+  "user": "U0705F",
+  "text": "update: INC-01818 mitigated, writing it up, the writeup will be embarrassing thanks all",
+  "ts": "1756144800.930219"
+ }
+]

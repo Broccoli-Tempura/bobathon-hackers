@@ -1,0 +1,44 @@
+[
+ {
+  "type": "message",
+  "user": "U0711L",
+  "text": "quick one: PR up for INFRA-2224, it is enormous and i am sorry see INFRA-2224",
+  "ts": "1760339760.902421"
+ },
+ {
+  "type": "message",
+  "user": "U0719T",
+  "text": "ok so moving the on-call handoff to mondays because fridays were chaos see DATA-1946",
+  "ts": "1760341200.316973"
+ },
+ {
+  "type": "message",
+  "user": "U0711L",
+  "text": "rolling back the config change from tuesday, latencies went sideways",
+  "ts": "1760347560.457129"
+ },
+ {
+  "type": "message",
+  "user": "U0721V",
+  "text": "ok so i have found the memory leak. it was me. it was me 16 weeks ago :)",
+  "ts": "1760356020.384395"
+ },
+ {
+  "type": "message",
+  "user": "U0719T",
+  "text": "the storage docs describe the 2023 architecture, ML-2319 tracks fixing it thanks all",
+  "ts": "1760375580.614662"
+ },
+ {
+  "type": "message",
+  "user": "U0714O",
+  "text": "training loss went flat at step 2k, either very good or very bad",
+  "ts": "1760377740.132821"
+ },
+ {
+  "type": "message",
+  "user": "U0720U",
+  "text": "deploy to staging is green, promoting at 22:00 unless someone objects lol",
+  "ts": "1760379900.897755"
+ }
+]

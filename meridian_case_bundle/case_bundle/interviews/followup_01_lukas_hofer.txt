@@ -1,0 +1,18 @@
+HALCYON SYSTEMS · INVESTIGATION RECORD · FOLLOW-UP 01
+Interviewee: Lukas Hofer, VP Engineering
+Interviewer: Nadia Arslan (NA)
+Date: Monday 24.11.2025 · Phone call · Recording start 16:40 · end 16:52
+Recording: phone, automatic transcription (TranscribeDesk 3.2). Not proofread.
+----------------------------------------------------------------------
+
+[00:00:02] NA: One question. Andrin says you approved him going back through the historical checkpoints for a paper.
+[00:00:08] SPEAKER 2: Yes. Early October. We had coffee, I told him about the research line, and he asked if he could reconstruct the evaluation numbers for a method-only paper. I said yes, no weights, no data, no architecture beyond the method.
+[00:00:21] NA: Did you put that in writing?
+[00:00:23] SPEAKER 2: [pause] No. I said I would and I didn't. That's on me. He asked me for cover and I forgot to give him any. If he's been sitting on that for eight weeks thinking it's the thing that hangs him, that's my fault. It'll be in my one-to-one notes. And he sent me a thank-you message the next morning, I reacted to it and then forgot about it entirely.
+[00:00:44] NA: Did he tell you he'd run an evaluation sweep on the Friday night of the long weekend?
+[00:00:48] SPEAKER 2: Not specifically. He ran them all the time in October. They're read-only, they compute numbers. They don't write anywhere near the scratch arrays.
+[00:00:57] NA: Could a sweep be used to copy checkpoints out?
+[00:01:00] SPEAKER 2: Not without changing the code, and even then you'd be pulling terabytes over the VPN, which we'd see in the network bill the following month. We didn't. I checked, after the paper came out.
+[00:01:11] NA: Thank you.
+[00:01:12] SPEAKER 2: Is he in trouble?
+[00:01:14] NA: I'm still looking at everything.

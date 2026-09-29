@@ -1,0 +1,26 @@
+[
+ {
+  "type": "message",
+  "user": "U0703D",
+  "text": "Bruno is on call this week, Solveig is backup",
+  "ts": "1754901480.399983"
+ },
+ {
+  "type": "message",
+  "user": "U0702C",
+  "text": "quick one: false alarm, the monitoring agent itself fell over",
+  "ts": "1754933700.648936"
+ },
+ {
+  "type": "message",
+  "user": "U0720U",
+  "text": "ok so paging on-call, p99 latency above threshold for 38 minutes :)",
+  "ts": "1754938680.568900"
+ },
+ {
+  "type": "message",
+  "user": "U0714O",
+  "text": "reminder: false alarm, the monitoring agent itself fell over thanks all",
+  "ts": "1754941680.360375"
+ }
+]

@@ -1,0 +1,56 @@
+[
+ {
+  "type": "message",
+  "user": "U0701B",
+  "text": "update: customer impact limited to the public sandbox, no production exposure :)",
+  "ts": "1762761540.850398"
+ },
+ {
+  "type": "message",
+  "user": "U0702C",
+  "text": "for the record, paging on-call, p99 latency above threshold for 30 minutes (again)",
+  "ts": "1762769340.983800"
+ },
+ {
+  "type": "message",
+  "user": "U0713N",
+  "text": "sandbox inference cluster is returning 503s, investigating sorry",
+  "ts": "1762770180.437872"
+ },
+ {
+  "type": "message",
+  "user": "U0710K",
+  "text": "honestly confirmed, node pool scaled to zero overnight, autoscaler config regression :)",
+  "ts": "1762776720.711767"
+ },
+ {
+  "type": "message",
+  "user": "U0705F",
+  "text": "Kurt is on call this week, Halina is backup see PLAT-1999",
+  "ts": "1762789380.606332"
+ },
+ {
+  "type": "message",
+  "user": "U0711L",
+  "text": "false alarm, the monitoring agent itself fell over thanks all",
+  "ts": "1762789860.665010"
+ },
+ {
+  "type": "message",
+  "user": "U0711L",
+  "text": "again: root cause for INC-01414: a cert expired that nobody knew existed sorry",
+  "ts": "1762792740.210853"
+ },
+ {
+  "type": "message",
+  "user": "U0701B",
+  "text": "again: disk usage alert on scratch-01 at 64%, acknowledged, not urgent send help",
+  "ts": "1762794240.627003"
+ },
+ {
+  "type": "message",
+  "user": "U0722W",
+  "text": "again: disk usage alert on scratch-01 at 82%, acknowledged, not urgent",
+  "ts": "1762805580.504655"
+ }
+]

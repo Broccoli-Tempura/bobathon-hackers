@@ -1,0 +1,110 @@
+[
+ {
+  "type": "message",
+  "user": "U0721V",
+  "text": "ok so i have turned it off and on again and it worked and i am furious cc Kurt",
+  "ts": "1758955560.246402"
+ },
+ {
+  "type": "message",
+  "user": "U0714O",
+  "text": "psa: cluster is back. it was DNS. it is always DNS (again)",
+  "ts": "1758955680.504942"
+ },
+ {
+  "type": "message",
+  "user": "U0722W",
+  "text": "honestly i have found the memory leak. it was me. it was me 12 weeks ago sorry",
+  "ts": "1758962340.999155"
+ },
+ {
+  "type": "message",
+  "user": "U0723X",
+  "text": "PR up for ML-2163, it is enormous and i am sorry cc Renata",
+  "ts": "1758965880.916053"
+ },
+ {
+  "type": "message",
+  "user": "U0718S",
+  "text": "for the record, the migration runbook is in the ticket, please actually read the runbook thanks all",
+  "ts": "1758975960.715450"
+ },
+ {
+  "type": "message",
+  "user": "U0723X",
+  "text": "who owns the nightly backfill cron, it has been failing silently for six days see ML-2257",
+  "ts": "1758977160.214915"
+ },
+ {
+  "type": "message",
+  "user": "U0720U",
+  "text": "small thing: who owns the nightly backfill cron, it has been failing for 44 days more later",
+  "ts": "1758979800.787622"
+ },
+ {
+  "type": "message",
+  "user": "U0723X",
+  "text": "quick one: training loss went flat at step 3k, either very good or very bad",
+  "ts": "1758982380.985203"
+ },
+ {
+  "type": "message",
+  "user": "U0703D",
+  "text": "small thing: the storage docs describe the 2023 architecture, PLAT-2529 tracks fixing it thanks all",
+  "ts": "1758982680.641195"
+ },
+ {
+  "type": "message",
+  "user": "U0719T",
+  "text": "the storage docs describe the 2023 architecture, ML-2496 tracks fixing it",
+  "ts": "1758986460.705187"
+ },
+ {
+  "type": "message",
+  "user": "U0710K",
+  "text": "who owns the nightly backfill cron, it has been failing silently for six days will update",
+  "ts": "1758986760.436830"
+ },
+ {
+  "type": "message",
+  "user": "U0701B",
+  "text": "quick one: moving the on-call handoff to mondays because fridays were chaos :)",
+  "ts": "1758987300.449375"
+ },
+ {
+  "type": "message",
+  "user": "U0710K",
+  "text": "small thing: the migration runbook is in INFRA-2291, please actually read it sorry",
+  "ts": "1758989760.781940"
+ },
+ {
+  "type": "message",
+  "user": "U0707H",
+  "text": "small thing: who owns the nightly backfill cron, it has been failing silently for six days will update",
+  "ts": "1758991860.969225"
+ },
+ {
+  "type": "message",
+  "user": "U0704E",
+  "text": "fyi gpu queue is jammed, someone has 40 jobs pending under a service account cc Renata",
+  "ts": "1758992160.144657"
+ },
+ {
+  "type": "message",
+  "user": "U0721V",
+  "text": "psa: who owns the nightly backfill cron, it has been failing for 43 days",
+  "ts": "1758992220.336247"
+ },
+ {
+  "type": "message",
+  "user": "U0712M",
+  "text": "fyi the rsync to cold storage is crawling again, 40 hours in and at 70% (again)",
+  "ts": "1758993780.648319"
+ },
+ {
+  "type": "message",
+  "user": "U0707H",
+  "text": "quick one: PR up for PLAT-2491, it is enormous and i am sorry will update",
+  "ts": "1758995580.208759"
+ }
+]

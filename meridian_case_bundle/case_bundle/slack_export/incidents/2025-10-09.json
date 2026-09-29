@@ -1,0 +1,26 @@
+[
+ {
+  "type": "message",
+  "user": "U0707H",
+  "text": "update: false alarm, the monitoring agent itself fell over cc Kemi",
+  "ts": "1759990200.604746"
+ },
+ {
+  "type": "message",
+  "user": "U0723X",
+  "text": "ok so postmortem for INC-02828 is up, blameless, add anything i missed cc Priya",
+  "ts": "1760000640.129284"
+ },
+ {
+  "type": "message",
+  "user": "U0720U",
+  "text": "honestly customer impact limited to the public sandbox, no production exposure",
+  "ts": "1760017860.820105"
+ },
+ {
+  "type": "message",
+  "user": "U0702C",
+  "text": "quick one: postmortem doc is up, blameless, please add anything i missed see INFRA-2103",
+  "ts": "1760022840.700582"
+ }
+]

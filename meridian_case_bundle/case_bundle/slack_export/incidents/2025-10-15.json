@@ -1,0 +1,26 @@
+[
+ {
+  "type": "message",
+  "user": "U0720U",
+  "text": "quick one: INC-03030: sandbox inference returning 503s, investigating cc Yuki",
+  "ts": "1760513940.389096"
+ },
+ {
+  "type": "message",
+  "user": "U0704E",
+  "text": "ok so we have a gap in the on-call rotation over the long weekend, i am fixing it now sorry",
+  "ts": "1760522400.510512"
+ },
+ {
+  "type": "message",
+  "user": "U0716Q",
+  "text": "reminder: INC-04747: sandbox inference returning 503s, investigating sorry",
+  "ts": "1760541300.120943"
+ },
+ {
+  "type": "message",
+  "user": "U0722W",
+  "text": "psa: false alarm, the monitoring agent itself fell over (again)",
+  "ts": "1760554260.363032"
+ }
+]

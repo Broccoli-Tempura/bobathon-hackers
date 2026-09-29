@@ -1,0 +1,26 @@
+[
+ {
+  "type": "message",
+  "user": "U0703D",
+  "text": "sandbox inference cluster is returning 503s, investigating sorry",
+  "ts": "1761730920.175251"
+ },
+ {
+  "type": "message",
+  "user": "U0701B",
+  "text": "fyi customer impact limited to the public sandbox, no production exposure send help",
+  "ts": "1761731040.392022"
+ },
+ {
+  "type": "message",
+  "user": "U0721V",
+  "text": "customer impact limited to the public sandbox, no production exposure",
+  "ts": "1761736320.315808"
+ },
+ {
+  "type": "message",
+  "user": "U0703D",
+  "text": "paging on-call, p99 latency above threshold for 20 minutes",
+  "ts": "1761740280.550224"
+ }
+]

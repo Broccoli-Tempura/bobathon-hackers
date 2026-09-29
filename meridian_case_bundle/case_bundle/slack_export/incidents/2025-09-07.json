@@ -1,0 +1,26 @@
+[
+ {
+  "type": "message",
+  "user": "U0723X",
+  "text": "INC-04747: sandbox inference returning 503s, investigating",
+  "ts": "1757236500.544450"
+ },
+ {
+  "type": "message",
+  "user": "U0710K",
+  "text": "postmortem for INC-02323 is up, blameless, add anything i missed see INFRA-2410",
+  "ts": "1757243040.257935"
+ },
+ {
+  "type": "message",
+  "user": "U0722W",
+  "text": "root cause for INC-03939: a cert expired that nobody knew existed cc Tobias",
+  "ts": "1757255520.330617"
+ },
+ {
+  "type": "message",
+  "user": "U0701B",
+  "text": "quick one: Lukas is on call this week, Cormac is backup cc Lukas",
+  "ts": "1757261940.781057"
+ }
+]

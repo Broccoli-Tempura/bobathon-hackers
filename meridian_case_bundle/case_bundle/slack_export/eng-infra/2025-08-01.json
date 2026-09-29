@@ -1,0 +1,98 @@
+[
+ {
+  "type": "message",
+  "user": "U0718S",
+  "text": "psa: moving on-call handoff to fridays, fridays were chaos see INFRA-2270",
+  "ts": "1754030160.813914"
+ },
+ {
+  "type": "message",
+  "user": "U0720U",
+  "text": "for the record, eval run 4417 finished, nothing interesting, will rerun with the new sampler :)",
+  "ts": "1754031060.524575"
+ },
+ {
+  "type": "message",
+  "user": "U0720U",
+  "text": "PR up for the tokenizer refactor, it is enormous and i am sorry will update",
+  "ts": "1754031060.856724"
+ },
+ {
+  "type": "message",
+  "user": "U0707H",
+  "text": "reminder: rolling back the config change from friday, latencies went sideways",
+  "ts": "1754031780.250141"
+ },
+ {
+  "type": "message",
+  "user": "U0710K",
+  "text": "update: flaky test test_interface_energy_roundtrip failed again on Tobias's branch",
+  "ts": "1754032380.354598"
+ },
+ {
+  "type": "message",
+  "user": "U0718S",
+  "text": "reminder we are frozen for deploys over the long weekend",
+  "ts": "1754033460.461901"
+ },
+ {
+  "type": "message",
+  "user": "U0712M",
+  "text": "update: the migration runbook is in the ticket, please actually read the runbook",
+  "ts": "1754038860.580655"
+ },
+ {
+  "type": "message",
+  "user": "U0720U",
+  "text": "does anyone actually know what the legacy staging path is still used for",
+  "ts": "1754040840.503641"
+ },
+ {
+  "type": "message",
+  "user": "U0718S",
+  "text": "update: adding a lint rule and preemptively apologising to everyone's diff see INFRA-2563",
+  "ts": "1754049180.946752"
+ },
+ {
+  "type": "message",
+  "user": "U0720U",
+  "text": "quick one: checkpoint sync is slow again, probably the decompress-on-write thing send help",
+  "ts": "1754056800.445957"
+ },
+ {
+  "type": "message",
+  "user": "U0714O",
+  "text": "not to be dramatic but Marcus can you review DATA-2312 before friday sorry",
+  "ts": "1754057340.200876"
+ },
+ {
+  "type": "message",
+  "user": "U0723X",
+  "text": "reminder: i have found the memory leak. it was me. it was me 6 weeks ago",
+  "ts": "1754064720.924585"
+ },
+ {
+  "type": "message",
+  "user": "U0702C",
+  "text": "update: i would like to formally propose we delete the old airflow instance lol",
+  "ts": "1754067300.686474"
+ },
+ {
+  "type": "message",
+  "user": "U0716Q",
+  "text": "eval run 4141 finished, nothing interesting, rerunning with the new sampler more later",
+  "ts": "1754072160.871136"
+ },
+ {
+  "type": "message",
+  "user": "U0721V",
+  "text": "again: portable array from the IT cage is back on the shelf, seals intact cc Kemi",
+  "ts": "1754073180.283950"
+ },
+ {
+  "type": "message",
+  "user": "U0716Q",
+  "text": "who owns the nightly backfill cron, it has been failing for 6 days lol",
+  "ts": "1754073360.834074"
+ }
+]

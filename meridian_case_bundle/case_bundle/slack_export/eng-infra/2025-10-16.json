@@ -1,0 +1,74 @@
+[
+ {
+  "type": "message",
+  "user": "U0704E",
+  "text": "free space graph on scratch-01 looks weird, it is Cormac's tarballs again",
+  "ts": "1760594400.357242"
+ },
+ {
+  "type": "message",
+  "user": "U0704E",
+  "text": "psa: eval run 3333 finished, nothing interesting, rerunning with the new sampler (again)",
+  "ts": "1760598360.118844"
+ },
+ {
+  "type": "message",
+  "user": "U0723X",
+  "text": "quick one: moving on-call handoff to tuesdays, fridays were chaos see DATA-2079",
+  "ts": "1760600220.799059"
+ },
+ {
+  "type": "message",
+  "user": "U0716Q",
+  "text": "ok so i have turned it off and on again and it worked and i am furious lol",
+  "ts": "1760600340.107218"
+ },
+ {
+  "type": "message",
+  "user": "U0711L",
+  "text": "honestly i have found the memory leak. it was me. it was me 9 weeks ago (again)",
+  "ts": "1760604060.816430"
+ },
+ {
+  "type": "message",
+  "user": "U0716Q",
+  "text": "not to be dramatic but checkpoint sync is slow again, probably the decompress-on-write thing see PLAT-2376",
+  "ts": "1760610360.932218"
+ },
+ {
+  "type": "message",
+  "user": "U0711L",
+  "text": "update: training loss went flat at step 40k which is either very good or very bad",
+  "ts": "1760624520.928251"
+ },
+ {
+  "type": "message",
+  "user": "U0711L",
+  "text": "psa: restarted the backfill from scratch, the partial output was garbage lol",
+  "ts": "1760626560.566231"
+ },
+ {
+  "type": "message",
+  "user": "U0701B",
+  "text": "small thing: PR up for INFRA-2450, it is enormous and i am sorry lol",
+  "ts": "1760626920.845686"
+ },
+ {
+  "type": "message",
+  "user": "U0705F",
+  "text": "does anyone actually know what the legacy staging path is still used for will update",
+  "ts": "1760628000.229064"
+ },
+ {
+  "type": "message",
+  "user": "U0723X",
+  "text": "psa: running a big copy tonight, expect the array to look weird in the graphs :)",
+  "ts": "1760629800.537341"
+ },
+ {
+  "type": "message",
+  "user": "U0716Q",
+  "text": "again: the migration runbook is in INFRA-2291, please actually read it",
+  "ts": "1760640600.671387"
+ }
+]

@@ -1,0 +1,26 @@
+[
+ {
+  "type": "message",
+  "user": "U0722W",
+  "text": "reminder: false alarm, monitoring agent itself was the thing that fell over cc Marcus",
+  "ts": "1755238860.257521"
+ },
+ {
+  "type": "message",
+  "user": "U0721V",
+  "text": "psa: paging on-call, p99 latency above threshold for 29 minutes lol",
+  "ts": "1755239220.332727"
+ },
+ {
+  "type": "message",
+  "user": "U0704E",
+  "text": "reminder: paging on-call, latency p99 above threshold for 12 minutes",
+  "ts": "1755245640.345213"
+ },
+ {
+  "type": "message",
+  "user": "U0722W",
+  "text": "quick one: INC-099: sandbox inference returning 503s, investigating will update",
+  "ts": "1755268740.369468"
+ }
+]

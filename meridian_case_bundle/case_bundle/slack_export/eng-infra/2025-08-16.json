@@ -1,0 +1,80 @@
+[
+ {
+  "type": "message",
+  "user": "U0721V",
+  "text": "ok so snapshot cleanup on scratch-01 freed 5TB, should hold until the migration sorry",
+  "ts": "1755325080.140778"
+ },
+ {
+  "type": "message",
+  "user": "U0720U",
+  "text": "bumping the retention on the eval bucket, shout if that breaks anything",
+  "ts": "1755327720.741682"
+ },
+ {
+  "type": "message",
+  "user": "U0707H",
+  "text": "ok so can we talk about why the storage docs describe an architecture we stopped using in 2023 more later",
+  "ts": "1755331020.380199"
+ },
+ {
+  "type": "message",
+  "user": "U0711L",
+  "text": "small thing: rolling back the config change from friday, latencies went sideways will update",
+  "ts": "1755339900.485127"
+ },
+ {
+  "type": "message",
+  "user": "U0719T",
+  "text": "for the record, deploy to staging is green, promoting at 15:00 unless someone objects cc Nils",
+  "ts": "1755340560.726063"
+ },
+ {
+  "type": "message",
+  "user": "U0704E",
+  "text": "small thing: who owns the nightly backfill cron, it has been failing for 30 days thanks all",
+  "ts": "1755341100.931718"
+ },
+ {
+  "type": "message",
+  "user": "U0723X",
+  "text": "honestly bumping retention on the eval bucket to 48 days, shout if that breaks anything",
+  "ts": "1755342840.423934"
+ },
+ {
+  "type": "message",
+  "user": "U0702C",
+  "text": "who owns the nightly backfill cron, it has been failing for 34 days",
+  "ts": "1755345600.662856"
+ },
+ {
+  "type": "message",
+  "user": "U0701B",
+  "text": "who owns the nightly backfill cron, it has been failing silently for six days thanks all",
+  "ts": "1755347160.376055"
+ },
+ {
+  "type": "message",
+  "user": "U0704E",
+  "text": "i have found the memory leak. it was me. it was me four months ago",
+  "ts": "1755356100.436254"
+ },
+ {
+  "type": "message",
+  "user": "U0712M",
+  "text": "small thing: who owns the nightly backfill cron, it has been failing for 42 days send help",
+  "ts": "1755357960.713801"
+ },
+ {
+  "type": "message",
+  "user": "U0704E",
+  "text": "ok so the storage docs describe the 2023 architecture, DATA-2523 tracks fixing it",
+  "ts": "1755361140.151069"
+ },
+ {
+  "type": "message",
+  "user": "U0716Q",
+  "text": "the scratch array is at 71%, nobody panic, i am just saying it out loud",
+  "ts": "1755364620.755853"
+ }
+]

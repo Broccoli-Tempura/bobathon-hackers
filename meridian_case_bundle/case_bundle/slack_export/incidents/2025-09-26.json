@@ -1,0 +1,20 @@
+[
+ {
+  "type": "message",
+  "user": "U0722W",
+  "text": "update: paging on-call, p99 latency above threshold for 5 minutes more later",
+  "ts": "1758869640.707842"
+ },
+ {
+  "type": "message",
+  "user": "U0704E",
+  "text": "quick one: Wen-Li is on call this week, Chiara is backup",
+  "ts": "1758913020.360679"
+ },
+ {
+  "type": "message",
+  "user": "U0721V",
+  "text": "quick one: INC-055 mitigated, writing it up, the writeup will be embarrassing lol",
+  "ts": "1758915000.808818"
+ }
+]

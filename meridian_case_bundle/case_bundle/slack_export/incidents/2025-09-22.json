@@ -1,0 +1,26 @@
+[
+ {
+  "type": "message",
+  "user": "U0722W",
+  "text": "ok so customer impact limited to the public sandbox, no production exposure send help",
+  "ts": "1758520980.780828"
+ },
+ {
+  "type": "message",
+  "user": "U0712M",
+  "text": "sandbox inference cluster is returning 503s, investigating see PLAT-2137",
+  "ts": "1758525000.871199"
+ },
+ {
+  "type": "message",
+  "user": "U0713N",
+  "text": "update: postmortem for INC-03030 is up, blameless, add anything i missed see PLAT-2188",
+  "ts": "1758536820.314961"
+ },
+ {
+  "type": "message",
+  "user": "U0702C",
+  "text": "quick one: INC-088: sandbox inference returning 503s, investigating",
+  "ts": "1758541920.762072"
+ }
+]

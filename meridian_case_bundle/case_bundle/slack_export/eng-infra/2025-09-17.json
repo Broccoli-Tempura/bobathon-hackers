@@ -1,0 +1,44 @@
+[
+ {
+  "type": "message",
+  "user": "U0714O",
+  "text": "reminder: copy job for the eval shards failed at 81%, restarting from the beginning because resume is broken send help",
+  "ts": "1758099780.639144"
+ },
+ {
+  "type": "message",
+  "user": "U0701B",
+  "text": "quick one: the scratch array is at 71%, nobody panic, i am just saying it out loud cc Kemi",
+  "ts": "1758107820.194444"
+ },
+ {
+  "type": "message",
+  "user": "U0723X",
+  "text": "fyi Kemi can you review INFRA-2128 before tuesday lol",
+  "ts": "1758114960.472785"
+ },
+ {
+  "type": "message",
+  "user": "U0718S",
+  "text": "quick one: the storage docs describe the 2023 architecture, PLAT-1907 tracks fixing it lol",
+  "ts": "1758117060.245999"
+ },
+ {
+  "type": "message",
+  "user": "U0716Q",
+  "text": "cluster is back. it was DNS. it is always DNS more later",
+  "ts": "1758120180.589949"
+ },
+ {
+  "type": "message",
+  "user": "U0701B",
+  "text": "checkpoint sync is slow again, i think it is the decompress-on-write thing",
+  "ts": "1758122100.922903"
+ },
+ {
+  "type": "message",
+  "user": "U0722W",
+  "text": "does anyone actually know what the legacy staging path is still used for send help",
+  "ts": "1758133020.999397"
+ }
+]

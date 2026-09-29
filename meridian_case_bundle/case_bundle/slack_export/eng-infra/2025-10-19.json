@@ -1,0 +1,56 @@
+[
+ {
+  "type": "message",
+  "user": "U0713N",
+  "text": "scratch array at 89%, nobody panic, i am just saying it out loud see PLAT-2165",
+  "ts": "1760860080.611606"
+ },
+ {
+  "type": "message",
+  "user": "U0714O",
+  "text": "reminder: we are out of disk on scratch-01 again, someone is writing tarballs there see PLAT-2336",
+  "ts": "1760862120.225432"
+ },
+ {
+  "type": "message",
+  "user": "U0719T",
+  "text": "i would like to formally propose we delete the old airflow instance",
+  "ts": "1760864220.624203"
+ },
+ {
+  "type": "message",
+  "user": "U0714O",
+  "text": "training loss went flat at step 34k, either very good or very bad lol",
+  "ts": "1760868000.826450"
+ },
+ {
+  "type": "message",
+  "user": "U0713N",
+  "text": "training loss went flat at step 18k, either very good or very bad :)",
+  "ts": "1760873460.522561"
+ },
+ {
+  "type": "message",
+  "user": "U0713N",
+  "text": "deploy to staging is green, promoting at 11:00 unless someone objects (again)",
+  "ts": "1760889720.451734"
+ },
+ {
+  "type": "message",
+  "user": "U0722W",
+  "text": "ok so does anyone actually know what the legacy staging path is still used for :)",
+  "ts": "1760892660.620868"
+ },
+ {
+  "type": "message",
+  "user": "U0714O",
+  "text": "psa: free space graph on scratch-01 looks weird, it is Nils's tarballs again more later",
+  "ts": "1760892900.895728"
+ },
+ {
+  "type": "message",
+  "user": "U0702C",
+  "text": "quick one: rolling back the config change from monday, latencies went sideways",
+  "ts": "1760894160.555367"
+ }
+]

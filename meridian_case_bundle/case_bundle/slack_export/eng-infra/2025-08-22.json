@@ -1,0 +1,62 @@
+[
+ {
+  "type": "message",
+  "user": "U0712M",
+  "text": "moving on-call handoff to thursdays, fridays were chaos",
+  "ts": "1755843120.821698"
+ },
+ {
+  "type": "message",
+  "user": "U0714O",
+  "text": "reminder: rolling back the config change from friday, latencies went sideways cc Marcus",
+  "ts": "1755847320.147351"
+ },
+ {
+  "type": "message",
+  "user": "U0702C",
+  "text": "does anyone actually know what the legacy staging path is still used for sorry",
+  "ts": "1755867840.588187"
+ },
+ {
+  "type": "message",
+  "user": "U0705F",
+  "text": "not to be dramatic but the rsync to cold storage is crawling again, 4 hours in and at 69% (again)",
+  "ts": "1755868260.237689"
+ },
+ {
+  "type": "message",
+  "user": "U0722W",
+  "text": "quick one: bumping the retention on the eval bucket, shout if that breaks anything see ML-2371",
+  "ts": "1755870780.242836"
+ },
+ {
+  "type": "message",
+  "user": "U0722W",
+  "text": "small thing: flaky test test_interface_energy_roundtrip failed again on Rafferty's branch :)",
+  "ts": "1755870960.465178"
+ },
+ {
+  "type": "message",
+  "user": "U0719T",
+  "text": "psa: snapshot cleanup on scratch-01 freed 8TB, should hold until the migration",
+  "ts": "1755872040.877593"
+ },
+ {
+  "type": "message",
+  "user": "U0712M",
+  "text": "fyi the scratch array is at 71%, nobody panic, i am just saying it out loud :)",
+  "ts": "1755881640.556279"
+ },
+ {
+  "type": "message",
+  "user": "U0721V",
+  "text": "ok so can someone approve the terraform change, it is one line, it is genuinely one line",
+  "ts": "1755883320.103936"
+ },
+ {
+  "type": "message",
+  "user": "U0712M",
+  "text": "not to be dramatic but scratch array at 82%, nobody panic, i am just saying it out loud",
+  "ts": "1755887280.465632"
+ }
+]

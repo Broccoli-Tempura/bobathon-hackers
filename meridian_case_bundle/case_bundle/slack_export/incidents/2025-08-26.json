@@ -1,0 +1,20 @@
+[
+ {
+  "type": "message",
+  "user": "U0703D",
+  "text": "small thing: customer impact limited to the public sandbox, no production exposure (again)",
+  "ts": "1756216980.172863"
+ },
+ {
+  "type": "message",
+  "user": "U0721V",
+  "text": "for the record, mitigated. writing it up. the writeup will be embarrassing",
+  "ts": "1756224720.896528"
+ },
+ {
+  "type": "message",
+  "user": "U0713N",
+  "text": "postmortem for INC-03131 is up, blameless, add anything i missed will update",
+  "ts": "1756233120.541428"
+ }
+]

@@ -1,0 +1,74 @@
+[
+ {
+  "type": "message",
+  "user": "U0707H",
+  "text": "bumping retention on the eval bucket to 29 days, shout if that breaks anything lol",
+  "ts": "1762932120.732589"
+ },
+ {
+  "type": "message",
+  "user": "U0720U",
+  "text": "ok so training loss went flat at step 42k, either very good or very bad thanks all",
+  "ts": "1762933980.965084"
+ },
+ {
+  "type": "message",
+  "user": "U0716Q",
+  "text": "again: moving on-call handoff to thursdays, fridays were chaos",
+  "ts": "1762936860.598421"
+ },
+ {
+  "type": "message",
+  "user": "U0713N",
+  "text": "not to be dramatic but does anyone actually know what the legacy staging path is still used for will update",
+  "ts": "1762942380.296821"
+ },
+ {
+  "type": "message",
+  "user": "U0705F",
+  "text": "the storage docs describe the 2023 architecture, PLAT-2030 tracks fixing it",
+  "ts": "1762945680.259484"
+ },
+ {
+  "type": "message",
+  "user": "U0723X",
+  "text": "not to be dramatic but training loss went flat at step 33k, either very good or very bad",
+  "ts": "1762951620.636748"
+ },
+ {
+  "type": "message",
+  "user": "U0713N",
+  "text": "again: flaky test test_interface_energy_roundtrip failed again on Lukas's branch sorry",
+  "ts": "1762961700.131422"
+ },
+ {
+  "type": "message",
+  "user": "U0716Q",
+  "text": "quick one: gpu queue is jammed, 17 jobs pending under a service account",
+  "ts": "1762964820.681125"
+ },
+ {
+  "type": "message",
+  "user": "U0722W",
+  "text": "update: does anyone actually know what the legacy staging path is still used for will update",
+  "ts": "1762971180.253532"
+ },
+ {
+  "type": "message",
+  "user": "U0711L",
+  "text": "reminder: deploy to staging is green, promoting at 20:00 unless someone objects",
+  "ts": "1762972980.338798"
+ },
+ {
+  "type": "message",
+  "user": "U0716Q",
+  "text": "reminder: who owns the nightly backfill cron, it has been failing silently for six days will update",
+  "ts": "1762973940.933650"
+ },
+ {
+  "type": "message",
+  "user": "U0701B",
+  "text": "small thing: eval run 3434 finished, nothing interesting, rerunning with the new sampler (again)",
+  "ts": "1762976220.763627"
+ }
+]

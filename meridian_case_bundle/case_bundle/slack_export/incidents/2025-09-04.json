@@ -1,0 +1,20 @@
+[
+ {
+  "type": "message",
+  "user": "U0703D",
+  "text": "honestly false alarm, the monitoring agent itself fell over",
+  "ts": "1756981320.276809"
+ },
+ {
+  "type": "message",
+  "user": "U0702C",
+  "text": "again: sandbox inference cluster is returning 503s, investigating",
+  "ts": "1756993980.290188"
+ },
+ {
+  "type": "message",
+  "user": "U0722W",
+  "text": "Rafferty is on call this week, Priya is backup (again)",
+  "ts": "1757002260.140788"
+ }
+]

@@ -1,0 +1,50 @@
+[
+ {
+  "type": "message",
+  "user": "U0710K",
+  "text": "ok so running a big copy tonight, expect the array to look weird in the graphs more later",
+  "ts": "1763111760.408652"
+ },
+ {
+  "type": "message",
+  "user": "U0705F",
+  "text": "not to be dramatic but cluster is back. it was DNS. it is always DNS see ML-2577",
+  "ts": "1763118180.175118"
+ },
+ {
+  "type": "message",
+  "user": "U0722W",
+  "text": "quick one: deploy to staging is green, promoting at 13:00 unless someone objects lol",
+  "ts": "1763118300.461000"
+ },
+ {
+  "type": "message",
+  "user": "U0703D",
+  "text": "small thing: the migration runbook is in the ticket, please actually read the runbook cc Kemi",
+  "ts": "1763127300.499627"
+ },
+ {
+  "type": "message",
+  "user": "U0704E",
+  "text": "psa: can we talk about why the storage docs describe an architecture we stopped using in 2023 lol",
+  "ts": "1763130540.241117"
+ },
+ {
+  "type": "message",
+  "user": "U0719T",
+  "text": "ok so training loss went flat at step 34k, either very good or very bad",
+  "ts": "1763136840.943429"
+ },
+ {
+  "type": "message",
+  "user": "U0718S",
+  "text": "again: who owns the nightly backfill cron, it has been failing for 16 days",
+  "ts": "1763137260.430796"
+ },
+ {
+  "type": "message",
+  "user": "U0710K",
+  "text": "quick one: does anyone actually know what the legacy staging path is still used for lol",
+  "ts": "1763142420.371517"
+ }
+]

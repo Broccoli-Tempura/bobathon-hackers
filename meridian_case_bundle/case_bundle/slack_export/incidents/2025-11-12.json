@@ -1,0 +1,26 @@
+[
+ {
+  "type": "message",
+  "user": "U0718S",
+  "text": "not to be dramatic but false alarm, the monitoring agent itself fell over (again)",
+  "ts": "1762948860.414903"
+ },
+ {
+  "type": "message",
+  "user": "U0718S",
+  "text": "fyi disk usage alert on scratch-01 at 88%, acknowledged, not urgent lol",
+  "ts": "1762970100.438632"
+ },
+ {
+  "type": "message",
+  "user": "U0705F",
+  "text": "update: customer impact limited to the public sandbox, no production exposure will update",
+  "ts": "1762976820.148593"
+ },
+ {
+  "type": "message",
+  "user": "U0705F",
+  "text": "small thing: root cause: a cert expired that nobody knew existed",
+  "ts": "1762979700.761937"
+ }
+]

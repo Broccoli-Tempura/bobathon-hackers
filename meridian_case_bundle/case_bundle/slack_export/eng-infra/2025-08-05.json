@@ -1,0 +1,110 @@
+[
+ {
+  "type": "message",
+  "user": "U0702C",
+  "text": "scratch array at 94%, nobody panic, i am just saying it out loud",
+  "ts": "1754373900.362851"
+ },
+ {
+  "type": "message",
+  "user": "U0719T",
+  "text": "small thing: does anyone actually know what the legacy staging path is still used for",
+  "ts": "1754376960.410339"
+ },
+ {
+  "type": "message",
+  "user": "U0719T",
+  "text": "again: snapshot cleanup on scratch-01 freed 12TB, should hold until the migration",
+  "ts": "1754377020.584175"
+ },
+ {
+  "type": "message",
+  "user": "U0701B",
+  "text": "small thing: snapshot cleanup on scratch-01 freed 3TB, should hold until the migration cc Lukas",
+  "ts": "1754377920.866461"
+ },
+ {
+  "type": "message",
+  "user": "U0711L",
+  "text": "small thing: June can you review INFRA-2519 before monday",
+  "ts": "1754378640.313367"
+ },
+ {
+  "type": "message",
+  "user": "U0714O",
+  "text": "for the record, i have turned it off and on again and it worked and i am furious send help",
+  "ts": "1754383860.862377"
+ },
+ {
+  "type": "message",
+  "user": "U0720U",
+  "text": "for the record, free space graph on scratch-01 looks weird, it is Lukas's tarballs again lol",
+  "ts": "1754386080.356608"
+ },
+ {
+  "type": "message",
+  "user": "U0711L",
+  "text": "small thing: eval run 66 finished, nothing interesting, rerunning with the new sampler",
+  "ts": "1754387580.762426"
+ },
+ {
+  "type": "message",
+  "user": "U0713N",
+  "text": "honestly restarted the backfill from scratch, the partial output was garbage (again)",
+  "ts": "1754388660.118370"
+ },
+ {
+  "type": "message",
+  "user": "U0704E",
+  "text": "fyi who owns the nightly backfill cron, it has been failing for 44 days",
+  "ts": "1754393520.299191"
+ },
+ {
+  "type": "message",
+  "user": "U0707H",
+  "text": "i would like to formally propose we delete the old airflow instance",
+  "ts": "1754397180.960689"
+ },
+ {
+  "type": "message",
+  "user": "U0712M",
+  "text": "small thing: portable array from the IT cage is back on the shelf, seals intact sorry",
+  "ts": "1754397720.609939"
+ },
+ {
+  "type": "message",
+  "user": "U0723X",
+  "text": "for the record, who owns the nightly backfill cron, it has been failing for 44 days thanks all",
+  "ts": "1754397720.113449"
+ },
+ {
+  "type": "message",
+  "user": "U0719T",
+  "text": "not to be dramatic but gpu queue is jammed, 13 jobs pending under a service account send help",
+  "ts": "1754402040.559240"
+ },
+ {
+  "type": "message",
+  "user": "U0701B",
+  "text": "update: can someone approve the terraform change for PLAT-2445, it is one line lol",
+  "ts": "1754402700.504809"
+ },
+ {
+  "type": "message",
+  "user": "U0714O",
+  "text": "PR up for the tokenizer refactor, it is enormous and i am sorry",
+  "ts": "1754411880.858158"
+ },
+ {
+  "type": "message",
+  "user": "U0720U",
+  "text": "psa: moving on-call handoff to fridays, fridays were chaos will update",
+  "ts": "1754420580.908679"
+ },
+ {
+  "type": "message",
+  "user": "U0707H",
+  "text": "reminder: bumping retention on the eval bucket to 23 days, shout if that breaks anything will update",
+  "ts": "1754422740.968408"
+ }
+]

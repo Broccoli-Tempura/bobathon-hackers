@@ -1,0 +1,68 @@
+[
+ {
+  "type": "message",
+  "user": "U0714O",
+  "text": "checkpoint sync is slow again, probably the decompress-on-write thing",
+  "ts": "1762334040.838987"
+ },
+ {
+  "type": "message",
+  "user": "U0710K",
+  "text": "small thing: reminder we are frozen for deploys over the long weekend more later",
+  "ts": "1762336140.345144"
+ },
+ {
+  "type": "message",
+  "user": "U0710K",
+  "text": "rolling back the config change from friday, latencies went sideways",
+  "ts": "1762336440.443031"
+ },
+ {
+  "type": "message",
+  "user": "U0703D",
+  "text": "fyi who owns the nightly backfill cron, it has been failing for 43 days",
+  "ts": "1762338300.943811"
+ },
+ {
+  "type": "message",
+  "user": "U0705F",
+  "text": "eval run 33 finished, nothing interesting, rerunning with the new sampler (again)",
+  "ts": "1762342740.910403"
+ },
+ {
+  "type": "message",
+  "user": "U0722W",
+  "text": "reminder: eval run 3434 finished, nothing interesting, rerunning with the new sampler cc Chiara",
+  "ts": "1762344420.219910"
+ },
+ {
+  "type": "message",
+  "user": "U0712M",
+  "text": "small thing: moving on-call handoff to mondays, fridays were chaos send help",
+  "ts": "1762346160.845713"
+ },
+ {
+  "type": "message",
+  "user": "U0707H",
+  "text": "not to be dramatic but Noemi can you review PLAT-2264 before friday sorry",
+  "ts": "1762346520.292466"
+ },
+ {
+  "type": "message",
+  "user": "U0719T",
+  "text": "psa: training loss went flat at step 40k which is either very good or very bad (again)",
+  "ts": "1762349340.719933"
+ },
+ {
+  "type": "message",
+  "user": "U0723X",
+  "text": "small thing: moving the on-call handoff to mondays because fridays were chaos more later",
+  "ts": "1762359240.303145"
+ },
+ {
+  "type": "message",
+  "user": "U0723X",
+  "text": "PR up for DATA-2442, it is enormous and i am sorry (again)",
+  "ts": "1762359840.309489"
+ }
+]

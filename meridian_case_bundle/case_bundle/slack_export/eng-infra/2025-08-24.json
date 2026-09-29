@@ -1,0 +1,86 @@
+[
+ {
+  "type": "message",
+  "user": "U0702C",
+  "text": "checkpoint sync is slow again, probably the decompress-on-write thing sorry",
+  "ts": "1756017180.450924"
+ },
+ {
+  "type": "message",
+  "user": "U0713N",
+  "text": "cluster is back. it was DNS. it is always DNS lol",
+  "ts": "1756024560.253661"
+ },
+ {
+  "type": "message",
+  "user": "U0703D",
+  "text": "i have found the memory leak. it was me. it was me 2 weeks ago will update",
+  "ts": "1756025220.282114"
+ },
+ {
+  "type": "message",
+  "user": "U0701B",
+  "text": "reminder: rolling back the config change from friday, latencies went sideways send help",
+  "ts": "1756035960.848805"
+ },
+ {
+  "type": "message",
+  "user": "U0702C",
+  "text": "honestly checkpoint sync is slow again, probably the decompress-on-write thing send help",
+  "ts": "1756036380.708903"
+ },
+ {
+  "type": "message",
+  "user": "U0721V",
+  "text": "flaky test test_interface_energy_roundtrip failed again on Chiara's branch will update",
+  "ts": "1756037100.959286"
+ },
+ {
+  "type": "message",
+  "user": "U0701B",
+  "text": "update: the storage docs describe the 2023 architecture, DATA-2451 tracks fixing it cc Nils",
+  "ts": "1756038420.528645"
+ },
+ {
+  "type": "message",
+  "user": "U0723X",
+  "text": "quick one: can someone approve the terraform change for ML-2359, it is one line more later",
+  "ts": "1756042980.410391"
+ },
+ {
+  "type": "message",
+  "user": "U0723X",
+  "text": "update: checkpoint sync is slow again, probably the decompress-on-write thing will update",
+  "ts": "1756044600.627535"
+ },
+ {
+  "type": "message",
+  "user": "U0707H",
+  "text": "again: the storage docs describe the 2023 architecture, INFRA-2365 tracks fixing it cc Iris",
+  "ts": "1756044900.986670"
+ },
+ {
+  "type": "message",
+  "user": "U0707H",
+  "text": "not to be dramatic but moving on-call handoff to mondays, fridays were chaos more later",
+  "ts": "1756046280.840361"
+ },
+ {
+  "type": "message",
+  "user": "U0704E",
+  "text": "not to be dramatic but rolling back the config change from thursday, latencies went sideways",
+  "ts": "1756049820.990547"
+ },
+ {
+  "type": "message",
+  "user": "U0712M",
+  "text": "reminder: snapshot cleanup on scratch-01 freed 12TB, should hold until the migration (again)",
+  "ts": "1756050360.892516"
+ },
+ {
+  "type": "message",
+  "user": "U0713N",
+  "text": "quick one: snapshot cleanup on scratch-01 freed 3TB, should hold until the migration",
+  "ts": "1756064580.841368"
+ }
+]

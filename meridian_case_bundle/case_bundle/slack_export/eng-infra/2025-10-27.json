@@ -1,0 +1,44 @@
+[
+ {
+  "type": "message",
+  "user": "U0710K",
+  "text": "small thing: scratch array at 67%, nobody panic, i am just saying it out loud",
+  "ts": "1761549840.126812"
+ },
+ {
+  "type": "message",
+  "user": "U0712M",
+  "text": "who owns the nightly backfill cron, it has been failing for 17 days sorry",
+  "ts": "1761550260.339705"
+ },
+ {
+  "type": "message",
+  "user": "U0704E",
+  "text": "small thing: checkpoint sync is slow again, probably the decompress-on-write thing :)",
+  "ts": "1761553020.147465"
+ },
+ {
+  "type": "message",
+  "user": "U0713N",
+  "text": "not to be dramatic but PR up for INFRA-2091, it is enormous and i am sorry :)",
+  "ts": "1761560400.997312"
+ },
+ {
+  "type": "message",
+  "user": "U0714O",
+  "text": "update: copy job for the eval shards failed at 82%, restarting from the beginning because resume is broken thanks all",
+  "ts": "1761560520.945947"
+ },
+ {
+  "type": "message",
+  "user": "U0703D",
+  "text": "small thing: i have found the memory leak. it was me. it was me four months ago",
+  "ts": "1761568800.238841"
+ },
+ {
+  "type": "message",
+  "user": "U0712M",
+  "text": "not to be dramatic but eval run 4417 finished, nothing interesting, will rerun with the new sampler send help",
+  "ts": "1761593220.685173"
+ }
+]

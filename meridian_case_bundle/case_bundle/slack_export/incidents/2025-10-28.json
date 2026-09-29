@@ -1,0 +1,20 @@
+[
+ {
+  "type": "message",
+  "user": "U0710K",
+  "text": "for the record, Dessie is on call this week, Kemi is backup lol",
+  "ts": "1761638580.337870"
+ },
+ {
+  "type": "message",
+  "user": "U0723X",
+  "text": "honestly postmortem doc is up, blameless, please add anything i missed",
+  "ts": "1761652140.472171"
+ },
+ {
+  "type": "message",
+  "user": "U0703D",
+  "text": "small thing: disk usage alert on scratch-01 at 93%, acknowledged, not urgent more later",
+  "ts": "1761676740.991838"
+ }
+]

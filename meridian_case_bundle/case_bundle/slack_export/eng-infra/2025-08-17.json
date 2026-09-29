@@ -1,0 +1,86 @@
+[
+ {
+  "type": "message",
+  "user": "U0702C",
+  "text": "checkpoint sync is slow again, probably the decompress-on-write thing (again)",
+  "ts": "1755416100.887226"
+ },
+ {
+  "type": "message",
+  "user": "U0711L",
+  "text": "reminder: the rsync to cold storage is crawling again, 21 hours in and at 71% cc Marcus",
+  "ts": "1755420540.815680"
+ },
+ {
+  "type": "message",
+  "user": "U0718S",
+  "text": "update: i have found the memory leak. it was me. it was me four months ago more later",
+  "ts": "1755432180.400430"
+ },
+ {
+  "type": "message",
+  "user": "U0718S",
+  "text": "reminder: gpu queue is jammed, 24 jobs pending under a service account send help",
+  "ts": "1755433140.695228"
+ },
+ {
+  "type": "message",
+  "user": "U0714O",
+  "text": "fyi training loss went flat at step 40k which is either very good or very bad",
+  "ts": "1755435180.581218"
+ },
+ {
+  "type": "message",
+  "user": "U0711L",
+  "text": "psa: snapshot cleanup on scratch-01 freed 5TB, should hold until the migration lol",
+  "ts": "1755437040.282302"
+ },
+ {
+  "type": "message",
+  "user": "U0701B",
+  "text": "fyi can someone approve the terraform change, it is one line, it is genuinely one line",
+  "ts": "1755438420.983022"
+ },
+ {
+  "type": "message",
+  "user": "U0702C",
+  "text": "ok so the migration runbook is in the ticket, please actually read the runbook",
+  "ts": "1755438540.662424"
+ },
+ {
+  "type": "message",
+  "user": "U0723X",
+  "text": "update: free space graph on scratch-01 looks weird, it is Kemi's tarballs again sorry",
+  "ts": "1755438540.406378"
+ },
+ {
+  "type": "message",
+  "user": "U0721V",
+  "text": "for the record, free space graph on scratch-01 looks weird, it is Iris's tarballs again",
+  "ts": "1755442800.820242"
+ },
+ {
+  "type": "message",
+  "user": "U0711L",
+  "text": "small thing: the storage docs describe the 2023 architecture, INFRA-2119 tracks fixing it thanks all",
+  "ts": "1755446160.117285"
+ },
+ {
+  "type": "message",
+  "user": "U0718S",
+  "text": "update: checkpoint sync is slow again, probably the decompress-on-write thing cc Anneke",
+  "ts": "1755449640.937115"
+ },
+ {
+  "type": "message",
+  "user": "U0701B",
+  "text": "fyi rolling back the config change from wednesday, latencies went sideways send help",
+  "ts": "1755450600.405236"
+ },
+ {
+  "type": "message",
+  "user": "U0718S",
+  "text": "small thing: does anyone actually know what the legacy staging path is still used for more later",
+  "ts": "1755454980.349334"
+ }
+]

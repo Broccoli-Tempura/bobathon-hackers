@@ -1,0 +1,26 @@
+[
+ {
+  "type": "message",
+  "user": "U0714O",
+  "text": "customer impact limited to the public sandbox, no production exposure cc Solveig",
+  "ts": "1756369200.802477"
+ },
+ {
+  "type": "message",
+  "user": "U0718S",
+  "text": "mitigated. writing it up. the writeup will be embarrassing",
+  "ts": "1756369380.344768"
+ },
+ {
+  "type": "message",
+  "user": "U0704E",
+  "text": "fyi root cause for INC-02323: a cert expired that nobody knew existed sorry",
+  "ts": "1756374540.854634"
+ },
+ {
+  "type": "message",
+  "user": "U0722W",
+  "text": "psa: paging on-call, latency p99 above threshold for 12 minutes",
+  "ts": "1756407180.119799"
+ }
+]

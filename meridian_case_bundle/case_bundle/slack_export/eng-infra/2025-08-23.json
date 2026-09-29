@@ -1,0 +1,50 @@
+[
+ {
+  "type": "message",
+  "user": "U0721V",
+  "text": "honestly checkpoint sync is slow again, i think it is the decompress-on-write thing thanks all",
+  "ts": "1755930480.312656"
+ },
+ {
+  "type": "message",
+  "user": "U0711L",
+  "text": "running a big copy tonight, expect the array to look weird in the graphs",
+  "ts": "1755936060.458679"
+ },
+ {
+  "type": "message",
+  "user": "U0721V",
+  "text": "psa: running a big copy tonight, expect the array to look weird in the graphs see ML-2588",
+  "ts": "1755938280.828129"
+ },
+ {
+  "type": "message",
+  "user": "U0721V",
+  "text": "again: the migration runbook is in INFRA-2291, please actually read it thanks all",
+  "ts": "1755950220.773301"
+ },
+ {
+  "type": "message",
+  "user": "U0722W",
+  "text": "ok so eval run 3030 finished, nothing interesting, rerunning with the new sampler send help",
+  "ts": "1755960240.361749"
+ },
+ {
+  "type": "message",
+  "user": "U0719T",
+  "text": "can someone approve the terraform change for PLAT-1977, it is one line send help",
+  "ts": "1755967620.976161"
+ },
+ {
+  "type": "message",
+  "user": "U0719T",
+  "text": "reminder: restarted the backfill from scratch, the partial output was garbage thanks all",
+  "ts": "1755967800.490599"
+ },
+ {
+  "type": "message",
+  "user": "U0701B",
+  "text": "fyi checkpoint sync is slow again, probably the decompress-on-write thing cc Dov",
+  "ts": "1755969840.718194"
+ }
+]

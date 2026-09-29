@@ -1,0 +1,20 @@
+[
+ {
+  "type": "message",
+  "user": "U0701B",
+  "text": "honestly disk usage alert on scratch-01 at 76%, acknowledged, not urgent",
+  "ts": "1757678460.343863"
+ },
+ {
+  "type": "message",
+  "user": "U0713N",
+  "text": "psa: root cause: a cert expired that nobody knew existed (again)",
+  "ts": "1757691660.772298"
+ },
+ {
+  "type": "message",
+  "user": "U0714O",
+  "text": "false alarm, the monitoring agent itself fell over",
+  "ts": "1757702340.916854"
+ }
+]

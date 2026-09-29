@@ -1,0 +1,68 @@
+[
+ {
+  "type": "message",
+  "user": "U0722W",
+  "text": "again: training loss went flat at step 40k which is either very good or very bad more later",
+  "ts": "1759732380.841671"
+ },
+ {
+  "type": "message",
+  "user": "U0722W",
+  "text": "fyi who owns the nightly backfill cron, it has been failing for 45 days",
+  "ts": "1759732920.229323"
+ },
+ {
+  "type": "message",
+  "user": "U0705F",
+  "text": "update: checkpoint sync is slow again, i think it is the decompress-on-write thing send help",
+  "ts": "1759733700.290532"
+ },
+ {
+  "type": "message",
+  "user": "U0710K",
+  "text": "quick one: cluster is back. it was DNS. it is always DNS will update",
+  "ts": "1759735140.552612"
+ },
+ {
+  "type": "message",
+  "user": "U0716Q",
+  "text": "deploy to staging is green, promoting at 22:00 unless someone objects (again)",
+  "ts": "1759735560.298041"
+ },
+ {
+  "type": "message",
+  "user": "U0703D",
+  "text": "not to be dramatic but deploy to staging is green, promoting at 12:00 unless someone objects :)",
+  "ts": "1759737360.377338"
+ },
+ {
+  "type": "message",
+  "user": "U0719T",
+  "text": "quick one: checkpoint sync is slow again, probably the decompress-on-write thing thanks all",
+  "ts": "1759737600.335041"
+ },
+ {
+  "type": "message",
+  "user": "U0710K",
+  "text": "reminder: the migration runbook is in INFRA-2291, please actually read it :)",
+  "ts": "1759748640.471025"
+ },
+ {
+  "type": "message",
+  "user": "U0722W",
+  "text": "i would like to formally propose we delete the old airflow instance cc Wen-Li",
+  "ts": "1759773060.186646"
+ },
+ {
+  "type": "message",
+  "user": "U0714O",
+  "text": "reminder: checkpoint sync is slow again, probably the decompress-on-write thing cc Halina",
+  "ts": "1759773240.645038"
+ },
+ {
+  "type": "message",
+  "user": "U0703D",
+  "text": "cluster is back. it was DNS. it is always DNS send help",
+  "ts": "1759774740.228896"
+ }
+]

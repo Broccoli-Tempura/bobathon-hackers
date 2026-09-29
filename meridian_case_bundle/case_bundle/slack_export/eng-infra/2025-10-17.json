@@ -1,0 +1,80 @@
+[
+ {
+  "type": "message",
+  "user": "U0723X",
+  "text": "psa: the rsync to cold storage is crawling again, 9 hours in and at 72%",
+  "ts": "1760684220.109617"
+ },
+ {
+  "type": "message",
+  "user": "U0718S",
+  "text": "small thing: does anyone actually know what the legacy staging path is still used for lol",
+  "ts": "1760688720.452749"
+ },
+ {
+  "type": "message",
+  "user": "U0722W",
+  "text": "update: checkpoint sync is slow again, i think it is the decompress-on-write thing",
+  "ts": "1760689440.957614"
+ },
+ {
+  "type": "message",
+  "user": "U0705F",
+  "text": "update: restarted the backfill from scratch, the partial output was garbage",
+  "ts": "1760697540.633026"
+ },
+ {
+  "type": "message",
+  "user": "U0719T",
+  "text": "cluster is back. it was DNS. it is always DNS more later",
+  "ts": "1760703180.644974"
+ },
+ {
+  "type": "message",
+  "user": "U0720U",
+  "text": "the migration runbook is in INFRA-2291, please actually read it",
+  "ts": "1760706180.701598"
+ },
+ {
+  "type": "message",
+  "user": "U0713N",
+  "text": "for the record, moving on-call handoff to wednesdays, fridays were chaos will update",
+  "ts": "1760707800.642044"
+ },
+ {
+  "type": "message",
+  "user": "U0718S",
+  "text": "fyi does anyone actually know what the legacy staging path is still used for",
+  "ts": "1760713020.917220"
+ },
+ {
+  "type": "message",
+  "user": "U0711L",
+  "text": "can someone approve the terraform change for PLAT-1956, it is one line cc Chiara",
+  "ts": "1760714580.515878"
+ },
+ {
+  "type": "message",
+  "user": "U0716Q",
+  "text": "copy job for the eval shards failed at 64%, restarting from the beginning because resume is broken",
+  "ts": "1760716860.767822"
+ },
+ {
+  "type": "message",
+  "user": "U0701B",
+  "text": "quick one: does anyone actually know what the legacy staging path is still used for",
+  "ts": "1760719620.314870"
+ },
+ {
+  "type": "message",
+  "user": "U0714O",
+  "text": "again: cluster is back. it was DNS. it is always DNS",
+  "ts": "1760721840.937784"
+ },
+ {
+  "type": "message",
+  "user": "U0705F",
+  "text": "checkpoint sync is slow again, probably the decompress-on-write thing sorry",
+  "ts": "1760728200.421714"
+ }
+]

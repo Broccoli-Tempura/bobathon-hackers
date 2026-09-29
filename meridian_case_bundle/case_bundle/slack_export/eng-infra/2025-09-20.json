@@ -1,0 +1,44 @@
+[
+ {
+  "type": "message",
+  "user": "U0704E",
+  "text": "deploy to staging is green, promoting at 3 unless someone objects send help",
+  "ts": "1758348960.911295"
+ },
+ {
+  "type": "message",
+  "user": "U0723X",
+  "text": "honestly rolling back the config change from thursday, latencies went sideways",
+  "ts": "1758356640.566787"
+ },
+ {
+  "type": "message",
+  "user": "U0720U",
+  "text": "quick one: the migration runbook is in INFRA-2291, please actually read it thanks all",
+  "ts": "1758365520.256709"
+ },
+ {
+  "type": "message",
+  "user": "U0701B",
+  "text": "reminder: we are out of disk on scratch-01 again, someone is writing tarballs there :)",
+  "ts": "1758370560.246266"
+ },
+ {
+  "type": "message",
+  "user": "U0701B",
+  "text": "update: flaky test in the integration suite again, it is the same one, it is always the same one more later",
+  "ts": "1758376800.106341"
+ },
+ {
+  "type": "message",
+  "user": "U0705F",
+  "text": "honestly i have turned it off and on again and it worked and i am furious send help",
+  "ts": "1758388860.618513"
+ },
+ {
+  "type": "message",
+  "user": "U0711L",
+  "text": "reminder: Iris can you review PLAT-1935 before tuesday",
+  "ts": "1758391500.157716"
+ }
+]

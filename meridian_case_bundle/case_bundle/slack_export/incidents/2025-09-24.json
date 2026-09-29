@@ -1,0 +1,32 @@
+[
+ {
+  "type": "message",
+  "user": "U0721V",
+  "text": "mitigated. writing it up. the writeup will be embarrassing thanks all",
+  "ts": "1758700500.778474"
+ },
+ {
+  "type": "message",
+  "user": "U0707H",
+  "text": "psa: paging on-call, p99 latency above threshold for 11 minutes cc Noemi",
+  "ts": "1758705060.812026"
+ },
+ {
+  "type": "message",
+  "user": "U0719T",
+  "text": "small thing: postmortem for INC-033 is up, blameless, add anything i missed",
+  "ts": "1758712620.570535"
+ },
+ {
+  "type": "message",
+  "user": "U0701B",
+  "text": "fyi Kurt is on call this week, Tobias is backup thanks all",
+  "ts": "1758716640.972083"
+ },
+ {
+  "type": "message",
+  "user": "U0713N",
+  "text": "sandbox inference cluster is returning 503s, investigating more later",
+  "ts": "1758742020.926216"
+ }
+]

@@ -1,0 +1,22 @@
+[
+ {
+  "id": "C0900",
+  "name": "general",
+  "created": 1561000000
+ },
+ {
+  "id": "C0901",
+  "name": "eng-infra",
+  "created": 1561086400
+ },
+ {
+  "id": "C0902",
+  "name": "incidents",
+  "created": 1561172800
+ },
+ {
+  "id": "C0903",
+  "name": "random",
+  "created": 1561259200
+ }
+]

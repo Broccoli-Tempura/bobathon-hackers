@@ -1,0 +1,78 @@
+{
+  "team": "example-team",
+  "culprit": "Priya Desai",
+  "confidence": 0.72,
+  "suspects": [
+    {
+      "name": "Priya Desai",
+      "verdict": "culprit",
+      "reasoning": "Only person with no route to the withheld detail she repeated in her interview; her car is the only one left in the lot overnight.",
+      "evidence": [
+        {"claim": "describes the exact failure detail nobody was told before interviews", "source": "notes/interview_02_priya_desai.txt:41",
+         "quote": "it died halfway and someone had to clear space and start over from scratch"},
+        {"claim": "her car is the only one that stays on site overnight", "source": "lot_log.csv:118",
+         "quote": "19.03.2025;23:41:00;ZH 12 345;Einfahrt"}
+      ]
+    },
+    {
+      "name": "Marco Lindgren",
+      "verdict": "cleared",
+      "reasoning": "Named the same detail, but a paper trail shows how he could have learned it second-hand.",
+      "evidence": [
+        {"claim": "was briefed on the incident report the morning after", "source": "chat_export.json:3310",
+         "quote": "circulated to the on-call list at 08:14"}
+      ]
+    },
+    {
+      "name": "Sofia Novak",
+      "verdict": "cleared",
+      "reasoning": "Confirmed out of the country that night by a hotel receipt.",
+      "evidence": [
+        {"claim": "checked into a hotel abroad hours before the incident", "source": "summary.pdf:2",
+         "quote": "guest folio opened 21:05 local, Lisbon"}
+      ]
+    },
+    {
+      "name": "Ben Okonkwo",
+      "verdict": "cleared",
+      "reasoning": "Building badge log has him leaving before the window opened.",
+      "evidence": [
+        {"claim": "logged leaving the building before the incident window", "source": "claims.md:88",
+         "quote": "taxi receipt timestamped 20:12"}
+      ]
+    },
+    {
+      "name": "Elena Vasquez",
+      "verdict": "unresolved",
+      "reasoning": "Had access and no alibi, but nothing places her at a console either.",
+      "evidence": [
+        {"claim": "accessed the relevant files an unusual number of times", "source": "access_log.csv:54",
+         "quote": "47 reads in one week, team median 3"}
+      ]
+    },
+    {
+      "name": "Tomasz Krol",
+      "verdict": "cleared",
+      "reasoning": "A whiteboard photo places him in an unrelated meeting at the relevant time.",
+      "evidence": [
+        {"claim": "in a scheduled meeting during the incident window", "source": "photos/whiteboard_room_9.jpg",
+         "quote": ""}
+      ]
+    },
+    {
+      "name": "Aisha Rahman",
+      "verdict": "cleared",
+      "reasoning": "Permit and plate don't match any vehicle on site that night.",
+      "evidence": [
+        {"claim": "permit row shows a vehicle that never entered the lot that week", "source": "permits.xlsx:9",
+         "quote": ""}
+      ]
+    },
+    {
+      "name": "Dmitri Petrov",
+      "verdict": "unresolved",
+      "reasoning": "Motive is plausible but no direct evidence either way; not a priority thread.",
+      "evidence": []
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+[
+ {
+  "type": "message",
+  "user": "U0702C",
+  "text": "reminder: Kemi is on call this week, Solveig is backup see PLAT-2311",
+  "ts": "1758269880.591804"
+ },
+ {
+  "type": "message",
+  "user": "U0721V",
+  "text": "quick one: INC-03232: sandbox inference returning 503s, investigating",
+  "ts": "1758276780.863622"
+ },
+ {
+  "type": "message",
+  "user": "U0711L",
+  "text": "quick one: sandbox inference cluster is returning 503s, investigating sorry",
+  "ts": "1758286020.726886"
+ },
+ {
+  "type": "message",
+  "user": "U0722W",
+  "text": "ok so disk usage alert on scratch-01 at 80%, acknowledged, not urgent",
+  "ts": "1758290400.424413"
+ },
+ {
+  "type": "message",
+  "user": "U0712M",
+  "text": "root cause for INC-01919: a cert expired that nobody knew existed",
+  "ts": "1758302460.512343"
+ },
+ {
+  "type": "message",
+  "user": "U0718S",
+  "text": "paging on-call, p99 latency above threshold for 47 minutes",
+  "ts": "1758303180.917957"
+ }
+]

@@ -1,0 +1,38 @@
+[
+ {
+  "type": "message",
+  "user": "U0720U",
+  "text": "update: Dessie is on call this week, Dessie is backup",
+  "ts": "1762423860.435017"
+ },
+ {
+  "type": "message",
+  "user": "U0707H",
+  "text": "psa: paging on-call, p99 latency above threshold for 26 minutes",
+  "ts": "1762426320.316175"
+ },
+ {
+  "type": "message",
+  "user": "U0704E",
+  "text": "reminder: postmortem for INC-01919 is up, blameless, add anything i missed",
+  "ts": "1762428180.378963"
+ },
+ {
+  "type": "message",
+  "user": "U0710K",
+  "text": "small thing: paging on-call, p99 latency above threshold for 9 minutes thanks all",
+  "ts": "1762436340.231436"
+ },
+ {
+  "type": "message",
+  "user": "U0704E",
+  "text": "for the record, Yuki is on call this week, Andrin is backup see INFRA-2338",
+  "ts": "1762437720.999460"
+ },
+ {
+  "type": "message",
+  "user": "U0721V",
+  "text": "root cause for INC-04444: a cert expired that nobody knew existed more later",
+  "ts": "1762453500.176626"
+ }
+]

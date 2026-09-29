@@ -1,0 +1,26 @@
+[
+ {
+  "type": "message",
+  "user": "U0719T",
+  "text": "mitigated. writing it up. the writeup will be embarrassing",
+  "ts": "1757496540.603229"
+ },
+ {
+  "type": "message",
+  "user": "U0705F",
+  "text": "reminder: postmortem doc is up, blameless, please add anything i missed sorry",
+  "ts": "1757496960.139876"
+ },
+ {
+  "type": "message",
+  "user": "U0703D",
+  "text": "reminder: postmortem for INC-04646 is up, blameless, add anything i missed",
+  "ts": "1757499180.656503"
+ },
+ {
+  "type": "message",
+  "user": "U0718S",
+  "text": "false alarm, the monitoring agent itself fell over more later",
+  "ts": "1757508120.617920"
+ }
+]

@@ -1,0 +1,92 @@
+[
+ {
+  "type": "message",
+  "user": "U0722W",
+  "text": "psa: training loss went flat at step 40k which is either very good or very bad see PLAT-2486",
+  "ts": "1761115680.561885"
+ },
+ {
+  "type": "message",
+  "user": "U0711L",
+  "text": "honestly can someone approve the terraform change for INFRA-2210, it is one line (again)",
+  "ts": "1761119640.639997"
+ },
+ {
+  "type": "message",
+  "user": "U0718S",
+  "text": "snapshot cleanup on scratch-01 freed 4TB, should hold until the migration send help",
+  "ts": "1761120900.898440"
+ },
+ {
+  "type": "message",
+  "user": "U0707H",
+  "text": "update: deploy to staging is green, promoting at 3 unless someone objects",
+  "ts": "1761126480.921742"
+ },
+ {
+  "type": "message",
+  "user": "U0710K",
+  "text": "honestly i would like to formally propose we delete the old airflow instance",
+  "ts": "1761127500.671283"
+ },
+ {
+  "type": "message",
+  "user": "U0705F",
+  "text": "fyi deploy to staging is green, promoting at 8:00 unless someone objects :)",
+  "ts": "1761128340.689611"
+ },
+ {
+  "type": "message",
+  "user": "U0721V",
+  "text": "update: restarted the backfill from scratch, the partial output was garbage sorry",
+  "ts": "1761133080.725561"
+ },
+ {
+  "type": "message",
+  "user": "U0721V",
+  "text": "psa: who owns the nightly backfill cron, it has been failing silently for six days send help",
+  "ts": "1761141060.758030"
+ },
+ {
+  "type": "message",
+  "user": "U0713N",
+  "text": "quick one: deploy to staging is green, promoting at 3 unless someone objects cc Anneke",
+  "ts": "1761141900.792990"
+ },
+ {
+  "type": "message",
+  "user": "U0722W",
+  "text": "psa: eval run 4417 finished, nothing interesting, will rerun with the new sampler",
+  "ts": "1761142380.475299"
+ },
+ {
+  "type": "message",
+  "user": "U0707H",
+  "text": "does anyone actually know what the legacy staging path is still used for will update",
+  "ts": "1761142920.247632"
+ },
+ {
+  "type": "message",
+  "user": "U0713N",
+  "text": "for the record, i have found the memory leak. it was me. it was me 41 weeks ago (again)",
+  "ts": "1761142920.629940"
+ },
+ {
+  "type": "message",
+  "user": "U0721V",
+  "text": "small thing: the storage docs describe the 2023 architecture, ML-2553 tracks fixing it :)",
+  "ts": "1761145920.791137"
+ },
+ {
+  "type": "message",
+  "user": "U0702C",
+  "text": "honestly the storage docs describe the 2023 architecture, INFRA-1975 tracks fixing it",
+  "ts": "1761151440.234942"
+ },
+ {
+  "type": "message",
+  "user": "U0716Q",
+  "text": "small thing: who owns the nightly backfill cron, it has been failing silently for six days",
+  "ts": "1761159240.727587"
+ }
+]

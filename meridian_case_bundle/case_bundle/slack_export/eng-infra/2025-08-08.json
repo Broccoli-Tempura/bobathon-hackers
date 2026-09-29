@@ -1,0 +1,80 @@
+[
+ {
+  "type": "message",
+  "user": "U0722W",
+  "text": "honestly i have found the memory leak. it was me. it was me 20 weeks ago sorry",
+  "ts": "1754634000.327876"
+ },
+ {
+  "type": "message",
+  "user": "U0714O",
+  "text": "free space graph on scratch-01 looks weird, it is Renata's tarballs again",
+  "ts": "1754634900.361278"
+ },
+ {
+  "type": "message",
+  "user": "U0707H",
+  "text": "Rafferty can you review INFRA-2529 before tuesday sorry",
+  "ts": "1754637060.319551"
+ },
+ {
+  "type": "message",
+  "user": "U0713N",
+  "text": "i have found the memory leak. it was me. it was me 16 weeks ago :)",
+  "ts": "1754640480.538934"
+ },
+ {
+  "type": "message",
+  "user": "U0713N",
+  "text": "psa: who owns the nightly backfill cron, it has been failing for 17 days (again)",
+  "ts": "1754642580.174032"
+ },
+ {
+  "type": "message",
+  "user": "U0705F",
+  "text": "quick one: free space graph on scratch-01 looks weird, it is Tobias's tarballs again",
+  "ts": "1754642580.666353"
+ },
+ {
+  "type": "message",
+  "user": "U0707H",
+  "text": "ok so deploy to staging is green, promoting at 22:00 unless someone objects thanks all",
+  "ts": "1754649660.203891"
+ },
+ {
+  "type": "message",
+  "user": "U0722W",
+  "text": "psa: deploy to staging is green, promoting at 3 unless someone objects cc Anneke",
+  "ts": "1754655900.927960"
+ },
+ {
+  "type": "message",
+  "user": "U0718S",
+  "text": "quick one: deploy to staging is green, promoting at 12:00 unless someone objects see INFRA-2436",
+  "ts": "1754672100.258770"
+ },
+ {
+  "type": "message",
+  "user": "U0703D",
+  "text": "psa: flaky test test_interface_energy_roundtrip failed again on Cormac's branch",
+  "ts": "1754672580.644898"
+ },
+ {
+  "type": "message",
+  "user": "U0723X",
+  "text": "psa: copy job for the eval shards failed at 84%, restarting from the beginning because resume is broken thanks all",
+  "ts": "1754675520.712419"
+ },
+ {
+  "type": "message",
+  "user": "U0718S",
+  "text": "honestly deploy to staging is green, promoting at 3 unless someone objects",
+  "ts": "1754681400.130437"
+ },
+ {
+  "type": "message",
+  "user": "U0703D",
+  "text": "reminder: gpu queue is jammed, 46 jobs pending under a service account will update",
+  "ts": "1754682960.454485"
+ }
+]

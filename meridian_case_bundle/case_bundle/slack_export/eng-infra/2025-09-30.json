@@ -1,0 +1,68 @@
+[
+ {
+  "type": "message",
+  "user": "U0711L",
+  "text": "checkpoint sync is slow again, probably the decompress-on-write thing",
+  "ts": "1759217760.780467"
+ },
+ {
+  "type": "message",
+  "user": "U0721V",
+  "text": "restarted the backfill from scratch, the partial output was garbage :)",
+  "ts": "1759218180.104626"
+ },
+ {
+  "type": "message",
+  "user": "U0714O",
+  "text": "again: eval run 2222 finished, nothing interesting, rerunning with the new sampler :)",
+  "ts": "1759218420.893803"
+ },
+ {
+  "type": "message",
+  "user": "U0712M",
+  "text": "cluster is back. it was DNS. it is always DNS more later",
+  "ts": "1759228260.776480"
+ },
+ {
+  "type": "message",
+  "user": "U0704E",
+  "text": "i will do the kestrel role cleanup after the migration, promise",
+  "ts": "1759234260.492471"
+ },
+ {
+  "type": "message",
+  "user": "U0701B",
+  "text": "fyi training loss went flat at step 17k, either very good or very bad",
+  "ts": "1759244640.648723"
+ },
+ {
+  "type": "message",
+  "user": "U0703D",
+  "text": "fyi i have found the memory leak. it was me. it was me 48 weeks ago",
+  "ts": "1759248420.889021"
+ },
+ {
+  "type": "message",
+  "user": "U0713N",
+  "text": "ok so restarted the backfill from scratch, the partial output was garbage more later",
+  "ts": "1759255020.266735"
+ },
+ {
+  "type": "message",
+  "user": "U0712M",
+  "text": "i have found the memory leak. it was me. it was me 3 weeks ago",
+  "ts": "1759258560.496613"
+ },
+ {
+  "type": "message",
+  "user": "U0723X",
+  "text": "training loss went flat at step 6k, either very good or very bad",
+  "ts": "1759260240.108731"
+ },
+ {
+  "type": "message",
+  "user": "U0712M",
+  "text": "honestly the migration runbook is in INFRA-2291, please actually read it thanks all",
+  "ts": "1759261380.948588"
+ }
+]

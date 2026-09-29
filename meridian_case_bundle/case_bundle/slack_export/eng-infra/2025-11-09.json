@@ -1,0 +1,80 @@
+[
+ {
+  "type": "message",
+  "user": "U0711L",
+  "text": "who owns the nightly backfill cron, it has been failing silently for six days :)",
+  "ts": "1762675140.415666"
+ },
+ {
+  "type": "message",
+  "user": "U0719T",
+  "text": "psa: free space graph on scratch-01 looks weird, it is Dov's tarballs again will update",
+  "ts": "1762679760.239627"
+ },
+ {
+  "type": "message",
+  "user": "U0719T",
+  "text": "fyi checkpoint sync is slow again, probably the decompress-on-write thing",
+  "ts": "1762683960.147020"
+ },
+ {
+  "type": "message",
+  "user": "U0718S",
+  "text": "honestly training loss went flat at step 40k which is either very good or very bad",
+  "ts": "1762684980.580191"
+ },
+ {
+  "type": "message",
+  "user": "U0714O",
+  "text": "restarted the backfill from scratch, the partial output was garbage more later",
+  "ts": "1762686720.994541"
+ },
+ {
+  "type": "message",
+  "user": "U0720U",
+  "text": "does anyone actually know what the legacy staging path is still used for more later",
+  "ts": "1762687860.196249"
+ },
+ {
+  "type": "message",
+  "user": "U0711L",
+  "text": "reminder: eval run 4417 finished, nothing interesting, will rerun with the new sampler see DATA-2406",
+  "ts": "1762689840.904145"
+ },
+ {
+  "type": "message",
+  "user": "U0722W",
+  "text": "again: deploy to staging is green, promoting at 3 unless someone objects",
+  "ts": "1762689900.453738"
+ },
+ {
+  "type": "message",
+  "user": "U0701B",
+  "text": "restarted the backfill from scratch, the partial output was garbage",
+  "ts": "1762699380.645382"
+ },
+ {
+  "type": "message",
+  "user": "U0713N",
+  "text": "honestly the rsync to cold storage is crawling again, 30 hours in and at 76% sorry",
+  "ts": "1762703220.777639"
+ },
+ {
+  "type": "message",
+  "user": "U0714O",
+  "text": "small thing: i have found the memory leak. it was me. it was me 15 weeks ago",
+  "ts": "1762704060.467552"
+ },
+ {
+  "type": "message",
+  "user": "U0720U",
+  "text": "checkpoint sync is slow again, i think it is the decompress-on-write thing cc Rafferty",
+  "ts": "1762704960.586288"
+ },
+ {
+  "type": "message",
+  "user": "U0713N",
+  "text": "reminder: gpu queue is jammed, 44 jobs pending under a service account",
+  "ts": "1762721400.931303"
+ }
+]

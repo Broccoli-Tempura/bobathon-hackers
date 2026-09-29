@@ -1,0 +1,92 @@
+[
+ {
+  "type": "message",
+  "user": "U0718S",
+  "text": "again: adding a lint rule and preemptively apologising to everyone's diff will update",
+  "ts": "1762500600.474188"
+ },
+ {
+  "type": "message",
+  "user": "U0719T",
+  "text": "scratch array at 80%, nobody panic, i am just saying it out loud see PLAT-2534",
+  "ts": "1762501620.826273"
+ },
+ {
+  "type": "message",
+  "user": "U0723X",
+  "text": "reminder: who owns the nightly backfill cron, it has been failing for 12 days thanks all",
+  "ts": "1762505940.503988"
+ },
+ {
+  "type": "message",
+  "user": "U0712M",
+  "text": "restarted the backfill from scratch, the partial output was garbage will update",
+  "ts": "1762509120.997317"
+ },
+ {
+  "type": "message",
+  "user": "U0713N",
+  "text": "not to be dramatic but i have turned it off and on again and it worked and i am furious cc Dov",
+  "ts": "1762511520.889194"
+ },
+ {
+  "type": "message",
+  "user": "U0714O",
+  "text": "can someone approve the terraform change for PLAT-2241, it is one line",
+  "ts": "1762514580.119870"
+ },
+ {
+  "type": "message",
+  "user": "U0716Q",
+  "text": "for the record, free space graph on scratch-01 looks weird, it is Lukas's tarballs again send help",
+  "ts": "1762528200.763178"
+ },
+ {
+  "type": "message",
+  "user": "U0713N",
+  "text": "deploy to staging is green, promoting at 3 unless someone objects",
+  "ts": "1762530360.535228"
+ },
+ {
+  "type": "message",
+  "user": "U0701B",
+  "text": "update: the scratch array is at 71%, nobody panic, i am just saying it out loud",
+  "ts": "1762532940.379284"
+ },
+ {
+  "type": "message",
+  "user": "U0710K",
+  "text": "we are out of disk on scratch-01 again, someone is writing tarballs there",
+  "ts": "1762535160.515794"
+ },
+ {
+  "type": "message",
+  "user": "U0720U",
+  "text": "ok so i have turned it off and on again and it worked and i am furious",
+  "ts": "1762536360.631537"
+ },
+ {
+  "type": "message",
+  "user": "U0707H",
+  "text": "the scratch array is at 71%, nobody panic, i am just saying it out loud thanks all",
+  "ts": "1762537080.431054"
+ },
+ {
+  "type": "message",
+  "user": "U0720U",
+  "text": "i would like to formally propose we delete the old airflow instance (again)",
+  "ts": "1762538640.172905"
+ },
+ {
+  "type": "message",
+  "user": "U0711L",
+  "text": "fyi bumping retention on the eval bucket to 37 days, shout if that breaks anything lol",
+  "ts": "1762542360.188970"
+ },
+ {
+  "type": "message",
+  "user": "U0722W",
+  "text": "rolling back the config change from thursday, latencies went sideways thanks all",
+  "ts": "1762548660.412502"
+ }
+]

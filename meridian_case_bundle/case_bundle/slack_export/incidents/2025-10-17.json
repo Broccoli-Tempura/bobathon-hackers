@@ -1,0 +1,32 @@
+[
+ {
+  "type": "message",
+  "user": "U0710K",
+  "text": "update: root cause for INC-01212: a cert expired that nobody knew existed",
+  "ts": "1760682300.625362"
+ },
+ {
+  "type": "message",
+  "user": "U0704E",
+  "text": "honestly false alarm, the monitoring agent itself fell over thanks all",
+  "ts": "1760690340.589686"
+ },
+ {
+  "type": "message",
+  "user": "U0705F",
+  "text": "fyi paging on-call, p99 latency above threshold for 2 minutes see INFRA-2509",
+  "ts": "1760700900.267039"
+ },
+ {
+  "type": "message",
+  "user": "U0701B",
+  "text": "for the record, confirmed, node pool scaled to zero overnight, autoscaler config regression",
+  "ts": "1760708520.745545"
+ },
+ {
+  "type": "message",
+  "user": "U0714O",
+  "text": "for the record, INC-02929: sandbox inference returning 503s, investigating",
+  "ts": "1760717880.750411"
+ }
+]

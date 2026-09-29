@@ -1,0 +1,38 @@
+[
+ {
+  "type": "message",
+  "user": "U0714O",
+  "text": "ok so training loss went flat at step 30k, either very good or very bad see PLAT-1913",
+  "ts": "1760262240.500738"
+ },
+ {
+  "type": "message",
+  "user": "U0711L",
+  "text": "reminder: deploy to staging is green, promoting at 7:00 unless someone objects",
+  "ts": "1760269740.552302"
+ },
+ {
+  "type": "message",
+  "user": "U0721V",
+  "text": "small thing: gpu queue is jammed, 16 jobs pending under a service account",
+  "ts": "1760272140.991790"
+ },
+ {
+  "type": "message",
+  "user": "U0718S",
+  "text": "i would like to formally propose we delete the old airflow instance will update",
+  "ts": "1760286780.437963"
+ },
+ {
+  "type": "message",
+  "user": "U0712M",
+  "text": "the migration runbook is in INFRA-2291, please actually read it",
+  "ts": "1760295120.727346"
+ },
+ {
+  "type": "message",
+  "user": "U0719T",
+  "text": "honestly gpu queue is jammed, someone has 40 jobs pending under a service account",
+  "ts": "1760296140.604359"
+ }
+]

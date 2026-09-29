@@ -1,0 +1,38 @@
+[
+ {
+  "type": "message",
+  "user": "U0712M",
+  "text": "psa: rolling back the config change, latencies went sideways",
+  "ts": "1755076860.860973"
+ },
+ {
+  "type": "message",
+  "user": "U0718S",
+  "text": "again: restarted the backfill from scratch, the partial output was garbage sorry",
+  "ts": "1755084540.324038"
+ },
+ {
+  "type": "message",
+  "user": "U0704E",
+  "text": "checkpoint sync is slow again, probably the decompress-on-write thing cc Anneke",
+  "ts": "1755100380.674673"
+ },
+ {
+  "type": "message",
+  "user": "U0712M",
+  "text": "quick one: can someone approve the terraform change, it is one line, it is genuinely one line will update",
+  "ts": "1755111480.561491"
+ },
+ {
+  "type": "message",
+  "user": "U0713N",
+  "text": "small thing: flaky test test_interface_energy_roundtrip failed again on Dov's branch lol",
+  "ts": "1755111540.417987"
+ },
+ {
+  "type": "message",
+  "user": "U0710K",
+  "text": "for the record, can we talk about why the storage docs describe an architecture we stopped using in 2023 :)",
+  "ts": "1755112200.910074"
+ }
+]

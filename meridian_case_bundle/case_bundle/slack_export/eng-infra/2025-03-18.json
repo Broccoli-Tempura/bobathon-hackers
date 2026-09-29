@@ -1,0 +1,26 @@
+[
+ {
+  "type": "message",
+  "user": "U0704E",
+  "text": "wrote up the storage integrity controls design on confluence so it is documented somewhere other than iris's head",
+  "ts": "1742307720.317303"
+ },
+ {
+  "type": "message",
+  "user": "U0702C",
+  "text": "which space did you put it in",
+  "ts": "1742308800.186335"
+ },
+ {
+  "type": "message",
+  "user": "U0704E",
+  "text": "eng space, default perms. is that bad",
+  "ts": "1742309040.546364"
+ },
+ {
+  "type": "message",
+  "user": "U0702C",
+  "text": "we will talk",
+  "ts": "1742309100.184644"
+ }
+]

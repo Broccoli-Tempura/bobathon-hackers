@@ -1,0 +1,62 @@
+[
+ {
+  "type": "message",
+  "user": "U0710K",
+  "text": "fyi we are out of disk on scratch-01 again, someone is writing tarballs there thanks all",
+  "ts": "1758181980.338972"
+ },
+ {
+  "type": "message",
+  "user": "U0701B",
+  "text": "scratch array at 95%, nobody panic, i am just saying it out loud send help",
+  "ts": "1758182820.588243"
+ },
+ {
+  "type": "message",
+  "user": "U0714O",
+  "text": "quick one: eval run 88 finished, nothing interesting, rerunning with the new sampler",
+  "ts": "1758190380.314297"
+ },
+ {
+  "type": "message",
+  "user": "U0707H",
+  "text": "ok so moving the on-call handoff to mondays because fridays were chaos sorry",
+  "ts": "1758190740.508071"
+ },
+ {
+  "type": "message",
+  "user": "U0703D",
+  "text": "quick one: deploy to staging is green, promoting at 3 unless someone objects",
+  "ts": "1758192840.424914"
+ },
+ {
+  "type": "message",
+  "user": "U0703D",
+  "text": "who owns the nightly backfill cron, it has been failing for 19 days",
+  "ts": "1758193740.888989"
+ },
+ {
+  "type": "message",
+  "user": "U0703D",
+  "text": "update: can someone approve the terraform change for PLAT-2150, it is one line sorry",
+  "ts": "1758196980.726965"
+ },
+ {
+  "type": "message",
+  "user": "U0716Q",
+  "text": "not to be dramatic but deploy to staging is green, promoting at 7:00 unless someone objects",
+  "ts": "1758203520.764679"
+ },
+ {
+  "type": "message",
+  "user": "U0712M",
+  "text": "fyi can we talk about why the storage docs describe an architecture we stopped using in 2023",
+  "ts": "1758216600.718901"
+ },
+ {
+  "type": "message",
+  "user": "U0718S",
+  "text": "psa: portable array from the IT cage is back on the shelf, seals intact :)",
+  "ts": "1758222360.374487"
+ }
+]

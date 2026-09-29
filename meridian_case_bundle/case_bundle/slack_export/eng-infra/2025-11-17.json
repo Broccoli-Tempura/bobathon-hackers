@@ -1,0 +1,92 @@
+[
+ {
+  "type": "message",
+  "user": "U0714O",
+  "text": "again: scratch array at 58%, nobody panic, i am just saying it out loud",
+  "ts": "1763367600.746231"
+ },
+ {
+  "type": "message",
+  "user": "U0721V",
+  "text": "psa: can we talk about why the storage docs describe an architecture we stopped using in 2023 :)",
+  "ts": "1763369580.330306"
+ },
+ {
+  "type": "message",
+  "user": "U0723X",
+  "text": "fyi reminder we are frozen for deploys over the long weekend",
+  "ts": "1763375400.112847"
+ },
+ {
+  "type": "message",
+  "user": "U0720U",
+  "text": "honestly eval run 99 finished, nothing interesting, rerunning with the new sampler cc Noemi",
+  "ts": "1763377680.814885"
+ },
+ {
+  "type": "message",
+  "user": "U0704E",
+  "text": "update: restarted the backfill from scratch, the partial output was garbage",
+  "ts": "1763379060.873743"
+ },
+ {
+  "type": "message",
+  "user": "U0702C",
+  "text": "fyi training loss went flat at step 26k, either very good or very bad",
+  "ts": "1763384580.873621"
+ },
+ {
+  "type": "message",
+  "user": "U0723X",
+  "text": "checkpoint sync is slow again, probably the decompress-on-write thing :)",
+  "ts": "1763387400.792306"
+ },
+ {
+  "type": "message",
+  "user": "U0707H",
+  "text": "psa: checkpoint sync is slow again, probably the decompress-on-write thing",
+  "ts": "1763393400.637092"
+ },
+ {
+  "type": "message",
+  "user": "U0711L",
+  "text": "honestly i have found the memory leak. it was me. it was me 2 weeks ago",
+  "ts": "1763402640.935838"
+ },
+ {
+  "type": "message",
+  "user": "U0711L",
+  "text": "scratch array at 73%, nobody panic, i am just saying it out loud",
+  "ts": "1763404020.834347"
+ },
+ {
+  "type": "message",
+  "user": "U0707H",
+  "text": "update: PR up for INFRA-2500, it is enormous and i am sorry",
+  "ts": "1763404200.865610"
+ },
+ {
+  "type": "message",
+  "user": "U0711L",
+  "text": "for the record, does anyone actually know what the legacy staging path is still used for (again)",
+  "ts": "1763404320.274485"
+ },
+ {
+  "type": "message",
+  "user": "U0703D",
+  "text": "update: does anyone actually know what the legacy staging path is still used for more later",
+  "ts": "1763405040.158069"
+ },
+ {
+  "type": "message",
+  "user": "U0702C",
+  "text": "for the record, cluster is back. it was DNS. it is always DNS thanks all",
+  "ts": "1763405640.616860"
+ },
+ {
+  "type": "message",
+  "user": "U0712M",
+  "text": "psa: snapshot cleanup on scratch-01 freed 6TB, should hold until the migration cc Tobias",
+  "ts": "1763408880.356343"
+ }
+]

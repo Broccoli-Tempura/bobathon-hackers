@@ -1,0 +1,20 @@
+[
+ {
+  "type": "message",
+  "user": "U0707H",
+  "text": "again: root cause: a cert expired that nobody knew existed (again)",
+  "ts": "1762674600.614401"
+ },
+ {
+  "type": "message",
+  "user": "U0703D",
+  "text": "not to be dramatic but INC-03838 mitigated, writing it up, the writeup will be embarrassing see DATA-2082",
+  "ts": "1762682580.356042"
+ },
+ {
+  "type": "message",
+  "user": "U0723X",
+  "text": "for the record, Lukas is on call this week, Noemi is backup",
+  "ts": "1762696020.283618"
+ }
+]

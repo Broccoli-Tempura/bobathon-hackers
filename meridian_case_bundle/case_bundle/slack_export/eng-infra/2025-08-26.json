@@ -1,0 +1,86 @@
+[
+ {
+  "type": "message",
+  "user": "U0711L",
+  "text": "rolling back the config change from wednesday, latencies went sideways",
+  "ts": "1756191120.260871"
+ },
+ {
+  "type": "message",
+  "user": "U0718S",
+  "text": "small thing: bumping retention on the eval bucket to 24 days, shout if that breaks anything",
+  "ts": "1756191360.320299"
+ },
+ {
+  "type": "message",
+  "user": "U0701B",
+  "text": "quick one: the migration runbook is in the ticket, please actually read the runbook :)",
+  "ts": "1756191600.781397"
+ },
+ {
+  "type": "message",
+  "user": "U0718S",
+  "text": "for the record, cluster is back. it was DNS. it is always DNS thanks all",
+  "ts": "1756192080.994824"
+ },
+ {
+  "type": "message",
+  "user": "U0705F",
+  "text": "honestly i have turned it off and on again and it worked and i am furious send help",
+  "ts": "1756194180.813553"
+ },
+ {
+  "type": "message",
+  "user": "U0712M",
+  "text": "ok so PR up for DATA-2136, it is enormous and i am sorry thanks all",
+  "ts": "1756200060.422361"
+ },
+ {
+  "type": "message",
+  "user": "U0701B",
+  "text": "psa: PR up for PLAT-1989, it is enormous and i am sorry more later",
+  "ts": "1756211340.222841"
+ },
+ {
+  "type": "message",
+  "user": "U0722W",
+  "text": "reminder: rolling back the config change, latencies went sideways see PLAT-2272",
+  "ts": "1756213200.371752"
+ },
+ {
+  "type": "message",
+  "user": "U0716Q",
+  "text": "does anyone actually know what the legacy staging path is still used for",
+  "ts": "1756214520.773371"
+ },
+ {
+  "type": "message",
+  "user": "U0720U",
+  "text": "moving the on-call handoff to mondays because fridays were chaos",
+  "ts": "1756218900.276046"
+ },
+ {
+  "type": "message",
+  "user": "U0722W",
+  "text": "deploy to staging is green, promoting at 11:00 unless someone objects sorry",
+  "ts": "1756220160.643838"
+ },
+ {
+  "type": "message",
+  "user": "U0714O",
+  "text": "ok so does anyone actually know what the legacy staging path is still used for more later",
+  "ts": "1756226400.969984"
+ },
+ {
+  "type": "message",
+  "user": "U0710K",
+  "text": "not to be dramatic but deploy to staging is green, promoting at 3 unless someone objects",
+  "ts": "1756233420.952646"
+ },
+ {
+  "type": "message",
+  "user": "U0718S",
+  "text": "small thing: can we talk about why the storage docs describe an architecture we stopped using in 2023 more later",
+  "ts": "1756234920.567107"
+ }
+]

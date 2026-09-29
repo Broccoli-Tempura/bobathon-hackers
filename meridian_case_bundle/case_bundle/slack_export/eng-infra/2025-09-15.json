@@ -1,0 +1,86 @@
+[
+ {
+  "type": "message",
+  "user": "U0713N",
+  "text": "psa: checkpoint sync is slow again, i think it is the decompress-on-write thing (again)",
+  "ts": "1757916420.364225"
+ },
+ {
+  "type": "message",
+  "user": "U0718S",
+  "text": "moving on-call handoff to thursdays, fridays were chaos thanks all",
+  "ts": "1757919600.534492"
+ },
+ {
+  "type": "message",
+  "user": "U0716Q",
+  "text": "i have found the memory leak. it was me. it was me 37 weeks ago will update",
+  "ts": "1757924700.976450"
+ },
+ {
+  "type": "message",
+  "user": "U0719T",
+  "text": "reminder: moving on-call handoff to wednesdays, fridays were chaos",
+  "ts": "1757928420.902888"
+ },
+ {
+  "type": "message",
+  "user": "U0703D",
+  "text": "Noemi can you review DATA-2122 before friday thanks all",
+  "ts": "1757928960.641116"
+ },
+ {
+  "type": "message",
+  "user": "U0710K",
+  "text": "the storage docs describe the 2023 architecture, INFRA-2061 tracks fixing it (again)",
+  "ts": "1757933760.877236"
+ },
+ {
+  "type": "message",
+  "user": "U0714O",
+  "text": "not to be dramatic but bumping retention on the eval bucket to 34 days, shout if that breaks anything",
+  "ts": "1757936580.113982"
+ },
+ {
+  "type": "message",
+  "user": "U0702C",
+  "text": "update: the migration runbook is in the ticket, please actually read the runbook",
+  "ts": "1757938500.440930"
+ },
+ {
+  "type": "message",
+  "user": "U0719T",
+  "text": "fyi rolling back the config change from monday, latencies went sideways",
+  "ts": "1757942160.488645"
+ },
+ {
+  "type": "message",
+  "user": "U0704E",
+  "text": "ok so bumping retention on the eval bucket to 6 days, shout if that breaks anything :)",
+  "ts": "1757943840.395509"
+ },
+ {
+  "type": "message",
+  "user": "U0707H",
+  "text": "fyi flaky test in the integration suite again, it is the same one, it is always the same one will update",
+  "ts": "1757946720.102888"
+ },
+ {
+  "type": "message",
+  "user": "U0710K",
+  "text": "not to be dramatic but can we talk about why the storage docs describe an architecture we stopped using in 2023",
+  "ts": "1757948760.970905"
+ },
+ {
+  "type": "message",
+  "user": "U0702C",
+  "text": "gpu queue is jammed, 33 jobs pending under a service account thanks all",
+  "ts": "1757952120.479772"
+ },
+ {
+  "type": "message",
+  "user": "U0722W",
+  "text": "psa: i have found the memory leak. it was me. it was me 17 weeks ago",
+  "ts": "1757954040.455167"
+ }
+]

@@ -1,0 +1,40 @@
+HALCYON SYSTEMS · INVESTIGATION RECORD · INTERVIEW 06 OF 08
+Interviewee: Noemi Rochat, Head of Product
+Interviewer: Nadia Arslan (NA)
+Date: Friday 21.11.2025 · Recording start 12:03 · end 13:31
+Location: rented meeting room, Rosenbergstrasse, St. Gallen (off-site)
+Recording: audio, automatic transcription (TranscribeDesk 3.2). Not proofread. Speaker labels are automatic and may be wrong.
+----------------------------------------------------------------------
+
+[00:00:02] NA: Thank you for coming. Recorded, stays with me, please don't discuss it afterwards.
+[00:00:07] SPEAKER 2: Oh, I won't. I mean I will want to, obviously, but I won't. Can I start? I've got theories.
+[00:00:13] NA: Everyone does.
+[00:00:15] SPEAKER 2: No, but mine are good. One. Kestrel's board. They signed off a range before they ever talked to us, which means someone upstairs had already decided they wanted this, deal or no deal. Two. Gilles Aubert personally. Look at where he worked before. Two acquirers, both times the deal fell through and the acquirer shipped something suspiciously similar a year later.
+[00:00:39] NA: Do you have evidence of that?
+[00:00:41] SPEAKER 2: I have a feeling. I'm a product person, feelings are data. Three, and this is the one nobody likes, a hedge fund angle, short positions on our Series C investors, it would be... [pause] okay, no, you're making a face, I'll drop that one.
+[00:00:57] NA: Thank you.
+[00:00:59] SPEAKER 2: Four. Culture. And I say this with love. Lukas runs engineering like a monastery. Nobody documents anything because Lukas knows where everything is. Which is great until the knowledge walks out of the building in somebody's head, or on somebody's drive.
+[00:01:15] NA: Where were you on the tenth of October?
+[00:01:18] SPEAKER 2: Friday? In the office late, actually. I meant to leave early to drive to Bern, we're looking at a venue on the Gurten for the spring offsite, and then I got stuck on the roadmap doc and suddenly it was ten o'clock. I left around half past ten, drove to Bern, stayed with my sister. Saturday I slept. Monday I walked round the venue. It's lovely. We can't afford it.
+[00:01:42] NA: You were in the building until half past ten on the Friday.
+[00:01:45] SPEAKER 2: Second floor, my office. [pause] Oh. The window. Yes. I realise. But the thing started at eleven, didn't it? Or, I don't know when it started. Nobody's told me anything.
+[00:01:56] NA: Did you see anyone else?
+[00:01:58] SPEAKER 2: The cleaners, early. June was still around at some point, I heard her swearing at a spreadsheet. Nobody after that. My floor was dead.
+[00:02:07] NA: What do you think happened?
+[00:02:10] SPEAKER 2: The thing nobody wants to say out loud is that this was amateur hour. Whoever did this was not a professional. A professional does not sit in a building for seven hours with a drive plugged in. A professional certainly doesn't fill the target disk halfway through and have to go and bin something to make room and start the whole job again from the top like someone reformatting a laptop in 2004. [laughs] Which tells you it was someone here. Someone who'd never done it before and was terrified. That's my read.
+[00:02:40] NA: That's a very specific read.
+[00:02:42] SPEAKER 2: I'm a product person, Nadia. Specificity is the job. [pause] Also I'm right, aren't I. I can see that I'm right.
+[00:02:50] NA: Tell me about your new company.
+[00:02:53] SPEAKER 2: Developer tooling. It's orthogonal. Genuinely orthogonal. Everyone says "adjacent" with a face but it's code review for infrastructure teams, it has nothing to do with materials or models. I'm leaving in spring. Dov knows. I told him in August before I told anyone.
+[00:03:10] NA: Did you ever read the Confluence page about the storage controls?
+[00:03:13] SPEAKER 2: Once, in April, for about four minutes. I remember because I went straight into a meeting and used the phrase "decoy checkpoints" twice in the wrong context and Iris corrected me in front of eleven people. So I know there were decoys and I know I don't understand them.
+[00:03:30] NA: Where is your office?
+[00:03:32] SPEAKER 2: Second floor, 2F-4. The little one. [laughs] Next to the meeting room with the cardboard wall. I've had a ticket open about that wall since 2023.
+[00:03:41] NA: Have you been in your office this week?
+[00:03:43] SPEAKER 2: Every day. Why?
+[00:03:45] NA: Just building a picture. Thank you, Noemi.
+[00:03:48] SPEAKER 2: That's it? I had two more theories.
+[00:03:51] NA: Write them down for me.
+[00:03:53] SPEAKER 2: I will. I genuinely will.
+[00:03:55] [recording continues, 83 minutes removed; interviewee continued to talk about theories until 13:31]
+[01:28:02] NA: Recording stopped.

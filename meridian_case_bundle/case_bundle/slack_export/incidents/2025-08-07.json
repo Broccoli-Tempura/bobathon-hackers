@@ -1,0 +1,38 @@
+[
+ {
+  "type": "message",
+  "user": "U0716Q",
+  "text": "ok so paging on-call, p99 latency above threshold for 3 minutes thanks all",
+  "ts": "1754547840.743077"
+ },
+ {
+  "type": "message",
+  "user": "U0718S",
+  "text": "honestly Lukas is on call this week, Lukas is backup cc Lukas",
+  "ts": "1754548800.385076"
+ },
+ {
+  "type": "message",
+  "user": "U0704E",
+  "text": "INC-01212 mitigated, writing it up, the writeup will be embarrassing see PLAT-2411",
+  "ts": "1754560920.898413"
+ },
+ {
+  "type": "message",
+  "user": "U0711L",
+  "text": "postmortem doc is up, blameless, please add anything i missed will update",
+  "ts": "1754562360.385674"
+ },
+ {
+  "type": "message",
+  "user": "U0713N",
+  "text": "honestly disk usage alert on scratch-01 at 87%, acknowledged, not urgent",
+  "ts": "1754572140.508447"
+ },
+ {
+  "type": "message",
+  "user": "U0719T",
+  "text": "for the record, Dessie is on call this week, Andrin is backup sorry",
+  "ts": "1754572920.567490"
+ }
+]

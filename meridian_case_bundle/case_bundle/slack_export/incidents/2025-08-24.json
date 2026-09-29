@@ -1,0 +1,20 @@
+[
+ {
+  "type": "message",
+  "user": "U0703D",
+  "text": "ok so customer impact limited to the public sandbox, no production exposure lol",
+  "ts": "1756041360.527821"
+ },
+ {
+  "type": "message",
+  "user": "U0707H",
+  "text": "for the record, confirmed, node pool scaled to zero overnight, autoscaler config regression more later",
+  "ts": "1756051860.566115"
+ },
+ {
+  "type": "message",
+  "user": "U0705F",
+  "text": "ok so root cause for INC-03636: a cert expired that nobody knew existed",
+  "ts": "1756060920.754539"
+ }
+]

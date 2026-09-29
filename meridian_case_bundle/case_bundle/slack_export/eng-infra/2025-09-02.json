@@ -1,0 +1,74 @@
+[
+ {
+  "type": "message",
+  "user": "U0712M",
+  "text": "honestly scratch array at 64%, nobody panic, i am just saying it out loud",
+  "ts": "1756794180.163098"
+ },
+ {
+  "type": "message",
+  "user": "U0721V",
+  "text": "ok so running a big copy tonight, expect the array to look weird in the graphs",
+  "ts": "1756804140.281491"
+ },
+ {
+  "type": "message",
+  "user": "U0703D",
+  "text": "fyi gpu queue is jammed, 47 jobs pending under a service account thanks all",
+  "ts": "1756804680.367793"
+ },
+ {
+  "type": "message",
+  "user": "U0701B",
+  "text": "fyi checkpoint sync is slow again, probably the decompress-on-write thing send help",
+  "ts": "1756811940.985724"
+ },
+ {
+  "type": "message",
+  "user": "U0720U",
+  "text": "small thing: moving the on-call handoff to mondays because fridays were chaos",
+  "ts": "1756814340.718724"
+ },
+ {
+  "type": "message",
+  "user": "U0723X",
+  "text": "gpu queue is jammed, someone has 40 jobs pending under a service account see INFRA-2428",
+  "ts": "1756814760.162380"
+ },
+ {
+  "type": "message",
+  "user": "U0702C",
+  "text": "reminder: gpu queue is jammed, someone has 40 jobs pending under a service account lol",
+  "ts": "1756820760.563466"
+ },
+ {
+  "type": "message",
+  "user": "U0710K",
+  "text": "ok so portable array from the IT cage is back on the shelf, seals intact thanks all",
+  "ts": "1756821240.406862"
+ },
+ {
+  "type": "message",
+  "user": "U0711L",
+  "text": "i have found the memory leak. it was me. it was me 23 weeks ago",
+  "ts": "1756822440.542917"
+ },
+ {
+  "type": "message",
+  "user": "U0723X",
+  "text": "update: free space graph on scratch-01 looks weird, it is Marcus's tarballs again lol",
+  "ts": "1756833060.360440"
+ },
+ {
+  "type": "message",
+  "user": "U0703D",
+  "text": "honestly portable array from the IT cage is back on the shelf, seals intact",
+  "ts": "1756836840.789827"
+ },
+ {
+  "type": "message",
+  "user": "U0703D",
+  "text": "again: the rsync to cold storage is crawling again, 26 hours in and at 86%",
+  "ts": "1756837860.816612"
+ }
+]

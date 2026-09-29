@@ -1,0 +1,44 @@
+[
+ {
+  "type": "message",
+  "user": "U0719T",
+  "text": "psa: flaky test test_interface_energy_roundtrip failed again on Yuki's branch will update",
+  "ts": "1760164080.668747"
+ },
+ {
+  "type": "message",
+  "user": "U0721V",
+  "text": "honestly rolling back the config change from wednesday, latencies went sideways",
+  "ts": "1760178360.626195"
+ },
+ {
+  "type": "message",
+  "user": "U0701B",
+  "text": "sandbox cluster is down, on it. yannick are you reachable",
+  "ts": "1760180520.621418"
+ },
+ {
+  "type": "message",
+  "user": "U0704E",
+  "text": "reachable but in val müstair, can screen share from a kitchen table",
+  "ts": "1760180940.247867"
+ },
+ {
+  "type": "message",
+  "user": "U0722W",
+  "text": "training loss went flat at step 28k, either very good or very bad thanks all",
+  "ts": "1760196840.305816"
+ },
+ {
+  "type": "message",
+  "user": "U0701B",
+  "text": "mitigated. four hours of my saturday. writing it up monday",
+  "ts": "1760197680.598428"
+ },
+ {
+  "type": "message",
+  "user": "U0714O",
+  "text": "training loss went flat at step 16k, either very good or very bad",
+  "ts": "1760205120.825565"
+ }
+]

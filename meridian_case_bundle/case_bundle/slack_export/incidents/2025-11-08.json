@@ -1,0 +1,26 @@
+[
+ {
+  "type": "message",
+  "user": "U0711L",
+  "text": "quick one: disk usage alert on scratch-01 at 67%, acknowledged, not urgent lol",
+  "ts": "1762607700.916080"
+ },
+ {
+  "type": "message",
+  "user": "U0722W",
+  "text": "update: INC-03333: sandbox inference returning 503s, investigating :)",
+  "ts": "1762620420.740977"
+ },
+ {
+  "type": "message",
+  "user": "U0716Q",
+  "text": "Renata is on call this week, Wen-Li is backup more later",
+  "ts": "1762627800.742319"
+ },
+ {
+  "type": "message",
+  "user": "U0723X",
+  "text": "root cause for INC-01414: a cert expired that nobody knew existed cc Nils",
+  "ts": "1762633680.714898"
+ }
+]

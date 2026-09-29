@@ -1,0 +1,104 @@
+[
+ {
+  "type": "message",
+  "user": "U0710K",
+  "text": "honestly cluster is back. it was DNS. it is always DNS sorry",
+  "ts": "1759396140.428940"
+ },
+ {
+  "type": "message",
+  "user": "U0704E",
+  "text": "heads up the audit collector goes down for the migration window, 21:00 fri 10th through 06:00 sat 11th. ticket INFRA-2291 has the detail",
+  "ts": "1759396440.103210"
+ },
+ {
+  "type": "message",
+  "user": "U0701B",
+  "text": "everyone please note that ^ . nothing gets logged in that window. behave",
+  "ts": "1759396560.683147"
+ },
+ {
+  "type": "message",
+  "user": "U0713N",
+  "text": "nine hours of nothing, love that for us",
+  "ts": "1759396740.761156"
+ },
+ {
+  "type": "message",
+  "user": "U0716Q",
+  "text": "honestly free space graph on scratch-01 looks weird, it is Chiara's tarballs again",
+  "ts": "1759399440.495652"
+ },
+ {
+  "type": "message",
+  "user": "U0702C",
+  "text": "again: deploy to staging is green, promoting at 3 unless someone objects lol",
+  "ts": "1759399500.937610"
+ },
+ {
+  "type": "message",
+  "user": "U0713N",
+  "text": "small thing: deploy to staging is green, promoting at 12:00 unless someone objects thanks all",
+  "ts": "1759402500.792682"
+ },
+ {
+  "type": "message",
+  "user": "U0718S",
+  "text": "snapshot cleanup on scratch-01 freed 11TB, should hold until the migration",
+  "ts": "1759403280.137401"
+ },
+ {
+  "type": "message",
+  "user": "U0712M",
+  "text": "fyi can someone approve the terraform change for INFRA-2269, it is one line (again)",
+  "ts": "1759407600.753348"
+ },
+ {
+  "type": "message",
+  "user": "U0719T",
+  "text": "psa: cluster is back. it was DNS. it is always DNS thanks all",
+  "ts": "1759412160.956918"
+ },
+ {
+  "type": "message",
+  "user": "U0719T",
+  "text": "reminder: i have found the memory leak. it was me. it was me 30 weeks ago lol",
+  "ts": "1759413300.579892"
+ },
+ {
+  "type": "message",
+  "user": "U0707H",
+  "text": "flaky test in the integration suite again, it is the same one, it is always the same one cc Priya",
+  "ts": "1759417920.246833"
+ },
+ {
+  "type": "message",
+  "user": "U0703D",
+  "text": "for the record, i have found the memory leak. it was me. it was me 32 weeks ago",
+  "ts": "1759426800.434533"
+ },
+ {
+  "type": "message",
+  "user": "U0704E",
+  "text": "reminder: i have found the memory leak. it was me. it was me four months ago",
+  "ts": "1759430940.340948"
+ },
+ {
+  "type": "message",
+  "user": "U0701B",
+  "text": "honestly gpu queue is jammed, 11 jobs pending under a service account more later",
+  "ts": "1759432020.232792"
+ },
+ {
+  "type": "message",
+  "user": "U0720U",
+  "text": "fyi snapshot cleanup on scratch-01 freed 8TB, should hold until the migration",
+  "ts": "1759432800.618627"
+ },
+ {
+  "type": "message",
+  "user": "U0711L",
+  "text": "reminder: training loss went flat at step 19k, either very good or very bad",
+  "ts": "1759432920.642416"
+ }
+]

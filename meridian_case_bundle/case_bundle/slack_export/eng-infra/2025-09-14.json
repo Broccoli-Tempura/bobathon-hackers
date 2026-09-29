@@ -1,0 +1,104 @@
+[
+ {
+  "type": "message",
+  "user": "U0719T",
+  "text": "update: deploy to staging is green, promoting at 20:00 unless someone objects",
+  "ts": "1757833560.162544"
+ },
+ {
+  "type": "message",
+  "user": "U0719T",
+  "text": "honestly scratch array at 60%, nobody panic, i am just saying it out loud send help",
+  "ts": "1757838120.482853"
+ },
+ {
+  "type": "message",
+  "user": "U0704E",
+  "text": "not to be dramatic but training loss went flat at step 32k, either very good or very bad more later",
+  "ts": "1757840220.460053"
+ },
+ {
+  "type": "message",
+  "user": "U0707H",
+  "text": "ok so i have turned it off and on again and it worked and i am furious",
+  "ts": "1757840880.903048"
+ },
+ {
+  "type": "message",
+  "user": "U0701B",
+  "text": "psa: moving the on-call handoff to mondays because fridays were chaos sorry",
+  "ts": "1757842380.553421"
+ },
+ {
+  "type": "message",
+  "user": "U0701B",
+  "text": "not to be dramatic but reminder we are frozen for deploys over the long weekend cc Kemi",
+  "ts": "1757848860.791772"
+ },
+ {
+  "type": "message",
+  "user": "U0707H",
+  "text": "can someone approve the terraform change, it is one line, it is genuinely one line",
+  "ts": "1757851740.157764"
+ },
+ {
+  "type": "message",
+  "user": "U0703D",
+  "text": "we are out of disk on scratch-01 again, someone is writing tarballs there",
+  "ts": "1757851980.535140"
+ },
+ {
+  "type": "message",
+  "user": "U0718S",
+  "text": "reminder: rolling back the config change from friday, latencies went sideways send help",
+  "ts": "1757852940.733406"
+ },
+ {
+  "type": "message",
+  "user": "U0723X",
+  "text": "for the record, Solveig can you review DATA-2518 before wednesday",
+  "ts": "1757856240.720335"
+ },
+ {
+  "type": "message",
+  "user": "U0721V",
+  "text": "for the record, reminder we are frozen for deploys over the long weekend thanks all",
+  "ts": "1757856660.857874"
+ },
+ {
+  "type": "message",
+  "user": "U0713N",
+  "text": "update: PR up for ML-2145, it is enormous and i am sorry :)",
+  "ts": "1757858880.647143"
+ },
+ {
+  "type": "message",
+  "user": "U0702C",
+  "text": "rolling back the config change from tuesday, latencies went sideways",
+  "ts": "1757863800.424938"
+ },
+ {
+  "type": "message",
+  "user": "U0716Q",
+  "text": "reminder: can someone approve the terraform change, it is one line, it is genuinely one line see PLAT-2329",
+  "ts": "1757867160.262608"
+ },
+ {
+  "type": "message",
+  "user": "U0713N",
+  "text": "reminder: the storage docs describe the 2023 architecture, INFRA-2270 tracks fixing it sorry",
+  "ts": "1757871240.672257"
+ },
+ {
+  "type": "message",
+  "user": "U0714O",
+  "text": "not to be dramatic but rolling back the config change from wednesday, latencies went sideways cc Anneke",
+  "ts": "1757874900.599952"
+ },
+ {
+  "type": "message",
+  "user": "U0710K",
+  "text": "honestly free space graph on scratch-01 looks weird, it is Kurt's tarballs again send help",
+  "ts": "1757878680.907765"
+ }
+]

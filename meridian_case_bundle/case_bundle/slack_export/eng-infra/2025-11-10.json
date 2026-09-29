@@ -1,0 +1,86 @@
+[
+ {
+  "type": "message",
+  "user": "U0703D",
+  "text": "does anyone actually know what the legacy staging path is still used for",
+  "ts": "1762762860.851080"
+ },
+ {
+  "type": "message",
+  "user": "U0704E",
+  "text": "eval run 1414 finished, nothing interesting, rerunning with the new sampler see PLAT-2123",
+  "ts": "1762765140.341567"
+ },
+ {
+  "type": "message",
+  "user": "U0719T",
+  "text": "small thing: restarted the backfill from scratch, the partial output was garbage see DATA-2105",
+  "ts": "1762774320.505845"
+ },
+ {
+  "type": "message",
+  "user": "U0722W",
+  "text": "small thing: copy job for the eval shards failed at 59%, restarting from the beginning because resume is broken :)",
+  "ts": "1762780620.984644"
+ },
+ {
+  "type": "message",
+  "user": "U0710K",
+  "text": "ok so PR up for DATA-2515, it is enormous and i am sorry",
+  "ts": "1762781640.129347"
+ },
+ {
+  "type": "message",
+  "user": "U0719T",
+  "text": "small thing: the rsync to cold storage is crawling again, 13 hours in and at 89% will update",
+  "ts": "1762782240.491912"
+ },
+ {
+  "type": "message",
+  "user": "U0716Q",
+  "text": "for the record, gpu queue is jammed, 31 jobs pending under a service account thanks all",
+  "ts": "1762783440.643770"
+ },
+ {
+  "type": "message",
+  "user": "U0718S",
+  "text": "for the record, scratch array at 69%, nobody panic, i am just saying it out loud",
+  "ts": "1762784040.804853"
+ },
+ {
+  "type": "message",
+  "user": "U0711L",
+  "text": "for the record, moving on-call handoff to fridays, fridays were chaos lol",
+  "ts": "1762792080.895445"
+ },
+ {
+  "type": "message",
+  "user": "U0713N",
+  "text": "honestly moving on-call handoff to tuesdays, fridays were chaos cc Kemi",
+  "ts": "1762792140.819946"
+ },
+ {
+  "type": "message",
+  "user": "U0710K",
+  "text": "reminder we are frozen for deploys over the long weekend will update",
+  "ts": "1762793580.559683"
+ },
+ {
+  "type": "message",
+  "user": "U0710K",
+  "text": "moving the on-call handoff to mondays because fridays were chaos thanks all",
+  "ts": "1762796520.595066"
+ },
+ {
+  "type": "message",
+  "user": "U0721V",
+  "text": "moving the on-call handoff to mondays because fridays were chaos thanks all",
+  "ts": "1762801800.813957"
+ },
+ {
+  "type": "message",
+  "user": "U0723X",
+  "text": "not to be dramatic but training loss went flat at step 40k which is either very good or very bad will update",
+  "ts": "1762805100.321267"
+ }
+]

@@ -1,0 +1,68 @@
+[
+ {
+  "type": "message",
+  "user": "U0713N",
+  "text": "psa: checkpoint sync is slow again, i think it is the decompress-on-write thing cc Noemi",
+  "ts": "1762156140.905613"
+ },
+ {
+  "type": "message",
+  "user": "U0714O",
+  "text": "for the record, portable array from the IT cage is back on the shelf, seals intact",
+  "ts": "1762163160.284723"
+ },
+ {
+  "type": "message",
+  "user": "U0720U",
+  "text": "for the record, checkpoint sync is slow again, i think it is the decompress-on-write thing",
+  "ts": "1762176180.219530"
+ },
+ {
+  "type": "message",
+  "user": "U0721V",
+  "text": "honestly restarted the backfill from scratch, the partial output was garbage send help",
+  "ts": "1762176420.610288"
+ },
+ {
+  "type": "message",
+  "user": "U0723X",
+  "text": "psa: deploy to staging is green, promoting at 17:00 unless someone objects sorry",
+  "ts": "1762178220.316853"
+ },
+ {
+  "type": "message",
+  "user": "U0702C",
+  "text": "not to be dramatic but i would like to formally propose we delete the old airflow instance",
+  "ts": "1762183260.687933"
+ },
+ {
+  "type": "message",
+  "user": "U0723X",
+  "text": "reminder: can we talk about why the storage docs describe an architecture we stopped using in 2023",
+  "ts": "1762187040.244440"
+ },
+ {
+  "type": "message",
+  "user": "U0723X",
+  "text": "not to be dramatic but portable array from the IT cage is back on the shelf, seals intact will update",
+  "ts": "1762194000.280288"
+ },
+ {
+  "type": "message",
+  "user": "U0712M",
+  "text": "ok so deploy to staging is green, promoting at 15:00 unless someone objects :)",
+  "ts": "1762197360.107189"
+ },
+ {
+  "type": "message",
+  "user": "U0710K",
+  "text": "ok so who owns the nightly backfill cron, it has been failing for 39 days lol",
+  "ts": "1762197420.844149"
+ },
+ {
+  "type": "message",
+  "user": "U0720U",
+  "text": "honestly flaky test test_interface_energy_roundtrip failed again on Priya's branch",
+  "ts": "1762199340.541499"
+ }
+]

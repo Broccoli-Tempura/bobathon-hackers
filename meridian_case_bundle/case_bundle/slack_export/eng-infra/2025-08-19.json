@@ -1,0 +1,38 @@
+[
+ {
+  "type": "message",
+  "user": "U0705F",
+  "text": "reminder: rolling back the config change, latencies went sideways",
+  "ts": "1755586440.802543"
+ },
+ {
+  "type": "message",
+  "user": "U0701B",
+  "text": "again: the migration runbook is in INFRA-2291, please actually read it see PLAT-2162",
+  "ts": "1755593160.962741"
+ },
+ {
+  "type": "message",
+  "user": "U0704E",
+  "text": "the scratch array is at 71%, nobody panic, i am just saying it out loud will update",
+  "ts": "1755593880.156726"
+ },
+ {
+  "type": "message",
+  "user": "U0723X",
+  "text": "again: bumping retention on the eval bucket to 34 days, shout if that breaks anything",
+  "ts": "1755594000.880735"
+ },
+ {
+  "type": "message",
+  "user": "U0710K",
+  "text": "honestly eval run 4417 finished, nothing interesting, will rerun with the new sampler",
+  "ts": "1755600600.986091"
+ },
+ {
+  "type": "message",
+  "user": "U0721V",
+  "text": "psa: Andrin can you review DATA-2430 before tuesday cc Andrin",
+  "ts": "1755627540.626624"
+ }
+]

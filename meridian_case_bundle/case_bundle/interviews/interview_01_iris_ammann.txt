@@ -1,0 +1,40 @@
+HALCYON SYSTEMS · INVESTIGATION RECORD · INTERVIEW 01 OF 08
+Interviewee: Iris Ammann, Head of Security
+Interviewer: Nadia Arslan (NA)
+Date: Thursday 20.11.2025 · Recording start 13:31 · end 14:52
+Location: rented meeting room, Rosenbergstrasse, St. Gallen (off-site)
+Recording: audio, automatic transcription (TranscribeDesk 3.2). Not proofread. Speaker labels are automatic and may be wrong.
+----------------------------------------------------------------------
+
+[00:00:03] SPEAKER 2: Before anything else. I want to put my finances in front of you, because you've already looked and I'd rather we start from the same page than have you circle it for an hour.
+[00:00:13] NA: Go ahead.
+[00:00:15] SPEAKER 2: Two hundred and ten thousand francs, roughly, across four instruments. Three years. Payment history went bad about eighteen months ago. It's my father. He's in a memory-care home in Rorschach that costs eleven thousand francs a month and his care insurance was cancelled in 2022 on a technicality I am still litigating. I have a brother who contributes nothing. That is the entire story and I can document every franc of it, and the folder is right there if you want it.
+[00:00:44] NA: I'll take the folder.
+[00:00:46] SPEAKER 2: Good.
+[00:00:48] NA: Let's talk about the decoys.
+[00:00:51] SPEAKER 2: My idea, my implementation, and the thing I'm proudest of, which is a depressing thing to say about a system whose entire purpose was to catch a theft that then happened anyway. Eleven bundles. Sized and named to be more attractive than the real artifacts. The logic being that anybody who got in without inside knowledge would take the wrong thing and we'd know within hours, because they phone home.
+[00:01:14] NA: And the real ones weren't touched.
+[00:01:16] SPEAKER 2: The real ones were taken. The decoys weren't touched. Which means my system worked perfectly and told me exactly one thing: it was someone who knew. [pause] Five people were supposed to know. I wrote that list. I've read it about four hundred times in the last week.
+[00:01:34] NA: Supposed to.
+[00:01:36] SPEAKER 2: The board asked me in February what the control actually was, so I showed them. Slide eleven. Which artifacts are real, by path. I said in the room that the slide should not exist after that day. It was in the pack, so it went wherever the pack went. And then Yannick wrote the design up on Confluence in March with default permissions. So "supposed to" is doing a lot of work.
+[00:02:00] NA: Your name is on the list.
+[00:02:02] SPEAKER 2: My name is at the top of it. I'd start with me too. I took the audit pipeline down. Well, I signed off the ticket. I know where everything lives because I spent a month mapping it to seed the decoys. I have two hundred thousand francs of debt and a father who costs eleven thousand a month. If you're building a case out of means and motive, I'm the best candidate you have and it isn't close.
+[00:02:25] NA: Is there a "but"?
+[00:02:27] SPEAKER 2: There's a boring one. I was in Lisbon. My brother's — the one who contributes nothing — his daughter got married on the eleventh, which is the Saturday. I flew out Thursday evening, I was at the rehearsal dinner Friday night, I was at the wedding Saturday, I flew back Monday afternoon. There are three hundred witnesses, most of whom are related to me, and a photographer, and I am in a great many photographs looking tired.
+[00:02:51] SPEAKER 2: [paper] Boarding passes. I'd rather you verify it than take my word. I've spent my whole career telling people not to take anyone's word.
+[00:03:00] NA: Did you do any work that weekend?
+[00:03:03] SPEAKER 2: I checked the channel once on Friday night, late, from the hotel. Old habit. I wanted to see the collector had gone down cleanly. It had. Then I went to bed. Nine hours with no audit trail is nine hours with no audit trail, I said that when I signed the ticket.
+[00:03:18] NA: The watermarks.
+[00:03:20] SPEAKER 2: Also mine. Twenty deliberate impossibilities seeded into the training data over about six months in 2023, with a bored second-year doing most of the labour and not entirely understanding why. That's the only reason we know any of this happened, by the way. Without those, Kestrel publishes, everyone says wow, and we spend two years wondering why we can't raise. I built the thing that caught it and I'm still the first name on the suspect list. There's probably a lesson in that.
+[00:03:47] NA: Tell me about the Kestrel accounts.
+[00:03:50] SPEAKER 2: The data room service accounts were never revoked after the deal died. I raised it in standup in July, in August, and again in September. It's ticketed. Yannick owns the revocation, and he kept promising after the migration. One of the roles was scoped too broadly in April, under time pressure, and I never got a straight answer about exactly what it could read.
+[00:04:12] NA: Who owned those accounts?
+[00:04:14] SPEAKER 2: Corp dev, formally. Renata's name is on the room. In practice the provisioning was counsel and infra.
+[00:04:20] NA: The cameras.
+[00:04:22] SPEAKER 2: I asked twice. The board said no twice. Dov doesn't want a prison. I'll say it once and then I won't say it again: if there had been one camera on that floor we wouldn't be sitting here.
+[00:04:34] NA: Who do you think did it?
+[00:04:37] SPEAKER 2: I don't do "think". I do "can show". I can show you it was somebody who knew which artifacts were real. That's the list, plus whoever read the board pack, plus whoever read Yannick's page. Beyond that I'd be guessing, and I won't.
+[00:04:51] NA: Thank you, Iris.
+[00:04:53] SPEAKER 2: Verify the wedding. Please.
+[00:04:55] [recording continues, 76 minutes removed]
+[01:21:02] NA: Recording stopped.

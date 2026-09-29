@@ -1,0 +1,62 @@
+[
+ {
+  "type": "message",
+  "user": "U0718S",
+  "text": "reminder: the migration runbook is in the ticket, please actually read the runbook sorry",
+  "ts": "1761896940.258707"
+ },
+ {
+  "type": "message",
+  "user": "U0723X",
+  "text": "for the record, gpu queue is jammed, 33 jobs pending under a service account",
+  "ts": "1761899160.605368"
+ },
+ {
+  "type": "message",
+  "user": "U0718S",
+  "text": "reminder: bumping retention on the eval bucket to 11 days, shout if that breaks anything",
+  "ts": "1761901740.317797"
+ },
+ {
+  "type": "message",
+  "user": "U0718S",
+  "text": "who owns the nightly backfill cron, it has been failing for 17 days",
+  "ts": "1761915780.234824"
+ },
+ {
+  "type": "message",
+  "user": "U0714O",
+  "text": "quick one: i have found the memory leak. it was me. it was me four months ago",
+  "ts": "1761921120.134503"
+ },
+ {
+  "type": "message",
+  "user": "U0719T",
+  "text": "rolling back the config change from tuesday, latencies went sideways (again)",
+  "ts": "1761924300.658821"
+ },
+ {
+  "type": "message",
+  "user": "U0722W",
+  "text": "reminder: training loss went flat at step 40k which is either very good or very bad more later",
+  "ts": "1761925440.747769"
+ },
+ {
+  "type": "message",
+  "user": "U0705F",
+  "text": "for the record, i have found the memory leak. it was me. it was me 46 weeks ago send help",
+  "ts": "1761931920.490701"
+ },
+ {
+  "type": "message",
+  "user": "U0719T",
+  "text": "honestly bumping retention on the eval bucket to 34 days, shout if that breaks anything see DATA-2454",
+  "ts": "1761934560.466355"
+ },
+ {
+  "type": "message",
+  "user": "U0713N",
+  "text": "the migration runbook is in INFRA-2291, please actually read it sorry",
+  "ts": "1761940380.344740"
+ }
+]

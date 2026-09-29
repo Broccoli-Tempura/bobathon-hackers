@@ -1,0 +1,38 @@
+[
+ {
+  "type": "message",
+  "user": "U0705F",
+  "text": "again: sandbox inference cluster is returning 503s, investigating",
+  "ts": "1755154080.675288"
+ },
+ {
+  "type": "message",
+  "user": "U0701B",
+  "text": "postmortem doc is up, blameless, please add anything i missed (again)",
+  "ts": "1755157140.756532"
+ },
+ {
+  "type": "message",
+  "user": "U0703D",
+  "text": "honestly Solveig is on call this week, Tobias is backup",
+  "ts": "1755159540.944579"
+ },
+ {
+  "type": "message",
+  "user": "U0714O",
+  "text": "false alarm, the monitoring agent itself fell over more later",
+  "ts": "1755177420.787715"
+ },
+ {
+  "type": "message",
+  "user": "U0713N",
+  "text": "postmortem for INC-04242 is up, blameless, add anything i missed",
+  "ts": "1755180720.761831"
+ },
+ {
+  "type": "message",
+  "user": "U0713N",
+  "text": "small thing: root cause for INC-02727: a cert expired that nobody knew existed",
+  "ts": "1755185700.808235"
+ }
+]

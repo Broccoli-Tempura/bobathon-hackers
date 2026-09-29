@@ -1,0 +1,98 @@
+[
+ {
+  "type": "message",
+  "user": "U0710K",
+  "text": "again: free space graph on scratch-01 looks weird, it is Bruno's tarballs again lol",
+  "ts": "1762844520.584456"
+ },
+ {
+  "type": "message",
+  "user": "U0712M",
+  "text": "rolling back the config change, latencies went sideways more later",
+  "ts": "1762853040.292026"
+ },
+ {
+  "type": "message",
+  "user": "U0721V",
+  "text": "rolling back the config change from monday, latencies went sideways cc Noemi",
+  "ts": "1762860480.727979"
+ },
+ {
+  "type": "message",
+  "user": "U0705F",
+  "text": "not to be dramatic but snapshot cleanup on scratch-01 freed 8TB, should hold until the migration",
+  "ts": "1762862880.796287"
+ },
+ {
+  "type": "message",
+  "user": "U0710K",
+  "text": "ok so bumping retention on the eval bucket to 6 days, shout if that breaks anything",
+  "ts": "1762863840.169912"
+ },
+ {
+  "type": "message",
+  "user": "U0718S",
+  "text": "fyi PR up for ML-2151, it is enormous and i am sorry cc Renata",
+  "ts": "1762867200.566600"
+ },
+ {
+  "type": "message",
+  "user": "U0722W",
+  "text": "reminder: eval run 4417 finished, nothing interesting, will rerun with the new sampler see PLAT-2501",
+  "ts": "1762867320.492325"
+ },
+ {
+  "type": "message",
+  "user": "U0722W",
+  "text": "can we talk about why the storage docs describe an architecture we stopped using in 2023 cc Marcus",
+  "ts": "1762868400.261118"
+ },
+ {
+  "type": "message",
+  "user": "U0702C",
+  "text": "fyi i have found the memory leak. it was me. it was me four months ago sorry",
+  "ts": "1762872540.642945"
+ },
+ {
+  "type": "message",
+  "user": "U0721V",
+  "text": "psa: checkpoint sync is slow again, probably the decompress-on-write thing see ML-2264",
+  "ts": "1762872840.935165"
+ },
+ {
+  "type": "message",
+  "user": "U0716Q",
+  "text": "small thing: can someone approve the terraform change, it is one line, it is genuinely one line thanks all",
+  "ts": "1762877700.207808"
+ },
+ {
+  "type": "message",
+  "user": "U0703D",
+  "text": "not to be dramatic but copy job for the eval shards failed at 66%, restarting from the beginning because resume is broken",
+  "ts": "1762878000.176434"
+ },
+ {
+  "type": "message",
+  "user": "U0723X",
+  "text": "honestly the rsync to cold storage is crawling again, 30 hours in and at 82% more later",
+  "ts": "1762879740.810764"
+ },
+ {
+  "type": "message",
+  "user": "U0701B",
+  "text": "fyi does anyone actually know what the legacy staging path is still used for",
+  "ts": "1762885020.738312"
+ },
+ {
+  "type": "message",
+  "user": "U0713N",
+  "text": "ok so does anyone actually know what the legacy staging path is still used for sorry",
+  "ts": "1762891560.477158"
+ },
+ {
+  "type": "message",
+  "user": "U0707H",
+  "text": "deploy to staging is green, promoting at 15:00 unless someone objects sorry",
+  "ts": "1762892580.787936"
+ }
+]

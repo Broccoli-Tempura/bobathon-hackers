@@ -1,0 +1,50 @@
+[
+ {
+  "type": "message",
+  "user": "U0707H",
+  "text": "adding a lint rule and preemptively apologising to everyone's diff :)",
+  "ts": "1756539600.766853"
+ },
+ {
+  "type": "message",
+  "user": "U0721V",
+  "text": "cluster is back. it was DNS. it is always DNS",
+  "ts": "1756545960.761964"
+ },
+ {
+  "type": "message",
+  "user": "U0705F",
+  "text": "not to be dramatic but free space graph on scratch-01 looks weird, it is Solveig's tarballs again",
+  "ts": "1756546920.346837"
+ },
+ {
+  "type": "message",
+  "user": "U0712M",
+  "text": "PR up for the tokenizer refactor, it is enormous and i am sorry cc Lukas",
+  "ts": "1756552020.908870"
+ },
+ {
+  "type": "message",
+  "user": "U0718S",
+  "text": "again: adding a lint rule and preemptively apologising to everyone's diff more later",
+  "ts": "1756555200.277643"
+ },
+ {
+  "type": "message",
+  "user": "U0721V",
+  "text": "quick one: the migration runbook is in the ticket, please actually read the runbook",
+  "ts": "1756575540.742383"
+ },
+ {
+  "type": "message",
+  "user": "U0704E",
+  "text": "snapshot cleanup on scratch-01 freed 8TB, should hold until the migration see PLAT-1972",
+  "ts": "1756578780.112809"
+ },
+ {
+  "type": "message",
+  "user": "U0707H",
+  "text": "small thing: bumping retention on the eval bucket to 21 days, shout if that breaks anything see PLAT-2185",
+  "ts": "1756579920.952890"
+ }
+]

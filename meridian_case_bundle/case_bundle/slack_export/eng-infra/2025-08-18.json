@@ -1,0 +1,80 @@
+[
+ {
+  "type": "message",
+  "user": "U0714O",
+  "text": "psa: bumping retention on the eval bucket to 22 days, shout if that breaks anything :)",
+  "ts": "1755498120.208432"
+ },
+ {
+  "type": "message",
+  "user": "U0704E",
+  "text": "checkpoint sync is slow again, probably the decompress-on-write thing",
+  "ts": "1755498480.310914"
+ },
+ {
+  "type": "message",
+  "user": "U0704E",
+  "text": "honestly gpu queue is jammed, someone has 40 jobs pending under a service account",
+  "ts": "1755501960.478752"
+ },
+ {
+  "type": "message",
+  "user": "U0705F",
+  "text": "honestly the storage docs describe the 2023 architecture, ML-2199 tracks fixing it",
+  "ts": "1755502440.151246"
+ },
+ {
+  "type": "message",
+  "user": "U0703D",
+  "text": "ok so flaky test test_interface_energy_roundtrip failed again on Rafferty's branch lol",
+  "ts": "1755503460.416391"
+ },
+ {
+  "type": "message",
+  "user": "U0721V",
+  "text": "small thing: scratch array at 85%, nobody panic, i am just saying it out loud",
+  "ts": "1755504000.638231"
+ },
+ {
+  "type": "message",
+  "user": "U0719T",
+  "text": "not to be dramatic but PR up for DATA-2421, it is enormous and i am sorry",
+  "ts": "1755505200.464354"
+ },
+ {
+  "type": "message",
+  "user": "U0716Q",
+  "text": "update: eval run 3434 finished, nothing interesting, rerunning with the new sampler cc Kurt",
+  "ts": "1755505440.654028"
+ },
+ {
+  "type": "message",
+  "user": "U0718S",
+  "text": "for the record, eval run 4747 finished, nothing interesting, rerunning with the new sampler cc Yuki",
+  "ts": "1755524580.868648"
+ },
+ {
+  "type": "message",
+  "user": "U0705F",
+  "text": "quick one: checkpoint sync is slow again, probably the decompress-on-write thing",
+  "ts": "1755534360.541976"
+ },
+ {
+  "type": "message",
+  "user": "U0719T",
+  "text": "i would like to formally propose we delete the old airflow instance will update",
+  "ts": "1755537540.455735"
+ },
+ {
+  "type": "message",
+  "user": "U0703D",
+  "text": "not to be dramatic but i would like to formally propose we delete the old airflow instance",
+  "ts": "1755538020.254714"
+ },
+ {
+  "type": "message",
+  "user": "U0718S",
+  "text": "rolling back the config change from monday, latencies went sideways send help",
+  "ts": "1755541200.908551"
+ }
+]

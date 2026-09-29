@@ -1,0 +1,80 @@
+[
+ {
+  "type": "message",
+  "user": "U0718S",
+  "text": "reminder: i have found the memory leak. it was me. it was me 46 weeks ago send help",
+  "ts": "1762593240.318170"
+ },
+ {
+  "type": "message",
+  "user": "U0710K",
+  "text": "running a big copy tonight, expect the array to look weird in the graphs more later",
+  "ts": "1762600320.503970"
+ },
+ {
+  "type": "message",
+  "user": "U0710K",
+  "text": "psa: the rsync to cold storage is crawling again, 30 hours in and at 69%",
+  "ts": "1762601760.157180"
+ },
+ {
+  "type": "message",
+  "user": "U0701B",
+  "text": "training loss went flat at step 40k which is either very good or very bad",
+  "ts": "1762609020.910926"
+ },
+ {
+  "type": "message",
+  "user": "U0716Q",
+  "text": "update: i have found the memory leak. it was me. it was me four months ago",
+  "ts": "1762610280.750587"
+ },
+ {
+  "type": "message",
+  "user": "U0716Q",
+  "text": "not to be dramatic but gpu queue is jammed, 28 jobs pending under a service account send help",
+  "ts": "1762610580.789719"
+ },
+ {
+  "type": "message",
+  "user": "U0720U",
+  "text": "ok so snapshot cleanup on scratch-01 freed 7TB, should hold until the migration thanks all",
+  "ts": "1762611720.776141"
+ },
+ {
+  "type": "message",
+  "user": "U0723X",
+  "text": "quick one: flaky test test_interface_energy_roundtrip failed again on Dessie's branch",
+  "ts": "1762621800.329095"
+ },
+ {
+  "type": "message",
+  "user": "U0701B",
+  "text": "quick one: i have found the memory leak. it was me. it was me 16 weeks ago lol",
+  "ts": "1762622220.467361"
+ },
+ {
+  "type": "message",
+  "user": "U0707H",
+  "text": "small thing: i have turned it off and on again and it worked and i am furious will update",
+  "ts": "1762623240.577717"
+ },
+ {
+  "type": "message",
+  "user": "U0712M",
+  "text": "ok so does anyone actually know what the legacy staging path is still used for cc Nils",
+  "ts": "1762631580.926956"
+ },
+ {
+  "type": "message",
+  "user": "U0720U",
+  "text": "quick one: flaky test in the integration suite again, it is the same one, it is always the same one send help",
+  "ts": "1762632540.973951"
+ },
+ {
+  "type": "message",
+  "user": "U0719T",
+  "text": "for the record, i have found the memory leak. it was me. it was me 46 weeks ago sorry",
+  "ts": "1762634280.682720"
+ }
+]

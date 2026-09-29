@@ -1,0 +1,62 @@
+[
+ {
+  "type": "message",
+  "user": "U0716Q",
+  "text": "honestly the rsync to cold storage is crawling again, 44 hours in and at 87%",
+  "ts": "1761202560.618737"
+ },
+ {
+  "type": "message",
+  "user": "U0702C",
+  "text": "again: restarted the backfill from scratch, the partial output was garbage",
+  "ts": "1761204900.709422"
+ },
+ {
+  "type": "message",
+  "user": "U0719T",
+  "text": "not to be dramatic but bumping retention on the eval bucket to 41 days, shout if that breaks anything",
+  "ts": "1761209880.195999"
+ },
+ {
+  "type": "message",
+  "user": "U0719T",
+  "text": "again: bumping the retention on the eval bucket, shout if that breaks anything sorry",
+  "ts": "1761216540.892187"
+ },
+ {
+  "type": "message",
+  "user": "U0718S",
+  "text": "small thing: gpu queue is jammed, someone has 40 jobs pending under a service account see DATA-1983",
+  "ts": "1761220320.109075"
+ },
+ {
+  "type": "message",
+  "user": "U0707H",
+  "text": "quick one: the storage docs describe the 2023 architecture, ML-1926 tracks fixing it lol",
+  "ts": "1761225900.122943"
+ },
+ {
+  "type": "message",
+  "user": "U0722W",
+  "text": "honestly flaky test in the integration suite again, it is the same one, it is always the same one more later",
+  "ts": "1761228180.255737"
+ },
+ {
+  "type": "message",
+  "user": "U0720U",
+  "text": "for the record, deploy to staging is green, promoting at 3 unless someone objects thanks all",
+  "ts": "1761232980.598864"
+ },
+ {
+  "type": "message",
+  "user": "U0719T",
+  "text": "who owns the nightly backfill cron, it has been failing silently for six days lol",
+  "ts": "1761240000.609084"
+ },
+ {
+  "type": "message",
+  "user": "U0716Q",
+  "text": "bumping the retention on the eval bucket, shout if that breaks anything lol",
+  "ts": "1761243300.496823"
+ }
+]

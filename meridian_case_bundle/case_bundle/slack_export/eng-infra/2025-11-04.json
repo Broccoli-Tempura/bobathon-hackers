@@ -1,0 +1,80 @@
+[
+ {
+  "type": "message",
+  "user": "U0705F",
+  "text": "ok so moving on-call handoff to thursdays, fridays were chaos :)",
+  "ts": "1762245120.998775"
+ },
+ {
+  "type": "message",
+  "user": "U0721V",
+  "text": "again: can someone approve the terraform change for INFRA-2078, it is one line",
+  "ts": "1762254180.910762"
+ },
+ {
+  "type": "message",
+  "user": "U0701B",
+  "text": "for the record, who owns the nightly backfill cron, it has been failing for 38 days :)",
+  "ts": "1762255320.432111"
+ },
+ {
+  "type": "message",
+  "user": "U0721V",
+  "text": "psa: checkpoint sync is slow again, probably the decompress-on-write thing thanks all",
+  "ts": "1762260060.410329"
+ },
+ {
+  "type": "message",
+  "user": "U0707H",
+  "text": "ok so moving on-call handoff to tuesdays, fridays were chaos :)",
+  "ts": "1762260180.322666"
+ },
+ {
+  "type": "message",
+  "user": "U0722W",
+  "text": "fyi adding a lint rule and preemptively apologising to everyone's diff",
+  "ts": "1762263300.696808"
+ },
+ {
+  "type": "message",
+  "user": "U0702C",
+  "text": "flaky test in the integration suite again, it is the same one, it is always the same one thanks all",
+  "ts": "1762263780.917157"
+ },
+ {
+  "type": "message",
+  "user": "U0711L",
+  "text": "small thing: deploy to staging is green, promoting at 17:00 unless someone objects sorry",
+  "ts": "1762268880.224892"
+ },
+ {
+  "type": "message",
+  "user": "U0702C",
+  "text": "gpu queue is jammed, someone has 40 jobs pending under a service account more later",
+  "ts": "1762272600.155469"
+ },
+ {
+  "type": "message",
+  "user": "U0720U",
+  "text": "i would like to formally propose we delete the old airflow instance",
+  "ts": "1762276140.673359"
+ },
+ {
+  "type": "message",
+  "user": "U0704E",
+  "text": "for the record, eval run 4417 finished, nothing interesting, will rerun with the new sampler lol",
+  "ts": "1762278180.362791"
+ },
+ {
+  "type": "message",
+  "user": "U0713N",
+  "text": "quick one: can someone approve the terraform change, it is one line, it is genuinely one line sorry",
+  "ts": "1762288080.972364"
+ },
+ {
+  "type": "message",
+  "user": "U0723X",
+  "text": "for the record, Chiara can you review ML-2253 before thursday will update",
+  "ts": "1762288740.859300"
+ }
+]

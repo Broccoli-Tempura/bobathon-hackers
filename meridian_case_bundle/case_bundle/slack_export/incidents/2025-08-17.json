@@ -1,0 +1,20 @@
+[
+ {
+  "type": "message",
+  "user": "U0705F",
+  "text": "ok so paging on-call, latency p99 above threshold for 12 minutes",
+  "ts": "1755415560.283437"
+ },
+ {
+  "type": "message",
+  "user": "U0721V",
+  "text": "honestly customer impact limited to the public sandbox, no production exposure",
+  "ts": "1755434400.618479"
+ },
+ {
+  "type": "message",
+  "user": "U0702C",
+  "text": "ok so disk usage alert on scratch-01 at 73%, acknowledged, not urgent",
+  "ts": "1755453240.454067"
+ }
+]

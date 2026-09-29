@@ -1,0 +1,86 @@
+[
+ {
+  "type": "message",
+  "user": "U0719T",
+  "text": "moving the on-call handoff to mondays because fridays were chaos",
+  "ts": "1754812620.866232"
+ },
+ {
+  "type": "message",
+  "user": "U0710K",
+  "text": "reminder: moving the on-call handoff to mondays because fridays were chaos send help",
+  "ts": "1754814780.748860"
+ },
+ {
+  "type": "message",
+  "user": "U0701B",
+  "text": "not to be dramatic but Bruno can you review INFRA-2473 before tuesday :)",
+  "ts": "1754815620.417964"
+ },
+ {
+  "type": "message",
+  "user": "U0723X",
+  "text": "reminder: copy job for the eval shards failed at 79%, restarting from the beginning because resume is broken see INFRA-2101",
+  "ts": "1754816940.655039"
+ },
+ {
+  "type": "message",
+  "user": "U0710K",
+  "text": "not to be dramatic but the rsync to cold storage is crawling again, 2 hours in and at 64% send help",
+  "ts": "1754820060.538633"
+ },
+ {
+  "type": "message",
+  "user": "U0718S",
+  "text": "scratch array at 85%, nobody panic, i am just saying it out loud",
+  "ts": "1754823480.579143"
+ },
+ {
+  "type": "message",
+  "user": "U0718S",
+  "text": "honestly bumping retention on the eval bucket to 39 days, shout if that breaks anything",
+  "ts": "1754824560.332080"
+ },
+ {
+  "type": "message",
+  "user": "U0716Q",
+  "text": "small thing: reminder we are frozen for deploys over the long weekend",
+  "ts": "1754829540.262263"
+ },
+ {
+  "type": "message",
+  "user": "U0705F",
+  "text": "not to be dramatic but can we talk about why the storage docs describe an architecture we stopped using in 2023",
+  "ts": "1754831700.239948"
+ },
+ {
+  "type": "message",
+  "user": "U0705F",
+  "text": "update: does anyone actually know what the legacy staging path is still used for lol",
+  "ts": "1754832540.363372"
+ },
+ {
+  "type": "message",
+  "user": "U0719T",
+  "text": "update: PR up for INFRA-2194, it is enormous and i am sorry see INFRA-2194",
+  "ts": "1754843220.309691"
+ },
+ {
+  "type": "message",
+  "user": "U0713N",
+  "text": "psa: the rsync to cold storage is crawling again, 10 hours in and at 74%",
+  "ts": "1754844960.950478"
+ },
+ {
+  "type": "message",
+  "user": "U0712M",
+  "text": "cluster is back. it was DNS. it is always DNS see ML-1976",
+  "ts": "1754845380.626230"
+ },
+ {
+  "type": "message",
+  "user": "U0720U",
+  "text": "small thing: portable array from the IT cage is back on the shelf, seals intact :)",
+  "ts": "1754853000.902455"
+ }
+]

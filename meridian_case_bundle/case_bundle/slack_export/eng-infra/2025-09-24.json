@@ -1,0 +1,98 @@
+[
+ {
+  "type": "message",
+  "user": "U0702C",
+  "text": "honestly can someone approve the terraform change for DATA-2424, it is one line will update",
+  "ts": "1758699300.208984"
+ },
+ {
+  "type": "message",
+  "user": "U0720U",
+  "text": "quick one: PR up for INFRA-2262, it is enormous and i am sorry send help",
+  "ts": "1758702780.357516"
+ },
+ {
+  "type": "message",
+  "user": "U0713N",
+  "text": "update: i have found the memory leak. it was me. it was me four months ago will update",
+  "ts": "1758705780.957485"
+ },
+ {
+  "type": "message",
+  "user": "U0718S",
+  "text": "reminder: training loss went flat at step 20k, either very good or very bad lol",
+  "ts": "1758706740.956228"
+ },
+ {
+  "type": "message",
+  "user": "U0722W",
+  "text": "i have turned it off and on again and it worked and i am furious",
+  "ts": "1758707940.378458"
+ },
+ {
+  "type": "message",
+  "user": "U0710K",
+  "text": "fyi i have found the memory leak. it was me. it was me 21 weeks ago will update",
+  "ts": "1758708240.814633"
+ },
+ {
+  "type": "message",
+  "user": "U0720U",
+  "text": "for the record, flaky test test_interface_energy_roundtrip failed again on Dov's branch see DATA-1985",
+  "ts": "1758713580.513599"
+ },
+ {
+  "type": "message",
+  "user": "U0716Q",
+  "text": "not to be dramatic but we are out of disk on scratch-01 again, someone is writing tarballs there thanks all",
+  "ts": "1758721560.797221"
+ },
+ {
+  "type": "message",
+  "user": "U0710K",
+  "text": "honestly cluster is back. it was DNS. it is always DNS",
+  "ts": "1758725520.816510"
+ },
+ {
+  "type": "message",
+  "user": "U0714O",
+  "text": "ok so Halina can you review ML-2051 before thursday thanks all",
+  "ts": "1758732120.325249"
+ },
+ {
+  "type": "message",
+  "user": "U0713N",
+  "text": "honestly Kurt can you review PLAT-2367 before thursday thanks all",
+  "ts": "1758733500.924396"
+ },
+ {
+  "type": "message",
+  "user": "U0716Q",
+  "text": "not to be dramatic but portable array from the IT cage is back on the shelf, seals intact more later",
+  "ts": "1758733740.526941"
+ },
+ {
+  "type": "message",
+  "user": "U0718S",
+  "text": "again: scratch array at 64%, nobody panic, i am just saying it out loud send help",
+  "ts": "1758734040.729022"
+ },
+ {
+  "type": "message",
+  "user": "U0703D",
+  "text": "small thing: we are out of disk on scratch-01 again, someone is writing tarballs there",
+  "ts": "1758734760.870885"
+ },
+ {
+  "type": "message",
+  "user": "U0710K",
+  "text": "again: can someone approve the terraform change, it is one line, it is genuinely one line lol",
+  "ts": "1758734820.892368"
+ },
+ {
+  "type": "message",
+  "user": "U0703D",
+  "text": "ok so eval run 4417 finished, nothing interesting, will rerun with the new sampler cc Nils",
+  "ts": "1758736500.611209"
+ }
+]

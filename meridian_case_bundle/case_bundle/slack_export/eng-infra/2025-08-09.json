@@ -1,0 +1,56 @@
+[
+ {
+  "type": "message",
+  "user": "U0718S",
+  "text": "psa: bumping the retention on the eval bucket, shout if that breaks anything send help",
+  "ts": "1754724420.850033"
+ },
+ {
+  "type": "message",
+  "user": "U0703D",
+  "text": "fyi the migration runbook is in the ticket, please actually read the runbook :)",
+  "ts": "1754727000.490074"
+ },
+ {
+  "type": "message",
+  "user": "U0704E",
+  "text": "moving on-call handoff to thursdays, fridays were chaos send help",
+  "ts": "1754736720.419030"
+ },
+ {
+  "type": "message",
+  "user": "U0720U",
+  "text": "moving on-call handoff to fridays, fridays were chaos will update",
+  "ts": "1754738580.494028"
+ },
+ {
+  "type": "message",
+  "user": "U0710K",
+  "text": "honestly we are out of disk on scratch-01 again, someone is writing tarballs there send help",
+  "ts": "1754744640.372145"
+ },
+ {
+  "type": "message",
+  "user": "U0713N",
+  "text": "not to be dramatic but can someone approve the terraform change for ML-2150, it is one line lol",
+  "ts": "1754747940.719435"
+ },
+ {
+  "type": "message",
+  "user": "U0720U",
+  "text": "ok so free space graph on scratch-01 looks weird, it is Kemi's tarballs again send help",
+  "ts": "1754752200.496307"
+ },
+ {
+  "type": "message",
+  "user": "U0704E",
+  "text": "i have found the memory leak. it was me. it was me four months ago more later",
+  "ts": "1754765040.767391"
+ },
+ {
+  "type": "message",
+  "user": "U0712M",
+  "text": "small thing: eval run 2020 finished, nothing interesting, rerunning with the new sampler will update",
+  "ts": "1754765640.953238"
+ }
+]

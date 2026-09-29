@@ -1,0 +1,1500 @@
+# Firmenkarten-Transaktionen / corporate card feed · Halcyon Systems AG · issuer export 27.11.2025
+# timestamp_utc = authorisation time at the terminal, UTC. Cardholder = employee handle.
+txn_id,timestamp_utc,cardholder,card_last4,merchant,merchant_city,mcc,amount_chf
+TX880000,2025-08-01T06:00:00Z,dessie.moran,1686,Office World,St. Gallen,5943,255.20
+TX880001,2025-08-01T08:18:00Z,noemi.rochat,9387,Migros,St. Gallen,5411,95.50
+TX880002,2025-08-01T08:29:00Z,chiara.bernasconi,4025,Uber BV,Amsterdam,4121,69.00
+TX880003,2025-08-01T08:59:00Z,kurt.steiner,8794,Valora Kiosk,St. Gallen,5994,250.00
+TX880004,2025-08-01T09:14:00Z,nils.aberg,5970,Starbucks,Zürich,5814,157.90
+TX880005,2025-08-01T10:36:00Z,bruno.sacchi,2485,Digitec Galaxus AG,Zürich,5732,379.20
+TX880006,2025-08-01T13:24:00Z,bruno.sacchi,2485,Mobility Genossenschaft,Luzern,7512,51.50
+TX880007,2025-08-01T14:17:00Z,dov.halperin,4050,Mobility Genossenschaft,Luzern,7512,278.50
+TX880008,2025-08-01T15:19:00Z,tobias.krall,7490,Mobility Genossenschaft,Luzern,7512,18.00
+TX880009,2025-08-01T16:27:00Z,noemi.rochat,9387,Office World,St. Gallen,5943,176.20
+TX880010,2025-08-01T16:40:00Z,solveig.haugen,1245,Coop Pronto,St. Gallen,5541,292.90
+TX880011,2025-08-01T16:44:00Z,andrin.caduff,9320,SBB CFF FFS,St. Gallen,4111,325.90
+TX880012,2025-08-01T18:31:00Z,anneke.vos,8421,Office World,St. Gallen,5943,169.50
+TX880013,2025-08-02T07:31:00Z,tobias.krall,7490,Mobility Genossenschaft,Luzern,7512,333.00
+TX880014,2025-08-02T10:07:00Z,iris.ammann,8402,Avec,Winterthur,5499,357.90
+TX880015,2025-08-02T11:38:00Z,cormac.deel,1975,Starbucks,Zürich,5814,26.90
+TX880016,2025-08-02T12:17:00Z,anneke.vos,8421,Valora Kiosk,St. Gallen,5994,254.90
+TX880017,2025-08-02T12:57:00Z,cormac.deel,1975,Swiss International Air Lines,Zürich,4511,36.00
+TX880018,2025-08-02T13:59:00Z,andrin.caduff,9320,Coop Pronto,St. Gallen,5541,145.00
+TX880019,2025-08-02T16:43:00Z,kurt.steiner,8794,Starbucks,Zürich,5814,168.90
+TX880020,2025-08-02T16:45:00Z,kurt.steiner,8794,Restaurant Schwarzer Engel,St. Gallen,5812,388.00
+TX880021,2025-08-02T18:05:00Z,nils.aberg,5970,Restaurant Schwarzer Engel,St. Gallen,5812,418.50
+TX880022,2025-08-03T07:44:00Z,lukas.hofer,8629,Parkhaus Brühltor,St. Gallen,7523,411.50
+TX880023,2025-08-03T08:55:00Z,dessie.moran,1686,Swiss International Air Lines,Zürich,4511,258.20
+TX880024,2025-08-03T09:13:00Z,kemi.adeyemi,3323,AWS EMEA,Luxembourg,5734,309.20
+TX880025,2025-08-03T09:57:00Z,rafferty.ng,3580,Hotel Einstein,St. Gallen,7011,225.00
+TX880026,2025-08-03T10:03:00Z,june.okada,2542,Starbucks,Zürich,5814,204.00
+TX880027,2025-08-03T11:12:00Z,renata.vogel,8411,Starbucks,Zürich,5814,217.50
+TX880028,2025-08-03T11:23:00Z,nils.aberg,5970,SBB CFF FFS,St. Gallen,4111,374.90
+TX880029,2025-08-03T11:26:00Z,dov.halperin,4050,SBB CFF FFS,St. Gallen,4111,372.50
+TX880030,2025-08-03T11:32:00Z,kemi.adeyemi,3323,Migros,St. Gallen,5411,384.20
+TX880031,2025-08-03T12:01:00Z,noemi.rochat,9387,SBB CFF FFS,St. Gallen,4111,51.20
+TX880032,2025-08-03T12:47:00Z,nils.aberg,5970,Coop Pronto,St. Gallen,5541,175.20
+TX880033,2025-08-03T13:02:00Z,nils.aberg,5970,Mobility Genossenschaft,Luzern,7512,62.20
+TX880034,2025-08-03T13:20:00Z,dov.halperin,4050,Coop Pronto,St. Gallen,5541,360.00
+TX880035,2025-08-03T15:12:00Z,lukas.hofer,8629,Migros,St. Gallen,5411,250.00
+TX880036,2025-08-03T16:53:00Z,bruno.sacchi,2485,Avec,Winterthur,5499,287.90
+TX880037,2025-08-03T17:31:00Z,solveig.haugen,1245,SBB CFF FFS,St. Gallen,4111,188.00
+TX880038,2025-08-03T17:42:00Z,anneke.vos,8421,Starbucks,Zürich,5814,72.50
+TX880039,2025-08-03T17:57:00Z,lukas.hofer,8629,Avec,Winterthur,5499,191.90
+TX880040,2025-08-03T18:24:00Z,nils.aberg,5970,Digitec Galaxus AG,Zürich,5732,63.20
+TX880041,2025-08-03T18:28:00Z,kurt.steiner,8794,Mobility Genossenschaft,Luzern,7512,225.50
+TX880042,2025-08-04T10:05:00Z,nils.aberg,5970,Parkhaus Brühltor,St. Gallen,7523,392.90
+TX880043,2025-08-04T11:08:00Z,kemi.adeyemi,3323,Office World,St. Gallen,5943,216.90
+TX880044,2025-08-04T12:03:00Z,yannick.favre,4111,Uber BV,Amsterdam,4121,354.00
+TX880045,2025-08-04T12:04:00Z,june.okada,2542,Coop Pronto,St. Gallen,5541,80.50
+TX880046,2025-08-04T12:41:00Z,kemi.adeyemi,3323,Parkhaus Brühltor,St. Gallen,7523,209.90
+TX880047,2025-08-04T13:02:00Z,chiara.bernasconi,4025,Valora Kiosk,St. Gallen,5994,270.50
+TX880048,2025-08-04T15:00:00Z,andrin.caduff,9320,Avec,Winterthur,5499,36.50
+TX880049,2025-08-04T16:46:00Z,wen-li.zhao,9825,Autogrill,Bellinzona,5812,90.90
+TX880050,2025-08-05T05:18:00Z,rafferty.ng,3580,Parkhaus Brühltor,St. Gallen,7523,187.90
+TX880051,2025-08-05T05:26:00Z,rafferty.ng,3580,Digitec Galaxus AG,Zürich,5732,233.90
+TX880052,2025-08-05T08:12:00Z,yannick.favre,4111,SBB CFF FFS,St. Gallen,4111,164.20
+TX880053,2025-08-05T09:39:00Z,tobias.krall,7490,Hotel Einstein,St. Gallen,7011,46.00
+TX880054,2025-08-05T11:30:00Z,marcus.abiodun,9656,Office World,St. Gallen,5943,66.50
+TX880055,2025-08-05T11:38:00Z,marcus.abiodun,9656,Restaurant Schwarzer Engel,St. Gallen,5812,110.50
+TX880056,2025-08-05T13:04:00Z,marcus.abiodun,9656,Uber BV,Amsterdam,4121,402.90
+TX880057,2025-08-05T13:44:00Z,andrin.caduff,9320,Restaurant Schwarzer Engel,St. Gallen,5812,126.20
+TX880058,2025-08-05T14:16:00Z,noemi.rochat,9387,Office World,St. Gallen,5943,273.20
+TX880059,2025-08-05T16:02:00Z,marcus.abiodun,9656,Avec,Winterthur,5499,204.20
+TX880060,2025-08-05T18:00:00Z,renata.vogel,8411,Parkhaus Brühltor,St. Gallen,7523,79.50
+TX880061,2025-08-05T18:29:00Z,yuki.tanabe,2034,Digitec Galaxus AG,Zürich,5732,280.00
+TX880062,2025-08-06T08:12:00Z,dessie.moran,1686,Uber BV,Amsterdam,4121,267.50
+TX880063,2025-08-06T09:23:00Z,rafferty.ng,3580,Migros,St. Gallen,5411,414.90
+TX880064,2025-08-06T13:58:00Z,yannick.favre,4111,Mobility Genossenschaft,Luzern,7512,292.90
+TX880065,2025-08-06T14:09:00Z,iris.ammann,8402,Valora Kiosk,St. Gallen,5994,176.90
+TX880066,2025-08-06T14:15:00Z,iris.ammann,8402,SBB CFF FFS,St. Gallen,4111,104.90
+TX880067,2025-08-06T16:01:00Z,priya.raghunathan,8316,Coop Pronto,St. Gallen,5541,345.50
+TX880068,2025-08-06T18:22:00Z,priya.raghunathan,8316,AWS EMEA,Luxembourg,5734,116.20
+TX880069,2025-08-07T07:35:00Z,anneke.vos,8421,Migros,St. Gallen,5411,7.90
+TX880070,2025-08-07T08:39:00Z,bruno.sacchi,2485,SBB CFF FFS,St. Gallen,4111,335.00
+TX880071,2025-08-07T08:42:00Z,kemi.adeyemi,3323,Uber BV,Amsterdam,4121,414.20
+TX880072,2025-08-07T09:48:00Z,anneke.vos,8421,Avec,Winterthur,5499,27.50
+TX880073,2025-08-07T10:18:00Z,andrin.caduff,9320,Coop Pronto,St. Gallen,5541,87.20
+TX880074,2025-08-07T10:32:00Z,solveig.haugen,1245,Uber BV,Amsterdam,4121,278.20
+TX880075,2025-08-07T11:53:00Z,tobias.krall,7490,Swiss International Air Lines,Zürich,4511,168.50
+TX880076,2025-08-07T12:17:00Z,june.okada,2542,Hotel Einstein,St. Gallen,7011,337.50
+TX880077,2025-08-07T13:54:00Z,anneke.vos,8421,SBB CFF FFS,St. Gallen,4111,192.00
+TX880078,2025-08-07T14:12:00Z,anneke.vos,8421,Swiss International Air Lines,Zürich,4511,299.20
+TX880079,2025-08-07T19:00:00Z,rafferty.ng,3580,Valora Kiosk,St. Gallen,5994,337.20
+TX880080,2025-08-08T05:04:00Z,nils.aberg,5970,AWS EMEA,Luxembourg,5734,323.20
+TX880081,2025-08-08T05:09:00Z,marcus.abiodun,9656,Restaurant Schwarzer Engel,St. Gallen,5812,136.20
+TX880082,2025-08-08T06:14:00Z,anneke.vos,8421,Parkhaus Brühltor,St. Gallen,7523,250.50
+TX880083,2025-08-08T09:29:00Z,yannick.favre,4111,Starbucks,Zürich,5814,52.20
+TX880084,2025-08-08T09:58:00Z,iris.ammann,8402,Uber BV,Amsterdam,4121,318.00
+TX880085,2025-08-08T10:52:00Z,chiara.bernasconi,4025,Coop Pronto,St. Gallen,5541,375.50
+TX880086,2025-08-08T11:18:00Z,marcus.abiodun,9656,Swiss International Air Lines,Zürich,4511,22.50
+TX880087,2025-08-08T12:47:00Z,cormac.deel,1975,Coop Pronto,St. Gallen,5541,225.00
+TX880088,2025-08-08T13:39:00Z,tobias.krall,7490,Migros,St. Gallen,5411,411.50
+TX880089,2025-08-08T15:23:00Z,anneke.vos,8421,Uber BV,Amsterdam,4121,38.20
+TX880090,2025-08-08T15:54:00Z,nils.aberg,5970,Migros,St. Gallen,5411,393.20
+TX880091,2025-08-08T15:57:00Z,kemi.adeyemi,3323,Coop Pronto,St. Gallen,5541,419.20
+TX880092,2025-08-08T16:31:00Z,dov.halperin,4050,Autogrill,Bellinzona,5812,58.50
+TX880093,2025-08-08T17:21:00Z,priya.raghunathan,8316,Office World,St. Gallen,5943,410.00
+TX880094,2025-08-08T18:08:00Z,yannick.favre,4111,Parkhaus Brühltor,St. Gallen,7523,232.20
+TX880095,2025-08-08T18:51:00Z,kurt.steiner,8794,Avec,Winterthur,5499,356.50
+TX880096,2025-08-09T05:11:00Z,yuki.tanabe,2034,Migros,St. Gallen,5411,43.90
+TX880097,2025-08-09T07:01:00Z,wen-li.zhao,9825,Swiss International Air Lines,Zürich,4511,122.50
+TX880098,2025-08-09T07:03:00Z,tobias.krall,7490,Parkhaus Brühltor,St. Gallen,7523,332.20
+TX880099,2025-08-09T07:09:00Z,halina.brzezinska,1584,Digitec Galaxus AG,Zürich,5732,249.00
+TX880100,2025-08-09T07:20:00Z,halina.brzezinska,1584,Swiss International Air Lines,Zürich,4511,264.00
+TX880101,2025-08-09T08:55:00Z,chiara.bernasconi,4025,SBB CFF FFS,St. Gallen,4111,86.00
+TX880102,2025-08-09T09:25:00Z,rafferty.ng,3580,Avec,Winterthur,5499,27.50
+TX880103,2025-08-09T09:43:00Z,cormac.deel,1975,Avec,Winterthur,5499,61.20
+TX880104,2025-08-09T14:36:00Z,renata.vogel,8411,Swiss International Air Lines,Zürich,4511,209.00
+TX880105,2025-08-09T14:42:00Z,halina.brzezinska,1584,Avec,Winterthur,5499,271.90
+TX880106,2025-08-09T16:09:00Z,dov.halperin,4050,AWS EMEA,Luxembourg,5734,308.00
+TX880107,2025-08-09T16:49:00Z,wen-li.zhao,9825,Hotel Einstein,St. Gallen,7011,180.50
+TX880108,2025-08-09T18:08:00Z,kurt.steiner,8794,Valora Kiosk,St. Gallen,5994,151.20
+TX880109,2025-08-09T18:13:00Z,dessie.moran,1686,Coop Pronto,St. Gallen,5541,161.20
+TX880110,2025-08-10T05:08:00Z,rafferty.ng,3580,Migros,St. Gallen,5411,328.50
+TX880111,2025-08-10T05:24:00Z,dov.halperin,4050,Coop Pronto,St. Gallen,5541,181.90
+TX880112,2025-08-10T06:27:00Z,halina.brzezinska,1584,Office World,St. Gallen,5943,324.90
+TX880113,2025-08-10T06:45:00Z,andrin.caduff,9320,Parkhaus Brühltor,St. Gallen,7523,219.50
+TX880114,2025-08-10T09:37:00Z,yuki.tanabe,2034,Hotel Einstein,St. Gallen,7011,16.90
+TX880115,2025-08-10T12:11:00Z,priya.raghunathan,8316,SBB CFF FFS,St. Gallen,4111,317.20
+TX880116,2025-08-10T12:35:00Z,solveig.haugen,1245,Avec,Winterthur,5499,145.00
+TX880117,2025-08-10T14:39:00Z,bruno.sacchi,2485,Valora Kiosk,St. Gallen,5994,402.90
+TX880118,2025-08-10T15:52:00Z,wen-li.zhao,9825,Autogrill,Bellinzona,5812,87.90
+TX880119,2025-08-11T05:04:00Z,yuki.tanabe,2034,Avec,Winterthur,5499,176.20
+TX880120,2025-08-11T05:14:00Z,andrin.caduff,9320,AWS EMEA,Luxembourg,5734,155.50
+TX880121,2025-08-11T07:25:00Z,iris.ammann,8402,Uber BV,Amsterdam,4121,57.50
+TX880122,2025-08-11T07:31:00Z,marcus.abiodun,9656,AWS EMEA,Luxembourg,5734,124.50
+TX880123,2025-08-11T07:53:00Z,bruno.sacchi,2485,Digitec Galaxus AG,Zürich,5732,161.00
+TX880124,2025-08-11T08:39:00Z,june.okada,2542,Restaurant Schwarzer Engel,St. Gallen,5812,278.00
+TX880125,2025-08-11T08:46:00Z,kurt.steiner,8794,SBB CFF FFS,St. Gallen,4111,79.00
+TX880126,2025-08-11T09:40:00Z,priya.raghunathan,8316,Swiss International Air Lines,Zürich,4511,164.00
+TX880127,2025-08-11T09:46:00Z,lukas.hofer,8629,Coop Pronto,St. Gallen,5541,124.20
+TX880128,2025-08-11T10:28:00Z,anneke.vos,8421,Coop Pronto,St. Gallen,5541,407.50
+TX880129,2025-08-11T11:27:00Z,halina.brzezinska,1584,Autogrill,Bellinzona,5812,262.20
+TX880130,2025-08-11T11:41:00Z,rafferty.ng,3580,Office World,St. Gallen,5943,208.90
+TX880131,2025-08-11T13:51:00Z,anneke.vos,8421,SBB CFF FFS,St. Gallen,4111,162.00
+TX880132,2025-08-11T15:22:00Z,chiara.bernasconi,4025,Restaurant Schwarzer Engel,St. Gallen,5812,278.50
+TX880133,2025-08-11T16:09:00Z,iris.ammann,8402,Digitec Galaxus AG,Zürich,5732,12.00
+TX880134,2025-08-11T16:44:00Z,lukas.hofer,8629,AWS EMEA,Luxembourg,5734,317.20
+TX880135,2025-08-11T16:50:00Z,solveig.haugen,1245,Digitec Galaxus AG,Zürich,5732,353.90
+TX880136,2025-08-11T17:40:00Z,dov.halperin,4050,Swiss International Air Lines,Zürich,4511,21.00
+TX880137,2025-08-11T18:07:00Z,dov.halperin,4050,Mobility Genossenschaft,Luzern,7512,363.50
+TX880138,2025-08-12T05:39:00Z,solveig.haugen,1245,Valora Kiosk,St. Gallen,5994,340.90
+TX880139,2025-08-12T07:49:00Z,anneke.vos,8421,AWS EMEA,Luxembourg,5734,95.20
+TX880140,2025-08-12T08:00:00Z,marcus.abiodun,9656,Swiss International Air Lines,Zürich,4511,261.00
+TX880141,2025-08-12T08:34:00Z,yannick.favre,4111,Coop Pronto,St. Gallen,5541,341.50
+TX880142,2025-08-12T08:54:00Z,chiara.bernasconi,4025,Starbucks,Zürich,5814,408.90
+TX880143,2025-08-12T09:25:00Z,halina.brzezinska,1584,Mobility Genossenschaft,Luzern,7512,53.20
+TX880144,2025-08-12T09:36:00Z,kemi.adeyemi,3323,Coop Pronto,St. Gallen,5541,7.90
+TX880145,2025-08-12T10:18:00Z,priya.raghunathan,8316,AWS EMEA,Luxembourg,5734,11.20
+TX880146,2025-08-12T10:27:00Z,lukas.hofer,8629,Parkhaus Brühltor,St. Gallen,7523,331.20
+TX880147,2025-08-12T11:35:00Z,lukas.hofer,8629,Autogrill,Bellinzona,5812,112.00
+TX880148,2025-08-12T12:05:00Z,noemi.rochat,9387,Coop Pronto,St. Gallen,5541,29.90
+TX880149,2025-08-12T12:56:00Z,halina.brzezinska,1584,Avec,Winterthur,5499,326.90
+TX880150,2025-08-12T13:58:00Z,dessie.moran,1686,SBB CFF FFS,St. Gallen,4111,205.50
+TX880151,2025-08-12T14:16:00Z,solveig.haugen,1245,Avec,Winterthur,5499,277.90
+TX880152,2025-08-12T15:14:00Z,nils.aberg,5970,Migros,St. Gallen,5411,250.00
+TX880153,2025-08-12T15:28:00Z,dov.halperin,4050,Mobility Genossenschaft,Luzern,7512,117.20
+TX880154,2025-08-12T17:21:00Z,halina.brzezinska,1584,Office World,St. Gallen,5943,35.20
+TX880155,2025-08-12T17:40:00Z,tobias.krall,7490,AWS EMEA,Luxembourg,5734,220.50
+TX880156,2025-08-13T06:16:00Z,andrin.caduff,9320,Autogrill,Bellinzona,5812,398.90
+TX880157,2025-08-13T07:48:00Z,tobias.krall,7490,Hotel Einstein,St. Gallen,7011,84.20
+TX880158,2025-08-13T07:55:00Z,tobias.krall,7490,AWS EMEA,Luxembourg,5734,106.50
+TX880159,2025-08-13T08:04:00Z,bruno.sacchi,2485,Valora Kiosk,St. Gallen,5994,110.20
+TX880160,2025-08-13T12:04:00Z,noemi.rochat,9387,AWS EMEA,Luxembourg,5734,278.50
+TX880161,2025-08-13T13:28:00Z,anneke.vos,8421,Migros,St. Gallen,5411,291.20
+TX880162,2025-08-13T14:53:00Z,yuki.tanabe,2034,Coop Pronto,St. Gallen,5541,72.20
+TX880163,2025-08-13T18:31:00Z,yuki.tanabe,2034,Starbucks,Zürich,5814,41.20
+TX880164,2025-08-13T18:37:00Z,rafferty.ng,3580,Avec,Winterthur,5499,158.20
+TX880165,2025-08-14T06:11:00Z,rafferty.ng,3580,Starbucks,Zürich,5814,131.50
+TX880166,2025-08-14T06:32:00Z,halina.brzezinska,1584,Avec,Winterthur,5499,181.50
+TX880167,2025-08-14T07:24:00Z,iris.ammann,8402,Swiss International Air Lines,Zürich,4511,71.50
+TX880168,2025-08-14T08:38:00Z,wen-li.zhao,9825,Swiss International Air Lines,Zürich,4511,199.90
+TX880169,2025-08-14T10:49:00Z,chiara.bernasconi,4025,SBB CFF FFS,St. Gallen,4111,231.50
+TX880170,2025-08-14T11:09:00Z,dov.halperin,4050,Coop Pronto,St. Gallen,5541,82.90
+TX880171,2025-08-14T12:57:00Z,bruno.sacchi,2485,Uber BV,Amsterdam,4121,16.50
+TX880172,2025-08-14T13:01:00Z,solveig.haugen,1245,Hotel Einstein,St. Gallen,7011,214.20
+TX880173,2025-08-14T13:58:00Z,cormac.deel,1975,Digitec Galaxus AG,Zürich,5732,283.90
+TX880174,2025-08-14T15:45:00Z,wen-li.zhao,9825,Hotel Einstein,St. Gallen,7011,43.50
+TX880175,2025-08-14T15:46:00Z,nils.aberg,5970,Valora Kiosk,St. Gallen,5994,19.50
+TX880176,2025-08-14T16:08:00Z,cormac.deel,1975,Coop Pronto,St. Gallen,5541,139.90
+TX880177,2025-08-14T18:26:00Z,nils.aberg,5970,Starbucks,Zürich,5814,315.90
+TX880178,2025-08-15T05:58:00Z,nils.aberg,5970,SBB CFF FFS,St. Gallen,4111,247.50
+TX880179,2025-08-15T06:52:00Z,iris.ammann,8402,Parkhaus Brühltor,St. Gallen,7523,193.00
+TX880180,2025-08-15T08:02:00Z,iris.ammann,8402,Digitec Galaxus AG,Zürich,5732,323.50
+TX880181,2025-08-15T08:28:00Z,chiara.bernasconi,4025,Avec,Winterthur,5499,84.90
+TX880182,2025-08-15T09:23:00Z,marcus.abiodun,9656,Office World,St. Gallen,5943,376.90
+TX880183,2025-08-15T09:37:00Z,noemi.rochat,9387,Valora Kiosk,St. Gallen,5994,51.90
+TX880184,2025-08-15T10:27:00Z,renata.vogel,8411,Starbucks,Zürich,5814,109.50
+TX880185,2025-08-15T12:53:00Z,chiara.bernasconi,4025,SBB CFF FFS,St. Gallen,4111,260.00
+TX880186,2025-08-15T13:29:00Z,anneke.vos,8421,Mobility Genossenschaft,Luzern,7512,355.00
+TX880187,2025-08-15T13:58:00Z,rafferty.ng,3580,AWS EMEA,Luxembourg,5734,272.20
+TX880188,2025-08-15T14:48:00Z,anneke.vos,8421,Migros,St. Gallen,5411,158.00
+TX880189,2025-08-15T16:46:00Z,nils.aberg,5970,Mobility Genossenschaft,Luzern,7512,172.00
+TX880190,2025-08-15T16:56:00Z,marcus.abiodun,9656,Uber BV,Amsterdam,4121,330.00
+TX880191,2025-08-16T06:13:00Z,rafferty.ng,3580,Swiss International Air Lines,Zürich,4511,270.50
+TX880192,2025-08-16T06:26:00Z,lukas.hofer,8629,Avec,Winterthur,5499,263.90
+TX880193,2025-08-16T06:27:00Z,renata.vogel,8411,SBB CFF FFS,St. Gallen,4111,382.50
+TX880194,2025-08-16T07:12:00Z,tobias.krall,7490,Mobility Genossenschaft,Luzern,7512,99.00
+TX880195,2025-08-16T07:41:00Z,yuki.tanabe,2034,Office World,St. Gallen,5943,416.20
+TX880196,2025-08-16T09:51:00Z,rafferty.ng,3580,Swiss International Air Lines,Zürich,4511,150.00
+TX880197,2025-08-16T11:13:00Z,kemi.adeyemi,3323,Migros,St. Gallen,5411,211.90
+TX880198,2025-08-16T11:14:00Z,marcus.abiodun,9656,Avec,Winterthur,5499,222.50
+TX880199,2025-08-16T11:46:00Z,cormac.deel,1975,Starbucks,Zürich,5814,357.00
+TX880200,2025-08-16T12:09:00Z,renata.vogel,8411,Migros,St. Gallen,5411,46.00
+TX880201,2025-08-16T13:48:00Z,dessie.moran,1686,Hotel Einstein,St. Gallen,7011,31.00
+TX880202,2025-08-16T14:50:00Z,tobias.krall,7490,Uber BV,Amsterdam,4121,382.00
+TX880203,2025-08-16T17:20:00Z,iris.ammann,8402,Office World,St. Gallen,5943,366.20
+TX880204,2025-08-16T18:13:00Z,yuki.tanabe,2034,Hotel Einstein,St. Gallen,7011,124.90
+TX880205,2025-08-16T18:54:00Z,chiara.bernasconi,4025,Parkhaus Brühltor,St. Gallen,7523,159.50
+TX880206,2025-08-17T05:42:00Z,yannick.favre,4111,Hotel Einstein,St. Gallen,7011,123.20
+TX880207,2025-08-17T07:44:00Z,yuki.tanabe,2034,Mobility Genossenschaft,Luzern,7512,413.90
+TX880208,2025-08-17T09:44:00Z,lukas.hofer,8629,Swiss International Air Lines,Zürich,4511,136.90
+TX880209,2025-08-17T10:34:00Z,anneke.vos,8421,Uber BV,Amsterdam,4121,4.50
+TX880210,2025-08-17T14:15:00Z,noemi.rochat,9387,Parkhaus Brühltor,St. Gallen,7523,62.20
+TX880211,2025-08-17T14:19:00Z,halina.brzezinska,1584,Starbucks,Zürich,5814,352.50
+TX880212,2025-08-17T15:52:00Z,tobias.krall,7490,Restaurant Schwarzer Engel,St. Gallen,5812,268.00
+TX880213,2025-08-17T15:55:00Z,dov.halperin,4050,Migros,St. Gallen,5411,240.00
+TX880214,2025-08-17T16:11:00Z,rafferty.ng,3580,Restaurant Schwarzer Engel,St. Gallen,5812,363.00
+TX880215,2025-08-17T16:29:00Z,wen-li.zhao,9825,Autogrill,Bellinzona,5812,142.00
+TX880216,2025-08-17T16:32:00Z,cormac.deel,1975,Autogrill,Bellinzona,5812,181.90
+TX880217,2025-08-17T16:35:00Z,yuki.tanabe,2034,Swiss International Air Lines,Zürich,4511,133.20
+TX880218,2025-08-17T17:11:00Z,andrin.caduff,9320,AWS EMEA,Luxembourg,5734,381.90
+TX880219,2025-08-17T18:03:00Z,dessie.moran,1686,Hotel Einstein,St. Gallen,7011,85.20
+TX880220,2025-08-18T06:46:00Z,wen-li.zhao,9825,Uber BV,Amsterdam,4121,77.50
+TX880221,2025-08-18T06:48:00Z,yuki.tanabe,2034,Mobility Genossenschaft,Luzern,7512,350.20
+TX880222,2025-08-18T07:17:00Z,noemi.rochat,9387,Parkhaus Brühltor,St. Gallen,7523,183.00
+TX880223,2025-08-18T08:54:00Z,yuki.tanabe,2034,Autogrill,Bellinzona,5812,112.00
+TX880224,2025-08-18T09:12:00Z,andrin.caduff,9320,Swiss International Air Lines,Zürich,4511,9.00
+TX880225,2025-08-18T11:35:00Z,rafferty.ng,3580,Avec,Winterthur,5499,325.50
+TX880226,2025-08-18T11:35:00Z,kemi.adeyemi,3323,Hotel Einstein,St. Gallen,7011,119.00
+TX880227,2025-08-18T13:25:00Z,yuki.tanabe,2034,Parkhaus Brühltor,St. Gallen,7523,279.00
+TX880228,2025-08-18T13:50:00Z,priya.raghunathan,8316,Mobility Genossenschaft,Luzern,7512,203.00
+TX880229,2025-08-18T15:18:00Z,yannick.favre,4111,Mobility Genossenschaft,Luzern,7512,386.20
+TX880230,2025-08-18T16:23:00Z,wen-li.zhao,9825,Office World,St. Gallen,5943,237.90
+TX880231,2025-08-18T16:58:00Z,kurt.steiner,8794,Digitec Galaxus AG,Zürich,5732,375.20
+TX880232,2025-08-19T05:14:00Z,wen-li.zhao,9825,Hotel Einstein,St. Gallen,7011,39.90
+TX880233,2025-08-19T06:09:00Z,chiara.bernasconi,4025,Valora Kiosk,St. Gallen,5994,85.20
+TX880234,2025-08-19T06:13:00Z,noemi.rochat,9387,Restaurant Schwarzer Engel,St. Gallen,5812,221.90
+TX880235,2025-08-19T06:33:00Z,tobias.krall,7490,Mobility Genossenschaft,Luzern,7512,288.90
+TX880236,2025-08-19T07:15:00Z,dessie.moran,1686,Avec,Winterthur,5499,73.00
+TX880237,2025-08-19T09:47:00Z,dov.halperin,4050,Autogrill,Bellinzona,5812,293.90
+TX880238,2025-08-19T10:04:00Z,lukas.hofer,8629,Starbucks,Zürich,5814,307.90
+TX880239,2025-08-19T10:07:00Z,priya.raghunathan,8316,Office World,St. Gallen,5943,86.20
+TX880240,2025-08-19T11:49:00Z,wen-li.zhao,9825,Parkhaus Brühltor,St. Gallen,7523,271.00
+TX880241,2025-08-19T12:42:00Z,dov.halperin,4050,SBB CFF FFS,St. Gallen,4111,220.20
+TX880242,2025-08-19T12:43:00Z,wen-li.zhao,9825,Swiss International Air Lines,Zürich,4511,70.20
+TX880243,2025-08-19T13:36:00Z,nils.aberg,5970,Parkhaus Brühltor,St. Gallen,7523,269.90
+TX880244,2025-08-19T16:55:00Z,lukas.hofer,8629,Coop Pronto,St. Gallen,5541,220.20
+TX880245,2025-08-19T17:38:00Z,nils.aberg,5970,Uber BV,Amsterdam,4121,183.50
+TX880246,2025-08-20T09:10:00Z,chiara.bernasconi,4025,Parkhaus Brühltor,St. Gallen,7523,82.20
+TX880247,2025-08-20T09:40:00Z,andrin.caduff,9320,Parkhaus Brühltor,St. Gallen,7523,212.00
+TX880248,2025-08-20T10:31:00Z,andrin.caduff,9320,SBB CFF FFS,St. Gallen,4111,142.50
+TX880249,2025-08-20T12:10:00Z,cormac.deel,1975,SBB CFF FFS,St. Gallen,4111,371.00
+TX880250,2025-08-20T12:34:00Z,yuki.tanabe,2034,Avec,Winterthur,5499,94.50
+TX880251,2025-08-20T14:42:00Z,wen-li.zhao,9825,Office World,St. Gallen,5943,54.50
+TX880252,2025-08-20T18:36:00Z,kurt.steiner,8794,Swiss International Air Lines,Zürich,4511,380.20
+TX880253,2025-08-21T05:25:00Z,anneke.vos,8421,Uber BV,Amsterdam,4121,389.90
+TX880254,2025-08-21T05:32:00Z,tobias.krall,7490,Swiss International Air Lines,Zürich,4511,61.90
+TX880255,2025-08-21T06:06:00Z,renata.vogel,8411,Hotel Einstein,St. Gallen,7011,135.90
+TX880256,2025-08-21T06:52:00Z,yuki.tanabe,2034,Restaurant Schwarzer Engel,St. Gallen,5812,151.20
+TX880257,2025-08-21T06:57:00Z,june.okada,2542,Digitec Galaxus AG,Zürich,5732,19.20
+TX880258,2025-08-21T11:33:00Z,solveig.haugen,1245,Autogrill,Bellinzona,5812,48.00
+TX880259,2025-08-21T13:09:00Z,solveig.haugen,1245,Valora Kiosk,St. Gallen,5994,257.00
+TX880260,2025-08-21T13:28:00Z,kurt.steiner,8794,Autogrill,Bellinzona,5812,35.90
+TX880261,2025-08-21T14:24:00Z,rafferty.ng,3580,Parkhaus Brühltor,St. Gallen,7523,174.20
+TX880262,2025-08-21T14:41:00Z,anneke.vos,8421,Starbucks,Zürich,5814,15.20
+TX880263,2025-08-21T15:29:00Z,dov.halperin,4050,Coop Pronto,St. Gallen,5541,18.50
+TX880264,2025-08-21T15:36:00Z,lukas.hofer,8629,Office World,St. Gallen,5943,250.00
+TX880265,2025-08-21T17:10:00Z,lukas.hofer,8629,Swiss International Air Lines,Zürich,4511,25.50
+TX880266,2025-08-21T18:10:00Z,bruno.sacchi,2485,AWS EMEA,Luxembourg,5734,78.90
+TX880267,2025-08-22T05:27:00Z,june.okada,2542,Uber BV,Amsterdam,4121,94.50
+TX880268,2025-08-22T06:04:00Z,kurt.steiner,8794,Autogrill,Bellinzona,5812,291.50
+TX880269,2025-08-22T06:07:00Z,cormac.deel,1975,Autogrill,Bellinzona,5812,215.20
+TX880270,2025-08-22T06:37:00Z,solveig.haugen,1245,SBB CFF FFS,St. Gallen,4111,169.00
+TX880271,2025-08-22T08:22:00Z,noemi.rochat,9387,Hotel Einstein,St. Gallen,7011,49.20
+TX880272,2025-08-22T09:08:00Z,lukas.hofer,8629,Valora Kiosk,St. Gallen,5994,195.90
+TX880273,2025-08-22T10:09:00Z,noemi.rochat,9387,Autogrill,Bellinzona,5812,314.20
+TX880274,2025-08-22T12:06:00Z,anneke.vos,8421,Digitec Galaxus AG,Zürich,5732,276.00
+TX880275,2025-08-22T12:52:00Z,rafferty.ng,3580,Swiss International Air Lines,Zürich,4511,381.00
+TX880276,2025-08-22T12:55:00Z,nils.aberg,5970,AWS EMEA,Luxembourg,5734,249.00
+TX880277,2025-08-22T14:31:00Z,yuki.tanabe,2034,Digitec Galaxus AG,Zürich,5732,153.00
+TX880278,2025-08-22T16:04:00Z,renata.vogel,8411,Restaurant Schwarzer Engel,St. Gallen,5812,343.20
+TX880279,2025-08-22T17:22:00Z,nils.aberg,5970,Uber BV,Amsterdam,4121,340.90
+TX880280,2025-08-23T06:36:00Z,yannick.favre,4111,Mobility Genossenschaft,Luzern,7512,393.20
+TX880281,2025-08-23T06:42:00Z,nils.aberg,5970,AWS EMEA,Luxembourg,5734,22.90
+TX880282,2025-08-23T06:49:00Z,wen-li.zhao,9825,Restaurant Schwarzer Engel,St. Gallen,5812,253.20
+TX880283,2025-08-23T06:55:00Z,dov.halperin,4050,Avec,Winterthur,5499,53.20
+TX880284,2025-08-23T08:25:00Z,bruno.sacchi,2485,Uber BV,Amsterdam,4121,112.90
+TX880285,2025-08-23T09:40:00Z,june.okada,2542,Parkhaus Brühltor,St. Gallen,7523,105.20
+TX880286,2025-08-23T09:41:00Z,yuki.tanabe,2034,Digitec Galaxus AG,Zürich,5732,33.50
+TX880287,2025-08-23T11:02:00Z,solveig.haugen,1245,Migros,St. Gallen,5411,177.00
+TX880288,2025-08-23T11:04:00Z,anneke.vos,8421,Valora Kiosk,St. Gallen,5994,70.20
+TX880289,2025-08-23T11:13:00Z,yuki.tanabe,2034,Autogrill,Bellinzona,5812,71.20
+TX880290,2025-08-23T11:25:00Z,marcus.abiodun,9656,Starbucks,Zürich,5814,123.50
+TX880291,2025-08-23T11:49:00Z,yannick.favre,4111,Starbucks,Zürich,5814,325.00
+TX880292,2025-08-23T12:02:00Z,iris.ammann,8402,AWS EMEA,Luxembourg,5734,310.50
+TX880293,2025-08-23T14:19:00Z,dessie.moran,1686,Restaurant Schwarzer Engel,St. Gallen,5812,331.50
+TX880294,2025-08-23T15:32:00Z,yuki.tanabe,2034,Digitec Galaxus AG,Zürich,5732,46.20
+TX880295,2025-08-23T15:34:00Z,noemi.rochat,9387,Mobility Genossenschaft,Luzern,7512,258.20
+TX880296,2025-08-24T09:28:00Z,marcus.abiodun,9656,Valora Kiosk,St. Gallen,5994,420.50
+TX880297,2025-08-24T09:47:00Z,wen-li.zhao,9825,Mobility Genossenschaft,Luzern,7512,92.90
+TX880298,2025-08-24T10:38:00Z,lukas.hofer,8629,Mobility Genossenschaft,Luzern,7512,356.00
+TX880299,2025-08-24T11:14:00Z,dov.halperin,4050,Valora Kiosk,St. Gallen,5994,281.90
+TX880300,2025-08-24T12:03:00Z,anneke.vos,8421,Autogrill,Bellinzona,5812,202.20
+TX880301,2025-08-24T12:04:00Z,priya.raghunathan,8316,AWS EMEA,Luxembourg,5734,298.50
+TX880302,2025-08-24T12:18:00Z,priya.raghunathan,8316,AWS EMEA,Luxembourg,5734,7.90
+TX880303,2025-08-24T12:21:00Z,nils.aberg,5970,SBB CFF FFS,St. Gallen,4111,8.20
+TX880304,2025-08-24T13:11:00Z,anneke.vos,8421,Restaurant Schwarzer Engel,St. Gallen,5812,25.90
+TX880305,2025-08-24T15:19:00Z,wen-li.zhao,9825,Coop Pronto,St. Gallen,5541,148.00
+TX880306,2025-08-24T15:29:00Z,kurt.steiner,8794,Valora Kiosk,St. Gallen,5994,386.90
+TX880307,2025-08-24T17:22:00Z,iris.ammann,8402,Hotel Einstein,St. Gallen,7011,350.00
+TX880308,2025-08-24T17:42:00Z,andrin.caduff,9320,Starbucks,Zürich,5814,93.00
+TX880309,2025-08-24T18:04:00Z,noemi.rochat,9387,Coop Pronto,St. Gallen,5541,318.50
+TX880310,2025-08-24T18:21:00Z,kemi.adeyemi,3323,Uber BV,Amsterdam,4121,161.20
+TX880311,2025-08-25T06:20:00Z,dessie.moran,1686,Parkhaus Brühltor,St. Gallen,7523,19.00
+TX880312,2025-08-25T09:14:00Z,kurt.steiner,8794,Valora Kiosk,St. Gallen,5994,353.00
+TX880313,2025-08-25T09:18:00Z,dessie.moran,1686,Coop Pronto,St. Gallen,5541,285.00
+TX880314,2025-08-25T11:12:00Z,dov.halperin,4050,SBB CFF FFS,St. Gallen,4111,325.50
+TX880315,2025-08-25T11:32:00Z,yannick.favre,4111,Autogrill,Bellinzona,5812,119.20
+TX880316,2025-08-25T11:51:00Z,chiara.bernasconi,4025,Coop Pronto,St. Gallen,5541,241.00
+TX880317,2025-08-25T12:09:00Z,andrin.caduff,9320,SBB CFF FFS,St. Gallen,4111,137.50
+TX880318,2025-08-25T12:51:00Z,anneke.vos,8421,Coop Pronto,St. Gallen,5541,407.50
+TX880319,2025-08-25T16:38:00Z,bruno.sacchi,2485,Migros,St. Gallen,5411,404.20
+TX880320,2025-08-25T18:15:00Z,andrin.caduff,9320,Uber BV,Amsterdam,4121,390.20
+TX880321,2025-08-26T05:32:00Z,cormac.deel,1975,Parkhaus Brühltor,St. Gallen,7523,395.90
+TX880322,2025-08-26T06:15:00Z,bruno.sacchi,2485,Avec,Winterthur,5499,40.50
+TX880323,2025-08-26T09:45:00Z,cormac.deel,1975,AWS EMEA,Luxembourg,5734,369.20
+TX880324,2025-08-26T10:55:00Z,renata.vogel,8411,Office World,St. Gallen,5943,53.50
+TX880325,2025-08-26T11:17:00Z,nils.aberg,5970,Migros,St. Gallen,5411,94.50
+TX880326,2025-08-26T11:25:00Z,yannick.favre,4111,Starbucks,Zürich,5814,122.50
+TX880327,2025-08-26T12:25:00Z,anneke.vos,8421,Starbucks,Zürich,5814,267.90
+TX880328,2025-08-26T12:53:00Z,priya.raghunathan,8316,Digitec Galaxus AG,Zürich,5732,374.90
+TX880329,2025-08-26T14:40:00Z,solveig.haugen,1245,Parkhaus Brühltor,St. Gallen,7523,5.50
+TX880330,2025-08-26T14:54:00Z,june.okada,2542,Hotel Einstein,St. Gallen,7011,127.20
+TX880331,2025-08-26T15:40:00Z,wen-li.zhao,9825,SBB CFF FFS,St. Gallen,4111,196.90
+TX880332,2025-08-26T16:21:00Z,yuki.tanabe,2034,AWS EMEA,Luxembourg,5734,359.20
+TX880333,2025-08-26T17:08:00Z,marcus.abiodun,9656,Mobility Genossenschaft,Luzern,7512,329.50
+TX880334,2025-08-26T17:45:00Z,june.okada,2542,Office World,St. Gallen,5943,34.20
+TX880335,2025-08-27T05:53:00Z,noemi.rochat,9387,Parkhaus Brühltor,St. Gallen,7523,196.20
+TX880336,2025-08-27T08:05:00Z,cormac.deel,1975,Uber BV,Amsterdam,4121,91.20
+TX880337,2025-08-27T08:14:00Z,nils.aberg,5970,SBB CFF FFS,St. Gallen,4111,55.00
+TX880338,2025-08-27T10:11:00Z,solveig.haugen,1245,Uber BV,Amsterdam,4121,282.90
+TX880339,2025-08-27T10:19:00Z,lukas.hofer,8629,Office World,St. Gallen,5943,221.20
+TX880340,2025-08-27T10:27:00Z,lukas.hofer,8629,Hotel Einstein,St. Gallen,7011,379.00
+TX880341,2025-08-27T13:27:00Z,lukas.hofer,8629,Restaurant Schwarzer Engel,St. Gallen,5812,302.50
+TX880342,2025-08-27T15:46:00Z,anneke.vos,8421,Valora Kiosk,St. Gallen,5994,275.50
+TX880343,2025-08-27T15:54:00Z,renata.vogel,8411,AWS EMEA,Luxembourg,5734,258.50
+TX880344,2025-08-27T17:20:00Z,rafferty.ng,3580,Office World,St. Gallen,5943,19.50
+TX880345,2025-08-27T17:50:00Z,halina.brzezinska,1584,SBB CFF FFS,St. Gallen,4111,113.50
+TX880346,2025-08-27T18:05:00Z,marcus.abiodun,9656,Uber BV,Amsterdam,4121,357.20
+TX880347,2025-08-28T05:29:00Z,lukas.hofer,8629,Valora Kiosk,St. Gallen,5994,182.20
+TX880348,2025-08-28T05:38:00Z,iris.ammann,8402,Digitec Galaxus AG,Zürich,5732,197.50
+TX880349,2025-08-28T05:40:00Z,solveig.haugen,1245,Avec,Winterthur,5499,210.00
+TX880350,2025-08-28T08:28:00Z,dov.halperin,4050,SBB CFF FFS,St. Gallen,4111,39.90
+TX880351,2025-08-28T09:21:00Z,cormac.deel,1975,Digitec Galaxus AG,Zürich,5732,34.00
+TX880352,2025-08-28T12:01:00Z,solveig.haugen,1245,SBB CFF FFS,St. Gallen,4111,420.20
+TX880353,2025-08-28T14:09:00Z,iris.ammann,8402,Migros,St. Gallen,5411,19.00
+TX880354,2025-08-28T14:55:00Z,dessie.moran,1686,Restaurant Schwarzer Engel,St. Gallen,5812,213.20
+TX880355,2025-08-28T15:08:00Z,kemi.adeyemi,3323,Autogrill,Bellinzona,5812,392.90
+TX880356,2025-08-28T15:59:00Z,bruno.sacchi,2485,SBB CFF FFS,St. Gallen,4111,63.90
+TX880357,2025-08-28T16:09:00Z,bruno.sacchi,2485,Starbucks,Zürich,5814,119.00
+TX880358,2025-08-28T16:31:00Z,solveig.haugen,1245,Avec,Winterthur,5499,204.90
+TX880359,2025-08-29T05:01:00Z,rafferty.ng,3580,Valora Kiosk,St. Gallen,5994,126.00
+TX880360,2025-08-29T05:15:00Z,anneke.vos,8421,Hotel Einstein,St. Gallen,7011,334.00
+TX880361,2025-08-29T08:09:00Z,tobias.krall,7490,Restaurant Schwarzer Engel,St. Gallen,5812,149.00
+TX880362,2025-08-29T08:25:00Z,dessie.moran,1686,Avec,Winterthur,5499,255.20
+TX880363,2025-08-29T11:17:00Z,priya.raghunathan,8316,Swiss International Air Lines,Zürich,4511,163.50
+TX880364,2025-08-29T13:27:00Z,kemi.adeyemi,3323,AWS EMEA,Luxembourg,5734,382.90
+TX880365,2025-08-29T13:52:00Z,dov.halperin,4050,Parkhaus Brühltor,St. Gallen,7523,192.50
+TX880366,2025-08-29T14:34:00Z,june.okada,2542,SBB CFF FFS,St. Gallen,4111,186.50
+TX880367,2025-08-29T14:54:00Z,anneke.vos,8421,Parkhaus Brühltor,St. Gallen,7523,137.00
+TX880368,2025-08-29T15:56:00Z,renata.vogel,8411,Uber BV,Amsterdam,4121,286.50
+TX880369,2025-08-29T17:18:00Z,renata.vogel,8411,Valora Kiosk,St. Gallen,5994,313.00
+TX880370,2025-08-29T18:11:00Z,kemi.adeyemi,3323,Hotel Einstein,St. Gallen,7011,7.20
+TX880371,2025-08-30T05:33:00Z,andrin.caduff,9320,Avec,Winterthur,5499,67.20
+TX880372,2025-08-30T07:35:00Z,anneke.vos,8421,Valora Kiosk,St. Gallen,5994,51.90
+TX880373,2025-08-30T08:10:00Z,andrin.caduff,9320,Swiss International Air Lines,Zürich,4511,351.90
+TX880374,2025-08-30T08:11:00Z,andrin.caduff,9320,Uber BV,Amsterdam,4121,62.00
+TX880375,2025-08-30T09:24:00Z,dov.halperin,4050,Digitec Galaxus AG,Zürich,5732,124.00
+TX880376,2025-08-30T10:03:00Z,halina.brzezinska,1584,Digitec Galaxus AG,Zürich,5732,374.20
+TX880377,2025-08-30T12:47:00Z,cormac.deel,1975,AWS EMEA,Luxembourg,5734,417.90
+TX880378,2025-08-30T13:58:00Z,bruno.sacchi,2485,Coop Pronto,St. Gallen,5541,364.50
+TX880379,2025-08-30T15:01:00Z,dov.halperin,4050,Coop Pronto,St. Gallen,5541,50.50
+TX880380,2025-08-30T17:30:00Z,priya.raghunathan,8316,Autogrill,Bellinzona,5812,106.20
+TX880381,2025-08-31T06:15:00Z,marcus.abiodun,9656,Swiss International Air Lines,Zürich,4511,288.20
+TX880382,2025-08-31T07:23:00Z,tobias.krall,7490,Starbucks,Zürich,5814,131.50
+TX880383,2025-08-31T08:12:00Z,noemi.rochat,9387,AWS EMEA,Luxembourg,5734,115.90
+TX880384,2025-08-31T09:22:00Z,halina.brzezinska,1584,Autogrill,Bellinzona,5812,209.00
+TX880385,2025-08-31T09:51:00Z,iris.ammann,8402,Hotel Einstein,St. Gallen,7011,227.20
+TX880386,2025-08-31T10:26:00Z,anneke.vos,8421,Starbucks,Zürich,5814,107.20
+TX880387,2025-08-31T11:18:00Z,lukas.hofer,8629,Migros,St. Gallen,5411,185.90
+TX880388,2025-08-31T13:13:00Z,priya.raghunathan,8316,Autogrill,Bellinzona,5812,104.50
+TX880389,2025-08-31T13:17:00Z,kemi.adeyemi,3323,Migros,St. Gallen,5411,134.00
+TX880390,2025-08-31T13:19:00Z,marcus.abiodun,9656,Hotel Einstein,St. Gallen,7011,151.20
+TX880391,2025-08-31T16:03:00Z,bruno.sacchi,2485,Hotel Einstein,St. Gallen,7011,214.90
+TX880392,2025-08-31T17:27:00Z,june.okada,2542,Hotel Einstein,St. Gallen,7011,310.00
+TX880393,2025-09-01T05:19:00Z,tobias.krall,7490,Swiss International Air Lines,Zürich,4511,69.00
+TX880394,2025-09-01T07:01:00Z,andrin.caduff,9320,Migros,St. Gallen,5411,138.00
+TX880395,2025-09-01T07:09:00Z,renata.vogel,8411,Parkhaus Brühltor,St. Gallen,7523,46.90
+TX880396,2025-09-01T08:03:00Z,noemi.rochat,9387,Restaurant Schwarzer Engel,St. Gallen,5812,379.00
+TX880397,2025-09-01T08:08:00Z,nils.aberg,5970,Avec,Winterthur,5499,249.50
+TX880398,2025-09-01T08:22:00Z,cormac.deel,1975,Autogrill,Bellinzona,5812,333.20
+TX880399,2025-09-01T09:31:00Z,dessie.moran,1686,Uber BV,Amsterdam,4121,185.00
+TX880400,2025-09-01T11:06:00Z,andrin.caduff,9320,SBB CFF FFS,St. Gallen,4111,92.90
+TX880401,2025-09-01T11:39:00Z,noemi.rochat,9387,Migros,St. Gallen,5411,162.90
+TX880402,2025-09-01T13:04:00Z,dov.halperin,4050,Parkhaus Brühltor,St. Gallen,7523,69.90
+TX880403,2025-09-01T13:34:00Z,wen-li.zhao,9825,Mobility Genossenschaft,Luzern,7512,30.20
+TX880404,2025-09-01T15:04:00Z,kurt.steiner,8794,Office World,St. Gallen,5943,242.00
+TX880405,2025-09-01T16:39:00Z,cormac.deel,1975,Swiss International Air Lines,Zürich,4511,412.20
+TX880406,2025-09-01T17:13:00Z,kemi.adeyemi,3323,Valora Kiosk,St. Gallen,5994,225.00
+TX880407,2025-09-01T18:22:00Z,andrin.caduff,9320,Uber BV,Amsterdam,4121,115.50
+TX880408,2025-09-01T18:36:00Z,yuki.tanabe,2034,Restaurant Schwarzer Engel,St. Gallen,5812,418.90
+TX880409,2025-09-02T06:26:00Z,halina.brzezinska,1584,Autogrill,Bellinzona,5812,111.90
+TX880410,2025-09-02T07:01:00Z,june.okada,2542,Digitec Galaxus AG,Zürich,5732,218.20
+TX880411,2025-09-02T08:10:00Z,june.okada,2542,Restaurant Schwarzer Engel,St. Gallen,5812,366.50
+TX880412,2025-09-02T08:19:00Z,lukas.hofer,8629,Swiss International Air Lines,Zürich,4511,222.90
+TX880413,2025-09-02T08:36:00Z,yannick.favre,4111,Avec,Winterthur,5499,119.00
+TX880414,2025-09-02T09:27:00Z,tobias.krall,7490,Migros,St. Gallen,5411,98.00
+TX880415,2025-09-02T09:41:00Z,kemi.adeyemi,3323,Starbucks,Zürich,5814,120.90
+TX880416,2025-09-02T10:22:00Z,cormac.deel,1975,Digitec Galaxus AG,Zürich,5732,266.90
+TX880417,2025-09-02T11:46:00Z,nils.aberg,5970,Mobility Genossenschaft,Luzern,7512,133.90
+TX880418,2025-09-02T12:24:00Z,nils.aberg,5970,Office World,St. Gallen,5943,258.90
+TX880419,2025-09-02T13:10:00Z,nils.aberg,5970,Migros,St. Gallen,5411,405.50
+TX880420,2025-09-02T14:23:00Z,iris.ammann,8402,Migros,St. Gallen,5411,294.50
+TX880421,2025-09-02T14:36:00Z,renata.vogel,8411,Parkhaus Brühltor,St. Gallen,7523,137.20
+TX880422,2025-09-02T15:03:00Z,noemi.rochat,9387,Restaurant Schwarzer Engel,St. Gallen,5812,417.20
+TX880423,2025-09-02T15:46:00Z,bruno.sacchi,2485,Mobility Genossenschaft,Luzern,7512,201.50
+TX880424,2025-09-02T16:21:00Z,dov.halperin,4050,Avec,Winterthur,5499,54.90
+TX880425,2025-09-02T17:15:00Z,dov.halperin,4050,Coop Pronto,St. Gallen,5541,264.50
+TX880426,2025-09-02T17:35:00Z,priya.raghunathan,8316,AWS EMEA,Luxembourg,5734,100.20
+TX880427,2025-09-02T18:16:00Z,anneke.vos,8421,Parkhaus Brühltor,St. Gallen,7523,119.00
+TX880428,2025-09-02T18:35:00Z,renata.vogel,8411,Coop Pronto,St. Gallen,5541,162.00
+TX880429,2025-09-03T05:48:00Z,kurt.steiner,8794,Hotel Einstein,St. Gallen,7011,273.90
+TX880430,2025-09-03T11:39:00Z,halina.brzezinska,1584,Uber BV,Amsterdam,4121,192.50
+TX880431,2025-09-03T12:30:00Z,halina.brzezinska,1584,Swiss International Air Lines,Zürich,4511,128.20
+TX880432,2025-09-03T13:44:00Z,halina.brzezinska,1584,Mobility Genossenschaft,Luzern,7512,294.50
+TX880433,2025-09-03T15:33:00Z,priya.raghunathan,8316,Hotel Einstein,St. Gallen,7011,356.20
+TX880434,2025-09-03T16:11:00Z,marcus.abiodun,9656,SBB CFF FFS,St. Gallen,4111,44.50
+TX880435,2025-09-04T05:41:00Z,solveig.haugen,1245,Valora Kiosk,St. Gallen,5994,189.90
+TX880436,2025-09-04T06:00:00Z,tobias.krall,7490,Uber BV,Amsterdam,4121,188.90
+TX880437,2025-09-04T07:27:00Z,rafferty.ng,3580,Parkhaus Brühltor,St. Gallen,7523,61.90
+TX880438,2025-09-04T07:34:00Z,cormac.deel,1975,Uber BV,Amsterdam,4121,222.00
+TX880439,2025-09-04T07:42:00Z,wen-li.zhao,9825,Migros,St. Gallen,5411,238.00
+TX880440,2025-09-04T09:33:00Z,tobias.krall,7490,Migros,St. Gallen,5411,384.50
+TX880441,2025-09-04T09:45:00Z,tobias.krall,7490,Migros,St. Gallen,5411,357.50
+TX880442,2025-09-04T09:59:00Z,yuki.tanabe,2034,SBB CFF FFS,St. Gallen,4111,348.50
+TX880443,2025-09-04T10:58:00Z,anneke.vos,8421,Starbucks,Zürich,5814,162.00
+TX880444,2025-09-04T11:15:00Z,kemi.adeyemi,3323,Office World,St. Gallen,5943,175.00
+TX880445,2025-09-04T12:29:00Z,yannick.favre,4111,Parkhaus Brühltor,St. Gallen,7523,181.00
+TX880446,2025-09-04T12:35:00Z,renata.vogel,8411,Restaurant Schwarzer Engel,St. Gallen,5812,394.00
+TX880447,2025-09-04T12:39:00Z,cormac.deel,1975,Valora Kiosk,St. Gallen,5994,191.20
+TX880448,2025-09-04T12:54:00Z,nils.aberg,5970,Swiss International Air Lines,Zürich,4511,235.50
+TX880449,2025-09-04T12:55:00Z,renata.vogel,8411,Autogrill,Bellinzona,5812,69.20
+TX880450,2025-09-04T13:36:00Z,bruno.sacchi,2485,Swiss International Air Lines,Zürich,4511,395.90
+TX880451,2025-09-04T14:25:00Z,yannick.favre,4111,Swiss International Air Lines,Zürich,4511,97.90
+TX880452,2025-09-04T15:15:00Z,halina.brzezinska,1584,Uber BV,Amsterdam,4121,248.00
+TX880453,2025-09-04T15:29:00Z,nils.aberg,5970,Swiss International Air Lines,Zürich,4511,249.20
+TX880454,2025-09-04T16:22:00Z,kurt.steiner,8794,Starbucks,Zürich,5814,176.50
+TX880455,2025-09-04T18:55:00Z,iris.ammann,8402,Valora Kiosk,St. Gallen,5994,381.50
+TX880456,2025-09-05T06:06:00Z,priya.raghunathan,8316,Swiss International Air Lines,Zürich,4511,298.90
+TX880457,2025-09-05T08:39:00Z,dessie.moran,1686,Office World,St. Gallen,5943,199.20
+TX880458,2025-09-05T08:46:00Z,cormac.deel,1975,Avec,Winterthur,5499,210.50
+TX880459,2025-09-05T10:49:00Z,dov.halperin,4050,Office World,St. Gallen,5943,270.00
+TX880460,2025-09-05T13:00:00Z,marcus.abiodun,9656,SBB CFF FFS,St. Gallen,4111,37.20
+TX880461,2025-09-05T15:22:00Z,lukas.hofer,8629,Coop Pronto,St. Gallen,5541,351.90
+TX880462,2025-09-05T15:35:00Z,nils.aberg,5970,SBB CFF FFS,St. Gallen,4111,269.50
+TX880463,2025-09-05T17:13:00Z,wen-li.zhao,9825,Parkhaus Brühltor,St. Gallen,7523,69.90
+TX880464,2025-09-06T07:16:00Z,yannick.favre,4111,SBB CFF FFS,St. Gallen,4111,308.90
+TX880465,2025-09-06T08:04:00Z,kurt.steiner,8794,Valora Kiosk,St. Gallen,5994,234.00
+TX880466,2025-09-06T09:25:00Z,chiara.bernasconi,4025,AWS EMEA,Luxembourg,5734,193.50
+TX880467,2025-09-06T12:41:00Z,lukas.hofer,8629,Autogrill,Bellinzona,5812,338.20
+TX880468,2025-09-06T13:59:00Z,bruno.sacchi,2485,Mobility Genossenschaft,Luzern,7512,310.90
+TX880469,2025-09-06T14:31:00Z,tobias.krall,7490,Coop Pronto,St. Gallen,5541,306.20
+TX880470,2025-09-06T16:52:00Z,bruno.sacchi,2485,Swiss International Air Lines,Zürich,4511,194.00
+TX880471,2025-09-06T17:29:00Z,iris.ammann,8402,Migros,St. Gallen,5411,386.00
+TX880472,2025-09-07T05:28:00Z,andrin.caduff,9320,AWS EMEA,Luxembourg,5734,18.50
+TX880473,2025-09-07T06:30:00Z,kurt.steiner,8794,Autogrill,Bellinzona,5812,7.50
+TX880474,2025-09-07T07:39:00Z,kurt.steiner,8794,Parkhaus Brühltor,St. Gallen,7523,58.50
+TX880475,2025-09-07T09:10:00Z,june.okada,2542,Swiss International Air Lines,Zürich,4511,362.50
+TX880476,2025-09-07T09:40:00Z,yannick.favre,4111,Office World,St. Gallen,5943,397.90
+TX880477,2025-09-07T09:49:00Z,dessie.moran,1686,Parkhaus Brühltor,St. Gallen,7523,415.20
+TX880478,2025-09-07T09:53:00Z,yuki.tanabe,2034,Restaurant Schwarzer Engel,St. Gallen,5812,291.50
+TX880479,2025-09-07T10:01:00Z,rafferty.ng,3580,Migros,St. Gallen,5411,392.20
+TX880480,2025-09-07T11:39:00Z,priya.raghunathan,8316,SBB CFF FFS,St. Gallen,4111,329.00
+TX880481,2025-09-07T13:31:00Z,marcus.abiodun,9656,SBB CFF FFS,St. Gallen,4111,343.00
+TX880482,2025-09-07T13:35:00Z,dessie.moran,1686,Starbucks,Zürich,5814,160.50
+TX880483,2025-09-07T14:03:00Z,chiara.bernasconi,4025,SBB CFF FFS,St. Gallen,4111,211.00
+TX880484,2025-09-07T14:43:00Z,renata.vogel,8411,Swiss International Air Lines,Zürich,4511,411.20
+TX880485,2025-09-07T16:15:00Z,rafferty.ng,3580,Coop Pronto,St. Gallen,5541,310.50
+TX880486,2025-09-07T16:38:00Z,chiara.bernasconi,4025,Coop Pronto,St. Gallen,5541,5.90
+TX880487,2025-09-07T17:07:00Z,june.okada,2542,Uber BV,Amsterdam,4121,100.20
+TX880488,2025-09-07T18:15:00Z,iris.ammann,8402,Swiss International Air Lines,Zürich,4511,263.00
+TX880489,2025-09-08T05:20:00Z,rafferty.ng,3580,Valora Kiosk,St. Gallen,5994,99.20
+TX880490,2025-09-08T05:22:00Z,priya.raghunathan,8316,Digitec Galaxus AG,Zürich,5732,373.20
+TX880491,2025-09-08T05:57:00Z,anneke.vos,8421,Uber BV,Amsterdam,4121,230.00
+TX880492,2025-09-08T09:02:00Z,tobias.krall,7490,Valora Kiosk,St. Gallen,5994,35.90
+TX880493,2025-09-08T10:36:00Z,priya.raghunathan,8316,Mobility Genossenschaft,Luzern,7512,48.00
+TX880494,2025-09-08T11:10:00Z,priya.raghunathan,8316,Digitec Galaxus AG,Zürich,5732,86.50
+TX880495,2025-09-08T11:29:00Z,dessie.moran,1686,Migros,St. Gallen,5411,267.20
+TX880496,2025-09-08T11:34:00Z,yannick.favre,4111,Hotel Einstein,St. Gallen,7011,197.50
+TX880497,2025-09-08T12:06:00Z,tobias.krall,7490,Starbucks,Zürich,5814,177.20
+TX880498,2025-09-08T12:26:00Z,chiara.bernasconi,4025,Starbucks,Zürich,5814,195.90
+TX880499,2025-09-08T12:30:00Z,andrin.caduff,9320,AWS EMEA,Luxembourg,5734,116.50
+TX880500,2025-09-08T12:52:00Z,yuki.tanabe,2034,Coop Pronto,St. Gallen,5541,389.00
+TX880501,2025-09-08T13:41:00Z,iris.ammann,8402,AWS EMEA,Luxembourg,5734,382.50
+TX880502,2025-09-08T14:16:00Z,dessie.moran,1686,Coop Pronto,St. Gallen,5541,203.20
+TX880503,2025-09-08T14:20:00Z,bruno.sacchi,2485,SBB CFF FFS,St. Gallen,4111,208.00
+TX880504,2025-09-08T15:17:00Z,nils.aberg,5970,Parkhaus Brühltor,St. Gallen,7523,302.20
+TX880505,2025-09-08T16:16:00Z,halina.brzezinska,1584,Migros,St. Gallen,5411,114.90
+TX880506,2025-09-08T16:53:00Z,chiara.bernasconi,4025,SBB CFF FFS,St. Gallen,4111,74.90
+TX880507,2025-09-08T18:13:00Z,andrin.caduff,9320,Migros,St. Gallen,5411,84.20
+TX880508,2025-09-09T05:40:00Z,dessie.moran,1686,SBB CFF FFS,St. Gallen,4111,103.90
+TX880509,2025-09-09T06:55:00Z,cormac.deel,1975,Autogrill,Bellinzona,5812,266.20
+TX880510,2025-09-09T08:06:00Z,lukas.hofer,8629,SBB CFF FFS,St. Gallen,4111,330.90
+TX880511,2025-09-09T08:42:00Z,cormac.deel,1975,Uber BV,Amsterdam,4121,14.00
+TX880512,2025-09-09T10:26:00Z,halina.brzezinska,1584,Uber BV,Amsterdam,4121,41.00
+TX880513,2025-09-09T10:28:00Z,andrin.caduff,9320,Avec,Winterthur,5499,302.00
+TX880514,2025-09-09T10:40:00Z,tobias.krall,7490,Hotel Einstein,St. Gallen,7011,169.50
+TX880515,2025-09-09T11:01:00Z,yannick.favre,4111,SBB CFF FFS,St. Gallen,4111,314.00
+TX880516,2025-09-09T11:21:00Z,june.okada,2542,Office World,St. Gallen,5943,256.50
+TX880517,2025-09-09T11:29:00Z,bruno.sacchi,2485,Valora Kiosk,St. Gallen,5994,235.00
+TX880518,2025-09-09T12:07:00Z,june.okada,2542,Valora Kiosk,St. Gallen,5994,400.00
+TX880519,2025-09-09T12:15:00Z,lukas.hofer,8629,Coop Pronto,St. Gallen,5541,360.90
+TX880520,2025-09-09T12:29:00Z,iris.ammann,8402,Starbucks,Zürich,5814,118.20
+TX880521,2025-09-09T17:28:00Z,dessie.moran,1686,Swiss International Air Lines,Zürich,4511,159.50
+TX880522,2025-09-09T17:51:00Z,dov.halperin,4050,Restaurant Schwarzer Engel,St. Gallen,5812,398.50
+TX880523,2025-09-10T06:00:00Z,bruno.sacchi,2485,Avec,Winterthur,5499,315.90
+TX880524,2025-09-10T06:51:00Z,lukas.hofer,8629,Valora Kiosk,St. Gallen,5994,98.90
+TX880525,2025-09-10T07:49:00Z,kurt.steiner,8794,Mobility Genossenschaft,Luzern,7512,317.20
+TX880526,2025-09-10T08:46:00Z,wen-li.zhao,9825,Mobility Genossenschaft,Luzern,7512,377.50
+TX880527,2025-09-10T09:00:00Z,halina.brzezinska,1584,Mobility Genossenschaft,Luzern,7512,84.90
+TX880528,2025-09-10T09:03:00Z,dessie.moran,1686,Swiss International Air Lines,Zürich,4511,344.20
+TX880529,2025-09-10T11:51:00Z,cormac.deel,1975,Parkhaus Brühltor,St. Gallen,7523,34.20
+TX880530,2025-09-10T13:01:00Z,kemi.adeyemi,3323,Migros,St. Gallen,5411,381.90
+TX880531,2025-09-10T13:10:00Z,nils.aberg,5970,Avec,Winterthur,5499,232.00
+TX880532,2025-09-10T13:38:00Z,wen-li.zhao,9825,Autogrill,Bellinzona,5812,38.20
+TX880533,2025-09-10T14:37:00Z,yuki.tanabe,2034,Restaurant Schwarzer Engel,St. Gallen,5812,115.20
+TX880534,2025-09-10T15:05:00Z,renata.vogel,8411,Digitec Galaxus AG,Zürich,5732,404.20
+TX880535,2025-09-10T15:17:00Z,chiara.bernasconi,4025,AWS EMEA,Luxembourg,5734,103.50
+TX880536,2025-09-10T15:44:00Z,cormac.deel,1975,Restaurant Schwarzer Engel,St. Gallen,5812,341.50
+TX880537,2025-09-10T16:21:00Z,june.okada,2542,AWS EMEA,Luxembourg,5734,104.50
+TX880538,2025-09-10T17:13:00Z,yuki.tanabe,2034,Autogrill,Bellinzona,5812,168.00
+TX880539,2025-09-11T05:13:00Z,chiara.bernasconi,4025,Coop Pronto,St. Gallen,5541,204.90
+TX880540,2025-09-11T05:45:00Z,andrin.caduff,9320,Hotel Einstein,St. Gallen,7011,393.20
+TX880541,2025-09-11T07:35:00Z,chiara.bernasconi,4025,SBB CFF FFS,St. Gallen,4111,315.20
+TX880542,2025-09-11T08:27:00Z,wen-li.zhao,9825,Hotel Einstein,St. Gallen,7011,245.20
+TX880543,2025-09-11T09:53:00Z,dessie.moran,1686,Digitec Galaxus AG,Zürich,5732,404.90
+TX880544,2025-09-11T10:20:00Z,wen-li.zhao,9825,Valora Kiosk,St. Gallen,5994,413.90
+TX880545,2025-09-11T10:45:00Z,cormac.deel,1975,Valora Kiosk,St. Gallen,5994,246.90
+TX880546,2025-09-11T10:59:00Z,anneke.vos,8421,Coop Pronto,St. Gallen,5541,295.20
+TX880547,2025-09-11T11:37:00Z,kurt.steiner,8794,Hotel Einstein,St. Gallen,7011,263.90
+TX880548,2025-09-11T11:49:00Z,anneke.vos,8421,Digitec Galaxus AG,Zürich,5732,349.00
+TX880549,2025-09-11T11:49:00Z,rafferty.ng,3580,Hotel Einstein,St. Gallen,7011,7.20
+TX880550,2025-09-11T12:20:00Z,rafferty.ng,3580,Parkhaus Brühltor,St. Gallen,7523,116.20
+TX880551,2025-09-11T16:06:00Z,wen-li.zhao,9825,Valora Kiosk,St. Gallen,5994,54.00
+TX880552,2025-09-12T05:33:00Z,dov.halperin,4050,AWS EMEA,Luxembourg,5734,80.50
+TX880553,2025-09-12T06:04:00Z,iris.ammann,8402,Digitec Galaxus AG,Zürich,5732,311.90
+TX880554,2025-09-12T08:13:00Z,dov.halperin,4050,AWS EMEA,Luxembourg,5734,161.20
+TX880555,2025-09-12T08:38:00Z,dov.halperin,4050,Avec,Winterthur,5499,112.00
+TX880556,2025-09-12T08:38:00Z,solveig.haugen,1245,Autogrill,Bellinzona,5812,126.50
+TX880557,2025-09-12T08:44:00Z,nils.aberg,5970,Hotel Einstein,St. Gallen,7011,204.00
+TX880558,2025-09-12T12:02:00Z,dessie.moran,1686,SBB CFF FFS,St. Gallen,4111,376.20
+TX880559,2025-09-12T13:01:00Z,marcus.abiodun,9656,Mobility Genossenschaft,Luzern,7512,408.50
+TX880560,2025-09-12T13:23:00Z,dov.halperin,4050,Digitec Galaxus AG,Zürich,5732,350.50
+TX880561,2025-09-12T14:16:00Z,anneke.vos,8421,Office World,St. Gallen,5943,267.90
+TX880562,2025-09-12T15:36:00Z,chiara.bernasconi,4025,Parkhaus Brühltor,St. Gallen,7523,416.90
+TX880563,2025-09-13T05:15:00Z,chiara.bernasconi,4025,Avec,Winterthur,5499,159.00
+TX880564,2025-09-13T09:16:00Z,cormac.deel,1975,Hotel Einstein,St. Gallen,7011,236.50
+TX880565,2025-09-13T12:58:00Z,lukas.hofer,8629,Digitec Galaxus AG,Zürich,5732,109.50
+TX880566,2025-09-13T13:26:00Z,priya.raghunathan,8316,Uber BV,Amsterdam,4121,42.00
+TX880567,2025-09-13T13:48:00Z,kemi.adeyemi,3323,Restaurant Schwarzer Engel,St. Gallen,5812,214.90
+TX880568,2025-09-13T13:52:00Z,chiara.bernasconi,4025,Uber BV,Amsterdam,4121,138.50
+TX880569,2025-09-13T14:41:00Z,halina.brzezinska,1584,Avec,Winterthur,5499,240.20
+TX880570,2025-09-13T16:30:00Z,kurt.steiner,8794,Office World,St. Gallen,5943,360.50
+TX880571,2025-09-13T17:42:00Z,anneke.vos,8421,Office World,St. Gallen,5943,229.90
+TX880572,2025-09-13T18:54:00Z,halina.brzezinska,1584,Digitec Galaxus AG,Zürich,5732,263.00
+TX880573,2025-09-14T06:46:00Z,dov.halperin,4050,SBB CFF FFS,St. Gallen,4111,164.50
+TX880574,2025-09-14T06:48:00Z,chiara.bernasconi,4025,Uber BV,Amsterdam,4121,77.90
+TX880575,2025-09-14T07:11:00Z,anneke.vos,8421,Migros,St. Gallen,5411,312.90
+TX880576,2025-09-14T07:13:00Z,lukas.hofer,8629,Digitec Galaxus AG,Zürich,5732,386.00
+TX880577,2025-09-14T09:33:00Z,iris.ammann,8402,Avec,Winterthur,5499,215.90
+TX880578,2025-09-14T11:58:00Z,anneke.vos,8421,Valora Kiosk,St. Gallen,5994,244.50
+TX880579,2025-09-14T13:46:00Z,andrin.caduff,9320,Office World,St. Gallen,5943,124.20
+TX880580,2025-09-14T15:15:00Z,bruno.sacchi,2485,Restaurant Schwarzer Engel,St. Gallen,5812,242.20
+TX880581,2025-09-14T18:46:00Z,bruno.sacchi,2485,Mobility Genossenschaft,Luzern,7512,289.00
+TX880582,2025-09-15T05:04:00Z,priya.raghunathan,8316,Restaurant Schwarzer Engel,St. Gallen,5812,184.50
+TX880583,2025-09-15T06:26:00Z,priya.raghunathan,8316,Parkhaus Brühltor,St. Gallen,7523,43.20
+TX880584,2025-09-15T07:24:00Z,june.okada,2542,Coop Pronto,St. Gallen,5541,345.00
+TX880585,2025-09-15T10:16:00Z,rafferty.ng,3580,SBB CFF FFS,St. Gallen,4111,332.50
+TX880586,2025-09-15T12:09:00Z,chiara.bernasconi,4025,Mobility Genossenschaft,Luzern,7512,87.90
+TX880587,2025-09-15T14:00:00Z,lukas.hofer,8629,Uber BV,Amsterdam,4121,67.90
+TX880588,2025-09-15T15:19:00Z,dessie.moran,1686,Hotel Einstein,St. Gallen,7011,114.90
+TX880589,2025-09-15T16:04:00Z,kemi.adeyemi,3323,Office World,St. Gallen,5943,174.20
+TX880590,2025-09-15T16:13:00Z,kurt.steiner,8794,AWS EMEA,Luxembourg,5734,191.00
+TX880591,2025-09-15T16:56:00Z,iris.ammann,8402,Parkhaus Brühltor,St. Gallen,7523,107.90
+TX880592,2025-09-15T17:28:00Z,june.okada,2542,Swiss International Air Lines,Zürich,4511,211.90
+TX880593,2025-09-15T17:50:00Z,wen-li.zhao,9825,AWS EMEA,Luxembourg,5734,402.00
+TX880594,2025-09-16T06:01:00Z,renata.vogel,8411,Coop Pronto,St. Gallen,5541,201.90
+TX880595,2025-09-16T08:04:00Z,bruno.sacchi,2485,Starbucks,Zürich,5814,397.00
+TX880596,2025-09-16T08:24:00Z,anneke.vos,8421,Migros,St. Gallen,5411,399.50
+TX880597,2025-09-16T11:14:00Z,iris.ammann,8402,SBB CFF FFS,St. Gallen,4111,190.20
+TX880598,2025-09-16T11:29:00Z,chiara.bernasconi,4025,Digitec Galaxus AG,Zürich,5732,211.90
+TX880599,2025-09-16T15:12:00Z,kurt.steiner,8794,Hotel Einstein,St. Gallen,7011,158.50
+TX880600,2025-09-16T15:37:00Z,yannick.favre,4111,Swiss International Air Lines,Zürich,4511,68.90
+TX880601,2025-09-16T16:31:00Z,dov.halperin,4050,SBB CFF FFS,St. Gallen,4111,412.20
+TX880602,2025-09-16T17:07:00Z,tobias.krall,7490,SBB CFF FFS,St. Gallen,4111,414.00
+TX880603,2025-09-16T17:31:00Z,chiara.bernasconi,4025,Mobility Genossenschaft,Luzern,7512,108.90
+TX880604,2025-09-17T05:33:00Z,cormac.deel,1975,AWS EMEA,Luxembourg,5734,188.20
+TX880605,2025-09-17T06:26:00Z,kurt.steiner,8794,Office World,St. Gallen,5943,409.20
+TX880606,2025-09-17T07:26:00Z,dessie.moran,1686,Mobility Genossenschaft,Luzern,7512,53.00
+TX880607,2025-09-17T08:45:00Z,kemi.adeyemi,3323,Coop Pronto,St. Gallen,5541,184.90
+TX880608,2025-09-17T10:28:00Z,priya.raghunathan,8316,Coop Pronto,St. Gallen,5541,128.00
+TX880609,2025-09-17T10:53:00Z,june.okada,2542,Valora Kiosk,St. Gallen,5994,75.00
+TX880610,2025-09-17T11:44:00Z,june.okada,2542,Parkhaus Brühltor,St. Gallen,7523,249.00
+TX880611,2025-09-17T13:15:00Z,marcus.abiodun,9656,Parkhaus Brühltor,St. Gallen,7523,185.50
+TX880612,2025-09-17T14:03:00Z,june.okada,2542,Uber BV,Amsterdam,4121,51.90
+TX880613,2025-09-17T14:24:00Z,renata.vogel,8411,Restaurant Schwarzer Engel,St. Gallen,5812,343.50
+TX880614,2025-09-17T16:27:00Z,andrin.caduff,9320,Hotel Einstein,St. Gallen,7011,222.50
+TX880615,2025-09-17T16:49:00Z,halina.brzezinska,1584,Parkhaus Brühltor,St. Gallen,7523,383.00
+TX880616,2025-09-17T17:24:00Z,nils.aberg,5970,Swiss International Air Lines,Zürich,4511,143.50
+TX880617,2025-09-18T07:28:00Z,marcus.abiodun,9656,Migros,St. Gallen,5411,369.00
+TX880618,2025-09-18T07:30:00Z,yuki.tanabe,2034,Valora Kiosk,St. Gallen,5994,147.20
+TX880619,2025-09-18T10:07:00Z,chiara.bernasconi,4025,Uber BV,Amsterdam,4121,122.90
+TX880620,2025-09-18T11:27:00Z,noemi.rochat,9387,Coop Pronto,St. Gallen,5541,114.20
+TX880621,2025-09-18T12:26:00Z,andrin.caduff,9320,Office World,St. Gallen,5943,16.50
+TX880622,2025-09-18T13:27:00Z,lukas.hofer,8629,Starbucks,Zürich,5814,244.90
+TX880623,2025-09-18T14:30:00Z,noemi.rochat,9387,AWS EMEA,Luxembourg,5734,379.00
+TX880624,2025-09-18T15:18:00Z,andrin.caduff,9320,Starbucks,Zürich,5814,130.20
+TX880625,2025-09-18T15:41:00Z,marcus.abiodun,9656,Avec,Winterthur,5499,247.20
+TX880626,2025-09-18T15:48:00Z,renata.vogel,8411,Office World,St. Gallen,5943,275.50
+TX880627,2025-09-18T16:40:00Z,marcus.abiodun,9656,Avec,Winterthur,5499,168.50
+TX880628,2025-09-18T17:02:00Z,noemi.rochat,9387,Restaurant Schwarzer Engel,St. Gallen,5812,78.90
+TX880629,2025-09-18T17:43:00Z,solveig.haugen,1245,Avec,Winterthur,5499,393.90
+TX880630,2025-09-19T05:02:00Z,rafferty.ng,3580,Parkhaus Brühltor,St. Gallen,7523,34.50
+TX880631,2025-09-19T05:31:00Z,solveig.haugen,1245,Autogrill,Bellinzona,5812,254.00
+TX880632,2025-09-19T06:08:00Z,june.okada,2542,SBB CFF FFS,St. Gallen,4111,354.00
+TX880633,2025-09-19T06:15:00Z,june.okada,2542,Migros,St. Gallen,5411,50.50
+TX880634,2025-09-19T08:16:00Z,solveig.haugen,1245,Restaurant Schwarzer Engel,St. Gallen,5812,233.00
+TX880635,2025-09-19T10:09:00Z,rafferty.ng,3580,Restaurant Schwarzer Engel,St. Gallen,5812,261.20
+TX880636,2025-09-19T12:09:00Z,anneke.vos,8421,Migros,St. Gallen,5411,28.90
+TX880637,2025-09-19T14:20:00Z,dov.halperin,4050,Uber BV,Amsterdam,4121,82.20
+TX880638,2025-09-19T18:35:00Z,rafferty.ng,3580,Valora Kiosk,St. Gallen,5994,382.90
+TX880639,2025-09-20T05:03:00Z,anneke.vos,8421,Digitec Galaxus AG,Zürich,5732,284.20
+TX880640,2025-09-20T06:11:00Z,priya.raghunathan,8316,AWS EMEA,Luxembourg,5734,30.90
+TX880641,2025-09-20T08:46:00Z,andrin.caduff,9320,Uber BV,Amsterdam,4121,387.00
+TX880642,2025-09-20T09:01:00Z,yuki.tanabe,2034,Migros,St. Gallen,5411,378.90
+TX880643,2025-09-20T09:07:00Z,anneke.vos,8421,AWS EMEA,Luxembourg,5734,374.20
+TX880644,2025-09-20T10:49:00Z,marcus.abiodun,9656,Restaurant Schwarzer Engel,St. Gallen,5812,61.00
+TX880645,2025-09-20T10:58:00Z,wen-li.zhao,9825,AWS EMEA,Luxembourg,5734,417.90
+TX880646,2025-09-20T12:10:00Z,andrin.caduff,9320,Valora Kiosk,St. Gallen,5994,4.90
+TX880647,2025-09-20T13:40:00Z,yannick.favre,4111,Valora Kiosk,St. Gallen,5994,257.90
+TX880648,2025-09-20T13:50:00Z,rafferty.ng,3580,Autogrill,Bellinzona,5812,245.50
+TX880649,2025-09-20T14:56:00Z,andrin.caduff,9320,Avec,Winterthur,5499,188.50
+TX880650,2025-09-20T15:08:00Z,iris.ammann,8402,Hotel Einstein,St. Gallen,7011,326.90
+TX880651,2025-09-20T15:39:00Z,lukas.hofer,8629,Migros,St. Gallen,5411,286.50
+TX880652,2025-09-20T16:43:00Z,cormac.deel,1975,Avec,Winterthur,5499,102.50
+TX880653,2025-09-20T17:41:00Z,halina.brzezinska,1584,Swiss International Air Lines,Zürich,4511,50.20
+TX880654,2025-09-21T05:53:00Z,anneke.vos,8421,Uber BV,Amsterdam,4121,389.20
+TX880655,2025-09-21T07:11:00Z,solveig.haugen,1245,Migros,St. Gallen,5411,275.00
+TX880656,2025-09-21T08:02:00Z,yuki.tanabe,2034,Migros,St. Gallen,5411,378.00
+TX880657,2025-09-21T08:16:00Z,halina.brzezinska,1584,Restaurant Schwarzer Engel,St. Gallen,5812,21.00
+TX880658,2025-09-21T08:31:00Z,chiara.bernasconi,4025,Avec,Winterthur,5499,40.90
+TX880659,2025-09-21T08:31:00Z,halina.brzezinska,1584,Coop Pronto,St. Gallen,5541,12.00
+TX880660,2025-09-21T09:19:00Z,renata.vogel,8411,Starbucks,Zürich,5814,339.20
+TX880661,2025-09-21T09:30:00Z,dessie.moran,1686,Swiss International Air Lines,Zürich,4511,211.90
+TX880662,2025-09-21T11:58:00Z,iris.ammann,8402,Valora Kiosk,St. Gallen,5994,13.90
+TX880663,2025-09-21T12:12:00Z,kemi.adeyemi,3323,Uber BV,Amsterdam,4121,271.20
+TX880664,2025-09-21T13:17:00Z,june.okada,2542,AWS EMEA,Luxembourg,5734,237.00
+TX880665,2025-09-21T13:28:00Z,dov.halperin,4050,Migros,St. Gallen,5411,71.00
+TX880666,2025-09-21T14:43:00Z,yuki.tanabe,2034,Avec,Winterthur,5499,276.00
+TX880667,2025-09-21T17:02:00Z,dessie.moran,1686,Office World,St. Gallen,5943,132.00
+TX880668,2025-09-21T17:28:00Z,kurt.steiner,8794,AWS EMEA,Luxembourg,5734,228.50
+TX880669,2025-09-21T18:24:00Z,andrin.caduff,9320,Parkhaus Brühltor,St. Gallen,7523,53.90
+TX880670,2025-09-22T05:53:00Z,yannick.favre,4111,Starbucks,Zürich,5814,333.20
+TX880671,2025-09-22T07:10:00Z,yannick.favre,4111,Swiss International Air Lines,Zürich,4511,188.20
+TX880672,2025-09-22T07:36:00Z,priya.raghunathan,8316,Hotel Einstein,St. Gallen,7011,262.50
+TX880673,2025-09-22T08:07:00Z,bruno.sacchi,2485,Valora Kiosk,St. Gallen,5994,297.90
+TX880674,2025-09-22T09:45:00Z,solveig.haugen,1245,Autogrill,Bellinzona,5812,72.00
+TX880675,2025-09-22T10:24:00Z,cormac.deel,1975,Migros,St. Gallen,5411,272.90
+TX880676,2025-09-22T11:23:00Z,renata.vogel,8411,Uber BV,Amsterdam,4121,307.90
+TX880677,2025-09-22T13:47:00Z,kemi.adeyemi,3323,Parkhaus Brühltor,St. Gallen,7523,272.20
+TX880678,2025-09-22T15:07:00Z,nils.aberg,5970,Swiss International Air Lines,Zürich,4511,7.90
+TX880679,2025-09-22T15:31:00Z,chiara.bernasconi,4025,Avec,Winterthur,5499,157.90
+TX880680,2025-09-22T17:19:00Z,iris.ammann,8402,Mobility Genossenschaft,Luzern,7512,70.20
+TX880681,2025-09-22T18:39:00Z,marcus.abiodun,9656,Digitec Galaxus AG,Zürich,5732,58.90
+TX880682,2025-09-23T08:58:00Z,dov.halperin,4050,Office World,St. Gallen,5943,190.90
+TX880683,2025-09-23T09:45:00Z,kemi.adeyemi,3323,AWS EMEA,Luxembourg,5734,56.00
+TX880684,2025-09-23T09:52:00Z,nils.aberg,5970,Hotel Einstein,St. Gallen,7011,387.20
+TX880685,2025-09-23T10:37:00Z,cormac.deel,1975,Uber BV,Amsterdam,4121,215.90
+TX880686,2025-09-23T10:41:00Z,nils.aberg,5970,Starbucks,Zürich,5814,303.20
+TX880687,2025-09-23T14:30:00Z,lukas.hofer,8629,Uber BV,Amsterdam,4121,193.90
+TX880688,2025-09-23T14:37:00Z,anneke.vos,8421,Avec,Winterthur,5499,117.20
+TX880689,2025-09-23T15:10:00Z,dov.halperin,4050,Parkhaus Brühltor,St. Gallen,7523,154.50
+TX880690,2025-09-23T15:51:00Z,wen-li.zhao,9825,Parkhaus Brühltor,St. Gallen,7523,214.20
+TX880691,2025-09-23T16:40:00Z,halina.brzezinska,1584,Hotel Einstein,St. Gallen,7011,306.90
+TX880692,2025-09-23T17:45:00Z,anneke.vos,8421,Swiss International Air Lines,Zürich,4511,306.00
+TX880693,2025-09-24T06:18:00Z,dessie.moran,1686,Coop Pronto,St. Gallen,5541,352.50
+TX880694,2025-09-24T06:51:00Z,marcus.abiodun,9656,Uber BV,Amsterdam,4121,58.00
+TX880695,2025-09-24T06:56:00Z,bruno.sacchi,2485,Starbucks,Zürich,5814,371.00
+TX880696,2025-09-24T09:29:00Z,noemi.rochat,9387,Autogrill,Bellinzona,5812,148.90
+TX880697,2025-09-24T11:30:00Z,june.okada,2542,Restaurant Schwarzer Engel,St. Gallen,5812,46.00
+TX880698,2025-09-24T11:57:00Z,noemi.rochat,9387,Migros,St. Gallen,5411,48.20
+TX880699,2025-09-24T14:01:00Z,kemi.adeyemi,3323,Starbucks,Zürich,5814,144.00
+TX880700,2025-09-24T15:09:00Z,june.okada,2542,Parkhaus Brühltor,St. Gallen,7523,44.90
+TX880701,2025-09-24T16:26:00Z,solveig.haugen,1245,Autogrill,Bellinzona,5812,136.20
+TX880702,2025-09-24T16:57:00Z,andrin.caduff,9320,Office World,St. Gallen,5943,50.20
+TX880703,2025-09-24T18:27:00Z,renata.vogel,8411,Mobility Genossenschaft,Luzern,7512,152.90
+TX880704,2025-09-25T07:19:00Z,andrin.caduff,9320,Starbucks,Zürich,5814,269.00
+TX880705,2025-09-25T10:23:00Z,tobias.krall,7490,Autogrill,Bellinzona,5812,143.50
+TX880706,2025-09-25T12:59:00Z,andrin.caduff,9320,Uber BV,Amsterdam,4121,12.90
+TX880707,2025-09-25T15:21:00Z,anneke.vos,8421,Hotel Einstein,St. Gallen,7011,223.50
+TX880708,2025-09-25T16:46:00Z,dessie.moran,1686,Mobility Genossenschaft,Luzern,7512,265.20
+TX880709,2025-09-25T17:09:00Z,iris.ammann,8402,Starbucks,Zürich,5814,262.00
+TX880710,2025-09-25T18:40:00Z,yuki.tanabe,2034,Swiss International Air Lines,Zürich,4511,231.90
+TX880711,2025-09-25T18:55:00Z,nils.aberg,5970,Autogrill,Bellinzona,5812,136.00
+TX880712,2025-09-26T07:21:00Z,noemi.rochat,9387,SBB CFF FFS,St. Gallen,4111,143.50
+TX880713,2025-09-26T07:23:00Z,andrin.caduff,9320,Autogrill,Bellinzona,5812,90.90
+TX880714,2025-09-26T08:57:00Z,chiara.bernasconi,4025,Valora Kiosk,St. Gallen,5994,228.50
+TX880715,2025-09-26T09:24:00Z,noemi.rochat,9387,SBB CFF FFS,St. Gallen,4111,399.90
+TX880716,2025-09-26T09:52:00Z,nils.aberg,5970,Swiss International Air Lines,Zürich,4511,318.20
+TX880717,2025-09-26T10:19:00Z,rafferty.ng,3580,Swiss International Air Lines,Zürich,4511,154.00
+TX880718,2025-09-26T10:50:00Z,lukas.hofer,8629,Office World,St. Gallen,5943,397.90
+TX880719,2025-09-26T11:36:00Z,dessie.moran,1686,Migros,St. Gallen,5411,370.00
+TX880720,2025-09-26T12:40:00Z,iris.ammann,8402,Mobility Genossenschaft,Luzern,7512,76.90
+TX880721,2025-09-26T13:11:00Z,lukas.hofer,8629,Digitec Galaxus AG,Zürich,5732,177.50
+TX880722,2025-09-26T15:05:00Z,priya.raghunathan,8316,Valora Kiosk,St. Gallen,5994,269.50
+TX880723,2025-09-26T15:19:00Z,solveig.haugen,1245,Autogrill,Bellinzona,5812,72.20
+TX880724,2025-09-26T16:05:00Z,yannick.favre,4111,Starbucks,Zürich,5814,163.90
+TX880725,2025-09-26T16:48:00Z,priya.raghunathan,8316,Parkhaus Brühltor,St. Gallen,7523,184.20
+TX880726,2025-09-26T18:02:00Z,lukas.hofer,8629,Autogrill,Bellinzona,5812,246.20
+TX880727,2025-09-26T18:48:00Z,marcus.abiodun,9656,Migros,St. Gallen,5411,285.00
+TX880728,2025-09-26T18:51:00Z,renata.vogel,8411,Starbucks,Zürich,5814,315.90
+TX880729,2025-09-27T05:52:00Z,iris.ammann,8402,Migros,St. Gallen,5411,124.90
+TX880730,2025-09-27T06:25:00Z,kemi.adeyemi,3323,Mobility Genossenschaft,Luzern,7512,170.90
+TX880731,2025-09-27T07:25:00Z,cormac.deel,1975,Parkhaus Brühltor,St. Gallen,7523,118.50
+TX880732,2025-09-27T08:45:00Z,anneke.vos,8421,Uber BV,Amsterdam,4121,183.50
+TX880733,2025-09-27T08:58:00Z,iris.ammann,8402,SBB CFF FFS,St. Gallen,4111,402.50
+TX880734,2025-09-27T09:15:00Z,bruno.sacchi,2485,Coop Pronto,St. Gallen,5541,27.50
+TX880735,2025-09-27T10:35:00Z,rafferty.ng,3580,Uber BV,Amsterdam,4121,240.50
+TX880736,2025-09-27T12:25:00Z,noemi.rochat,9387,AWS EMEA,Luxembourg,5734,112.00
+TX880737,2025-09-27T12:32:00Z,yannick.favre,4111,Swiss International Air Lines,Zürich,4511,84.00
+TX880738,2025-09-27T13:16:00Z,yuki.tanabe,2034,Coop Pronto,St. Gallen,5541,314.90
+TX880739,2025-09-27T13:20:00Z,lukas.hofer,8629,Hotel Einstein,St. Gallen,7011,49.20
+TX880740,2025-09-27T13:21:00Z,dessie.moran,1686,Avec,Winterthur,5499,253.50
+TX880741,2025-09-27T16:42:00Z,dessie.moran,1686,Hotel Einstein,St. Gallen,7011,180.50
+TX880742,2025-09-27T16:56:00Z,renata.vogel,8411,Restaurant Schwarzer Engel,St. Gallen,5812,24.00
+TX880743,2025-09-27T18:03:00Z,yannick.favre,4111,Hotel Einstein,St. Gallen,7011,416.90
+TX880744,2025-09-28T06:32:00Z,halina.brzezinska,1584,Mobility Genossenschaft,Luzern,7512,260.50
+TX880745,2025-09-28T07:03:00Z,andrin.caduff,9320,Coop Pronto,St. Gallen,5541,180.20
+TX880746,2025-09-28T08:14:00Z,kemi.adeyemi,3323,SBB CFF FFS,St. Gallen,4111,397.90
+TX880747,2025-09-28T09:33:00Z,chiara.bernasconi,4025,Parkhaus Brühltor,St. Gallen,7523,99.50
+TX880748,2025-09-28T10:09:00Z,andrin.caduff,9320,Autogrill,Bellinzona,5812,42.90
+TX880749,2025-09-28T11:08:00Z,bruno.sacchi,2485,Hotel Einstein,St. Gallen,7011,211.50
+TX880750,2025-09-28T11:21:00Z,yannick.favre,4111,Autogrill,Bellinzona,5812,46.20
+TX880751,2025-09-28T12:58:00Z,kurt.steiner,8794,Parkhaus Brühltor,St. Gallen,7523,167.90
+TX880752,2025-09-29T05:06:00Z,tobias.krall,7490,Autogrill,Bellinzona,5812,214.20
+TX880753,2025-09-29T05:30:00Z,andrin.caduff,9320,Hotel Einstein,St. Gallen,7011,315.00
+TX880754,2025-09-29T05:33:00Z,bruno.sacchi,2485,Uber BV,Amsterdam,4121,274.20
+TX880755,2025-09-29T05:44:00Z,kurt.steiner,8794,Hotel Einstein,St. Gallen,7011,286.20
+TX880756,2025-09-29T06:22:00Z,nils.aberg,5970,Office World,St. Gallen,5943,249.50
+TX880757,2025-09-29T10:06:00Z,yuki.tanabe,2034,SBB CFF FFS,St. Gallen,4111,42.90
+TX880758,2025-09-29T11:13:00Z,bruno.sacchi,2485,Valora Kiosk,St. Gallen,5994,364.00
+TX880759,2025-09-29T13:24:00Z,june.okada,2542,AWS EMEA,Luxembourg,5734,285.50
+TX880760,2025-09-29T15:33:00Z,halina.brzezinska,1584,Swiss International Air Lines,Zürich,4511,110.50
+TX880761,2025-09-29T17:29:00Z,cormac.deel,1975,Coop Pronto,St. Gallen,5541,305.00
+TX880762,2025-09-29T17:42:00Z,iris.ammann,8402,Digitec Galaxus AG,Zürich,5732,349.20
+TX880763,2025-09-29T18:15:00Z,renata.vogel,8411,Hotel Einstein,St. Gallen,7011,410.20
+TX880764,2025-09-30T05:21:00Z,nils.aberg,5970,Uber BV,Amsterdam,4121,313.50
+TX880765,2025-09-30T05:58:00Z,june.okada,2542,Starbucks,Zürich,5814,16.90
+TX880766,2025-09-30T06:43:00Z,june.okada,2542,SBB CFF FFS,St. Gallen,4111,186.00
+TX880767,2025-09-30T07:15:00Z,solveig.haugen,1245,Mobility Genossenschaft,Luzern,7512,7.50
+TX880768,2025-09-30T09:29:00Z,wen-li.zhao,9825,Parkhaus Brühltor,St. Gallen,7523,311.50
+TX880769,2025-09-30T11:33:00Z,marcus.abiodun,9656,AWS EMEA,Luxembourg,5734,189.00
+TX880770,2025-09-30T12:09:00Z,dessie.moran,1686,Digitec Galaxus AG,Zürich,5732,395.00
+TX880771,2025-09-30T13:00:00Z,renata.vogel,8411,Coop Pronto,St. Gallen,5541,97.90
+TX880772,2025-09-30T14:59:00Z,renata.vogel,8411,Uber BV,Amsterdam,4121,141.90
+TX880773,2025-09-30T15:08:00Z,cormac.deel,1975,Autogrill,Bellinzona,5812,277.90
+TX880774,2025-09-30T16:34:00Z,yannick.favre,4111,SBB CFF FFS,St. Gallen,4111,228.20
+TX880775,2025-09-30T16:40:00Z,lukas.hofer,8629,Restaurant Schwarzer Engel,St. Gallen,5812,39.20
+TX880776,2025-09-30T16:42:00Z,bruno.sacchi,2485,Office World,St. Gallen,5943,394.90
+TX880777,2025-09-30T17:21:00Z,rafferty.ng,3580,AWS EMEA,Luxembourg,5734,232.20
+TX880778,2025-09-30T18:16:00Z,solveig.haugen,1245,Mobility Genossenschaft,Luzern,7512,365.20
+TX880779,2025-10-01T05:17:00Z,kurt.steiner,8794,SBB CFF FFS,St. Gallen,4111,233.20
+TX880780,2025-10-01T08:25:00Z,iris.ammann,8402,Hotel Einstein,St. Gallen,7011,286.90
+TX880781,2025-10-01T08:46:00Z,wen-li.zhao,9825,AWS EMEA,Luxembourg,5734,98.50
+TX880782,2025-10-01T08:47:00Z,renata.vogel,8411,Valora Kiosk,St. Gallen,5994,336.90
+TX880783,2025-10-01T09:17:00Z,rafferty.ng,3580,Restaurant Schwarzer Engel,St. Gallen,5812,365.20
+TX880784,2025-10-01T09:29:00Z,rafferty.ng,3580,Hotel Einstein,St. Gallen,7011,249.90
+TX880785,2025-10-01T09:48:00Z,andrin.caduff,9320,Digitec Galaxus AG,Zürich,5732,287.00
+TX880786,2025-10-01T10:35:00Z,priya.raghunathan,8316,Swiss International Air Lines,Zürich,4511,9.20
+TX880787,2025-10-01T11:13:00Z,kurt.steiner,8794,Coop Pronto,St. Gallen,5541,121.20
+TX880788,2025-10-01T13:29:00Z,dov.halperin,4050,Coop Pronto,St. Gallen,5541,310.00
+TX880789,2025-10-01T15:21:00Z,iris.ammann,8402,Office World,St. Gallen,5943,54.20
+TX880790,2025-10-01T17:15:00Z,yuki.tanabe,2034,Valora Kiosk,St. Gallen,5994,107.90
+TX880791,2025-10-01T17:18:00Z,nils.aberg,5970,Swiss International Air Lines,Zürich,4511,216.20
+TX880792,2025-10-01T17:42:00Z,halina.brzezinska,1584,Avec,Winterthur,5499,204.90
+TX880793,2025-10-02T06:03:00Z,rafferty.ng,3580,Parkhaus Brühltor,St. Gallen,7523,87.00
+TX880794,2025-10-02T06:17:00Z,dov.halperin,4050,Restaurant Schwarzer Engel,St. Gallen,5812,18.90
+TX880795,2025-10-02T06:21:00Z,halina.brzezinska,1584,Uber BV,Amsterdam,4121,350.20
+TX880796,2025-10-02T07:46:00Z,solveig.haugen,1245,Digitec Galaxus AG,Zürich,5732,304.00
+TX880797,2025-10-02T09:56:00Z,yuki.tanabe,2034,Office World,St. Gallen,5943,350.50
+TX880798,2025-10-02T11:32:00Z,lukas.hofer,8629,AWS EMEA,Luxembourg,5734,149.20
+TX880799,2025-10-02T12:24:00Z,yuki.tanabe,2034,Uber BV,Amsterdam,4121,58.20
+TX880800,2025-10-02T12:54:00Z,june.okada,2542,Office World,St. Gallen,5943,226.00
+TX880801,2025-10-02T12:59:00Z,anneke.vos,8421,Valora Kiosk,St. Gallen,5994,82.90
+TX880802,2025-10-02T15:01:00Z,halina.brzezinska,1584,AWS EMEA,Luxembourg,5734,330.00
+TX880803,2025-10-02T15:18:00Z,halina.brzezinska,1584,Hotel Einstein,St. Gallen,7011,345.90
+TX880804,2025-10-02T15:53:00Z,chiara.bernasconi,4025,Office World,St. Gallen,5943,143.20
+TX880805,2025-10-02T17:53:00Z,yannick.favre,4111,Uber BV,Amsterdam,4121,78.20
+TX880806,2025-10-02T18:34:00Z,solveig.haugen,1245,AWS EMEA,Luxembourg,5734,90.00
+TX880807,2025-10-02T18:47:00Z,solveig.haugen,1245,Migros,St. Gallen,5411,420.20
+TX880808,2025-10-02T19:00:00Z,dessie.moran,1686,Digitec Galaxus AG,Zürich,5732,306.00
+TX880809,2025-10-03T05:33:00Z,lukas.hofer,8629,Mobility Genossenschaft,Luzern,7512,37.20
+TX880810,2025-10-03T05:52:00Z,anneke.vos,8421,Hotel Einstein,St. Gallen,7011,114.00
+TX880811,2025-10-03T06:59:00Z,iris.ammann,8402,Parkhaus Brühltor,St. Gallen,7523,404.50
+TX880812,2025-10-03T07:11:00Z,andrin.caduff,9320,Coop Pronto,St. Gallen,5541,281.00
+TX880813,2025-10-03T08:22:00Z,solveig.haugen,1245,Swiss International Air Lines,Zürich,4511,217.50
+TX880814,2025-10-03T08:25:00Z,rafferty.ng,3580,Office World,St. Gallen,5943,278.00
+TX880815,2025-10-03T09:36:00Z,cormac.deel,1975,Mobility Genossenschaft,Luzern,7512,235.20
+TX880816,2025-10-03T10:09:00Z,dov.halperin,4050,Mobility Genossenschaft,Luzern,7512,221.00
+TX880817,2025-10-03T10:34:00Z,tobias.krall,7490,Avec,Winterthur,5499,324.20
+TX880818,2025-10-03T11:08:00Z,yuki.tanabe,2034,Restaurant Schwarzer Engel,St. Gallen,5812,219.20
+TX880819,2025-10-03T11:48:00Z,halina.brzezinska,1584,Starbucks,Zürich,5814,415.00
+TX880820,2025-10-03T11:50:00Z,yuki.tanabe,2034,Restaurant Schwarzer Engel,St. Gallen,5812,258.20
+TX880821,2025-10-03T14:54:00Z,chiara.bernasconi,4025,Office World,St. Gallen,5943,215.90
+TX880822,2025-10-03T16:10:00Z,bruno.sacchi,2485,Coop Pronto,St. Gallen,5541,126.90
+TX880823,2025-10-03T16:18:00Z,halina.brzezinska,1584,Avec,Winterthur,5499,27.20
+TX880824,2025-10-04T09:13:00Z,chiara.bernasconi,4025,Office World,St. Gallen,5943,138.00
+TX880825,2025-10-04T09:31:00Z,nils.aberg,5970,Autogrill,Bellinzona,5812,231.50
+TX880826,2025-10-04T09:37:00Z,marcus.abiodun,9656,Hotel Einstein,St. Gallen,7011,122.00
+TX880827,2025-10-04T12:10:00Z,solveig.haugen,1245,Restaurant Schwarzer Engel,St. Gallen,5812,205.20
+TX880828,2025-10-04T12:32:00Z,bruno.sacchi,2485,Restaurant Schwarzer Engel,St. Gallen,5812,412.00
+TX880829,2025-10-04T12:55:00Z,june.okada,2542,Valora Kiosk,St. Gallen,5994,145.00
+TX880830,2025-10-04T13:04:00Z,dessie.moran,1686,Autogrill,Bellinzona,5812,115.50
+TX880831,2025-10-04T14:07:00Z,cormac.deel,1975,Mobility Genossenschaft,Luzern,7512,160.90
+TX880832,2025-10-04T14:37:00Z,june.okada,2542,Swiss International Air Lines,Zürich,4511,38.50
+TX880833,2025-10-04T17:33:00Z,solveig.haugen,1245,Mobility Genossenschaft,Luzern,7512,413.90
+TX880834,2025-10-05T05:17:00Z,wen-li.zhao,9825,Avec,Winterthur,5499,272.50
+TX880835,2025-10-05T05:22:00Z,halina.brzezinska,1584,Restaurant Schwarzer Engel,St. Gallen,5812,391.90
+TX880836,2025-10-05T05:49:00Z,june.okada,2542,Office World,St. Gallen,5943,95.90
+TX880837,2025-10-05T07:30:00Z,june.okada,2542,Autogrill,Bellinzona,5812,378.90
+TX880838,2025-10-05T07:35:00Z,dov.halperin,4050,Mobility Genossenschaft,Luzern,7512,85.50
+TX880839,2025-10-05T08:14:00Z,yuki.tanabe,2034,Starbucks,Zürich,5814,283.20
+TX880840,2025-10-05T08:15:00Z,wen-li.zhao,9825,Uber BV,Amsterdam,4121,218.20
+TX880841,2025-10-05T09:35:00Z,priya.raghunathan,8316,Coop Pronto,St. Gallen,5541,229.20
+TX880842,2025-10-05T10:40:00Z,noemi.rochat,9387,Starbucks,Zürich,5814,56.50
+TX880843,2025-10-05T11:03:00Z,bruno.sacchi,2485,Office World,St. Gallen,5943,111.90
+TX880844,2025-10-05T12:57:00Z,iris.ammann,8402,SBB CFF FFS,St. Gallen,4111,111.00
+TX880845,2025-10-05T13:29:00Z,kemi.adeyemi,3323,Valora Kiosk,St. Gallen,5994,363.00
+TX880846,2025-10-05T14:33:00Z,tobias.krall,7490,Restaurant Schwarzer Engel,St. Gallen,5812,163.20
+TX880847,2025-10-05T14:34:00Z,wen-li.zhao,9825,Starbucks,Zürich,5814,395.50
+TX880848,2025-10-05T17:28:00Z,lukas.hofer,8629,Parkhaus Brühltor,St. Gallen,7523,28.20
+TX880849,2025-10-05T18:09:00Z,halina.brzezinska,1584,Mobility Genossenschaft,Luzern,7512,198.20
+TX880850,2025-10-06T06:36:00Z,chiara.bernasconi,4025,Starbucks,Zürich,5814,382.90
+TX880851,2025-10-06T08:54:00Z,rafferty.ng,3580,Starbucks,Zürich,5814,96.50
+TX880852,2025-10-06T09:58:00Z,lukas.hofer,8629,Avec,Winterthur,5499,308.50
+TX880853,2025-10-06T10:25:00Z,anneke.vos,8421,Avec,Winterthur,5499,308.90
+TX880854,2025-10-06T12:11:00Z,lukas.hofer,8629,Autogrill,Bellinzona,5812,185.90
+TX880855,2025-10-06T13:04:00Z,kurt.steiner,8794,Coop Pronto,St. Gallen,5541,60.00
+TX880856,2025-10-06T13:19:00Z,noemi.rochat,9387,Migros,St. Gallen,5411,22.00
+TX880857,2025-10-06T17:47:00Z,kurt.steiner,8794,Parkhaus Brühltor,St. Gallen,7523,379.00
+TX880858,2025-10-07T06:53:00Z,dov.halperin,4050,Avec,Winterthur,5499,39.00
+TX880859,2025-10-07T09:19:00Z,andrin.caduff,9320,Coop Pronto,St. Gallen,5541,63.00
+TX880860,2025-10-07T09:52:00Z,nils.aberg,5970,Parkhaus Brühltor,St. Gallen,7523,339.90
+TX880861,2025-10-07T10:08:00Z,rafferty.ng,3580,Digitec Galaxus AG,Zürich,5732,170.00
+TX880862,2025-10-07T10:31:00Z,june.okada,2542,Parkhaus Brühltor,St. Gallen,7523,94.50
+TX880863,2025-10-07T13:54:00Z,dov.halperin,4050,Autogrill,Bellinzona,5812,394.90
+TX880864,2025-10-07T14:12:00Z,dov.halperin,4050,AWS EMEA,Luxembourg,5734,336.50
+TX880865,2025-10-07T14:32:00Z,wen-li.zhao,9825,Starbucks,Zürich,5814,377.50
+TX880866,2025-10-07T15:54:00Z,june.okada,2542,Office World,St. Gallen,5943,114.20
+TX880867,2025-10-07T16:35:00Z,bruno.sacchi,2485,Avec,Winterthur,5499,48.90
+TX880868,2025-10-07T17:53:00Z,yuki.tanabe,2034,Avec,Winterthur,5499,348.00
+TX880869,2025-10-08T05:07:00Z,wen-li.zhao,9825,Restaurant Schwarzer Engel,St. Gallen,5812,257.20
+TX880870,2025-10-08T05:51:00Z,cormac.deel,1975,Parkhaus Brühltor,St. Gallen,7523,391.50
+TX880871,2025-10-08T09:11:00Z,lukas.hofer,8629,AWS EMEA,Luxembourg,5734,122.20
+TX880872,2025-10-08T11:35:00Z,solveig.haugen,1245,Migros,St. Gallen,5411,410.00
+TX880873,2025-10-08T13:41:00Z,andrin.caduff,9320,Restaurant Schwarzer Engel,St. Gallen,5812,217.00
+TX880874,2025-10-08T13:45:00Z,rafferty.ng,3580,SBB CFF FFS,St. Gallen,4111,280.90
+TX880875,2025-10-08T13:58:00Z,wen-li.zhao,9825,Avec,Winterthur,5499,16.20
+TX880876,2025-10-08T14:53:00Z,marcus.abiodun,9656,Office World,St. Gallen,5943,269.00
+TX880877,2025-10-08T17:11:00Z,dessie.moran,1686,Coop Pronto,St. Gallen,5541,95.50
+TX880878,2025-10-08T17:39:00Z,lukas.hofer,8629,Migros,St. Gallen,5411,172.20
+TX880879,2025-10-09T05:05:00Z,rafferty.ng,3580,Parkhaus Brühltor,St. Gallen,7523,218.90
+TX880880,2025-10-09T06:25:00Z,iris.ammann,8402,Office World,St. Gallen,5943,292.20
+TX880881,2025-10-09T06:52:00Z,kemi.adeyemi,3323,Parkhaus Brühltor,St. Gallen,7523,146.50
+TX880882,2025-10-09T07:38:00Z,kemi.adeyemi,3323,Avec,Winterthur,5499,94.00
+TX880883,2025-10-09T09:58:00Z,dov.halperin,4050,Mobility Genossenschaft,Luzern,7512,293.90
+TX880884,2025-10-09T11:16:00Z,wen-li.zhao,9825,Coop Pronto,St. Gallen,5541,381.50
+TX880885,2025-10-09T11:31:00Z,priya.raghunathan,8316,Parking Glattbrugg,Glattbrugg,7523,14.00
+TX880886,2025-10-09T12:00:00Z,solveig.haugen,1245,Office World,St. Gallen,5943,36.90
+TX880887,2025-10-09T12:09:00Z,rafferty.ng,3580,SBB CFF FFS,St. Gallen,4111,274.00
+TX880888,2025-10-09T14:40:00Z,iris.ammann,8402,Zurich Airport Duty Free,Kloten,5309,42.80
+TX880889,2025-10-09T14:43:00Z,cormac.deel,1975,Starbucks,Zürich,5814,363.00
+TX880890,2025-10-09T15:25:00Z,dessie.moran,1686,Coop Pronto,St. Gallen,5541,223.20
+TX880891,2025-10-09T16:36:00Z,bruno.sacchi,2485,Valora Kiosk,St. Gallen,5994,406.90
+TX880892,2025-10-09T16:57:00Z,marcus.abiodun,9656,Swiss International Air Lines,Zürich,4511,33.00
+TX880893,2025-10-09T17:30:00Z,anneke.vos,8421,Migros,St. Gallen,5411,379.20
+TX880894,2025-10-09T18:28:00Z,bruno.sacchi,2485,Uber BV,Amsterdam,4121,106.20
+TX880895,2025-10-10T06:05:00Z,halina.brzezinska,1584,Hotel Einstein,St. Gallen,7011,351.20
+TX880896,2025-10-10T07:42:00Z,dessie.moran,1686,Uber BV,Amsterdam,4121,138.50
+TX880897,2025-10-10T09:33:00Z,solveig.haugen,1245,Restaurant Schwarzer Engel,St. Gallen,5812,301.20
+TX880898,2025-10-10T16:05:00Z,iris.ammann,8402,Hotel Avenida (Lisboa),Lisboa,7011,412.30
+TX880899,2025-10-10T17:00:00Z,kurt.steiner,8794,Stadtclub St. Gallen,St. Gallen,5812,148.00
+TX880900,2025-10-10T17:56:00Z,anneke.vos,8421,Starbucks,Zürich,5814,412.20
+TX880901,2025-10-10T18:50:00Z,solveig.haugen,1245,Migros,St. Gallen,5411,236.00
+TX880902,2025-10-10T18:56:00Z,marcus.abiodun,9656,Parkhaus Brühltor,St. Gallen,7523,137.20
+TX880903,2025-10-10T20:47:00Z,noemi.rochat,9387,Raststaette Thurau,Wil SG,5541,58.10
+TX880904,2025-10-10T21:04:00Z,chiara.bernasconi,4025,Restaurant Roessli,Winterthur,5812,186.40
+TX880905,2025-10-10T21:29:00Z,noemi.rochat,9387,Raststaette Wuerenlos,Wuerenlos,5499,9.20
+TX880906,2025-10-11T04:15:00Z,chiara.bernasconi,4025,Avec Ohringen,Winterthur,5541,58.30
+TX880907,2025-10-11T05:32:00Z,chiara.bernasconi,4025,Raststaette Heidiland,Maienfeld,5812,6.20
+TX880908,2025-10-11T05:51:00Z,bruno.sacchi,2485,Hotel Einstein,St. Gallen,7011,253.20
+TX880909,2025-10-11T05:52:00Z,renata.vogel,8411,Coop Pronto Kreuzbleiche,St. Gallen,5541,61.20
+TX880910,2025-10-11T06:36:00Z,renata.vogel,8411,Raststaette Heidiland,Maienfeld,5812,11.40
+TX880911,2025-10-11T07:54:00Z,renata.vogel,8411,Autogrill San Bernardino,Mesocco,5812,8.90
+TX880912,2025-10-11T08:01:00Z,yuki.tanabe,2034,Mobility Genossenschaft,Luzern,7512,160.00
+TX880913,2025-10-11T10:47:00Z,lukas.hofer,8629,Digitec Galaxus Abholstation,St. Gallen,5732,389.90
+TX880914,2025-10-11T12:25:00Z,wen-li.zhao,9825,Coop Pronto,St. Gallen,5541,302.50
+TX880915,2025-10-11T12:29:00Z,dessie.moran,1686,Migros,St. Gallen,5411,159.50
+TX880916,2025-10-11T14:06:00Z,anneke.vos,8421,Swiss International Air Lines,Zürich,4511,401.00
+TX880917,2025-10-12T05:35:00Z,yuki.tanabe,2034,Mobility Genossenschaft,Luzern,7512,131.50
+TX880918,2025-10-12T06:11:00Z,tobias.krall,7490,Office World,St. Gallen,5943,167.50
+TX880919,2025-10-12T06:47:00Z,marcus.abiodun,9656,Starbucks,Zürich,5814,251.20
+TX880920,2025-10-12T06:56:00Z,tobias.krall,7490,Swiss International Air Lines,Zürich,4511,382.20
+TX880921,2025-10-12T07:11:00Z,cormac.deel,1975,Digitec Galaxus AG,Zürich,5732,32.20
+TX880922,2025-10-12T09:46:00Z,dessie.moran,1686,SBB CFF FFS,St. Gallen,4111,329.90
+TX880923,2025-10-12T10:04:00Z,nils.aberg,5970,Restaurant Schwarzer Engel,St. Gallen,5812,346.50
+TX880924,2025-10-13T05:23:00Z,kemi.adeyemi,3323,Swiss International Air Lines,Zürich,4511,319.00
+TX880925,2025-10-13T11:32:00Z,nils.aberg,5970,Coop Pronto,St. Gallen,5541,115.50
+TX880926,2025-10-13T12:07:00Z,dessie.moran,1686,AWS EMEA,Luxembourg,5734,172.00
+TX880927,2025-10-13T12:07:00Z,rafferty.ng,3580,Hotel Einstein,St. Gallen,7011,397.50
+TX880928,2025-10-13T13:48:00Z,chiara.bernasconi,4025,Parkplatz Flims-Dorf,Flims,7523,24.00
+TX880929,2025-10-13T14:02:00Z,renata.vogel,8411,Parcheggio Ascona Lido,Ascona,7523,36.00
+TX880930,2025-10-13T15:02:00Z,wen-li.zhao,9825,Autogrill,Bellinzona,5812,187.50
+TX880931,2025-10-13T15:05:00Z,noemi.rochat,9387,Raststaette Wuerenlos,Wuerenlos,5814,5.60
+TX880932,2025-10-13T16:44:00Z,renata.vogel,8411,Raststaette Heidiland,Maienfeld,5812,5.60
+TX880933,2025-10-13T17:44:00Z,bruno.sacchi,2485,Autogrill,Bellinzona,5812,128.90
+TX880934,2025-10-13T18:23:00Z,dessie.moran,1686,Digitec Galaxus AG,Zürich,5732,210.50
+TX880935,2025-10-14T05:05:00Z,bruno.sacchi,2485,Restaurant Schwarzer Engel,St. Gallen,5812,4.00
+TX880936,2025-10-14T05:12:00Z,kemi.adeyemi,3323,Migros,St. Gallen,5411,45.00
+TX880937,2025-10-14T05:43:00Z,kurt.steiner,8794,Avec,Winterthur,5499,213.20
+TX880938,2025-10-14T07:52:00Z,noemi.rochat,9387,Hotel Einstein,St. Gallen,7011,356.90
+TX880939,2025-10-14T08:56:00Z,cormac.deel,1975,Coop Pronto,St. Gallen,5541,160.00
+TX880940,2025-10-14T09:08:00Z,solveig.haugen,1245,Digitec Galaxus AG,Zürich,5732,302.90
+TX880941,2025-10-14T09:23:00Z,dessie.moran,1686,Starbucks,Zürich,5814,362.00
+TX880942,2025-10-14T09:33:00Z,kurt.steiner,8794,Coop Pronto,St. Gallen,5541,16.90
+TX880943,2025-10-14T10:28:00Z,iris.ammann,8402,Migros,St. Gallen,5411,50.00
+TX880944,2025-10-14T10:49:00Z,tobias.krall,7490,Restaurant Schwarzer Engel,St. Gallen,5812,147.00
+TX880945,2025-10-14T11:30:00Z,andrin.caduff,9320,Autogrill,Bellinzona,5812,67.20
+TX880946,2025-10-14T12:58:00Z,june.okada,2542,Migros,St. Gallen,5411,335.50
+TX880947,2025-10-14T14:19:00Z,iris.ammann,8402,Starbucks,Zürich,5814,407.00
+TX880948,2025-10-14T15:25:00Z,lukas.hofer,8629,Digitec Galaxus AG,Zürich,5732,127.00
+TX880949,2025-10-14T15:37:00Z,bruno.sacchi,2485,Uber BV,Amsterdam,4121,261.20
+TX880950,2025-10-14T15:50:00Z,iris.ammann,8402,Digitec Galaxus AG,Zürich,5732,274.00
+TX880951,2025-10-14T16:38:00Z,marcus.abiodun,9656,Office World,St. Gallen,5943,190.50
+TX880952,2025-10-14T16:45:00Z,dessie.moran,1686,Migros,St. Gallen,5411,392.50
+TX880953,2025-10-14T17:24:00Z,halina.brzezinska,1584,AWS EMEA,Luxembourg,5734,141.00
+TX880954,2025-10-15T08:05:00Z,halina.brzezinska,1584,Valora Kiosk,St. Gallen,5994,222.00
+TX880955,2025-10-15T08:22:00Z,dessie.moran,1686,Coop Pronto,St. Gallen,5541,399.50
+TX880956,2025-10-15T09:01:00Z,noemi.rochat,9387,Parkhaus Brühltor,St. Gallen,7523,308.50
+TX880957,2025-10-15T10:05:00Z,andrin.caduff,9320,AWS EMEA,Luxembourg,5734,143.90
+TX880958,2025-10-15T12:42:00Z,noemi.rochat,9387,Avec,Winterthur,5499,289.00
+TX880959,2025-10-15T12:49:00Z,chiara.bernasconi,4025,Migros,St. Gallen,5411,18.90
+TX880960,2025-10-15T15:55:00Z,solveig.haugen,1245,SBB CFF FFS,St. Gallen,4111,85.50
+TX880961,2025-10-15T16:43:00Z,lukas.hofer,8629,Mobility Genossenschaft,Luzern,7512,176.50
+TX880962,2025-10-15T17:09:00Z,iris.ammann,8402,AWS EMEA,Luxembourg,5734,386.90
+TX880963,2025-10-15T17:24:00Z,anneke.vos,8421,AWS EMEA,Luxembourg,5734,292.20
+TX880964,2025-10-15T17:27:00Z,andrin.caduff,9320,Autogrill,Bellinzona,5812,104.20
+TX880965,2025-10-16T07:46:00Z,cormac.deel,1975,Coop Pronto,St. Gallen,5541,142.90
+TX880966,2025-10-16T09:19:00Z,bruno.sacchi,2485,Hotel Einstein,St. Gallen,7011,100.50
+TX880967,2025-10-16T10:18:00Z,yannick.favre,4111,SBB CFF FFS,St. Gallen,4111,380.50
+TX880968,2025-10-16T10:43:00Z,marcus.abiodun,9656,Parkhaus Brühltor,St. Gallen,7523,374.20
+TX880969,2025-10-16T12:25:00Z,renata.vogel,8411,Starbucks,Zürich,5814,65.90
+TX880970,2025-10-16T12:47:00Z,dessie.moran,1686,Uber BV,Amsterdam,4121,200.20
+TX880971,2025-10-16T12:53:00Z,june.okada,2542,Digitec Galaxus AG,Zürich,5732,90.20
+TX880972,2025-10-16T14:14:00Z,kemi.adeyemi,3323,Coop Pronto,St. Gallen,5541,267.00
+TX880973,2025-10-16T14:49:00Z,kurt.steiner,8794,Valora Kiosk,St. Gallen,5994,208.50
+TX880974,2025-10-16T15:00:00Z,renata.vogel,8411,Starbucks,Zürich,5814,279.90
+TX880975,2025-10-16T17:11:00Z,noemi.rochat,9387,Coop Pronto,St. Gallen,5541,297.20
+TX880976,2025-10-17T05:19:00Z,yannick.favre,4111,AWS EMEA,Luxembourg,5734,102.20
+TX880977,2025-10-17T05:49:00Z,andrin.caduff,9320,Autogrill,Bellinzona,5812,240.20
+TX880978,2025-10-17T06:20:00Z,dessie.moran,1686,Office World,St. Gallen,5943,28.00
+TX880979,2025-10-17T09:13:00Z,solveig.haugen,1245,Uber BV,Amsterdam,4121,50.20
+TX880980,2025-10-17T11:20:00Z,nils.aberg,5970,AWS EMEA,Luxembourg,5734,203.50
+TX880981,2025-10-17T11:23:00Z,yannick.favre,4111,AWS EMEA,Luxembourg,5734,150.90
+TX880982,2025-10-17T12:25:00Z,noemi.rochat,9387,Restaurant Schwarzer Engel,St. Gallen,5812,195.50
+TX880983,2025-10-17T12:26:00Z,andrin.caduff,9320,Digitec Galaxus AG,Zürich,5732,346.20
+TX880984,2025-10-17T13:08:00Z,kemi.adeyemi,3323,Autogrill,Bellinzona,5812,361.90
+TX880985,2025-10-17T13:20:00Z,nils.aberg,5970,Autogrill,Bellinzona,5812,23.50
+TX880986,2025-10-17T13:52:00Z,cormac.deel,1975,Migros,St. Gallen,5411,4.90
+TX880987,2025-10-17T14:08:00Z,renata.vogel,8411,Restaurant Schwarzer Engel,St. Gallen,5812,105.00
+TX880988,2025-10-17T14:35:00Z,halina.brzezinska,1584,Starbucks,Zürich,5814,138.50
+TX880989,2025-10-17T15:00:00Z,rafferty.ng,3580,Office World,St. Gallen,5943,249.20
+TX880990,2025-10-17T17:01:00Z,yannick.favre,4111,SBB CFF FFS,St. Gallen,4111,37.50
+TX880991,2025-10-18T05:49:00Z,halina.brzezinska,1584,Mobility Genossenschaft,Luzern,7512,392.00
+TX880992,2025-10-18T07:10:00Z,nils.aberg,5970,SBB CFF FFS,St. Gallen,4111,295.50
+TX880993,2025-10-18T08:27:00Z,yuki.tanabe,2034,Avec,Winterthur,5499,389.90
+TX880994,2025-10-18T09:32:00Z,tobias.krall,7490,Hotel Einstein,St. Gallen,7011,37.20
+TX880995,2025-10-18T10:42:00Z,cormac.deel,1975,Mobility Genossenschaft,Luzern,7512,155.90
+TX880996,2025-10-18T11:14:00Z,yannick.favre,4111,Hotel Einstein,St. Gallen,7011,387.00
+TX880997,2025-10-18T12:23:00Z,halina.brzezinska,1584,Mobility Genossenschaft,Luzern,7512,309.90
+TX880998,2025-10-18T12:33:00Z,anneke.vos,8421,Avec,Winterthur,5499,262.90
+TX880999,2025-10-18T13:32:00Z,nils.aberg,5970,Uber BV,Amsterdam,4121,297.50
+TX881000,2025-10-18T15:00:00Z,anneke.vos,8421,Uber BV,Amsterdam,4121,123.90
+TX881001,2025-10-18T15:06:00Z,anneke.vos,8421,Coop Pronto,St. Gallen,5541,133.50
+TX881002,2025-10-18T15:13:00Z,yannick.favre,4111,Avec,Winterthur,5499,354.00
+TX881003,2025-10-18T15:31:00Z,noemi.rochat,9387,Hotel Einstein,St. Gallen,7011,229.20
+TX881004,2025-10-18T16:13:00Z,kurt.steiner,8794,Digitec Galaxus AG,Zürich,5732,53.90
+TX881005,2025-10-18T16:55:00Z,tobias.krall,7490,Hotel Einstein,St. Gallen,7011,100.50
+TX881006,2025-10-18T17:30:00Z,rafferty.ng,3580,Restaurant Schwarzer Engel,St. Gallen,5812,319.20
+TX881007,2025-10-19T05:38:00Z,renata.vogel,8411,Swiss International Air Lines,Zürich,4511,117.90
+TX881008,2025-10-19T05:47:00Z,cormac.deel,1975,Office World,St. Gallen,5943,391.90
+TX881009,2025-10-19T07:05:00Z,wen-li.zhao,9825,Avec,Winterthur,5499,62.90
+TX881010,2025-10-19T08:04:00Z,yuki.tanabe,2034,Migros,St. Gallen,5411,190.00
+TX881011,2025-10-19T09:16:00Z,tobias.krall,7490,Valora Kiosk,St. Gallen,5994,363.20
+TX881012,2025-10-19T10:27:00Z,solveig.haugen,1245,Uber BV,Amsterdam,4121,335.90
+TX881013,2025-10-19T11:06:00Z,solveig.haugen,1245,Starbucks,Zürich,5814,104.00
+TX881014,2025-10-19T11:57:00Z,halina.brzezinska,1584,Uber BV,Amsterdam,4121,299.20
+TX881015,2025-10-19T12:07:00Z,lukas.hofer,8629,Autogrill,Bellinzona,5812,64.50
+TX881016,2025-10-19T12:44:00Z,nils.aberg,5970,Uber BV,Amsterdam,4121,304.20
+TX881017,2025-10-19T13:30:00Z,kurt.steiner,8794,Swiss International Air Lines,Zürich,4511,259.00
+TX881018,2025-10-19T13:33:00Z,chiara.bernasconi,4025,Coop Pronto,St. Gallen,5541,381.20
+TX881019,2025-10-19T15:26:00Z,bruno.sacchi,2485,Swiss International Air Lines,Zürich,4511,215.00
+TX881020,2025-10-19T17:40:00Z,dov.halperin,4050,AWS EMEA,Luxembourg,5734,89.90
+TX881021,2025-10-20T08:04:00Z,iris.ammann,8402,AWS EMEA,Luxembourg,5734,242.50
+TX881022,2025-10-20T09:01:00Z,anneke.vos,8421,Valora Kiosk,St. Gallen,5994,29.00
+TX881023,2025-10-20T09:27:00Z,kurt.steiner,8794,Hotel Einstein,St. Gallen,7011,377.20
+TX881024,2025-10-20T10:06:00Z,kemi.adeyemi,3323,Restaurant Schwarzer Engel,St. Gallen,5812,382.90
+TX881025,2025-10-20T11:11:00Z,wen-li.zhao,9825,AWS EMEA,Luxembourg,5734,252.00
+TX881026,2025-10-20T11:25:00Z,june.okada,2542,Starbucks,Zürich,5814,176.20
+TX881027,2025-10-20T11:49:00Z,dov.halperin,4050,Restaurant Schwarzer Engel,St. Gallen,5812,168.50
+TX881028,2025-10-20T11:58:00Z,solveig.haugen,1245,Swiss International Air Lines,Zürich,4511,338.90
+TX881029,2025-10-20T12:42:00Z,tobias.krall,7490,Autogrill,Bellinzona,5812,149.00
+TX881030,2025-10-20T14:52:00Z,bruno.sacchi,2485,Restaurant Schwarzer Engel,St. Gallen,5812,110.90
+TX881031,2025-10-20T15:44:00Z,dov.halperin,4050,Valora Kiosk,St. Gallen,5994,41.90
+TX881032,2025-10-20T15:53:00Z,nils.aberg,5970,Autogrill,Bellinzona,5812,185.90
+TX881033,2025-10-20T17:54:00Z,rafferty.ng,3580,SBB CFF FFS,St. Gallen,4111,397.20
+TX881034,2025-10-20T19:00:00Z,yuki.tanabe,2034,Migros,St. Gallen,5411,92.00
+TX881035,2025-10-21T05:02:00Z,kemi.adeyemi,3323,Office World,St. Gallen,5943,413.20
+TX881036,2025-10-21T05:30:00Z,noemi.rochat,9387,Avec,Winterthur,5499,246.90
+TX881037,2025-10-21T06:39:00Z,june.okada,2542,SBB CFF FFS,St. Gallen,4111,181.20
+TX881038,2025-10-21T07:10:00Z,iris.ammann,8402,Office World,St. Gallen,5943,84.20
+TX881039,2025-10-21T09:08:00Z,rafferty.ng,3580,SBB CFF FFS,St. Gallen,4111,311.90
+TX881040,2025-10-21T09:38:00Z,june.okada,2542,Swiss International Air Lines,Zürich,4511,253.00
+TX881041,2025-10-21T12:14:00Z,june.okada,2542,Autogrill,Bellinzona,5812,112.00
+TX881042,2025-10-21T12:47:00Z,iris.ammann,8402,Avec,Winterthur,5499,317.50
+TX881043,2025-10-21T13:08:00Z,noemi.rochat,9387,Avec,Winterthur,5499,309.50
+TX881044,2025-10-21T13:23:00Z,dessie.moran,1686,Digitec Galaxus AG,Zürich,5732,200.90
+TX881045,2025-10-21T13:57:00Z,renata.vogel,8411,Autogrill,Bellinzona,5812,381.20
+TX881046,2025-10-21T16:09:00Z,renata.vogel,8411,Uber BV,Amsterdam,4121,53.20
+TX881047,2025-10-21T16:57:00Z,renata.vogel,8411,Coop Pronto,St. Gallen,5541,106.50
+TX881048,2025-10-21T17:14:00Z,priya.raghunathan,8316,SBB CFF FFS,St. Gallen,4111,319.50
+TX881049,2025-10-21T18:27:00Z,chiara.bernasconi,4025,AWS EMEA,Luxembourg,5734,304.20
+TX881050,2025-10-22T05:15:00Z,yannick.favre,4111,Hotel Einstein,St. Gallen,7011,299.90
+TX881051,2025-10-22T05:45:00Z,yuki.tanabe,2034,Restaurant Schwarzer Engel,St. Gallen,5812,200.90
+TX881052,2025-10-22T07:26:00Z,lukas.hofer,8629,SBB CFF FFS,St. Gallen,4111,147.20
+TX881053,2025-10-22T09:15:00Z,kurt.steiner,8794,Hotel Einstein,St. Gallen,7011,170.50
+TX881054,2025-10-22T09:16:00Z,andrin.caduff,9320,Hotel Einstein,St. Gallen,7011,242.90
+TX881055,2025-10-22T09:33:00Z,renata.vogel,8411,Swiss International Air Lines,Zürich,4511,173.90
+TX881056,2025-10-22T09:47:00Z,iris.ammann,8402,Autogrill,Bellinzona,5812,16.90
+TX881057,2025-10-22T09:49:00Z,june.okada,2542,Coop Pronto,St. Gallen,5541,394.20
+TX881058,2025-10-22T11:24:00Z,noemi.rochat,9387,SBB CFF FFS,St. Gallen,4111,54.90
+TX881059,2025-10-22T12:19:00Z,marcus.abiodun,9656,Hotel Einstein,St. Gallen,7011,105.20
+TX881060,2025-10-22T12:21:00Z,andrin.caduff,9320,Digitec Galaxus AG,Zürich,5732,360.20
+TX881061,2025-10-22T12:45:00Z,yuki.tanabe,2034,Digitec Galaxus AG,Zürich,5732,248.20
+TX881062,2025-10-22T12:47:00Z,chiara.bernasconi,4025,Autogrill,Bellinzona,5812,351.00
+TX881063,2025-10-22T14:46:00Z,iris.ammann,8402,SBB CFF FFS,St. Gallen,4111,12.50
+TX881064,2025-10-22T14:50:00Z,solveig.haugen,1245,Swiss International Air Lines,Zürich,4511,25.50
+TX881065,2025-10-22T15:22:00Z,rafferty.ng,3580,Avec,Winterthur,5499,108.00
+TX881066,2025-10-22T16:40:00Z,rafferty.ng,3580,Parkhaus Brühltor,St. Gallen,7523,245.50
+TX881067,2025-10-22T18:08:00Z,marcus.abiodun,9656,Starbucks,Zürich,5814,374.90
+TX881068,2025-10-23T08:19:00Z,rafferty.ng,3580,Migros,St. Gallen,5411,60.50
+TX881069,2025-10-23T08:28:00Z,tobias.krall,7490,Office World,St. Gallen,5943,240.00
+TX881070,2025-10-23T08:31:00Z,iris.ammann,8402,AWS EMEA,Luxembourg,5734,376.50
+TX881071,2025-10-23T08:53:00Z,dov.halperin,4050,Uber BV,Amsterdam,4121,383.90
+TX881072,2025-10-23T09:20:00Z,yuki.tanabe,2034,Swiss International Air Lines,Zürich,4511,137.50
+TX881073,2025-10-23T09:44:00Z,wen-li.zhao,9825,Office World,St. Gallen,5943,286.00
+TX881074,2025-10-23T10:08:00Z,kurt.steiner,8794,Swiss International Air Lines,Zürich,4511,368.00
+TX881075,2025-10-23T11:18:00Z,bruno.sacchi,2485,Swiss International Air Lines,Zürich,4511,240.90
+TX881076,2025-10-23T11:43:00Z,wen-li.zhao,9825,AWS EMEA,Luxembourg,5734,45.90
+TX881077,2025-10-23T11:50:00Z,wen-li.zhao,9825,Valora Kiosk,St. Gallen,5994,269.50
+TX881078,2025-10-23T12:03:00Z,rafferty.ng,3580,Migros,St. Gallen,5411,289.20
+TX881079,2025-10-23T12:22:00Z,andrin.caduff,9320,Uber BV,Amsterdam,4121,368.00
+TX881080,2025-10-23T14:15:00Z,andrin.caduff,9320,Autogrill,Bellinzona,5812,386.90
+TX881081,2025-10-23T15:24:00Z,yuki.tanabe,2034,Restaurant Schwarzer Engel,St. Gallen,5812,308.90
+TX881082,2025-10-23T15:33:00Z,kurt.steiner,8794,Swiss International Air Lines,Zürich,4511,359.50
+TX881083,2025-10-23T16:31:00Z,wen-li.zhao,9825,Valora Kiosk,St. Gallen,5994,254.20
+TX881084,2025-10-23T19:00:00Z,iris.ammann,8402,Avec,Winterthur,5499,197.90
+TX881085,2025-10-24T05:16:00Z,cormac.deel,1975,Digitec Galaxus AG,Zürich,5732,363.00
+TX881086,2025-10-24T05:55:00Z,nils.aberg,5970,Coop Pronto,St. Gallen,5541,345.20
+TX881087,2025-10-24T06:30:00Z,yannick.favre,4111,Starbucks,Zürich,5814,154.90
+TX881088,2025-10-24T06:35:00Z,kemi.adeyemi,3323,Starbucks,Zürich,5814,411.90
+TX881089,2025-10-24T06:41:00Z,anneke.vos,8421,Autogrill,Bellinzona,5812,111.00
+TX881090,2025-10-24T07:08:00Z,marcus.abiodun,9656,Coop Pronto,St. Gallen,5541,357.00
+TX881091,2025-10-24T08:22:00Z,marcus.abiodun,9656,Migros,St. Gallen,5411,73.50
+TX881092,2025-10-24T11:54:00Z,kemi.adeyemi,3323,Uber BV,Amsterdam,4121,407.90
+TX881093,2025-10-24T13:56:00Z,iris.ammann,8402,SBB CFF FFS,St. Gallen,4111,361.00
+TX881094,2025-10-24T17:38:00Z,tobias.krall,7490,Swiss International Air Lines,Zürich,4511,244.20
+TX881095,2025-10-24T18:04:00Z,dessie.moran,1686,Digitec Galaxus AG,Zürich,5732,233.50
+TX881096,2025-10-24T18:10:00Z,halina.brzezinska,1584,Swiss International Air Lines,Zürich,4511,392.90
+TX881097,2025-10-25T05:23:00Z,yuki.tanabe,2034,Starbucks,Zürich,5814,165.20
+TX881098,2025-10-25T05:48:00Z,cormac.deel,1975,Migros,St. Gallen,5411,396.00
+TX881099,2025-10-25T05:56:00Z,tobias.krall,7490,Starbucks,Zürich,5814,205.50
+TX881100,2025-10-25T06:29:00Z,anneke.vos,8421,Restaurant Schwarzer Engel,St. Gallen,5812,100.50
+TX881101,2025-10-25T07:24:00Z,yuki.tanabe,2034,Autogrill,Bellinzona,5812,135.00
+TX881102,2025-10-25T07:36:00Z,lukas.hofer,8629,AWS EMEA,Luxembourg,5734,31.20
+TX881103,2025-10-25T08:49:00Z,bruno.sacchi,2485,Hotel Einstein,St. Gallen,7011,19.00
+TX881104,2025-10-25T09:16:00Z,kemi.adeyemi,3323,Valora Kiosk,St. Gallen,5994,328.20
+TX881105,2025-10-25T09:35:00Z,renata.vogel,8411,Hotel Einstein,St. Gallen,7011,304.20
+TX881106,2025-10-25T10:02:00Z,tobias.krall,7490,Restaurant Schwarzer Engel,St. Gallen,5812,194.00
+TX881107,2025-10-25T12:21:00Z,anneke.vos,8421,Mobility Genossenschaft,Luzern,7512,11.90
+TX881108,2025-10-25T12:58:00Z,bruno.sacchi,2485,Office World,St. Gallen,5943,200.50
+TX881109,2025-10-25T15:48:00Z,renata.vogel,8411,Uber BV,Amsterdam,4121,244.00
+TX881110,2025-10-25T16:06:00Z,marcus.abiodun,9656,Mobility Genossenschaft,Luzern,7512,371.90
+TX881111,2025-10-25T17:12:00Z,wen-li.zhao,9825,Migros,St. Gallen,5411,188.00
+TX881112,2025-10-25T17:50:00Z,dessie.moran,1686,Office World,St. Gallen,5943,31.00
+TX881113,2025-10-25T18:26:00Z,halina.brzezinska,1584,Uber BV,Amsterdam,4121,210.20
+TX881114,2025-10-26T07:59:00Z,wen-li.zhao,9825,AWS EMEA,Luxembourg,5734,373.50
+TX881115,2025-10-26T09:05:00Z,dov.halperin,4050,Uber BV,Amsterdam,4121,355.00
+TX881116,2025-10-26T10:22:00Z,wen-li.zhao,9825,Restaurant Schwarzer Engel,St. Gallen,5812,284.20
+TX881117,2025-10-26T12:00:00Z,tobias.krall,7490,Autogrill,Bellinzona,5812,337.50
+TX881118,2025-10-26T12:39:00Z,iris.ammann,8402,AWS EMEA,Luxembourg,5734,97.90
+TX881119,2025-10-26T13:37:00Z,wen-li.zhao,9825,Starbucks,Zürich,5814,164.50
+TX881120,2025-10-26T14:55:00Z,marcus.abiodun,9656,Avec,Winterthur,5499,262.00
+TX881121,2025-10-26T15:12:00Z,lukas.hofer,8629,AWS EMEA,Luxembourg,5734,150.20
+TX881122,2025-10-26T16:13:00Z,lukas.hofer,8629,Digitec Galaxus AG,Zürich,5732,247.90
+TX881123,2025-10-26T16:32:00Z,andrin.caduff,9320,Migros,St. Gallen,5411,326.00
+TX881124,2025-10-27T06:58:00Z,andrin.caduff,9320,Hotel Einstein,St. Gallen,7011,177.50
+TX881125,2025-10-27T07:16:00Z,rafferty.ng,3580,Coop Pronto,St. Gallen,5541,26.20
+TX881126,2025-10-27T07:39:00Z,rafferty.ng,3580,Migros,St. Gallen,5411,207.50
+TX881127,2025-10-27T09:13:00Z,tobias.krall,7490,Migros,St. Gallen,5411,250.00
+TX881128,2025-10-27T10:37:00Z,solveig.haugen,1245,AWS EMEA,Luxembourg,5734,284.00
+TX881129,2025-10-27T12:06:00Z,rafferty.ng,3580,Hotel Einstein,St. Gallen,7011,63.90
+TX881130,2025-10-27T14:11:00Z,kemi.adeyemi,3323,Hotel Einstein,St. Gallen,7011,45.00
+TX881131,2025-10-27T15:14:00Z,cormac.deel,1975,Office World,St. Gallen,5943,270.90
+TX881132,2025-10-27T16:14:00Z,june.okada,2542,Restaurant Schwarzer Engel,St. Gallen,5812,287.50
+TX881133,2025-10-27T16:33:00Z,anneke.vos,8421,Uber BV,Amsterdam,4121,404.50
+TX881134,2025-10-27T18:08:00Z,tobias.krall,7490,AWS EMEA,Luxembourg,5734,294.50
+TX881135,2025-10-27T18:22:00Z,solveig.haugen,1245,Valora Kiosk,St. Gallen,5994,328.90
+TX881136,2025-10-27T18:49:00Z,wen-li.zhao,9825,Uber BV,Amsterdam,4121,197.20
+TX881137,2025-10-27T19:01:00Z,iris.ammann,8402,Digitec Galaxus AG,Zürich,5732,230.50
+TX881138,2025-10-27T19:38:00Z,marcus.abiodun,9656,SBB CFF FFS,St. Gallen,4111,53.50
+TX881139,2025-10-28T08:09:00Z,tobias.krall,7490,Digitec Galaxus AG,Zürich,5732,371.00
+TX881140,2025-10-28T08:15:00Z,anneke.vos,8421,Starbucks,Zürich,5814,416.50
+TX881141,2025-10-28T08:19:00Z,anneke.vos,8421,Restaurant Schwarzer Engel,St. Gallen,5812,164.20
+TX881142,2025-10-28T09:21:00Z,cormac.deel,1975,Restaurant Schwarzer Engel,St. Gallen,5812,96.50
+TX881143,2025-10-28T09:30:00Z,iris.ammann,8402,Hotel Einstein,St. Gallen,7011,162.20
+TX881144,2025-10-28T09:41:00Z,yuki.tanabe,2034,Starbucks,Zürich,5814,413.50
+TX881145,2025-10-28T10:02:00Z,chiara.bernasconi,4025,Mobility Genossenschaft,Luzern,7512,152.00
+TX881146,2025-10-28T11:00:00Z,june.okada,2542,Hotel Einstein,St. Gallen,7011,47.20
+TX881147,2025-10-28T11:52:00Z,tobias.krall,7490,Office World,St. Gallen,5943,29.00
+TX881148,2025-10-28T20:00:00Z,renata.vogel,8411,Coop Pronto,St. Gallen,5541,203.50
+TX881149,2025-10-29T06:53:00Z,kemi.adeyemi,3323,Parkhaus Brühltor,St. Gallen,7523,309.20
+TX881150,2025-10-29T08:08:00Z,kurt.steiner,8794,Digitec Galaxus AG,Zürich,5732,169.50
+TX881151,2025-10-29T10:58:00Z,priya.raghunathan,8316,Autogrill,Bellinzona,5812,63.50
+TX881152,2025-10-29T11:25:00Z,solveig.haugen,1245,Digitec Galaxus AG,Zürich,5732,342.00
+TX881153,2025-10-29T12:08:00Z,renata.vogel,8411,Coop Pronto,St. Gallen,5541,271.20
+TX881154,2025-10-29T12:49:00Z,lukas.hofer,8629,Migros,St. Gallen,5411,351.50
+TX881155,2025-10-29T18:30:00Z,anneke.vos,8421,Uber BV,Amsterdam,4121,46.20
+TX881156,2025-10-29T18:54:00Z,chiara.bernasconi,4025,Parkhaus Brühltor,St. Gallen,7523,303.50
+TX881157,2025-10-30T08:08:00Z,marcus.abiodun,9656,Restaurant Schwarzer Engel,St. Gallen,5812,414.50
+TX881158,2025-10-30T08:27:00Z,priya.raghunathan,8316,Office World,St. Gallen,5943,403.00
+TX881159,2025-10-30T09:41:00Z,rafferty.ng,3580,Migros,St. Gallen,5411,325.00
+TX881160,2025-10-30T11:57:00Z,solveig.haugen,1245,Starbucks,Zürich,5814,163.00
+TX881161,2025-10-30T12:39:00Z,solveig.haugen,1245,Avec,Winterthur,5499,246.00
+TX881162,2025-10-30T12:45:00Z,dessie.moran,1686,AWS EMEA,Luxembourg,5734,50.20
+TX881163,2025-10-30T13:31:00Z,priya.raghunathan,8316,Restaurant Schwarzer Engel,St. Gallen,5812,228.90
+TX881164,2025-10-30T14:06:00Z,cormac.deel,1975,Digitec Galaxus AG,Zürich,5732,154.00
+TX881165,2025-10-30T17:59:00Z,wen-li.zhao,9825,SBB CFF FFS,St. Gallen,4111,153.00
+TX881166,2025-10-30T18:44:00Z,renata.vogel,8411,Digitec Galaxus AG,Zürich,5732,101.50
+TX881167,2025-10-31T07:47:00Z,anneke.vos,8421,Parkhaus Brühltor,St. Gallen,7523,255.90
+TX881168,2025-10-31T09:00:00Z,dov.halperin,4050,Office World,St. Gallen,5943,109.00
+TX881169,2025-10-31T09:45:00Z,kurt.steiner,8794,Parkhaus Brühltor,St. Gallen,7523,395.90
+TX881170,2025-10-31T12:14:00Z,kurt.steiner,8794,Parkhaus Brühltor,St. Gallen,7523,5.90
+TX881171,2025-10-31T14:32:00Z,cormac.deel,1975,Digitec Galaxus AG,Zürich,5732,215.20
+TX881172,2025-10-31T15:11:00Z,wen-li.zhao,9825,Valora Kiosk,St. Gallen,5994,363.20
+TX881173,2025-10-31T16:38:00Z,halina.brzezinska,1584,Avec,Winterthur,5499,247.90
+TX881174,2025-10-31T17:30:00Z,cormac.deel,1975,Migros,St. Gallen,5411,322.00
+TX881175,2025-10-31T17:39:00Z,nils.aberg,5970,AWS EMEA,Luxembourg,5734,97.90
+TX881176,2025-10-31T18:03:00Z,tobias.krall,7490,Valora Kiosk,St. Gallen,5994,294.00
+TX881177,2025-10-31T19:41:00Z,halina.brzezinska,1584,Mobility Genossenschaft,Luzern,7512,240.50
+TX881178,2025-11-01T06:09:00Z,marcus.abiodun,9656,Avec,Winterthur,5499,370.90
+TX881179,2025-11-01T06:33:00Z,june.okada,2542,Starbucks,Zürich,5814,250.00
+TX881180,2025-11-01T06:43:00Z,dessie.moran,1686,Migros,St. Gallen,5411,281.00
+TX881181,2025-11-01T09:50:00Z,chiara.bernasconi,4025,SBB CFF FFS,St. Gallen,4111,128.90
+TX881182,2025-11-01T09:50:00Z,bruno.sacchi,2485,Mobility Genossenschaft,Luzern,7512,89.20
+TX881183,2025-11-01T12:56:00Z,tobias.krall,7490,Restaurant Schwarzer Engel,St. Gallen,5812,294.20
+TX881184,2025-11-01T17:34:00Z,june.okada,2542,Coop Pronto,St. Gallen,5541,168.20
+TX881185,2025-11-01T18:43:00Z,solveig.haugen,1245,Autogrill,Bellinzona,5812,177.90
+TX881186,2025-11-01T19:00:00Z,lukas.hofer,8629,Coop Pronto,St. Gallen,5541,220.20
+TX881187,2025-11-01T19:01:00Z,tobias.krall,7490,Restaurant Schwarzer Engel,St. Gallen,5812,157.00
+TX881188,2025-11-01T19:02:00Z,dessie.moran,1686,AWS EMEA,Luxembourg,5734,148.50
+TX881189,2025-11-01T19:57:00Z,june.okada,2542,AWS EMEA,Luxembourg,5734,144.20
+TX881190,2025-11-01T19:57:00Z,chiara.bernasconi,4025,Migros,St. Gallen,5411,106.50
+TX881191,2025-11-02T07:05:00Z,halina.brzezinska,1584,Uber BV,Amsterdam,4121,113.90
+TX881192,2025-11-02T07:13:00Z,halina.brzezinska,1584,Swiss International Air Lines,Zürich,4511,186.00
+TX881193,2025-11-02T07:37:00Z,priya.raghunathan,8316,Autogrill,Bellinzona,5812,157.90
+TX881194,2025-11-02T07:52:00Z,kemi.adeyemi,3323,AWS EMEA,Luxembourg,5734,162.90
+TX881195,2025-11-02T08:11:00Z,june.okada,2542,Digitec Galaxus AG,Zürich,5732,250.00
+TX881196,2025-11-02T11:06:00Z,kurt.steiner,8794,SBB CFF FFS,St. Gallen,4111,170.50
+TX881197,2025-11-02T16:16:00Z,renata.vogel,8411,Valora Kiosk,St. Gallen,5994,285.90
+TX881198,2025-11-02T17:23:00Z,dov.halperin,4050,Office World,St. Gallen,5943,237.50
+TX881199,2025-11-02T17:25:00Z,halina.brzezinska,1584,Coop Pronto,St. Gallen,5541,227.20
+TX881200,2025-11-03T06:25:00Z,chiara.bernasconi,4025,Swiss International Air Lines,Zürich,4511,402.90
+TX881201,2025-11-03T08:09:00Z,tobias.krall,7490,Migros,St. Gallen,5411,39.00
+TX881202,2025-11-03T08:44:00Z,lukas.hofer,8629,Mobility Genossenschaft,Luzern,7512,379.50
+TX881203,2025-11-03T08:47:00Z,solveig.haugen,1245,Hotel Einstein,St. Gallen,7011,419.90
+TX881204,2025-11-03T09:36:00Z,kemi.adeyemi,3323,SBB CFF FFS,St. Gallen,4111,16.50
+TX881205,2025-11-03T11:16:00Z,june.okada,2542,SBB CFF FFS,St. Gallen,4111,400.90
+TX881206,2025-11-03T14:39:00Z,cormac.deel,1975,Valora Kiosk,St. Gallen,5994,260.00
+TX881207,2025-11-03T14:58:00Z,solveig.haugen,1245,Restaurant Schwarzer Engel,St. Gallen,5812,395.20
+TX881208,2025-11-03T16:24:00Z,anneke.vos,8421,Hotel Einstein,St. Gallen,7011,65.50
+TX881209,2025-11-03T16:44:00Z,chiara.bernasconi,4025,Valora Kiosk,St. Gallen,5994,355.20
+TX881210,2025-11-03T17:25:00Z,iris.ammann,8402,SBB CFF FFS,St. Gallen,4111,136.00
+TX881211,2025-11-03T18:59:00Z,wen-li.zhao,9825,Hotel Einstein,St. Gallen,7011,263.50
+TX881212,2025-11-04T06:40:00Z,tobias.krall,7490,SBB CFF FFS,St. Gallen,4111,127.20
+TX881213,2025-11-04T10:19:00Z,yannick.favre,4111,Valora Kiosk,St. Gallen,5994,64.20
+TX881214,2025-11-04T12:39:00Z,chiara.bernasconi,4025,Avec,Winterthur,5499,294.50
+TX881215,2025-11-04T13:03:00Z,noemi.rochat,9387,Digitec Galaxus AG,Zürich,5732,233.00
+TX881216,2025-11-04T14:40:00Z,rafferty.ng,3580,Swiss International Air Lines,Zürich,4511,202.00
+TX881217,2025-11-04T15:05:00Z,renata.vogel,8411,AWS EMEA,Luxembourg,5734,79.20
+TX881218,2025-11-04T15:17:00Z,cormac.deel,1975,Migros,St. Gallen,5411,231.00
+TX881219,2025-11-04T15:43:00Z,renata.vogel,8411,Coop Pronto,St. Gallen,5541,371.00
+TX881220,2025-11-04T16:00:00Z,iris.ammann,8402,Starbucks,Zürich,5814,13.50
+TX881221,2025-11-04T16:45:00Z,renata.vogel,8411,Parkhaus Brühltor,St. Gallen,7523,293.00
+TX881222,2025-11-04T18:54:00Z,bruno.sacchi,2485,Digitec Galaxus AG,Zürich,5732,98.90
+TX881223,2025-11-04T18:57:00Z,bruno.sacchi,2485,Valora Kiosk,St. Gallen,5994,340.90
+TX881224,2025-11-04T19:16:00Z,halina.brzezinska,1584,Avec,Winterthur,5499,211.50
+TX881225,2025-11-04T19:49:00Z,dov.halperin,4050,Valora Kiosk,St. Gallen,5994,285.90
+TX881226,2025-11-05T07:11:00Z,andrin.caduff,9320,SBB CFF FFS,St. Gallen,4111,353.20
+TX881227,2025-11-05T07:28:00Z,iris.ammann,8402,Avec,Winterthur,5499,285.50
+TX881228,2025-11-05T10:09:00Z,dov.halperin,4050,Coop Pronto,St. Gallen,5541,271.00
+TX881229,2025-11-05T10:36:00Z,kemi.adeyemi,3323,Mobility Genossenschaft,Luzern,7512,409.50
+TX881230,2025-11-05T10:57:00Z,tobias.krall,7490,AWS EMEA,Luxembourg,5734,204.20
+TX881231,2025-11-05T11:25:00Z,wen-li.zhao,9825,Migros,St. Gallen,5411,258.50
+TX881232,2025-11-05T14:12:00Z,kemi.adeyemi,3323,SBB CFF FFS,St. Gallen,4111,92.90
+TX881233,2025-11-05T15:03:00Z,cormac.deel,1975,Migros,St. Gallen,5411,411.90
+TX881234,2025-11-05T15:58:00Z,cormac.deel,1975,Valora Kiosk,St. Gallen,5994,169.20
+TX881235,2025-11-05T18:02:00Z,chiara.bernasconi,4025,Valora Kiosk,St. Gallen,5994,273.20
+TX881236,2025-11-06T07:39:00Z,iris.ammann,8402,AWS EMEA,Luxembourg,5734,204.20
+TX881237,2025-11-06T10:37:00Z,tobias.krall,7490,AWS EMEA,Luxembourg,5734,383.50
+TX881238,2025-11-06T11:18:00Z,kurt.steiner,8794,AWS EMEA,Luxembourg,5734,94.00
+TX881239,2025-11-06T11:58:00Z,priya.raghunathan,8316,Valora Kiosk,St. Gallen,5994,126.90
+TX881240,2025-11-06T15:21:00Z,marcus.abiodun,9656,Migros,St. Gallen,5411,323.90
+TX881241,2025-11-06T15:47:00Z,kurt.steiner,8794,Hotel Einstein,St. Gallen,7011,88.50
+TX881242,2025-11-06T16:03:00Z,solveig.haugen,1245,Coop Pronto,St. Gallen,5541,165.50
+TX881243,2025-11-06T17:33:00Z,june.okada,2542,Avec,Winterthur,5499,86.90
+TX881244,2025-11-07T06:10:00Z,wen-li.zhao,9825,Valora Kiosk,St. Gallen,5994,319.50
+TX881245,2025-11-07T06:39:00Z,kurt.steiner,8794,Digitec Galaxus AG,Zürich,5732,407.90
+TX881246,2025-11-07T07:14:00Z,bruno.sacchi,2485,AWS EMEA,Luxembourg,5734,222.50
+TX881247,2025-11-07T08:50:00Z,dessie.moran,1686,Hotel Einstein,St. Gallen,7011,344.50
+TX881248,2025-11-07T10:06:00Z,yannick.favre,4111,Swiss International Air Lines,Zürich,4511,14.90
+TX881249,2025-11-07T10:22:00Z,anneke.vos,8421,Digitec Galaxus AG,Zürich,5732,136.20
+TX881250,2025-11-07T13:20:00Z,bruno.sacchi,2485,Migros,St. Gallen,5411,52.20
+TX881251,2025-11-07T15:11:00Z,dov.halperin,4050,Starbucks,Zürich,5814,284.50
+TX881252,2025-11-07T15:22:00Z,lukas.hofer,8629,Migros,St. Gallen,5411,411.50
+TX881253,2025-11-07T15:59:00Z,chiara.bernasconi,4025,AWS EMEA,Luxembourg,5734,107.00
+TX881254,2025-11-07T16:44:00Z,yuki.tanabe,2034,Autogrill,Bellinzona,5812,42.00
+TX881255,2025-11-08T06:14:00Z,wen-li.zhao,9825,Avec,Winterthur,5499,317.90
+TX881256,2025-11-08T06:23:00Z,cormac.deel,1975,Coop Pronto,St. Gallen,5541,103.50
+TX881257,2025-11-08T06:23:00Z,marcus.abiodun,9656,Coop Pronto,St. Gallen,5541,36.20
+TX881258,2025-11-08T06:58:00Z,wen-li.zhao,9825,AWS EMEA,Luxembourg,5734,59.90
+TX881259,2025-11-08T08:13:00Z,yuki.tanabe,2034,AWS EMEA,Luxembourg,5734,343.50
+TX881260,2025-11-08T08:24:00Z,kurt.steiner,8794,Coop Pronto,St. Gallen,5541,326.00
+TX881261,2025-11-08T10:29:00Z,june.okada,2542,AWS EMEA,Luxembourg,5734,297.20
+TX881262,2025-11-08T11:54:00Z,dov.halperin,4050,Avec,Winterthur,5499,205.50
+TX881263,2025-11-08T16:24:00Z,marcus.abiodun,9656,AWS EMEA,Luxembourg,5734,57.90
+TX881264,2025-11-08T16:31:00Z,anneke.vos,8421,Avec,Winterthur,5499,294.00
+TX881265,2025-11-08T18:02:00Z,bruno.sacchi,2485,Avec,Winterthur,5499,420.90
+TX881266,2025-11-08T19:15:00Z,cormac.deel,1975,Restaurant Schwarzer Engel,St. Gallen,5812,45.20
+TX881267,2025-11-09T08:04:00Z,halina.brzezinska,1584,Autogrill,Bellinzona,5812,10.20
+TX881268,2025-11-09T08:23:00Z,yuki.tanabe,2034,Parkhaus Brühltor,St. Gallen,7523,80.20
+TX881269,2025-11-09T08:23:00Z,nils.aberg,5970,Hotel Einstein,St. Gallen,7011,10.20
+TX881270,2025-11-09T09:27:00Z,yannick.favre,4111,Office World,St. Gallen,5943,251.00
+TX881271,2025-11-09T09:58:00Z,yuki.tanabe,2034,AWS EMEA,Luxembourg,5734,408.50
+TX881272,2025-11-09T16:58:00Z,dov.halperin,4050,Hotel Einstein,St. Gallen,7011,266.00
+TX881273,2025-11-09T17:07:00Z,bruno.sacchi,2485,Migros,St. Gallen,5411,109.00
+TX881274,2025-11-09T18:49:00Z,kemi.adeyemi,3323,SBB CFF FFS,St. Gallen,4111,295.90
+TX881275,2025-11-10T06:40:00Z,marcus.abiodun,9656,Autogrill,Bellinzona,5812,150.50
+TX881276,2025-11-10T08:05:00Z,lukas.hofer,8629,Office World,St. Gallen,5943,78.20
+TX881277,2025-11-10T08:34:00Z,chiara.bernasconi,4025,Coop Pronto,St. Gallen,5541,322.20
+TX881278,2025-11-10T09:41:00Z,iris.ammann,8402,Mobility Genossenschaft,Luzern,7512,122.20
+TX881279,2025-11-10T10:12:00Z,wen-li.zhao,9825,Office World,St. Gallen,5943,314.50
+TX881280,2025-11-10T10:28:00Z,andrin.caduff,9320,Migros,St. Gallen,5411,156.90
+TX881281,2025-11-10T11:41:00Z,rafferty.ng,3580,Mobility Genossenschaft,Luzern,7512,177.90
+TX881282,2025-11-10T12:24:00Z,anneke.vos,8421,Office World,St. Gallen,5943,80.20
+TX881283,2025-11-10T13:12:00Z,iris.ammann,8402,SBB CFF FFS,St. Gallen,4111,252.00
+TX881284,2025-11-10T14:05:00Z,kurt.steiner,8794,Migros,St. Gallen,5411,66.20
+TX881285,2025-11-10T14:48:00Z,tobias.krall,7490,Restaurant Schwarzer Engel,St. Gallen,5812,407.00
+TX881286,2025-11-10T16:59:00Z,dessie.moran,1686,Mobility Genossenschaft,Luzern,7512,333.00
+TX881287,2025-11-10T17:23:00Z,anneke.vos,8421,Coop Pronto,St. Gallen,5541,322.50
+TX881288,2025-11-10T19:43:00Z,marcus.abiodun,9656,Avec,Winterthur,5499,125.90
+TX881289,2025-11-11T06:35:00Z,bruno.sacchi,2485,Avec,Winterthur,5499,276.90
+TX881290,2025-11-11T06:46:00Z,nils.aberg,5970,AWS EMEA,Luxembourg,5734,322.50
+TX881291,2025-11-11T08:19:00Z,lukas.hofer,8629,Restaurant Schwarzer Engel,St. Gallen,5812,162.20
+TX881292,2025-11-11T09:49:00Z,iris.ammann,8402,Office World,St. Gallen,5943,372.20
+TX881293,2025-11-11T11:13:00Z,dov.halperin,4050,Autogrill,Bellinzona,5812,27.50
+TX881294,2025-11-11T13:17:00Z,iris.ammann,8402,Swiss International Air Lines,Zürich,4511,204.20
+TX881295,2025-11-11T14:18:00Z,wen-li.zhao,9825,Avec,Winterthur,5499,353.50
+TX881296,2025-11-11T14:31:00Z,bruno.sacchi,2485,Migros,St. Gallen,5411,242.00
+TX881297,2025-11-11T15:42:00Z,bruno.sacchi,2485,Migros,St. Gallen,5411,88.90
+TX881298,2025-11-11T17:39:00Z,marcus.abiodun,9656,Avec,Winterthur,5499,185.50
+TX881299,2025-11-11T18:11:00Z,yannick.favre,4111,AWS EMEA,Luxembourg,5734,25.50
+TX881300,2025-11-11T18:42:00Z,chiara.bernasconi,4025,Digitec Galaxus AG,Zürich,5732,129.50
+TX881301,2025-11-11T19:57:00Z,halina.brzezinska,1584,Migros,St. Gallen,5411,178.50
+TX881302,2025-11-12T09:41:00Z,halina.brzezinska,1584,AWS EMEA,Luxembourg,5734,180.50
+TX881303,2025-11-12T10:44:00Z,bruno.sacchi,2485,Starbucks,Zürich,5814,377.20
+TX881304,2025-11-12T10:44:00Z,renata.vogel,8411,Parkhaus Brühltor,St. Gallen,7523,279.50
+TX881305,2025-11-12T11:32:00Z,noemi.rochat,9387,Parkhaus Brühltor,St. Gallen,7523,10.20
+TX881306,2025-11-12T11:36:00Z,nils.aberg,5970,Migros,St. Gallen,5411,260.50
+TX881307,2025-11-12T12:27:00Z,renata.vogel,8411,Migros,St. Gallen,5411,241.00
+TX881308,2025-11-12T13:46:00Z,bruno.sacchi,2485,SBB CFF FFS,St. Gallen,4111,396.20
+TX881309,2025-11-12T14:01:00Z,wen-li.zhao,9825,Uber BV,Amsterdam,4121,377.50
+TX881310,2025-11-12T14:24:00Z,renata.vogel,8411,SBB CFF FFS,St. Gallen,4111,8.20
+TX881311,2025-11-12T14:31:00Z,noemi.rochat,9387,Valora Kiosk,St. Gallen,5994,27.20
+TX881312,2025-11-12T14:46:00Z,renata.vogel,8411,Digitec Galaxus AG,Zürich,5732,185.50
+TX881313,2025-11-12T16:38:00Z,wen-li.zhao,9825,Valora Kiosk,St. Gallen,5994,231.20
+TX881314,2025-11-12T16:49:00Z,dov.halperin,4050,Hotel Einstein,St. Gallen,7011,85.90
+TX881315,2025-11-12T17:03:00Z,renata.vogel,8411,AWS EMEA,Luxembourg,5734,315.90
+TX881316,2025-11-12T19:40:00Z,dessie.moran,1686,AWS EMEA,Luxembourg,5734,22.20
+TX881317,2025-11-13T08:28:00Z,iris.ammann,8402,Coop Pronto,St. Gallen,5541,86.90
+TX881318,2025-11-13T10:58:00Z,yuki.tanabe,2034,AWS EMEA,Luxembourg,5734,112.90
+TX881319,2025-11-13T12:15:00Z,nils.aberg,5970,Digitec Galaxus AG,Zürich,5732,38.50
+TX881320,2025-11-13T14:56:00Z,marcus.abiodun,9656,Digitec Galaxus AG,Zürich,5732,24.00
+TX881321,2025-11-13T17:51:00Z,bruno.sacchi,2485,Uber BV,Amsterdam,4121,350.00
+TX881322,2025-11-13T17:52:00Z,rafferty.ng,3580,Swiss International Air Lines,Zürich,4511,251.90
+TX881323,2025-11-14T08:47:00Z,nils.aberg,5970,Hotel Einstein,St. Gallen,7011,197.20
+TX881324,2025-11-14T09:29:00Z,dessie.moran,1686,SBB CFF FFS,St. Gallen,4111,187.20
+TX881325,2025-11-14T13:11:00Z,kurt.steiner,8794,Parkhaus Brühltor,St. Gallen,7523,333.20
+TX881326,2025-11-14T14:06:00Z,noemi.rochat,9387,Restaurant Schwarzer Engel,St. Gallen,5812,95.00
+TX881327,2025-11-14T16:37:00Z,yuki.tanabe,2034,Restaurant Schwarzer Engel,St. Gallen,5812,145.50
+TX881328,2025-11-14T19:12:00Z,priya.raghunathan,8316,Autogrill,Bellinzona,5812,336.50
+TX881329,2025-11-15T06:24:00Z,nils.aberg,5970,Swiss International Air Lines,Zürich,4511,183.20
+TX881330,2025-11-15T07:18:00Z,chiara.bernasconi,4025,SBB CFF FFS,St. Gallen,4111,32.00
+TX881331,2025-11-15T10:55:00Z,kurt.steiner,8794,Swiss International Air Lines,Zürich,4511,217.50
+TX881332,2025-11-15T10:55:00Z,wen-li.zhao,9825,Mobility Genossenschaft,Luzern,7512,100.00
+TX881333,2025-11-15T11:18:00Z,chiara.bernasconi,4025,AWS EMEA,Luxembourg,5734,163.20
+TX881334,2025-11-15T13:36:00Z,cormac.deel,1975,Starbucks,Zürich,5814,345.50
+TX881335,2025-11-15T13:55:00Z,iris.ammann,8402,Autogrill,Bellinzona,5812,199.20
+TX881336,2025-11-15T14:07:00Z,solveig.haugen,1245,Office World,St. Gallen,5943,62.00
+TX881337,2025-11-15T15:15:00Z,renata.vogel,8411,Parkhaus Brühltor,St. Gallen,7523,91.90
+TX881338,2025-11-16T06:20:00Z,yannick.favre,4111,Mobility Genossenschaft,Luzern,7512,330.50
+TX881339,2025-11-16T13:06:00Z,renata.vogel,8411,Hotel Einstein,St. Gallen,7011,396.20
+TX881340,2025-11-16T14:14:00Z,kurt.steiner,8794,Restaurant Schwarzer Engel,St. Gallen,5812,296.50
+TX881341,2025-11-16T15:37:00Z,noemi.rochat,9387,Uber BV,Amsterdam,4121,294.20
+TX881342,2025-11-16T16:10:00Z,marcus.abiodun,9656,AWS EMEA,Luxembourg,5734,152.50
+TX881343,2025-11-16T16:10:00Z,wen-li.zhao,9825,AWS EMEA,Luxembourg,5734,418.90
+TX881344,2025-11-16T16:56:00Z,dessie.moran,1686,Autogrill,Bellinzona,5812,319.50
+TX881345,2025-11-16T19:00:00Z,marcus.abiodun,9656,SBB CFF FFS,St. Gallen,4111,124.20
+TX881346,2025-11-17T08:00:00Z,solveig.haugen,1245,Digitec Galaxus AG,Zürich,5732,126.90
+TX881347,2025-11-17T08:33:00Z,tobias.krall,7490,Coop Pronto,St. Gallen,5541,361.90
+TX881348,2025-11-17T10:17:00Z,tobias.krall,7490,Restaurant Schwarzer Engel,St. Gallen,5812,351.50
+TX881349,2025-11-17T10:34:00Z,anneke.vos,8421,Uber BV,Amsterdam,4121,151.20
+TX881350,2025-11-17T11:50:00Z,yannick.favre,4111,Coop Pronto,St. Gallen,5541,307.00
+TX881351,2025-11-17T12:39:00Z,halina.brzezinska,1584,Mobility Genossenschaft,Luzern,7512,333.50
+TX881352,2025-11-17T16:27:00Z,iris.ammann,8402,Starbucks,Zürich,5814,246.20
+TX881353,2025-11-17T17:20:00Z,priya.raghunathan,8316,Valora Kiosk,St. Gallen,5994,385.90
+TX881354,2025-11-17T18:05:00Z,halina.brzezinska,1584,Digitec Galaxus AG,Zürich,5732,104.20
+TX881355,2025-11-18T06:27:00Z,chiara.bernasconi,4025,Avec,Winterthur,5499,279.00
+TX881356,2025-11-18T09:39:00Z,dessie.moran,1686,Restaurant Schwarzer Engel,St. Gallen,5812,224.90
+TX881357,2025-11-18T10:41:00Z,noemi.rochat,9387,Hotel Einstein,St. Gallen,7011,380.90
+TX881358,2025-11-18T17:49:00Z,june.okada,2542,Coop Pronto,St. Gallen,5541,104.90
+TX881359,2025-11-18T19:59:00Z,solveig.haugen,1245,Office World,St. Gallen,5943,40.20
+TX881360,2025-11-19T08:31:00Z,renata.vogel,8411,Mobility Genossenschaft,Luzern,7512,370.00
+TX881361,2025-11-19T10:15:00Z,june.okada,2542,Autogrill,Bellinzona,5812,296.00
+TX881362,2025-11-19T10:56:00Z,lukas.hofer,8629,Hotel Einstein,St. Gallen,7011,42.00
+TX881363,2025-11-19T12:04:00Z,iris.ammann,8402,Coop Pronto,St. Gallen,5541,108.20
+TX881364,2025-11-19T12:22:00Z,marcus.abiodun,9656,Mobility Genossenschaft,Luzern,7512,49.90
+TX881365,2025-11-19T12:50:00Z,june.okada,2542,Office World,St. Gallen,5943,43.20
+TX881366,2025-11-19T14:31:00Z,renata.vogel,8411,SBB CFF FFS,St. Gallen,4111,323.20
+TX881367,2025-11-19T14:40:00Z,chiara.bernasconi,4025,Avec,Winterthur,5499,239.50
+TX881368,2025-11-19T14:58:00Z,renata.vogel,8411,Coop Pronto,St. Gallen,5541,100.50
+TX881369,2025-11-19T15:54:00Z,priya.raghunathan,8316,Hotel Einstein,St. Gallen,7011,189.90
+TX881370,2025-11-19T16:30:00Z,yuki.tanabe,2034,Office World,St. Gallen,5943,27.00
+TX881371,2025-11-19T16:37:00Z,solveig.haugen,1245,Restaurant Schwarzer Engel,St. Gallen,5812,199.20
+TX881372,2025-11-19T17:31:00Z,iris.ammann,8402,Coop Pronto,St. Gallen,5541,223.20
+TX881373,2025-11-19T19:08:00Z,andrin.caduff,9320,Migros,St. Gallen,5411,46.90
+TX881374,2025-11-20T08:43:00Z,marcus.abiodun,9656,Parkhaus Brühltor,St. Gallen,7523,99.20
+TX881375,2025-11-20T11:11:00Z,bruno.sacchi,2485,Migros,St. Gallen,5411,237.20
+TX881376,2025-11-20T11:30:00Z,kemi.adeyemi,3323,Starbucks,Zürich,5814,299.00
+TX881377,2025-11-20T12:38:00Z,priya.raghunathan,8316,Uber BV,Amsterdam,4121,261.50
+TX881378,2025-11-20T13:25:00Z,cormac.deel,1975,Restaurant Schwarzer Engel,St. Gallen,5812,420.20
+TX881379,2025-11-20T15:30:00Z,nils.aberg,5970,Autogrill,Bellinzona,5812,358.90
+TX881380,2025-11-20T16:25:00Z,marcus.abiodun,9656,Digitec Galaxus AG,Zürich,5732,109.50
+TX881381,2025-11-20T18:03:00Z,yuki.tanabe,2034,Avec,Winterthur,5499,378.90
+TX881382,2025-11-20T18:27:00Z,anneke.vos,8421,Digitec Galaxus AG,Zürich,5732,283.50
+TX881383,2025-11-20T18:36:00Z,chiara.bernasconi,4025,Hotel Einstein,St. Gallen,7011,322.00
+TX881384,2025-11-20T19:51:00Z,solveig.haugen,1245,Autogrill,Bellinzona,5812,157.90
+TX881385,2025-11-21T06:22:00Z,rafferty.ng,3580,Avec,Winterthur,5499,163.50
+TX881386,2025-11-21T06:52:00Z,halina.brzezinska,1584,Hotel Einstein,St. Gallen,7011,38.50
+TX881387,2025-11-21T08:18:00Z,cormac.deel,1975,AWS EMEA,Luxembourg,5734,360.20
+TX881388,2025-11-21T08:38:00Z,marcus.abiodun,9656,Migros,St. Gallen,5411,156.90
+TX881389,2025-11-21T08:58:00Z,renata.vogel,8411,AWS EMEA,Luxembourg,5734,38.00
+TX881390,2025-11-21T09:39:00Z,noemi.rochat,9387,Mobility Genossenschaft,Luzern,7512,116.90
+TX881391,2025-11-21T10:07:00Z,noemi.rochat,9387,SBB CFF FFS,St. Gallen,4111,402.20
+TX881392,2025-11-21T10:07:00Z,dessie.moran,1686,Migros,St. Gallen,5411,413.20
+TX881393,2025-11-21T10:10:00Z,renata.vogel,8411,SBB CFF FFS,St. Gallen,4111,384.50
+TX881394,2025-11-21T10:48:00Z,wen-li.zhao,9825,SBB CFF FFS,St. Gallen,4111,117.00
+TX881395,2025-11-21T11:21:00Z,anneke.vos,8421,Starbucks,Zürich,5814,100.20
+TX881396,2025-11-21T15:10:00Z,andrin.caduff,9320,Autogrill,Bellinzona,5812,4.90
+TX881397,2025-11-21T15:11:00Z,priya.raghunathan,8316,Hotel Einstein,St. Gallen,7011,396.20
+TX881398,2025-11-21T15:23:00Z,marcus.abiodun,9656,Autogrill,Bellinzona,5812,341.20
+TX881399,2025-11-21T16:07:00Z,june.okada,2542,Migros,St. Gallen,5411,129.00
+TX881400,2025-11-21T16:44:00Z,cormac.deel,1975,Mobility Genossenschaft,Luzern,7512,295.50
+TX881401,2025-11-21T17:12:00Z,kemi.adeyemi,3323,Restaurant Schwarzer Engel,St. Gallen,5812,202.50
+TX881402,2025-11-21T17:15:00Z,iris.ammann,8402,Coop Pronto,St. Gallen,5541,418.20
+TX881403,2025-11-21T19:07:00Z,noemi.rochat,9387,Restaurant Schwarzer Engel,St. Gallen,5812,158.00
+TX881404,2025-11-22T06:45:00Z,halina.brzezinska,1584,Uber BV,Amsterdam,4121,223.20
+TX881405,2025-11-22T07:39:00Z,noemi.rochat,9387,Uber BV,Amsterdam,4121,126.50
+TX881406,2025-11-22T09:38:00Z,kemi.adeyemi,3323,SBB CFF FFS,St. Gallen,4111,5.50
+TX881407,2025-11-22T13:21:00Z,wen-li.zhao,9825,Avec,Winterthur,5499,97.50
+TX881408,2025-11-22T15:33:00Z,marcus.abiodun,9656,Uber BV,Amsterdam,4121,294.00
+TX881409,2025-11-22T15:43:00Z,yuki.tanabe,2034,Uber BV,Amsterdam,4121,288.00
+TX881410,2025-11-22T15:49:00Z,bruno.sacchi,2485,Uber BV,Amsterdam,4121,62.90
+TX881411,2025-11-22T15:53:00Z,yannick.favre,4111,Office World,St. Gallen,5943,223.20
+TX881412,2025-11-22T19:21:00Z,june.okada,2542,Digitec Galaxus AG,Zürich,5732,88.90
+TX881413,2025-11-23T06:11:00Z,dov.halperin,4050,Hotel Einstein,St. Gallen,7011,158.50
+TX881414,2025-11-23T10:00:00Z,renata.vogel,8411,Digitec Galaxus AG,Zürich,5732,401.00
+TX881415,2025-11-23T10:51:00Z,nils.aberg,5970,Uber BV,Amsterdam,4121,163.20
+TX881416,2025-11-23T11:15:00Z,tobias.krall,7490,SBB CFF FFS,St. Gallen,4111,388.20
+TX881417,2025-11-23T11:16:00Z,tobias.krall,7490,Hotel Einstein,St. Gallen,7011,144.90
+TX881418,2025-11-23T11:22:00Z,lukas.hofer,8629,Mobility Genossenschaft,Luzern,7512,29.90
+TX881419,2025-11-23T13:41:00Z,yannick.favre,4111,AWS EMEA,Luxembourg,5734,340.50
+TX881420,2025-11-23T14:36:00Z,yuki.tanabe,2034,Mobility Genossenschaft,Luzern,7512,347.00
+TX881421,2025-11-24T06:06:00Z,yuki.tanabe,2034,Hotel Einstein,St. Gallen,7011,248.20
+TX881422,2025-11-24T06:24:00Z,bruno.sacchi,2485,AWS EMEA,Luxembourg,5734,31.90
+TX881423,2025-11-24T07:18:00Z,iris.ammann,8402,Restaurant Schwarzer Engel,St. Gallen,5812,411.00
+TX881424,2025-11-24T07:35:00Z,lukas.hofer,8629,Uber BV,Amsterdam,4121,286.00
+TX881425,2025-11-24T11:07:00Z,yannick.favre,4111,Restaurant Schwarzer Engel,St. Gallen,5812,175.50
+TX881426,2025-11-24T11:21:00Z,wen-li.zhao,9825,Starbucks,Zürich,5814,170.20
+TX881427,2025-11-24T14:03:00Z,nils.aberg,5970,SBB CFF FFS,St. Gallen,4111,92.50
+TX881428,2025-11-24T15:42:00Z,kurt.steiner,8794,Migros,St. Gallen,5411,290.90
+TX881429,2025-11-24T16:49:00Z,wen-li.zhao,9825,Mobility Genossenschaft,Luzern,7512,366.00
+TX881430,2025-11-24T17:13:00Z,anneke.vos,8421,Parkhaus Brühltor,St. Gallen,7523,356.50
+TX881431,2025-11-24T17:49:00Z,chiara.bernasconi,4025,Mobility Genossenschaft,Luzern,7512,45.90
+TX881432,2025-11-24T18:39:00Z,dov.halperin,4050,Avec,Winterthur,5499,167.00
+TX881433,2025-11-24T19:40:00Z,marcus.abiodun,9656,Uber BV,Amsterdam,4121,303.90
+TX881434,2025-11-24T19:55:00Z,bruno.sacchi,2485,Parkhaus Brühltor,St. Gallen,7523,272.90
+TX881435,2025-11-25T06:05:00Z,iris.ammann,8402,Parkhaus Brühltor,St. Gallen,7523,69.90
+TX881436,2025-11-25T06:27:00Z,lukas.hofer,8629,Starbucks,Zürich,5814,276.90
+TX881437,2025-11-25T07:03:00Z,chiara.bernasconi,4025,Autogrill,Bellinzona,5812,12.20
+TX881438,2025-11-25T07:14:00Z,iris.ammann,8402,Mobility Genossenschaft,Luzern,7512,73.20
+TX881439,2025-11-25T08:07:00Z,dov.halperin,4050,Migros,St. Gallen,5411,298.20
+TX881440,2025-11-25T08:26:00Z,andrin.caduff,9320,Hotel Einstein,St. Gallen,7011,52.50
+TX881441,2025-11-25T09:53:00Z,june.okada,2542,Digitec Galaxus AG,Zürich,5732,375.50
+TX881442,2025-11-25T10:53:00Z,kemi.adeyemi,3323,Migros,St. Gallen,5411,247.00
+TX881443,2025-11-25T10:59:00Z,june.okada,2542,Office World,St. Gallen,5943,208.00
+TX881444,2025-11-25T11:51:00Z,cormac.deel,1975,Digitec Galaxus AG,Zürich,5732,185.00
+TX881445,2025-11-25T12:04:00Z,yuki.tanabe,2034,Parkhaus Brühltor,St. Gallen,7523,408.20
+TX881446,2025-11-25T12:08:00Z,marcus.abiodun,9656,AWS EMEA,Luxembourg,5734,341.20
+TX881447,2025-11-25T13:02:00Z,bruno.sacchi,2485,Avec,Winterthur,5499,111.90
+TX881448,2025-11-25T13:59:00Z,halina.brzezinska,1584,Uber BV,Amsterdam,4121,129.00
+TX881449,2025-11-25T15:30:00Z,yannick.favre,4111,Starbucks,Zürich,5814,192.00
+TX881450,2025-11-25T16:17:00Z,lukas.hofer,8629,Avec,Winterthur,5499,244.20
+TX881451,2025-11-25T16:29:00Z,solveig.haugen,1245,Coop Pronto,St. Gallen,5541,33.00
+TX881452,2025-11-25T17:17:00Z,noemi.rochat,9387,Migros,St. Gallen,5411,359.90
+TX881453,2025-11-25T18:15:00Z,dov.halperin,4050,SBB CFF FFS,St. Gallen,4111,182.00
+TX881454,2025-11-25T18:43:00Z,chiara.bernasconi,4025,AWS EMEA,Luxembourg,5734,311.50
+TX881455,2025-11-25T19:33:00Z,noemi.rochat,9387,Parkhaus Brühltor,St. Gallen,7523,268.00
+TX881456,2025-11-25T19:56:00Z,wen-li.zhao,9825,SBB CFF FFS,St. Gallen,4111,349.50
+TX881457,2025-11-26T06:29:00Z,dessie.moran,1686,Valora Kiosk,St. Gallen,5994,418.00
+TX881458,2025-11-26T06:43:00Z,solveig.haugen,1245,Migros,St. Gallen,5411,335.50
+TX881459,2025-11-26T09:24:00Z,dov.halperin,4050,Migros,St. Gallen,5411,37.90
+TX881460,2025-11-26T09:58:00Z,cormac.deel,1975,Parkhaus Brühltor,St. Gallen,7523,95.20
+TX881461,2025-11-26T10:10:00Z,kemi.adeyemi,3323,Digitec Galaxus AG,Zürich,5732,74.50
+TX881462,2025-11-26T11:50:00Z,kemi.adeyemi,3323,Migros,St. Gallen,5411,251.50
+TX881463,2025-11-26T11:57:00Z,chiara.bernasconi,4025,AWS EMEA,Luxembourg,5734,378.00
+TX881464,2025-11-26T12:50:00Z,tobias.krall,7490,Swiss International Air Lines,Zürich,4511,255.00
+TX881465,2025-11-26T13:09:00Z,yuki.tanabe,2034,AWS EMEA,Luxembourg,5734,254.50
+TX881466,2025-11-26T15:00:00Z,wen-li.zhao,9825,Migros,St. Gallen,5411,275.00
+TX881467,2025-11-26T16:05:00Z,marcus.abiodun,9656,Autogrill,Bellinzona,5812,391.20
+TX881468,2025-11-26T19:48:00Z,lukas.hofer,8629,SBB CFF FFS,St. Gallen,4111,266.90
+TX881469,2025-11-27T08:41:00Z,bruno.sacchi,2485,Autogrill,Bellinzona,5812,320.50
+TX881470,2025-11-27T10:03:00Z,yuki.tanabe,2034,SBB CFF FFS,St. Gallen,4111,245.90
+TX881471,2025-11-27T10:50:00Z,anneke.vos,8421,Starbucks,Zürich,5814,17.00
+TX881472,2025-11-27T12:59:00Z,dessie.moran,1686,Restaurant Schwarzer Engel,St. Gallen,5812,307.00
+TX881473,2025-11-27T13:10:00Z,bruno.sacchi,2485,Uber BV,Amsterdam,4121,129.50
+TX881474,2025-11-27T14:27:00Z,chiara.bernasconi,4025,Swiss International Air Lines,Zürich,4511,240.00
+TX881475,2025-11-27T15:37:00Z,yuki.tanabe,2034,Parkhaus Brühltor,St. Gallen,7523,75.00
+TX881476,2025-11-27T17:58:00Z,lukas.hofer,8629,Office World,St. Gallen,5943,339.90
+TX881477,2025-11-27T19:50:00Z,yannick.favre,4111,Swiss International Air Lines,Zürich,4511,210.50
+TX881478,2025-11-28T06:03:00Z,andrin.caduff,9320,Starbucks,Zürich,5814,354.90
+TX881479,2025-11-28T07:26:00Z,wen-li.zhao,9825,Office World,St. Gallen,5943,51.00
+TX881480,2025-11-28T08:43:00Z,kemi.adeyemi,3323,Mobility Genossenschaft,Luzern,7512,245.50
+TX881481,2025-11-28T09:52:00Z,iris.ammann,8402,Hotel Einstein,St. Gallen,7011,162.90
+TX881482,2025-11-28T10:29:00Z,wen-li.zhao,9825,Office World,St. Gallen,5943,282.50
+TX881483,2025-11-28T11:06:00Z,rafferty.ng,3580,Restaurant Schwarzer Engel,St. Gallen,5812,285.50
+TX881484,2025-11-28T11:26:00Z,kurt.steiner,8794,AWS EMEA,Luxembourg,5734,74.50
+TX881485,2025-11-28T11:40:00Z,rafferty.ng,3580,Coop Pronto,St. Gallen,5541,332.00
+TX881486,2025-11-28T12:26:00Z,bruno.sacchi,2485,Valora Kiosk,St. Gallen,5994,349.20
+TX881487,2025-11-28T13:32:00Z,yuki.tanabe,2034,Parkhaus Brühltor,St. Gallen,7523,127.90
+TX881488,2025-11-28T13:37:00Z,noemi.rochat,9387,AWS EMEA,Luxembourg,5734,299.00
+TX881489,2025-11-28T14:43:00Z,solveig.haugen,1245,Starbucks,Zürich,5814,88.00
+TX881490,2025-11-28T15:39:00Z,andrin.caduff,9320,Swiss International Air Lines,Zürich,4511,103.90
+TX881491,2025-11-28T15:40:00Z,halina.brzezinska,1584,Mobility Genossenschaft,Luzern,7512,356.90
+TX881492,2025-11-28T16:02:00Z,lukas.hofer,8629,Autogrill,Bellinzona,5812,104.20
+TX881493,2025-11-28T16:46:00Z,lukas.hofer,8629,Autogrill,Bellinzona,5812,372.20
+TX881494,2025-11-28T17:28:00Z,dessie.moran,1686,Office World,St. Gallen,5943,141.90
+TX881495,2025-11-28T18:32:00Z,kemi.adeyemi,3323,Autogrill,Bellinzona,5812,229.20
+TX881496,2025-11-28T19:15:00Z,yannick.favre,4111,Parkhaus Brühltor,St. Gallen,7523,109.50

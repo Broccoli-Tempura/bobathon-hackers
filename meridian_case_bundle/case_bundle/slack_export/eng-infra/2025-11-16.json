@@ -1,0 +1,74 @@
+[
+ {
+  "type": "message",
+  "user": "U0711L",
+  "text": "small thing: restarted the backfill from scratch, the partial output was garbage",
+  "ts": "1763285100.675279"
+ },
+ {
+  "type": "message",
+  "user": "U0719T",
+  "text": "gpu queue is jammed, someone has 40 jobs pending under a service account will update",
+  "ts": "1763286300.381994"
+ },
+ {
+  "type": "message",
+  "user": "U0722W",
+  "text": "small thing: portable array from the IT cage is back on the shelf, seals intact lol",
+  "ts": "1763291580.625014"
+ },
+ {
+  "type": "message",
+  "user": "U0701B",
+  "text": "again: the storage docs describe the 2023 architecture, DATA-1991 tracks fixing it send help",
+  "ts": "1763292240.197282"
+ },
+ {
+  "type": "message",
+  "user": "U0719T",
+  "text": "who owns the nightly backfill cron, it has been failing silently for six days",
+  "ts": "1763292300.732622"
+ },
+ {
+  "type": "message",
+  "user": "U0723X",
+  "text": "psa: we are out of disk on scratch-01 again, someone is writing tarballs there thanks all",
+  "ts": "1763294040.995297"
+ },
+ {
+  "type": "message",
+  "user": "U0710K",
+  "text": "fyi the storage docs describe the 2023 architecture, ML-1917 tracks fixing it sorry",
+  "ts": "1763302320.469711"
+ },
+ {
+  "type": "message",
+  "user": "U0712M",
+  "text": "honestly i have turned it off and on again and it worked and i am furious (again)",
+  "ts": "1763302920.721455"
+ },
+ {
+  "type": "message",
+  "user": "U0705F",
+  "text": "small thing: who owns the nightly backfill cron, it has been failing for 5 days (again)",
+  "ts": "1763305740.499386"
+ },
+ {
+  "type": "message",
+  "user": "U0705F",
+  "text": "ok so moving on-call handoff to tuesdays, fridays were chaos see INFRA-2269",
+  "ts": "1763309640.507862"
+ },
+ {
+  "type": "message",
+  "user": "U0712M",
+  "text": "quick one: the scratch array is at 71%, nobody panic, i am just saying it out loud lol",
+  "ts": "1763316780.582147"
+ },
+ {
+  "type": "message",
+  "user": "U0705F",
+  "text": "quick one: reminder we are frozen for deploys over the long weekend will update",
+  "ts": "1763324340.740944"
+ }
+]

@@ -1,0 +1,20 @@
+[
+ {
+  "type": "message",
+  "user": "U0704E",
+  "text": "not to be dramatic but postmortem for INC-01515 is up, blameless, add anything i missed cc Dessie",
+  "ts": "1759241640.934918"
+ },
+ {
+  "type": "message",
+  "user": "U0713N",
+  "text": "fyi customer impact limited to the public sandbox, no production exposure",
+  "ts": "1759250700.189827"
+ },
+ {
+  "type": "message",
+  "user": "U0719T",
+  "text": "not to be dramatic but Kemi is on call this week, Yannick is backup lol",
+  "ts": "1759252380.575962"
+ }
+]

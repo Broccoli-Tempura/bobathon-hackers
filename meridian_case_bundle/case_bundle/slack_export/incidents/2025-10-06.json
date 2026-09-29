@@ -1,0 +1,26 @@
+[
+ {
+  "type": "message",
+  "user": "U0718S",
+  "text": "update: disk usage alert on scratch-01 at 56%, acknowledged, not urgent lol",
+  "ts": "1759748280.278493"
+ },
+ {
+  "type": "message",
+  "user": "U0718S",
+  "text": "customer impact limited to the public sandbox, no production exposure (again)",
+  "ts": "1759749120.471042"
+ },
+ {
+  "type": "message",
+  "user": "U0712M",
+  "text": "paging on-call, latency p99 above threshold for 12 minutes more later",
+  "ts": "1759764300.533966"
+ },
+ {
+  "type": "message",
+  "user": "U0718S",
+  "text": "ok so we have a gap in the on-call rotation over the long weekend, i am fixing it now",
+  "ts": "1759771500.825986"
+ }
+]

@@ -1,0 +1,62 @@
+[
+ {
+  "type": "message",
+  "user": "U0711L",
+  "text": "for the record, gpu queue is jammed, 46 jobs pending under a service account",
+  "ts": "1756367880.598941"
+ },
+ {
+  "type": "message",
+  "user": "U0701B",
+  "text": "Renata can you review DATA-1962 before wednesday (again)",
+  "ts": "1756380000.197621"
+ },
+ {
+  "type": "message",
+  "user": "U0701B",
+  "text": "psa: training loss went flat at step 2k, either very good or very bad",
+  "ts": "1756381440.590522"
+ },
+ {
+  "type": "message",
+  "user": "U0723X",
+  "text": "ok so bumping retention on the eval bucket to 33 days, shout if that breaks anything see ML-2090",
+  "ts": "1756382280.400336"
+ },
+ {
+  "type": "message",
+  "user": "U0721V",
+  "text": "for the record, the migration runbook is in INFRA-2291, please actually read it :)",
+  "ts": "1756390920.944366"
+ },
+ {
+  "type": "message",
+  "user": "U0711L",
+  "text": "small thing: can we talk about why the storage docs describe an architecture we stopped using in 2023 lol",
+  "ts": "1756392780.400603"
+ },
+ {
+  "type": "message",
+  "user": "U0707H",
+  "text": "psa: rolling back the config change, latencies went sideways sorry",
+  "ts": "1756398720.264664"
+ },
+ {
+  "type": "message",
+  "user": "U0712M",
+  "text": "not to be dramatic but PR up for DATA-1991, it is enormous and i am sorry sorry",
+  "ts": "1756399440.366711"
+ },
+ {
+  "type": "message",
+  "user": "U0711L",
+  "text": "reminder: cluster is back. it was DNS. it is always DNS thanks all",
+  "ts": "1756401000.114525"
+ },
+ {
+  "type": "message",
+  "user": "U0712M",
+  "text": "not to be dramatic but PR up for PLAT-2237, it is enormous and i am sorry",
+  "ts": "1756403160.958412"
+ }
+]

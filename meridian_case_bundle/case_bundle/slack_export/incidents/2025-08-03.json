@@ -1,0 +1,20 @@
+[
+ {
+  "type": "message",
+  "user": "U0713N",
+  "text": "again: we have a gap in the on-call rotation over the long weekend, i am fixing it now will update",
+  "ts": "1754203020.708857"
+ },
+ {
+  "type": "message",
+  "user": "U0704E",
+  "text": "again: sandbox inference cluster is returning 503s, investigating :)",
+  "ts": "1754211300.506178"
+ },
+ {
+  "type": "message",
+  "user": "U0707H",
+  "text": "again: root cause: a cert expired that nobody knew existed (again)",
+  "ts": "1754236740.247415"
+ }
+]

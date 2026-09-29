@@ -1,0 +1,104 @@
+[
+ {
+  "type": "message",
+  "user": "U0701B",
+  "text": "small thing: deploy to staging is green, promoting at 3 unless someone objects :)",
+  "ts": "1757743800.437486"
+ },
+ {
+  "type": "message",
+  "user": "U0701B",
+  "text": "copy job for the eval shards failed at 63%, restarting from the beginning because resume is broken",
+  "ts": "1757745540.772872"
+ },
+ {
+  "type": "message",
+  "user": "U0720U",
+  "text": "psa: copy job for the eval shards failed at 68%, restarting from the beginning because resume is broken lol",
+  "ts": "1757745720.460187"
+ },
+ {
+  "type": "message",
+  "user": "U0704E",
+  "text": "can someone approve the terraform change for DATA-2277, it is one line",
+  "ts": "1757746800.949887"
+ },
+ {
+  "type": "message",
+  "user": "U0705F",
+  "text": "reminder we are frozen for deploys over the long weekend cc Noemi",
+  "ts": "1757749440.946128"
+ },
+ {
+  "type": "message",
+  "user": "U0719T",
+  "text": "for the record, gpu queue is jammed, 3 jobs pending under a service account lol",
+  "ts": "1757751720.677721"
+ },
+ {
+  "type": "message",
+  "user": "U0723X",
+  "text": "quick one: checkpoint sync is slow again, i think it is the decompress-on-write thing :)",
+  "ts": "1757752560.725146"
+ },
+ {
+  "type": "message",
+  "user": "U0722W",
+  "text": "reminder: moving on-call handoff to thursdays, fridays were chaos sorry",
+  "ts": "1757756700.398214"
+ },
+ {
+  "type": "message",
+  "user": "U0705F",
+  "text": "not to be dramatic but i have found the memory leak. it was me. it was me 40 weeks ago thanks all",
+  "ts": "1757761740.427498"
+ },
+ {
+  "type": "message",
+  "user": "U0718S",
+  "text": "reminder: gpu queue is jammed, someone has 40 jobs pending under a service account thanks all",
+  "ts": "1757769480.106374"
+ },
+ {
+  "type": "message",
+  "user": "U0705F",
+  "text": "can someone approve the terraform change for PLAT-1906, it is one line",
+  "ts": "1757776140.899182"
+ },
+ {
+  "type": "message",
+  "user": "U0710K",
+  "text": "reminder: i have found the memory leak. it was me. it was me 29 weeks ago more later",
+  "ts": "1757776800.848867"
+ },
+ {
+  "type": "message",
+  "user": "U0714O",
+  "text": "cluster is back. it was DNS. it is always DNS",
+  "ts": "1757781300.729069"
+ },
+ {
+  "type": "message",
+  "user": "U0702C",
+  "text": "honestly checkpoint sync is slow again, i think it is the decompress-on-write thing will update",
+  "ts": "1757781840.411914"
+ },
+ {
+  "type": "message",
+  "user": "U0702C",
+  "text": "adding a lint rule and preemptively apologising to everyone's diff (again)",
+  "ts": "1757782980.418559"
+ },
+ {
+  "type": "message",
+  "user": "U0721V",
+  "text": "quick one: the migration runbook is in INFRA-2291, please actually read it lol",
+  "ts": "1757790060.895936"
+ },
+ {
+  "type": "message",
+  "user": "U0713N",
+  "text": "fyi deploy to staging is green, promoting at 3 unless someone objects see INFRA-2092",
+  "ts": "1757791140.860528"
+ }
+]

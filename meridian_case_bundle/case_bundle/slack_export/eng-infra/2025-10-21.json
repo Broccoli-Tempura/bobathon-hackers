@@ -1,0 +1,56 @@
+[
+ {
+  "type": "message",
+  "user": "U0711L",
+  "text": "again: scratch array at 83%, nobody panic, i am just saying it out loud cc Rafferty",
+  "ts": "1761027240.592884"
+ },
+ {
+  "type": "message",
+  "user": "U0701B",
+  "text": "snapshot cleanup on scratch-01 freed 2TB, should hold until the migration more later",
+  "ts": "1761029640.307881"
+ },
+ {
+  "type": "message",
+  "user": "U0720U",
+  "text": "small thing: checkpoint sync is slow again, probably the decompress-on-write thing",
+  "ts": "1761042000.533232"
+ },
+ {
+  "type": "message",
+  "user": "U0704E",
+  "text": "restarted the backfill from scratch, the partial output was garbage",
+  "ts": "1761043620.309722"
+ },
+ {
+  "type": "message",
+  "user": "U0707H",
+  "text": "update: gpu queue is jammed, someone has 40 jobs pending under a service account",
+  "ts": "1761050520.954982"
+ },
+ {
+  "type": "message",
+  "user": "U0721V",
+  "text": "quick one: moving the on-call handoff to mondays because fridays were chaos",
+  "ts": "1761053940.602376"
+ },
+ {
+  "type": "message",
+  "user": "U0722W",
+  "text": "bumping the retention on the eval bucket, shout if that breaks anything cc Dessie",
+  "ts": "1761054840.955855"
+ },
+ {
+  "type": "message",
+  "user": "U0723X",
+  "text": "reminder: portable array from the IT cage is back on the shelf, seals intact",
+  "ts": "1761058380.929362"
+ },
+ {
+  "type": "message",
+  "user": "U0719T",
+  "text": "psa: bumping retention on the eval bucket to 40 days, shout if that breaks anything",
+  "ts": "1761075060.754323"
+ }
+]

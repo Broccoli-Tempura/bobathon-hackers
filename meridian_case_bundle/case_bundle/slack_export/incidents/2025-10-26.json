@@ -1,0 +1,38 @@
+[
+ {
+  "type": "message",
+  "user": "U0719T",
+  "text": "honestly paging on-call, p99 latency above threshold for 31 minutes will update",
+  "ts": "1761462540.125924"
+ },
+ {
+  "type": "message",
+  "user": "U0710K",
+  "text": "for the record, sandbox inference cluster is returning 503s, investigating send help",
+  "ts": "1761467400.179038"
+ },
+ {
+  "type": "message",
+  "user": "U0712M",
+  "text": "customer impact limited to the public sandbox, no production exposure",
+  "ts": "1761473580.890086"
+ },
+ {
+  "type": "message",
+  "user": "U0710K",
+  "text": "small thing: customer impact limited to the public sandbox, no production exposure",
+  "ts": "1761482940.801649"
+ },
+ {
+  "type": "message",
+  "user": "U0723X",
+  "text": "Lukas is on call this week, Solveig is backup",
+  "ts": "1761487020.326469"
+ },
+ {
+  "type": "message",
+  "user": "U0705F",
+  "text": "honestly disk usage alert on scratch-01 at 97%, acknowledged, not urgent cc Rafferty",
+  "ts": "1761504780.212779"
+ }
+]

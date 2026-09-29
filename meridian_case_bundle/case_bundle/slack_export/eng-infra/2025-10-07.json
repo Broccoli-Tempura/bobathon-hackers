@@ -1,0 +1,56 @@
+[
+ {
+  "type": "message",
+  "user": "U0701B",
+  "text": "again: who owns the nightly backfill cron, it has been failing silently for six days sorry",
+  "ts": "1759819620.147830"
+ },
+ {
+  "type": "message",
+  "user": "U0718S",
+  "text": "update: bumping retention on the eval bucket to 19 days, shout if that breaks anything :)",
+  "ts": "1759824720.674722"
+ },
+ {
+  "type": "message",
+  "user": "U0720U",
+  "text": "small thing: moving on-call handoff to fridays, fridays were chaos will update",
+  "ts": "1759839420.873887"
+ },
+ {
+  "type": "message",
+  "user": "U0723X",
+  "text": "update: Anneke can you review PLAT-2452 before tuesday lol",
+  "ts": "1759848240.246269"
+ },
+ {
+  "type": "message",
+  "user": "U0712M",
+  "text": "again: i have found the memory leak. it was me. it was me four months ago more later",
+  "ts": "1759854720.402703"
+ },
+ {
+  "type": "message",
+  "user": "U0720U",
+  "text": "again: gpu queue is jammed, 39 jobs pending under a service account",
+  "ts": "1759855500.607814"
+ },
+ {
+  "type": "message",
+  "user": "U0710K",
+  "text": "for the record, free space graph on scratch-01 looks weird, it is June's tarballs again",
+  "ts": "1759857420.584409"
+ },
+ {
+  "type": "message",
+  "user": "U0721V",
+  "text": "the migration runbook is in INFRA-2291, please actually read it",
+  "ts": "1759864560.663055"
+ },
+ {
+  "type": "message",
+  "user": "U0702C",
+  "text": "PR up for INFRA-2593, it is enormous and i am sorry cc Tobias",
+  "ts": "1759866420.785906"
+ }
+]

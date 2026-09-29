@@ -1,0 +1,3 @@
+# Citations in the case bundle are file + exact line, so nothing here may have
+# its bytes rewritten by git on checkout or commit.
+* -text

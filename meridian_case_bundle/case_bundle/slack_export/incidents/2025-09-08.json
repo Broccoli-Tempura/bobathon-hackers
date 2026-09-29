@@ -1,0 +1,44 @@
+[
+ {
+  "type": "message",
+  "user": "U0723X",
+  "text": "not to be dramatic but sandbox inference cluster is returning 503s, investigating cc Priya",
+  "ts": "1757320380.722524"
+ },
+ {
+  "type": "message",
+  "user": "U0718S",
+  "text": "psa: disk usage alert on scratch-01 at 60%, acknowledged, not urgent will update",
+  "ts": "1757334900.307723"
+ },
+ {
+  "type": "message",
+  "user": "U0714O",
+  "text": "psa: confirmed, node pool scaled to zero overnight, autoscaler config regression cc Nils",
+  "ts": "1757338680.227611"
+ },
+ {
+  "type": "message",
+  "user": "U0705F",
+  "text": "honestly INC-03030: sandbox inference returning 503s, investigating",
+  "ts": "1757338860.491219"
+ },
+ {
+  "type": "message",
+  "user": "U0705F",
+  "text": "quick one: root cause for INC-099: a cert expired that nobody knew existed",
+  "ts": "1757344140.831524"
+ },
+ {
+  "type": "message",
+  "user": "U0712M",
+  "text": "quick one: false alarm, monitoring agent itself was the thing that fell over",
+  "ts": "1757355600.840810"
+ },
+ {
+  "type": "message",
+  "user": "U0720U",
+  "text": "small thing: false alarm, monitoring agent itself was the thing that fell over",
+  "ts": "1757361000.473508"
+ }
+]

@@ -1,0 +1,20 @@
+[
+ {
+  "type": "message",
+  "user": "U0723X",
+  "text": "again: confirmed, node pool scaled to zero overnight, autoscaler config regression",
+  "ts": "1754121780.567278"
+ },
+ {
+  "type": "message",
+  "user": "U0722W",
+  "text": "fyi disk usage alert on scratch-01 at 86%, acknowledged, not urgent send help",
+  "ts": "1754149020.271882"
+ },
+ {
+  "type": "message",
+  "user": "U0705F",
+  "text": "small thing: root cause: a cert expired that nobody knew existed",
+  "ts": "1754156460.874091"
+ }
+]

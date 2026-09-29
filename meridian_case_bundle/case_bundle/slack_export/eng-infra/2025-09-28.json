@@ -1,0 +1,116 @@
+[
+ {
+  "type": "message",
+  "user": "U0722W",
+  "text": "again: reminder we are frozen for deploys over the long weekend see DATA-2103",
+  "ts": "1759039500.793732"
+ },
+ {
+  "type": "message",
+  "user": "U0714O",
+  "text": "small thing: gpu queue is jammed, 44 jobs pending under a service account cc Nils",
+  "ts": "1759039620.385533"
+ },
+ {
+  "type": "message",
+  "user": "U0719T",
+  "text": "does anyone actually know what the legacy staging path is still used for sorry",
+  "ts": "1759042740.793699"
+ },
+ {
+  "type": "message",
+  "user": "U0721V",
+  "text": "gpu queue is jammed, someone has 40 jobs pending under a service account",
+  "ts": "1759044300.702720"
+ },
+ {
+  "type": "message",
+  "user": "U0722W",
+  "text": "again: training loss went flat at step 6k, either very good or very bad",
+  "ts": "1759044720.165673"
+ },
+ {
+  "type": "message",
+  "user": "U0702C",
+  "text": "ok so portable array from the IT cage is back on the shelf, seals intact",
+  "ts": "1759046520.481130"
+ },
+ {
+  "type": "message",
+  "user": "U0718S",
+  "text": "honestly i have found the memory leak. it was me. it was me 41 weeks ago",
+  "ts": "1759051860.777396"
+ },
+ {
+  "type": "message",
+  "user": "U0721V",
+  "text": "again: snapshot cleanup on scratch-01 freed 10TB, should hold until the migration see ML-2228",
+  "ts": "1759054980.556049"
+ },
+ {
+  "type": "message",
+  "user": "U0721V",
+  "text": "psa: i would like to formally propose we delete the old airflow instance more later",
+  "ts": "1759061520.683415"
+ },
+ {
+  "type": "message",
+  "user": "U0705F",
+  "text": "scratch array at 89%, nobody panic, i am just saying it out loud",
+  "ts": "1759061700.636581"
+ },
+ {
+  "type": "message",
+  "user": "U0713N",
+  "text": "honestly rolling back the config change, latencies went sideways will update",
+  "ts": "1759063860.617568"
+ },
+ {
+  "type": "message",
+  "user": "U0722W",
+  "text": "gpu queue is jammed, 36 jobs pending under a service account lol",
+  "ts": "1759067580.997326"
+ },
+ {
+  "type": "message",
+  "user": "U0713N",
+  "text": "checkpoint sync is slow again, probably the decompress-on-write thing",
+  "ts": "1759074720.853179"
+ },
+ {
+  "type": "message",
+  "user": "U0704E",
+  "text": "psa: flaky test test_interface_energy_roundtrip failed again on Nils's branch thanks all",
+  "ts": "1759075140.754105"
+ },
+ {
+  "type": "message",
+  "user": "U0720U",
+  "text": "ok so rolling back the config change from monday, latencies went sideways",
+  "ts": "1759077180.560228"
+ },
+ {
+  "type": "message",
+  "user": "U0719T",
+  "text": "checkpoint sync is slow again, i think it is the decompress-on-write thing sorry",
+  "ts": "1759078260.386215"
+ },
+ {
+  "type": "message",
+  "user": "U0714O",
+  "text": "eval run 3131 finished, nothing interesting, rerunning with the new sampler will update",
+  "ts": "1759081560.960398"
+ },
+ {
+  "type": "message",
+  "user": "U0714O",
+  "text": "eval run 4417 finished, nothing interesting, will rerun with the new sampler (again)",
+  "ts": "1759087320.715000"
+ },
+ {
+  "type": "message",
+  "user": "U0703D",
+  "text": "psa: who owns the nightly backfill cron, it has been failing for 25 days thanks all",
+  "ts": "1759087560.224938"
+ }
+]

@@ -1,0 +1,86 @@
+[
+ {
+  "type": "message",
+  "user": "U0721V",
+  "text": "not to be dramatic but flaky test test_interface_energy_roundtrip failed again on Priya's branch thanks all",
+  "ts": "1761635640.263266"
+ },
+ {
+  "type": "message",
+  "user": "U0722W",
+  "text": "psa: free space graph on scratch-01 looks weird, it is Kemi's tarballs again sorry",
+  "ts": "1761638160.634198"
+ },
+ {
+  "type": "message",
+  "user": "U0719T",
+  "text": "for the record, checkpoint sync is slow again, probably the decompress-on-write thing (again)",
+  "ts": "1761646380.217228"
+ },
+ {
+  "type": "message",
+  "user": "U0712M",
+  "text": "who owns the nightly backfill cron, it has been failing for 11 days sorry",
+  "ts": "1761649020.743696"
+ },
+ {
+  "type": "message",
+  "user": "U0703D",
+  "text": "eval run 4141 finished, nothing interesting, rerunning with the new sampler",
+  "ts": "1761649380.976565"
+ },
+ {
+  "type": "message",
+  "user": "U0718S",
+  "text": "gpu queue is jammed, 40 jobs pending under a service account send help",
+  "ts": "1761650820.164612"
+ },
+ {
+  "type": "message",
+  "user": "U0701B",
+  "text": "update: bumping the retention on the eval bucket, shout if that breaks anything send help",
+  "ts": "1761654600.304218"
+ },
+ {
+  "type": "message",
+  "user": "U0714O",
+  "text": "honestly who owns the nightly backfill cron, it has been failing for 3 days more later",
+  "ts": "1761656640.750965"
+ },
+ {
+  "type": "message",
+  "user": "U0712M",
+  "text": "quick one: moving on-call handoff to fridays, fridays were chaos send help",
+  "ts": "1761660000.637662"
+ },
+ {
+  "type": "message",
+  "user": "U0705F",
+  "text": "ok so deploy to staging is green, promoting at 20:00 unless someone objects sorry",
+  "ts": "1761668280.506020"
+ },
+ {
+  "type": "message",
+  "user": "U0722W",
+  "text": "not to be dramatic but portable array from the IT cage is back on the shelf, seals intact sorry",
+  "ts": "1761670200.605083"
+ },
+ {
+  "type": "message",
+  "user": "U0713N",
+  "text": "for the record, who owns the nightly backfill cron, it has been failing for 32 days",
+  "ts": "1761676560.277011"
+ },
+ {
+  "type": "message",
+  "user": "U0707H",
+  "text": "honestly can someone approve the terraform change for PLAT-2373, it is one line more later",
+  "ts": "1761676860.542311"
+ },
+ {
+  "type": "message",
+  "user": "U0705F",
+  "text": "small thing: cluster is back. it was DNS. it is always DNS",
+  "ts": "1761682740.861070"
+ }
+]

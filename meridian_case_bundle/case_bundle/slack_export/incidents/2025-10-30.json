@@ -1,0 +1,44 @@
+[
+ {
+  "type": "message",
+  "user": "U0720U",
+  "text": "again: paging on-call, p99 latency above threshold for 3 minutes will update",
+  "ts": "1761809280.546421"
+ },
+ {
+  "type": "message",
+  "user": "U0705F",
+  "text": "not to be dramatic but we have a gap in the on-call rotation over the long weekend, i am fixing it now more later",
+  "ts": "1761815940.350301"
+ },
+ {
+  "type": "message",
+  "user": "U0718S",
+  "text": "ok so customer impact limited to the public sandbox, no production exposure lol",
+  "ts": "1761817560.661605"
+ },
+ {
+  "type": "message",
+  "user": "U0718S",
+  "text": "psa: mitigated. writing it up. the writeup will be embarrassing",
+  "ts": "1761819300.772098"
+ },
+ {
+  "type": "message",
+  "user": "U0718S",
+  "text": "quick one: paging on-call, p99 latency above threshold for 31 minutes",
+  "ts": "1761829560.713538"
+ },
+ {
+  "type": "message",
+  "user": "U0714O",
+  "text": "false alarm, the monitoring agent itself fell over",
+  "ts": "1761830100.577565"
+ },
+ {
+  "type": "message",
+  "user": "U0714O",
+  "text": "ok so false alarm, monitoring agent itself was the thing that fell over",
+  "ts": "1761853500.911220"
+ }
+]

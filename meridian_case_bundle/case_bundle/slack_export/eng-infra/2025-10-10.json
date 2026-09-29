@@ -1,0 +1,38 @@
+[
+ {
+  "type": "message",
+  "user": "U0710K",
+  "text": "reminder: eval run 88 finished, nothing interesting, rerunning with the new sampler cc Rafferty",
+  "ts": "1760085900.238349"
+ },
+ {
+  "type": "message",
+  "user": "U0710K",
+  "text": "psa: who owns the nightly backfill cron, it has been failing silently for six days",
+  "ts": "1760088660.152017"
+ },
+ {
+  "type": "message",
+  "user": "U0711L",
+  "text": "the migration runbook is in INFRA-2291, please actually read it",
+  "ts": "1760096940.695926"
+ },
+ {
+  "type": "message",
+  "user": "U0711L",
+  "text": "small thing: cluster is back. it was DNS. it is always DNS",
+  "ts": "1760108760.969604"
+ },
+ {
+  "type": "message",
+  "user": "U0703D",
+  "text": "kicking off the checkpoint eval sweep from home, reading only, will look at results tomorrow",
+  "ts": "1760126700.155192"
+ },
+ {
+  "type": "message",
+  "user": "U0702C",
+  "text": "anyone around? collector window looks clean from here",
+  "ts": "1760132880.410223"
+ }
+]

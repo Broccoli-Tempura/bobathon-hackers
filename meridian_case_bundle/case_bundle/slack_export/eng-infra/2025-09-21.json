@@ -1,0 +1,68 @@
+[
+ {
+  "type": "message",
+  "user": "U0720U",
+  "text": "cluster is back. it was DNS. it is always DNS send help",
+  "ts": "1758437940.418631"
+ },
+ {
+  "type": "message",
+  "user": "U0723X",
+  "text": "small thing: the rsync to cold storage is crawling again, 24 hours in and at 94% send help",
+  "ts": "1758443160.498709"
+ },
+ {
+  "type": "message",
+  "user": "U0707H",
+  "text": "bumping retention on the eval bucket to 46 days, shout if that breaks anything will update",
+  "ts": "1758445920.782423"
+ },
+ {
+  "type": "message",
+  "user": "U0703D",
+  "text": "for the record, portable array from the IT cage is back on the shelf, seals intact send help",
+  "ts": "1758453660.459718"
+ },
+ {
+  "type": "message",
+  "user": "U0707H",
+  "text": "honestly PR up for INFRA-2528, it is enormous and i am sorry cc Lukas",
+  "ts": "1758460860.205526"
+ },
+ {
+  "type": "message",
+  "user": "U0713N",
+  "text": "fyi the scratch array is at 71%, nobody panic, i am just saying it out loud :)",
+  "ts": "1758462540.644347"
+ },
+ {
+  "type": "message",
+  "user": "U0713N",
+  "text": "psa: PR up for the tokenizer refactor, it is enormous and i am sorry lol",
+  "ts": "1758463860.663926"
+ },
+ {
+  "type": "message",
+  "user": "U0716Q",
+  "text": "moving on-call handoff to thursdays, fridays were chaos sorry",
+  "ts": "1758469140.292299"
+ },
+ {
+  "type": "message",
+  "user": "U0720U",
+  "text": "psa: rolling back the config change from monday, latencies went sideways will update",
+  "ts": "1758473760.728598"
+ },
+ {
+  "type": "message",
+  "user": "U0704E",
+  "text": "reminder: Chiara can you review PLAT-1924 before tuesday (again)",
+  "ts": "1758479640.517916"
+ },
+ {
+  "type": "message",
+  "user": "U0704E",
+  "text": "small thing: i have found the memory leak. it was me. it was me 46 weeks ago sorry",
+  "ts": "1758481560.678327"
+ }
+]

@@ -1,0 +1,56 @@
+[
+ {
+  "type": "message",
+  "user": "U0705F",
+  "text": "psa: postmortem doc is up, blameless, please add anything i missed sorry",
+  "ts": "1763365500.730541"
+ },
+ {
+  "type": "message",
+  "user": "U0702C",
+  "text": "honestly false alarm, the monitoring agent itself fell over more later",
+  "ts": "1763378040.811251"
+ },
+ {
+  "type": "message",
+  "user": "U0702C",
+  "text": "not to be dramatic but root cause for INC-02020: a cert expired that nobody knew existed",
+  "ts": "1763388060.591279"
+ },
+ {
+  "type": "message",
+  "user": "U0719T",
+  "text": "paging on-call, p99 latency above threshold for 28 minutes send help",
+  "ts": "1763388120.540324"
+ },
+ {
+  "type": "message",
+  "user": "U0721V",
+  "text": "Bruno is on call this week, Iris is backup see INFRA-2102",
+  "ts": "1763401920.138071"
+ },
+ {
+  "type": "message",
+  "user": "U0719T",
+  "text": "again: root cause for INC-04242: a cert expired that nobody knew existed send help",
+  "ts": "1763404920.700589"
+ },
+ {
+  "type": "message",
+  "user": "U0704E",
+  "text": "psa: we have a gap in the on-call rotation over the long weekend, i am fixing it now lol",
+  "ts": "1763405580.559339"
+ },
+ {
+  "type": "message",
+  "user": "U0716Q",
+  "text": "quick one: postmortem for INC-01515 is up, blameless, add anything i missed",
+  "ts": "1763409120.638578"
+ },
+ {
+  "type": "message",
+  "user": "U0721V",
+  "text": "small thing: INC-02525: sandbox inference returning 503s, investigating (again)",
+  "ts": "1763410080.752263"
+ }
+]

@@ -1,0 +1,26 @@
+[
+ {
+  "type": "message",
+  "user": "U0703D",
+  "text": "quick one: confirmed, node pool scaled to zero overnight, autoscaler config regression see ML-2268",
+  "ts": "1758376020.568434"
+ },
+ {
+  "type": "message",
+  "user": "U0707H",
+  "text": "confirmed, node pool scaled to zero overnight, autoscaler config regression send help",
+  "ts": "1758381780.496990"
+ },
+ {
+  "type": "message",
+  "user": "U0720U",
+  "text": "root cause for INC-02828: a cert expired that nobody knew existed cc Yuki",
+  "ts": "1758388080.346644"
+ },
+ {
+  "type": "message",
+  "user": "U0714O",
+  "text": "root cause for INC-044: a cert expired that nobody knew existed lol",
+  "ts": "1758389580.326256"
+ }
+]

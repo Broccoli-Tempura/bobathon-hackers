@@ -1,0 +1,62 @@
+[
+ {
+  "type": "message",
+  "user": "U0705F",
+  "text": "small thing: gpu queue is jammed, someone has 40 jobs pending under a service account see INFRA-2146",
+  "ts": "1762412520.835614"
+ },
+ {
+  "type": "message",
+  "user": "U0712M",
+  "text": "honestly rolling back the config change, latencies went sideways thanks all",
+  "ts": "1762412820.254428"
+ },
+ {
+  "type": "message",
+  "user": "U0723X",
+  "text": "gpu queue is jammed, 47 jobs pending under a service account (again)",
+  "ts": "1762415760.836553"
+ },
+ {
+  "type": "message",
+  "user": "U0721V",
+  "text": "quick one: can someone approve the terraform change for ML-2346, it is one line will update",
+  "ts": "1762420620.946067"
+ },
+ {
+  "type": "message",
+  "user": "U0716Q",
+  "text": "ok so rolling back the config change, latencies went sideways lol",
+  "ts": "1762423320.728772"
+ },
+ {
+  "type": "message",
+  "user": "U0722W",
+  "text": "fyi the scratch array is at 71%, nobody panic, i am just saying it out loud send help",
+  "ts": "1762426020.940728"
+ },
+ {
+  "type": "message",
+  "user": "U0702C",
+  "text": "quick one: the migration runbook is in INFRA-2291, please actually read it see ML-2571",
+  "ts": "1762442580.163075"
+ },
+ {
+  "type": "message",
+  "user": "U0720U",
+  "text": "ok so eval run 2020 finished, nothing interesting, rerunning with the new sampler send help",
+  "ts": "1762445580.196251"
+ },
+ {
+  "type": "message",
+  "user": "U0713N",
+  "text": "cluster is back. it was DNS. it is always DNS thanks all",
+  "ts": "1762451760.844950"
+ },
+ {
+  "type": "message",
+  "user": "U0721V",
+  "text": "fyi the scratch array is at 71%, nobody panic, i am just saying it out loud will update",
+  "ts": "1762455300.679890"
+ }
+]

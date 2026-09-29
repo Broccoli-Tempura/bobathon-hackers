@@ -1,0 +1,50 @@
+[
+ {
+  "type": "message",
+  "user": "U0707H",
+  "text": "reminder: the migration runbook is in INFRA-2291, please actually read it sorry",
+  "ts": "1759903560.598224"
+ },
+ {
+  "type": "message",
+  "user": "U0705F",
+  "text": "update: who owns the nightly backfill cron, it has been failing silently for six days",
+  "ts": "1759905120.581923"
+ },
+ {
+  "type": "message",
+  "user": "U0714O",
+  "text": "deploy to staging is green, promoting at 3 unless someone objects (again)",
+  "ts": "1759919880.911922"
+ },
+ {
+  "type": "message",
+  "user": "U0704E",
+  "text": "borrowing two 18TB portable arrays from the IT cage as staging for the migration, HD ticket filed",
+  "ts": "1759928520.771385"
+ },
+ {
+  "type": "message",
+  "user": "U0702C",
+  "text": "not to be dramatic but adding a lint rule and preemptively apologising to everyone's diff send help",
+  "ts": "1759929600.656969"
+ },
+ {
+  "type": "message",
+  "user": "U0703D",
+  "text": "can someone approve the terraform change for PLAT-2363, it is one line thanks all",
+  "ts": "1759930800.997909"
+ },
+ {
+  "type": "message",
+  "user": "U0701B",
+  "text": "quick one: cluster is back. it was DNS. it is always DNS sorry",
+  "ts": "1759936800.234303"
+ },
+ {
+  "type": "message",
+  "user": "U0711L",
+  "text": "reminder: deploy to staging is green, promoting at 7:00 unless someone objects send help",
+  "ts": "1759950120.807505"
+ }
+]

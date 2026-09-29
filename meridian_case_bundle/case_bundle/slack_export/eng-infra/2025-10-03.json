@@ -1,0 +1,50 @@
+[
+ {
+  "type": "message",
+  "user": "U0718S",
+  "text": "ok so can we talk about why the storage docs describe an architecture we stopped using in 2023 lol",
+  "ts": "1759474020.379340"
+ },
+ {
+  "type": "message",
+  "user": "U0721V",
+  "text": "psa: does anyone actually know what the legacy staging path is still used for cc Renata",
+  "ts": "1759484520.470984"
+ },
+ {
+  "type": "message",
+  "user": "U0720U",
+  "text": "who owns the nightly backfill cron, it has been failing silently for six days see DATA-2078",
+  "ts": "1759489440.657191"
+ },
+ {
+  "type": "message",
+  "user": "U0707H",
+  "text": "can we talk about why the storage docs describe an architecture we stopped using in 2023 sorry",
+  "ts": "1759492860.706779"
+ },
+ {
+  "type": "message",
+  "user": "U0719T",
+  "text": "not to be dramatic but deploy to staging is green, promoting at 17:00 unless someone objects will update",
+  "ts": "1759495860.579506"
+ },
+ {
+  "type": "message",
+  "user": "U0705F",
+  "text": "quick one: training loss went flat at step 40k which is either very good or very bad sorry",
+  "ts": "1759513200.260026"
+ },
+ {
+  "type": "message",
+  "user": "U0722W",
+  "text": "small thing: who owns the nightly backfill cron, it has been failing silently for six days",
+  "ts": "1759514400.107527"
+ },
+ {
+  "type": "message",
+  "user": "U0701B",
+  "text": "update: flaky test in the integration suite again, it is the same one, it is always the same one",
+  "ts": "1759516500.713357"
+ }
+]

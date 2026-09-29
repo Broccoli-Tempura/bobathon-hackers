@@ -1,0 +1,80 @@
+[
+ {
+  "type": "message",
+  "user": "U0720U",
+  "text": "honestly we are out of disk on scratch-01 again, someone is writing tarballs there thanks all",
+  "ts": "1756965960.325099"
+ },
+ {
+  "type": "message",
+  "user": "U0705F",
+  "text": "for the record, the migration runbook is in INFRA-2291, please actually read it",
+  "ts": "1756972200.927698"
+ },
+ {
+  "type": "message",
+  "user": "U0710K",
+  "text": "deploy to staging is green, promoting at 13:00 unless someone objects",
+  "ts": "1756972560.779404"
+ },
+ {
+  "type": "message",
+  "user": "U0713N",
+  "text": "can we talk about why the storage docs describe an architecture we stopped using in 2023 :)",
+  "ts": "1756980600.969025"
+ },
+ {
+  "type": "message",
+  "user": "U0704E",
+  "text": "copy job for the eval shards failed at 81%, restarting from the beginning because resume is broken",
+  "ts": "1756980960.391652"
+ },
+ {
+  "type": "message",
+  "user": "U0702C",
+  "text": "again: the migration runbook is in INFRA-2291, please actually read it sorry",
+  "ts": "1756981380.338066"
+ },
+ {
+  "type": "message",
+  "user": "U0714O",
+  "text": "i have found the memory leak. it was me. it was me four months ago thanks all",
+  "ts": "1756984080.146670"
+ },
+ {
+  "type": "message",
+  "user": "U0701B",
+  "text": "snapshot cleanup on scratch-01 freed 7TB, should hold until the migration more later",
+  "ts": "1756991520.860859"
+ },
+ {
+  "type": "message",
+  "user": "U0707H",
+  "text": "reminder: eval run 1313 finished, nothing interesting, rerunning with the new sampler sorry",
+  "ts": "1756992720.146444"
+ },
+ {
+  "type": "message",
+  "user": "U0707H",
+  "text": "eval run 4417 finished, nothing interesting, will rerun with the new sampler lol",
+  "ts": "1756996740.601107"
+ },
+ {
+  "type": "message",
+  "user": "U0723X",
+  "text": "fyi moving on-call handoff to fridays, fridays were chaos",
+  "ts": "1756999140.507348"
+ },
+ {
+  "type": "message",
+  "user": "U0703D",
+  "text": "quick one: rolling back the config change from friday, latencies went sideways send help",
+  "ts": "1757013360.560645"
+ },
+ {
+  "type": "message",
+  "user": "U0703D",
+  "text": "quick one: we are out of disk on scratch-01 again, someone is writing tarballs there",
+  "ts": "1757014500.624981"
+ }
+]

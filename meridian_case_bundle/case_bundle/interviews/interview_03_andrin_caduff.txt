@@ -1,0 +1,50 @@
+HALCYON SYSTEMS · INVESTIGATION RECORD · INTERVIEW 03 OF 08
+Interviewee: Andrin Caduff, Principal Research Engineer
+Interviewer: Nadia Arslan (NA)
+Date: Thursday 20.11.2025 · Recording start 12:02 · end 13:24
+Location: rented meeting room, Rosenbergstrasse, St. Gallen (off-site)
+Recording: audio, automatic transcription (TranscribeDesk 3.2). Not proofread. Speaker labels are automatic and may be wrong.
+----------------------------------------------------------------------
+
+[00:00:04] NA: Thank you for coming, Andrin. Recorded, stays with me, please don't discuss it afterwards.
+[00:00:09] SPEAKER 2: Yes. Of course.
+[00:00:12] NA: I'll be direct, because I think you'd prefer it. Thirty-one checkpoint accesses in four weeks. Company median is two.
+[00:00:20] SPEAKER 2: Yes. Thirty-one is probably right. It could be more.
+[00:00:25] NA: Explain it.
+[00:00:28] SPEAKER 2: I am leaving. In September, Lukas told me my research line is being closed. He told me kindly, which I appreciated, and he was not the one who decided it, which I also know. My role runs to August. So I will go back to academia, to Zurich if the ETH thing comes through, and everything I have done for four years stays here.
+[00:00:50] NA: And the accesses?
+[00:00:52] SPEAKER 2: I was writing a paper. Not a Halcyon paper. A paper about a method, a sampling technique I developed in the second year, which is mine intellectually even if the weights are not, and which I wanted to publish under my own name before I left so that I would have something to show for four years that was not an NDA. So I went back through the checkpoints, month by month, to reconstruct when the method started working and to get the evaluation numbers right.
+[00:01:20] NA: Did you tell anyone you were doing this?
+[00:01:23] SPEAKER 2: Lukas. In October, before the long weekend. We had coffee. He said it was fine as long as the paper contained no weights, no data, and no architecture beyond the method itself, and he said he would put it in writing, and then he did not put it in writing because he is Lukas and he was busy. [pause] So I have no proof. I am aware of how this looks.
+[00:01:45] NA: [inaudible] ... the coffee.
+[00:01:47] SPEAKER 2: The second of October. In the morning. I sent him a message the next day to say thank you. That exists, at least.
+[00:01:54] SPEAKER 2: Sorry. [pause] It is not the interview. It is that I have been holding a great many things and this is the first room in eight weeks where somebody has asked me a direct question.
+[00:02:06] NA: Take your time.
+[00:02:14] SPEAKER 2: Thank you. I am fine.
+[00:02:17] NA: Where were you the weekend of the tenth?
+[00:02:20] SPEAKER 2: Here. In St. Gallen, in my flat. Alone, mostly. I went to a climbing gym on the Saturday and to a friend's for dinner on the Sunday, and the Friday and the Monday I was at home, working on this paper, which I cannot prove either.
+[00:02:36] NA: On the Friday evening, were you working on the checkpoints?
+[00:02:39] SPEAKER 2: Yes. I ran an evaluation sweep from home, over the VPN, reading the checkpoints and computing the numbers for the paper. I started it around ten in the evening and looked at it on Saturday. It is read only. It does not copy anything anywhere except numbers into a spreadsheet.
+[00:02:57] NA: Did you know the audit logging was off that night?
+[00:03:00] SPEAKER 2: Everyone knew. It was in the channel. [pause] I did not think about it. I understand now that I should have thought about it. It looks very bad, running a sweep in the one night nobody records anything.
+[00:03:13] NA: It does.
+[00:03:15] SPEAKER 2: I understand that I am describing the ideal profile of your thief. Motive, access, no alibi, and a reason to want something of my own to take with me. I have understood that for some time.
+[00:03:28] NA: Did you take it?
+[00:03:30] SPEAKER 2: No. May I tell you the part that is stupid? If I had wanted to steal MERIDIAN, I would not have needed to steal it. I know it. I could rebuild a great deal of it from memory in eighteen months at any institution that would hire me, and that is not theft, that is just what happens when a person works on something for four years. The weights are not the valuable thing. The weights are the expensive thing. What is valuable is in my head and I am taking it to Zurich for free and there is nothing in anyone's NDA that can stop me.
+[00:04:02] SPEAKER 2: So the person who took the drive is a person who could not do that. That is the only thing I know that you do not.
+[00:04:10] NA: Do you drive?
+[00:04:12] SPEAKER 2: No. I cycle. I do not have a car, I have never had a car in Switzerland. The garage people keep trying to sell me a space.
+[00:04:20] NA: How would someone get a large drive in and out of the building?
+[00:04:24] SPEAKER 2: In a bag. The alley door is always propped. [pause] I do not mean that as a joke. It is always propped.
+[00:04:31] NA: Tell me about the staging paths.
+[00:04:34] SPEAKER 2: The current path is where I read from. It is not documented. Lukas knows, Iris knows, Yannick knows. People who have been here since before 2023 know.
+[00:04:43] NA: Did you know which bundles were decoys?
+[00:04:46] SPEAKER 2: I knew there were decoys. Iris told everyone in research not to open anything that looked unusual in the tree, because it would alert her. I did not know which ones. I read only from the paths I had always read from. [pause] If I had opened a decoy she would have known within the hour.
+[00:05:03] NA: Did you ever see the Confluence page Yannick wrote?
+[00:05:06] SPEAKER 2: No. I do not read Confluence. I read code.
+[00:05:10] NA: The board deck in February?
+[00:05:12] SPEAKER 2: I am not someone who sees board decks.
+[00:05:15] NA: Thank you, Andrin. That's all for now.
+[00:05:18] SPEAKER 2: Thank you for asking me directly.
+[00:05:21] [recording continues, 76 minutes of room noise removed]
+[01:22:05] NA: Recording stopped.

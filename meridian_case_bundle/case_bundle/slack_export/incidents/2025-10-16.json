@@ -1,0 +1,26 @@
+[
+ {
+  "type": "message",
+  "user": "U0701B",
+  "text": "postmortem for INC-04747 is up, blameless, add anything i missed",
+  "ts": "1760603400.952125"
+ },
+ {
+  "type": "message",
+  "user": "U0720U",
+  "text": "for the record, postmortem for INC-044 is up, blameless, add anything i missed more later",
+  "ts": "1760605380.732982"
+ },
+ {
+  "type": "message",
+  "user": "U0702C",
+  "text": "small thing: customer impact limited to the public sandbox, no production exposure lol",
+  "ts": "1760618400.276041"
+ },
+ {
+  "type": "message",
+  "user": "U0723X",
+  "text": "update: Yannick is on call this week, Rafferty is backup",
+  "ts": "1760630760.743268"
+ }
+]

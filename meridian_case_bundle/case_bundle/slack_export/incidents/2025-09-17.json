@@ -1,0 +1,26 @@
+[
+ {
+  "type": "message",
+  "user": "U0710K",
+  "text": "not to be dramatic but sandbox inference cluster is returning 503s, investigating",
+  "ts": "1758089940.509979"
+ },
+ {
+  "type": "message",
+  "user": "U0714O",
+  "text": "honestly false alarm, the monitoring agent itself fell over",
+  "ts": "1758097560.864346"
+ },
+ {
+  "type": "message",
+  "user": "U0714O",
+  "text": "not to be dramatic but customer impact limited to the public sandbox, no production exposure",
+  "ts": "1758107040.501464"
+ },
+ {
+  "type": "message",
+  "user": "U0722W",
+  "text": "not to be dramatic but postmortem for INC-01515 is up, blameless, add anything i missed send help",
+  "ts": "1758138300.639482"
+ }
+]

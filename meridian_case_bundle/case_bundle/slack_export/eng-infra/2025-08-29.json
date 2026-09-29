@@ -1,0 +1,44 @@
+[
+ {
+  "type": "message",
+  "user": "U0712M",
+  "text": "update: who owns the nightly backfill cron, it has been failing for 32 days lol",
+  "ts": "1756448820.911440"
+ },
+ {
+  "type": "message",
+  "user": "U0714O",
+  "text": "for the record, snapshot cleanup on scratch-01 freed 14TB, should hold until the migration send help",
+  "ts": "1756467720.758228"
+ },
+ {
+  "type": "message",
+  "user": "U0721V",
+  "text": "honestly i have found the memory leak. it was me. it was me 39 weeks ago will update",
+  "ts": "1756476240.586914"
+ },
+ {
+  "type": "message",
+  "user": "U0707H",
+  "text": "gpu queue is jammed, 46 jobs pending under a service account",
+  "ts": "1756477440.463078"
+ },
+ {
+  "type": "message",
+  "user": "U0701B",
+  "text": "again: the migration runbook is in INFRA-2291, please actually read it lol",
+  "ts": "1756478520.291217"
+ },
+ {
+  "type": "message",
+  "user": "U0702C",
+  "text": "eval run 1212 finished, nothing interesting, rerunning with the new sampler :)",
+  "ts": "1756484340.785170"
+ },
+ {
+  "type": "message",
+  "user": "U0720U",
+  "text": "restarted the backfill from scratch, the partial output was garbage",
+  "ts": "1756493940.973699"
+ }
+]

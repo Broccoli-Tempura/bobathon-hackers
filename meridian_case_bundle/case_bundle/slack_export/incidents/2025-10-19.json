@@ -1,0 +1,56 @@
+[
+ {
+  "type": "message",
+  "user": "U0701B",
+  "text": "fyi Halina is on call this week, Marcus is backup",
+  "ts": "1760866560.960240"
+ },
+ {
+  "type": "message",
+  "user": "U0716Q",
+  "text": "false alarm, monitoring agent itself was the thing that fell over send help",
+  "ts": "1760873520.201200"
+ },
+ {
+  "type": "message",
+  "user": "U0703D",
+  "text": "update: postmortem for INC-04747 is up, blameless, add anything i missed more later",
+  "ts": "1760874900.106166"
+ },
+ {
+  "type": "message",
+  "user": "U0710K",
+  "text": "mitigated. writing it up. the writeup will be embarrassing will update",
+  "ts": "1760875620.264185"
+ },
+ {
+  "type": "message",
+  "user": "U0710K",
+  "text": "small thing: root cause: a cert expired that nobody knew existed thanks all",
+  "ts": "1760876340.531455"
+ },
+ {
+  "type": "message",
+  "user": "U0716Q",
+  "text": "quick one: postmortem for INC-02222 is up, blameless, add anything i missed (again)",
+  "ts": "1760879040.323763"
+ },
+ {
+  "type": "message",
+  "user": "U0703D",
+  "text": "ok so root cause for INC-03131: a cert expired that nobody knew existed lol",
+  "ts": "1760880780.278328"
+ },
+ {
+  "type": "message",
+  "user": "U0722W",
+  "text": "not to be dramatic but false alarm, monitoring agent itself was the thing that fell over sorry",
+  "ts": "1760889600.959029"
+ },
+ {
+  "type": "message",
+  "user": "U0719T",
+  "text": "Anneke is on call this week, Lukas is backup",
+  "ts": "1760889900.721864"
+ }
+]

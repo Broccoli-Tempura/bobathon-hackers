@@ -1,0 +1,50 @@
+[
+ {
+  "type": "message",
+  "user": "U0711L",
+  "text": "who owns the nightly backfill cron, it has been failing silently for six days :)",
+  "ts": "1757400540.233468"
+ },
+ {
+  "type": "message",
+  "user": "U0704E",
+  "text": "bumping the retention on the eval bucket, shout if that breaks anything will update",
+  "ts": "1757412360.396643"
+ },
+ {
+  "type": "message",
+  "user": "U0722W",
+  "text": "update: who owns the nightly backfill cron, it has been failing silently for six days",
+  "ts": "1757418480.220856"
+ },
+ {
+  "type": "message",
+  "user": "U0720U",
+  "text": "eval run 4646 finished, nothing interesting, rerunning with the new sampler",
+  "ts": "1757418780.620774"
+ },
+ {
+  "type": "message",
+  "user": "U0721V",
+  "text": "again: adding a lint rule and preemptively apologising to everyone's diff",
+  "ts": "1757420880.407113"
+ },
+ {
+  "type": "message",
+  "user": "U0713N",
+  "text": "restarted the backfill from scratch, the partial output was garbage :)",
+  "ts": "1757421300.580493"
+ },
+ {
+  "type": "message",
+  "user": "U0718S",
+  "text": "psa: deploy to staging is green, promoting at 3 unless someone objects thanks all",
+  "ts": "1757437200.133079"
+ },
+ {
+  "type": "message",
+  "user": "U0704E",
+  "text": "fyi can someone approve the terraform change, it is one line, it is genuinely one line see ML-2398",
+  "ts": "1757443320.960733"
+ }
+]

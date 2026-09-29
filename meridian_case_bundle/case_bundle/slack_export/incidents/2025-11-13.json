@@ -1,0 +1,14 @@
+[
+ {
+  "type": "message",
+  "user": "U0721V",
+  "text": "small thing: root cause: a cert expired that nobody knew existed",
+  "ts": "1763019420.712048"
+ },
+ {
+  "type": "message",
+  "user": "U0719T",
+  "text": "update: confirmed, node pool scaled to zero overnight, autoscaler config regression",
+  "ts": "1763065080.856204"
+ }
+]

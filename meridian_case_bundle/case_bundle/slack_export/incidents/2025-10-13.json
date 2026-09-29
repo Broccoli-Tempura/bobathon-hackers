@@ -1,0 +1,26 @@
+[
+ {
+  "type": "message",
+  "user": "U0711L",
+  "text": "update: false alarm, monitoring agent itself was the thing that fell over",
+  "ts": "1760338200.699851"
+ },
+ {
+  "type": "message",
+  "user": "U0722W",
+  "text": "customer impact limited to the public sandbox, no production exposure :)",
+  "ts": "1760352120.259174"
+ },
+ {
+  "type": "message",
+  "user": "U0721V",
+  "text": "postmortem for INC-04343 is up, blameless, add anything i missed",
+  "ts": "1760360040.486883"
+ },
+ {
+  "type": "message",
+  "user": "U0710K",
+  "text": "for the record, INC-088: sandbox inference returning 503s, investigating more later",
+  "ts": "1760383140.591816"
+ }
+]

@@ -1,0 +1,14 @@
+[
+ {
+  "type": "message",
+  "user": "U0703D",
+  "text": "postmortem for INC-04545 is up, blameless, add anything i missed send help",
+  "ts": "1761911100.393003"
+ },
+ {
+  "type": "message",
+  "user": "U0701B",
+  "text": "ok so customer impact limited to the public sandbox, no production exposure sorry",
+  "ts": "1761927000.602759"
+ }
+]

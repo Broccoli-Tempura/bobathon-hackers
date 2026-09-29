@@ -1,0 +1,68 @@
+[
+ {
+  "type": "message",
+  "user": "U0701B",
+  "text": "not to be dramatic but bumping retention on the eval bucket to 29 days, shout if that breaks anything",
+  "ts": "1760770380.126173"
+ },
+ {
+  "type": "message",
+  "user": "U0705F",
+  "text": "not to be dramatic but restarted the backfill from scratch, the partial output was garbage",
+  "ts": "1760783160.472707"
+ },
+ {
+  "type": "message",
+  "user": "U0702C",
+  "text": "honestly can someone approve the terraform change, it is one line, it is genuinely one line send help",
+  "ts": "1760783280.583767"
+ },
+ {
+  "type": "message",
+  "user": "U0719T",
+  "text": "again: does anyone actually know what the legacy staging path is still used for more later",
+  "ts": "1760784780.174274"
+ },
+ {
+  "type": "message",
+  "user": "U0713N",
+  "text": "for the record, cluster is back. it was DNS. it is always DNS",
+  "ts": "1760787180.263348"
+ },
+ {
+  "type": "message",
+  "user": "U0713N",
+  "text": "quick one: checkpoint sync is slow again, i think it is the decompress-on-write thing :)",
+  "ts": "1760795880.445003"
+ },
+ {
+  "type": "message",
+  "user": "U0723X",
+  "text": "update: does anyone actually know what the legacy staging path is still used for",
+  "ts": "1760802420.483292"
+ },
+ {
+  "type": "message",
+  "user": "U0716Q",
+  "text": "i have found the memory leak. it was me. it was me 17 weeks ago",
+  "ts": "1760802840.393167"
+ },
+ {
+  "type": "message",
+  "user": "U0714O",
+  "text": "update: copy job for the eval shards failed at 88%, restarting from the beginning because resume is broken :)",
+  "ts": "1760806860.234571"
+ },
+ {
+  "type": "message",
+  "user": "U0702C",
+  "text": "fyi snapshot cleanup on scratch-01 freed 7TB, should hold until the migration (again)",
+  "ts": "1760812440.949275"
+ },
+ {
+  "type": "message",
+  "user": "U0716Q",
+  "text": "honestly copy job for the eval shards failed at 76%, restarting from the beginning because resume is broken",
+  "ts": "1760814060.175657"
+ }
+]

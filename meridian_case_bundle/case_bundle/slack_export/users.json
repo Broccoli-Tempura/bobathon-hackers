@@ -1,0 +1,242 @@
+[
+ {
+  "id": "U0700A",
+  "name": "renata.vogel",
+  "real_name": "Renata Vogel",
+  "profile": {
+   "title": "Chief of Staff",
+   "email": "renata.vogel@halcyon-systems.ch"
+  },
+  "tz": "Europe/Zurich"
+ },
+ {
+  "id": "U0701B",
+  "name": "lukas.hofer",
+  "real_name": "Lukas Hofer",
+  "profile": {
+   "title": "VP Engineering",
+   "email": "lukas.hofer@halcyon-systems.ch"
+  },
+  "tz": "Europe/Zurich"
+ },
+ {
+  "id": "U0702C",
+  "name": "iris.ammann",
+  "real_name": "Iris Ammann",
+  "profile": {
+   "title": "Head of Security",
+   "email": "iris.ammann@halcyon-systems.ch"
+  },
+  "tz": "Europe/Zurich"
+ },
+ {
+  "id": "U0703D",
+  "name": "andrin.caduff",
+  "real_name": "Andrin Caduff",
+  "profile": {
+   "title": "Principal Research Engineer",
+   "email": "andrin.caduff@halcyon-systems.ch"
+  },
+  "tz": "Europe/Zurich"
+ },
+ {
+  "id": "U0704E",
+  "name": "yannick.favre",
+  "real_name": "Yannick Favre",
+  "profile": {
+   "title": "Infrastructure Engineer",
+   "email": "yannick.favre@halcyon-systems.ch"
+  },
+  "tz": "Europe/Zurich"
+ },
+ {
+  "id": "U0705F",
+  "name": "chiara.bernasconi",
+  "real_name": "Chiara Bernasconi",
+  "profile": {
+   "title": "Director, Data Engineering",
+   "email": "chiara.bernasconi@halcyon-systems.ch"
+  },
+  "tz": "Europe/Zurich"
+ },
+ {
+  "id": "U0706G",
+  "name": "noemi.rochat",
+  "real_name": "Noemi Rochat",
+  "profile": {
+   "title": "Head of Product",
+   "email": "noemi.rochat@halcyon-systems.ch"
+  },
+  "tz": "Europe/Zurich"
+ },
+ {
+  "id": "U0707H",
+  "name": "kurt.steiner",
+  "real_name": "Kurt Steiner",
+  "profile": {
+   "title": "Chief Scientist",
+   "email": "kurt.steiner@halcyon-systems.ch"
+  },
+  "tz": "Europe/Zurich"
+ },
+ {
+  "id": "U0708I",
+  "name": "dov.halperin",
+  "real_name": "Dov Halperin",
+  "profile": {
+   "title": "CEO",
+   "email": "dov.halperin@halcyon-systems.ch"
+  },
+  "tz": "Europe/Zurich"
+ },
+ {
+  "id": "U0709J",
+  "name": "june.okada",
+  "real_name": "June Okada",
+  "profile": {
+   "title": "Office Manager",
+   "email": "june.okada@halcyon-systems.ch"
+  },
+  "tz": "Europe/Zurich"
+ },
+ {
+  "id": "U0710K",
+  "name": "priya.raghunathan",
+  "real_name": "Priya Raghunathan",
+  "profile": {
+   "title": "Data Engineer",
+   "email": "priya.raghunathan@halcyon-systems.ch"
+  },
+  "tz": "Europe/Zurich"
+ },
+ {
+  "id": "U0711L",
+  "name": "nils.aberg",
+  "real_name": "Nils Aberg",
+  "profile": {
+   "title": "ML Engineer",
+   "email": "nils.aberg@halcyon-systems.ch"
+  },
+  "tz": "Europe/Zurich"
+ },
+ {
+  "id": "U0712M",
+  "name": "kemi.adeyemi",
+  "real_name": "Kemi Adeyemi",
+  "profile": {
+   "title": "Research Engineer",
+   "email": "kemi.adeyemi@halcyon-systems.ch"
+  },
+  "tz": "Europe/Zurich"
+ },
+ {
+  "id": "U0713N",
+  "name": "bruno.sacchi",
+  "real_name": "Bruno Sacchi",
+  "profile": {
+   "title": "Platform Engineer",
+   "email": "bruno.sacchi@halcyon-systems.ch"
+  },
+  "tz": "Europe/Zurich"
+ },
+ {
+  "id": "U0714O",
+  "name": "wen-li.zhao",
+  "real_name": "Wen-Li Zhao",
+  "profile": {
+   "title": "Research Scientist",
+   "email": "wen-li.zhao@halcyon-systems.ch"
+  },
+  "tz": "Europe/Zurich"
+ },
+ {
+  "id": "U0715P",
+  "name": "dessie.moran",
+  "real_name": "Dessie Moran",
+  "profile": {
+   "title": "Finance Lead",
+   "email": "dessie.moran@halcyon-systems.ch"
+  },
+  "tz": "Europe/Zurich"
+ },
+ {
+  "id": "U0716Q",
+  "name": "tobias.krall",
+  "real_name": "Tobias Krall",
+  "profile": {
+   "title": "ML Engineer",
+   "email": "tobias.krall@halcyon-systems.ch"
+  },
+  "tz": "Europe/Zurich"
+ },
+ {
+  "id": "U0717R",
+  "name": "anneke.vos",
+  "real_name": "Anneke Vos",
+  "profile": {
+   "title": "Product Designer",
+   "email": "anneke.vos@halcyon-systems.ch"
+  },
+  "tz": "Europe/Zurich"
+ },
+ {
+  "id": "U0718S",
+  "name": "rafferty.ng",
+  "real_name": "Rafferty Ng",
+  "profile": {
+   "title": "Data Engineer",
+   "email": "rafferty.ng@halcyon-systems.ch"
+  },
+  "tz": "Europe/Zurich"
+ },
+ {
+  "id": "U0719T",
+  "name": "solveig.haugen",
+  "real_name": "Solveig Haugen",
+  "profile": {
+   "title": "Research Engineer",
+   "email": "solveig.haugen@halcyon-systems.ch"
+  },
+  "tz": "Europe/Zurich"
+ },
+ {
+  "id": "U0720U",
+  "name": "marcus.abiodun",
+  "real_name": "Marcus Abiodun",
+  "profile": {
+   "title": "Platform Engineer",
+   "email": "marcus.abiodun@halcyon-systems.ch"
+  },
+  "tz": "Europe/Zurich"
+ },
+ {
+  "id": "U0721V",
+  "name": "yuki.tanabe",
+  "real_name": "Yuki Tanabe",
+  "profile": {
+   "title": "ML Engineer",
+   "email": "yuki.tanabe@halcyon-systems.ch"
+  },
+  "tz": "Europe/Zurich"
+ },
+ {
+  "id": "U0722W",
+  "name": "cormac.deel",
+  "real_name": "Cormac Deel",
+  "profile": {
+   "title": "QA Engineer",
+   "email": "cormac.deel@halcyon-systems.ch"
+  },
+  "tz": "Europe/Zurich"
+ },
+ {
+  "id": "U0723X",
+  "name": "halina.brzezinska",
+  "real_name": "Halina Brzezinska",
+  "profile": {
+   "title": "Research Engineer",
+   "email": "halina.brzezinska@halcyon-systems.ch"
+  },
+  "tz": "Europe/Zurich"
+ }
+]

@@ -1,0 +1,50 @@
+[
+ {
+  "type": "message",
+  "user": "U0712M",
+  "text": "postmortem doc is up, blameless, please add anything i missed",
+  "ts": "1760167860.279101"
+ },
+ {
+  "type": "message",
+  "user": "U0701B",
+  "text": "grabbing two nvme drives at the digitec pickup on the way in, the dead sandbox node needs them",
+  "ts": "1760179920.457371"
+ },
+ {
+  "type": "message",
+  "user": "U0701B",
+  "text": "INC-0412 opened: public sandbox inference cluster returning 503s since roughly 02:00. on-call gap over the long weekend, nobody paged. i am in the office, taking it",
+  "ts": "1760180460.747142"
+ },
+ {
+  "type": "message",
+  "user": "U0704E",
+  "text": "joining remotely from val müstair, screen share only, no car and the next postbus is at 16:10 so this is as close as i get",
+  "ts": "1760181060.229478"
+ },
+ {
+  "type": "message",
+  "user": "U0701B",
+  "text": "INC-0412 root cause: autoscaler config regression scaled the node pool to zero. rolling back",
+  "ts": "1760186400.544719"
+ },
+ {
+  "type": "message",
+  "user": "U0722W",
+  "text": "ok so postmortem for INC-03434 is up, blameless, add anything i missed",
+  "ts": "1760187660.469559"
+ },
+ {
+  "type": "message",
+  "user": "U0701B",
+  "text": "INC-0412 mitigated. sandbox serving. leaving the building now, postmortem monday. thanks yannick",
+  "ts": "1760197680.849805"
+ },
+ {
+  "type": "message",
+  "user": "U0713N",
+  "text": "quick one: false alarm, the monitoring agent itself fell over thanks all",
+  "ts": "1760208240.557127"
+ }
+]

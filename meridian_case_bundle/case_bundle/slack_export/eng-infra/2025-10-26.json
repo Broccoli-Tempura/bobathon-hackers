@@ -1,0 +1,134 @@
+[
+ {
+  "type": "message",
+  "user": "U0722W",
+  "text": "does anyone actually know what the legacy staging path is still used for",
+  "ts": "1761464220.852480"
+ },
+ {
+  "type": "message",
+  "user": "U0710K",
+  "text": "snapshot cleanup on scratch-01 freed 10TB, should hold until the migration",
+  "ts": "1761464580.760107"
+ },
+ {
+  "type": "message",
+  "user": "U0704E",
+  "text": "update: checkpoint sync is slow again, i think it is the decompress-on-write thing send help",
+  "ts": "1761467700.505186"
+ },
+ {
+  "type": "message",
+  "user": "U0707H",
+  "text": "small thing: gpu queue is jammed, someone has 40 jobs pending under a service account see INFRA-2442",
+  "ts": "1761469560.312170"
+ },
+ {
+  "type": "message",
+  "user": "U0712M",
+  "text": "ok so checkpoint sync is slow again, probably the decompress-on-write thing cc Anneke",
+  "ts": "1761470520.596935"
+ },
+ {
+  "type": "message",
+  "user": "U0718S",
+  "text": "fyi free space graph on scratch-01 looks weird, it is Yannick's tarballs again (again)",
+  "ts": "1761470580.436772"
+ },
+ {
+  "type": "message",
+  "user": "U0722W",
+  "text": "deploy to staging is green, promoting at 3 unless someone objects (again)",
+  "ts": "1761470700.827688"
+ },
+ {
+  "type": "message",
+  "user": "U0712M",
+  "text": "update: does anyone actually know what the legacy staging path is still used for send help",
+  "ts": "1761478380.679168"
+ },
+ {
+  "type": "message",
+  "user": "U0704E",
+  "text": "quick one: restarted the backfill from scratch, the partial output was garbage",
+  "ts": "1761488580.734973"
+ },
+ {
+  "type": "message",
+  "user": "U0712M",
+  "text": "small thing: scratch array at 71%, nobody panic, i am just saying it out loud",
+  "ts": "1761489780.838813"
+ },
+ {
+  "type": "message",
+  "user": "U0718S",
+  "text": "honestly we are out of disk on scratch-01 again, someone is writing tarballs there more later",
+  "ts": "1761490260.115777"
+ },
+ {
+  "type": "message",
+  "user": "U0722W",
+  "text": "update: the storage docs describe the 2023 architecture, INFRA-2417 tracks fixing it more later",
+  "ts": "1761496020.469039"
+ },
+ {
+  "type": "message",
+  "user": "U0704E",
+  "text": "for the record, copy job for the eval shards failed at 62%, restarting from the beginning because resume is broken send help",
+  "ts": "1761496140.242317"
+ },
+ {
+  "type": "message",
+  "user": "U0718S",
+  "text": "update: flaky test in the integration suite again, it is the same one, it is always the same one lol",
+  "ts": "1761498600.578888"
+ },
+ {
+  "type": "message",
+  "user": "U0716Q",
+  "text": "psa: Yannick can you review ML-2113 before friday cc Yannick",
+  "ts": "1761500820.681431"
+ },
+ {
+  "type": "message",
+  "user": "U0712M",
+  "text": "reminder we are frozen for deploys over the long weekend see DATA-2126",
+  "ts": "1761503760.160649"
+ },
+ {
+  "type": "message",
+  "user": "U0723X",
+  "text": "not to be dramatic but the storage docs describe the 2023 architecture, INFRA-2522 tracks fixing it sorry",
+  "ts": "1761505080.795650"
+ },
+ {
+  "type": "message",
+  "user": "U0716Q",
+  "text": "fyi PR up for ML-2322, it is enormous and i am sorry send help",
+  "ts": "1761505080.975135"
+ },
+ {
+  "type": "message",
+  "user": "U0710K",
+  "text": "can someone approve the terraform change for DATA-2539, it is one line thanks all",
+  "ts": "1761505200.575535"
+ },
+ {
+  "type": "message",
+  "user": "U0711L",
+  "text": "fyi training loss went flat at step 40k which is either very good or very bad send help",
+  "ts": "1761507720.879383"
+ },
+ {
+  "type": "message",
+  "user": "U0716Q",
+  "text": "update: cluster is back. it was DNS. it is always DNS lol",
+  "ts": "1761508920.341722"
+ },
+ {
+  "type": "message",
+  "user": "U0704E",
+  "text": "again: flaky test test_interface_energy_roundtrip failed again on Priya's branch send help",
+  "ts": "1761511620.463922"
+ }
+]

@@ -1,0 +1,103 @@
+{
+  "team": "your-team-name",
+  "culprit": "Full Name of the person you think did it",
+  "confidence": 0.5,
+  "suspects": [
+    {
+      "name": "Iris Ammann",
+      "verdict": "culprit | cleared | unresolved",
+      "reasoning": "One or two sentences on why.",
+      "evidence": [
+        {
+          "claim": "What this line shows",
+          "source": "file_name.md:LINE",
+          "quote": "exact text copied from that line"
+        }
+      ]
+    },
+    {
+      "name": "Chiara Bernasconi",
+      "verdict": "culprit | cleared | unresolved",
+      "reasoning": "One or two sentences on why.",
+      "evidence": [
+        {
+          "claim": "What this line shows",
+          "source": "file_name.md:LINE",
+          "quote": "exact text copied from that line"
+        }
+      ]
+    },
+    {
+      "name": "Andrin Caduff",
+      "verdict": "culprit | cleared | unresolved",
+      "reasoning": "One or two sentences on why.",
+      "evidence": [
+        {
+          "claim": "What this line shows",
+          "source": "file_name.md:LINE",
+          "quote": "exact text copied from that line"
+        }
+      ]
+    },
+    {
+      "name": "Yannick Favre",
+      "verdict": "culprit | cleared | unresolved",
+      "reasoning": "One or two sentences on why.",
+      "evidence": [
+        {
+          "claim": "What this line shows",
+          "source": "file_name.md:LINE",
+          "quote": "exact text copied from that line"
+        }
+      ]
+    },
+    {
+      "name": "Lukas Hofer",
+      "verdict": "culprit | cleared | unresolved",
+      "reasoning": "One or two sentences on why.",
+      "evidence": [
+        {
+          "claim": "What this line shows",
+          "source": "file_name.md:LINE",
+          "quote": "exact text copied from that line"
+        }
+      ]
+    },
+    {
+      "name": "Noemi Rochat",
+      "verdict": "culprit | cleared | unresolved",
+      "reasoning": "One or two sentences on why.",
+      "evidence": [
+        {
+          "claim": "What this line shows",
+          "source": "file_name.md:LINE",
+          "quote": "exact text copied from that line"
+        }
+      ]
+    },
+    {
+      "name": "Kurt Steiner",
+      "verdict": "culprit | cleared | unresolved",
+      "reasoning": "One or two sentences on why.",
+      "evidence": [
+        {
+          "claim": "What this line shows",
+          "source": "slack_export/general/2025-10-12.json:5",
+          "quote": "office is beautifully quiet on a sunday"
+        }
+      ]
+    },
+    {
+      "name": "Renata Vogel",
+      "verdict": "culprit | cleared | unresolved",
+      "reasoning": "One or two sentences on why.",
+      "evidence": [
+        {
+          "claim": "What this line shows",
+          "source": "file_name.md:LINE",
+          "quote": "exact text copied from that line"
+        }
+      ]
+    }
+  ]
+}

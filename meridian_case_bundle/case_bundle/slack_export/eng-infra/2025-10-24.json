@@ -1,0 +1,56 @@
+[
+ {
+  "type": "message",
+  "user": "U0722W",
+  "text": "for the record, we are out of disk on scratch-01 again, someone is writing tarballs there :)",
+  "ts": "1761286140.817863"
+ },
+ {
+  "type": "message",
+  "user": "U0707H",
+  "text": "running a big copy tonight, expect the array to look weird in the graphs",
+  "ts": "1761296400.552523"
+ },
+ {
+  "type": "message",
+  "user": "U0719T",
+  "text": "fyi i have found the memory leak. it was me. it was me 20 weeks ago will update",
+  "ts": "1761304560.251448"
+ },
+ {
+  "type": "message",
+  "user": "U0705F",
+  "text": "not to be dramatic but can we talk about why the storage docs describe an architecture we stopped using in 2023 :)",
+  "ts": "1761311460.953852"
+ },
+ {
+  "type": "message",
+  "user": "U0721V",
+  "text": "fyi gpu queue is jammed, 4 jobs pending under a service account send help",
+  "ts": "1761321060.135250"
+ },
+ {
+  "type": "message",
+  "user": "U0707H",
+  "text": "again: i have found the memory leak. it was me. it was me 8 weeks ago more later",
+  "ts": "1761321300.615092"
+ },
+ {
+  "type": "message",
+  "user": "U0705F",
+  "text": "can someone approve the terraform change for INFRA-2595, it is one line :)",
+  "ts": "1761328440.700547"
+ },
+ {
+  "type": "message",
+  "user": "U0712M",
+  "text": "psa: moving on-call handoff to thursdays, fridays were chaos lol",
+  "ts": "1761328440.195733"
+ },
+ {
+  "type": "message",
+  "user": "U0722W",
+  "text": "psa: gpu queue is jammed, 27 jobs pending under a service account :)",
+  "ts": "1761330840.414958"
+ }
+]

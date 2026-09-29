@@ -1,0 +1,44 @@
+[
+ {
+  "type": "message",
+  "user": "U0719T",
+  "text": "not to be dramatic but we have a gap in the on-call rotation over the long weekend, i am fixing it now will update",
+  "ts": "1754642100.752995"
+ },
+ {
+  "type": "message",
+  "user": "U0714O",
+  "text": "again: postmortem for INC-04848 is up, blameless, add anything i missed more later",
+  "ts": "1754647740.158854"
+ },
+ {
+  "type": "message",
+  "user": "U0710K",
+  "text": "false alarm, the monitoring agent itself fell over send help",
+  "ts": "1754659980.545202"
+ },
+ {
+  "type": "message",
+  "user": "U0701B",
+  "text": "INC-03333 mitigated, writing it up, the writeup will be embarrassing",
+  "ts": "1754671140.531851"
+ },
+ {
+  "type": "message",
+  "user": "U0701B",
+  "text": "postmortem doc is up, blameless, please add anything i missed more later",
+  "ts": "1754671200.119241"
+ },
+ {
+  "type": "message",
+  "user": "U0702C",
+  "text": "customer impact limited to the public sandbox, no production exposure more later",
+  "ts": "1754677800.978434"
+ },
+ {
+  "type": "message",
+  "user": "U0707H",
+  "text": "disk usage alert on scratch-01 at 58%, acknowledged, not urgent",
+  "ts": "1754678700.707805"
+ }
+]

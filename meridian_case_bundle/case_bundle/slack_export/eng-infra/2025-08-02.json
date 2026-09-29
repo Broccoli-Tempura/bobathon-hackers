@@ -1,0 +1,56 @@
+[
+ {
+  "type": "message",
+  "user": "U0721V",
+  "text": "ok so eval run 4417 finished, nothing interesting, will rerun with the new sampler (again)",
+  "ts": "1754119260.993383"
+ },
+ {
+  "type": "message",
+  "user": "U0712M",
+  "text": "small thing: free space graph on scratch-01 looks weird, it is Yuki's tarballs again will update",
+  "ts": "1754120280.654349"
+ },
+ {
+  "type": "message",
+  "user": "U0721V",
+  "text": "again: copy job for the eval shards failed at 75%, restarting from the beginning because resume is broken",
+  "ts": "1754122320.321870"
+ },
+ {
+  "type": "message",
+  "user": "U0703D",
+  "text": "not to be dramatic but who owns the nightly backfill cron, it has been failing for 32 days (again)",
+  "ts": "1754124900.763376"
+ },
+ {
+  "type": "message",
+  "user": "U0710K",
+  "text": "quick one: snapshot cleanup on scratch-01 freed 5TB, should hold until the migration",
+  "ts": "1754129940.968327"
+ },
+ {
+  "type": "message",
+  "user": "U0716Q",
+  "text": "psa: the scratch array is at 71%, nobody panic, i am just saying it out loud",
+  "ts": "1754153520.117656"
+ },
+ {
+  "type": "message",
+  "user": "U0707H",
+  "text": "Lukas can you review PLAT-1932 before wednesday",
+  "ts": "1754153700.324840"
+ },
+ {
+  "type": "message",
+  "user": "U0705F",
+  "text": "update: the storage docs describe the 2023 architecture, INFRA-2260 tracks fixing it",
+  "ts": "1754160180.673872"
+ },
+ {
+  "type": "message",
+  "user": "U0721V",
+  "text": "eval run 1717 finished, nothing interesting, rerunning with the new sampler more later",
+  "ts": "1754160900.271646"
+ }
+]

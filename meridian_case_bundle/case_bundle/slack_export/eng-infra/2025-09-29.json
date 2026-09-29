@@ -1,0 +1,44 @@
+[
+ {
+  "type": "message",
+  "user": "U0702C",
+  "text": "does anyone actually know what the legacy staging path is still used for",
+  "ts": "1759131600.413722"
+ },
+ {
+  "type": "message",
+  "user": "U0713N",
+  "text": "eval run 4040 finished, nothing interesting, rerunning with the new sampler :)",
+  "ts": "1759132560.643150"
+ },
+ {
+  "type": "message",
+  "user": "U0701B",
+  "text": "not to be dramatic but checkpoint sync is slow again, probably the decompress-on-write thing more later",
+  "ts": "1759136940.766109"
+ },
+ {
+  "type": "message",
+  "user": "U0704E",
+  "text": "flaky test in the integration suite again, it is the same one, it is always the same one will update",
+  "ts": "1759139220.841672"
+ },
+ {
+  "type": "message",
+  "user": "U0710K",
+  "text": "quick one: the migration runbook is in the ticket, please actually read the runbook lol",
+  "ts": "1759147680.523567"
+ },
+ {
+  "type": "message",
+  "user": "U0722W",
+  "text": "small thing: who owns the nightly backfill cron, it has been failing for 47 days sorry",
+  "ts": "1759172640.802114"
+ },
+ {
+  "type": "message",
+  "user": "U0711L",
+  "text": "for the record, running a big copy tonight, expect the array to look weird in the graphs (again)",
+  "ts": "1759175340.772505"
+ }
+]

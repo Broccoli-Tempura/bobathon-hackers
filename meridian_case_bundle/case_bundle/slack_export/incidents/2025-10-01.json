@@ -1,0 +1,26 @@
+[
+ {
+  "type": "message",
+  "user": "U0713N",
+  "text": "not to be dramatic but confirmed, node pool scaled to zero overnight, autoscaler config regression send help",
+  "ts": "1759307640.975648"
+ },
+ {
+  "type": "message",
+  "user": "U0710K",
+  "text": "postmortem doc is up, blameless, please add anything i missed",
+  "ts": "1759321440.199630"
+ },
+ {
+  "type": "message",
+  "user": "U0705F",
+  "text": "reminder: customer impact limited to the public sandbox, no production exposure",
+  "ts": "1759338600.227117"
+ },
+ {
+  "type": "message",
+  "user": "U0701B",
+  "text": "not to be dramatic but disk usage alert on scratch-01 at 90%, acknowledged, not urgent :)",
+  "ts": "1759346040.492549"
+ }
+]

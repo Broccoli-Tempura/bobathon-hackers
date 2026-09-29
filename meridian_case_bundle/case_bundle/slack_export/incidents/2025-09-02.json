@@ -1,0 +1,20 @@
+[
+ {
+  "type": "message",
+  "user": "U0710K",
+  "text": "quick one: sandbox inference cluster is returning 503s, investigating",
+  "ts": "1756804740.876785"
+ },
+ {
+  "type": "message",
+  "user": "U0721V",
+  "text": "not to be dramatic but disk usage alert on scratch-01 at 95%, acknowledged, not urgent send help",
+  "ts": "1756819380.515491"
+ },
+ {
+  "type": "message",
+  "user": "U0718S",
+  "text": "ok so confirmed, node pool scaled to zero overnight, autoscaler config regression thanks all",
+  "ts": "1756819440.778429"
+ }
+]

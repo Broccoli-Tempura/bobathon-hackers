@@ -1,0 +1,14 @@
+[
+ {
+  "type": "message",
+  "user": "U0718S",
+  "text": "update: INC-04646: sandbox inference returning 503s, investigating send help",
+  "ts": "1758616020.811933"
+ },
+ {
+  "type": "message",
+  "user": "U0701B",
+  "text": "confirmed, node pool scaled to zero overnight, autoscaler config regression",
+  "ts": "1758654840.531130"
+ }
+]

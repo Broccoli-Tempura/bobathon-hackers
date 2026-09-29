@@ -1,0 +1,20 @@
+[
+ {
+  "type": "message",
+  "user": "U0716Q",
+  "text": "again: disk usage alert on scratch-01 at 58%, acknowledged, not urgent (again)",
+  "ts": "1762500240.314834"
+ },
+ {
+  "type": "message",
+  "user": "U0720U",
+  "text": "again: Iris is on call this week, Kurt is backup (again)",
+  "ts": "1762504800.953707"
+ },
+ {
+  "type": "message",
+  "user": "U0713N",
+  "text": "root cause for INC-04444: a cert expired that nobody knew existed",
+  "ts": "1762511580.684940"
+ }
+]

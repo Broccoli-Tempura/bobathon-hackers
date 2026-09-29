@@ -1,0 +1,80 @@
+[
+ {
+  "type": "message",
+  "user": "U0704E",
+  "text": "checkpoint sync is slow again, probably the decompress-on-write thing cc Andrin",
+  "ts": "1761723780.794568"
+ },
+ {
+  "type": "message",
+  "user": "U0719T",
+  "text": "reminder: reminder we are frozen for deploys over the long weekend",
+  "ts": "1761723780.374383"
+ },
+ {
+  "type": "message",
+  "user": "U0713N",
+  "text": "small thing: we are out of disk on scratch-01 again, someone is writing tarballs there",
+  "ts": "1761725160.571254"
+ },
+ {
+  "type": "message",
+  "user": "U0710K",
+  "text": "ok so the migration runbook is in INFRA-2291, please actually read it cc Solveig",
+  "ts": "1761727380.746760"
+ },
+ {
+  "type": "message",
+  "user": "U0723X",
+  "text": "ok so the rsync to cold storage is crawling again, 7 hours in and at 68% see ML-2230",
+  "ts": "1761728580.417082"
+ },
+ {
+  "type": "message",
+  "user": "U0712M",
+  "text": "does anyone actually know what the legacy staging path is still used for see INFRA-2478",
+  "ts": "1761731640.718157"
+ },
+ {
+  "type": "message",
+  "user": "U0710K",
+  "text": "psa: eval run 3131 finished, nothing interesting, rerunning with the new sampler lol",
+  "ts": "1761748320.647831"
+ },
+ {
+  "type": "message",
+  "user": "U0701B",
+  "text": "ok so can someone approve the terraform change, it is one line, it is genuinely one line will update",
+  "ts": "1761750180.416125"
+ },
+ {
+  "type": "message",
+  "user": "U0704E",
+  "text": "update: scratch array at 66%, nobody panic, i am just saying it out loud",
+  "ts": "1761760740.132247"
+ },
+ {
+  "type": "message",
+  "user": "U0710K",
+  "text": "ok so we are out of disk on scratch-01 again, someone is writing tarballs there lol",
+  "ts": "1761761040.708529"
+ },
+ {
+  "type": "message",
+  "user": "U0707H",
+  "text": "deploy to staging is green, promoting at 7:00 unless someone objects",
+  "ts": "1761765540.899247"
+ },
+ {
+  "type": "message",
+  "user": "U0719T",
+  "text": "update: eval run 44 finished, nothing interesting, rerunning with the new sampler",
+  "ts": "1761765960.371346"
+ },
+ {
+  "type": "message",
+  "user": "U0711L",
+  "text": "update: portable array from the IT cage is back on the shelf, seals intact lol",
+  "ts": "1761768660.589459"
+ }
+]

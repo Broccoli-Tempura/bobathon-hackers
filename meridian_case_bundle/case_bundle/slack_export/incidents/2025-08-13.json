@@ -1,0 +1,26 @@
+[
+ {
+  "type": "message",
+  "user": "U0723X",
+  "text": "fyi confirmed, node pool scaled to zero overnight, autoscaler config regression",
+  "ts": "1755080040.971112"
+ },
+ {
+  "type": "message",
+  "user": "U0707H",
+  "text": "psa: INC-03838: sandbox inference returning 503s, investigating see INFRA-2064",
+  "ts": "1755081000.648959"
+ },
+ {
+  "type": "message",
+  "user": "U0713N",
+  "text": "Bruno is on call this week, Rafferty is backup lol",
+  "ts": "1755096720.534126"
+ },
+ {
+  "type": "message",
+  "user": "U0712M",
+  "text": "ok so paging on-call, p99 latency above threshold for 8 minutes sorry",
+  "ts": "1755100080.534061"
+ }
+]

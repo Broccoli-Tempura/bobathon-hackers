@@ -1,0 +1,44 @@
+[
+ {
+  "type": "message",
+  "user": "U0711L",
+  "text": "quick one: moved the thursday leadership sync to the afternoon, Priya is travelling",
+  "ts": "1760347500.370733"
+ },
+ {
+  "type": "message",
+  "user": "U0721V",
+  "text": "again: engagement survey closes wednesday, it is anonymous, it is not anonymous more later",
+  "ts": "1760350320.329684"
+ },
+ {
+  "type": "message",
+  "user": "U0716Q",
+  "text": "board deck v14 is on the shared drive, Nils needs comments by tuesday will update",
+  "ts": "1760354040.294718"
+ },
+ {
+  "type": "message",
+  "user": "U0709J",
+  "text": "not to be dramatic but moved the monday leadership sync to the afternoon, Yuki is travelling",
+  "ts": "1760354700.912940"
+ },
+ {
+  "type": "message",
+  "user": "U0723X",
+  "text": "reminder: there is a wasp in the third floor kitchen and it has learned the door code",
+  "ts": "1760363160.350282"
+ },
+ {
+  "type": "message",
+  "user": "U0720U",
+  "text": "for the record, coffee machine descaled finally. it makes a new noise now. nobody knows what the noise means see INFRA-2393",
+  "ts": "1760370840.839740"
+ },
+ {
+  "type": "message",
+  "user": "U0720U",
+  "text": "ok so does anyone have a phone charger that is not usb-c, i am living in 2016 today",
+  "ts": "1760374500.608814"
+ }
+]

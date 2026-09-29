@@ -1,0 +1,38 @@
+[
+ {
+  "type": "message",
+  "user": "U0722W",
+  "text": "for the record, paging on-call, p99 latency above threshold for 17 minutes (again)",
+  "ts": "1759559040.843202"
+ },
+ {
+  "type": "message",
+  "user": "U0702C",
+  "text": "not to be dramatic but paging on-call, p99 latency above threshold for 6 minutes",
+  "ts": "1759564200.633918"
+ },
+ {
+  "type": "message",
+  "user": "U0721V",
+  "text": "update: paging on-call, p99 latency above threshold for 25 minutes",
+  "ts": "1759576980.373752"
+ },
+ {
+  "type": "message",
+  "user": "U0722W",
+  "text": "again: confirmed, node pool scaled to zero overnight, autoscaler config regression",
+  "ts": "1759591320.249710"
+ },
+ {
+  "type": "message",
+  "user": "U0711L",
+  "text": "small thing: customer impact limited to the public sandbox, no production exposure :)",
+  "ts": "1759596900.102181"
+ },
+ {
+  "type": "message",
+  "user": "U0701B",
+  "text": "small thing: INC-04242: sandbox inference returning 503s, investigating see ML-2370",
+  "ts": "1759597200.531323"
+ }
+]

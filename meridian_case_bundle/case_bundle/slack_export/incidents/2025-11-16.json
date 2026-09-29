@@ -1,0 +1,56 @@
+[
+ {
+  "type": "message",
+  "user": "U0716Q",
+  "text": "update: INC-03535 mitigated, writing it up, the writeup will be embarrassing",
+  "ts": "1763281200.734595"
+ },
+ {
+  "type": "message",
+  "user": "U0716Q",
+  "text": "for the record, disk usage alert on scratch-01 at 68%, acknowledged, not urgent sorry",
+  "ts": "1763282700.193848"
+ },
+ {
+  "type": "message",
+  "user": "U0702C",
+  "text": "disk usage alert on scratch-01 at 61%, acknowledged, not urgent",
+  "ts": "1763298900.206196"
+ },
+ {
+  "type": "message",
+  "user": "U0704E",
+  "text": "not to be dramatic but false alarm, monitoring agent itself was the thing that fell over see PLAT-1917",
+  "ts": "1763311800.124275"
+ },
+ {
+  "type": "message",
+  "user": "U0721V",
+  "text": "postmortem doc is up, blameless, please add anything i missed",
+  "ts": "1763320800.357183"
+ },
+ {
+  "type": "message",
+  "user": "U0723X",
+  "text": "fyi INC-01414: sandbox inference returning 503s, investigating",
+  "ts": "1763321940.467974"
+ },
+ {
+  "type": "message",
+  "user": "U0702C",
+  "text": "quick one: INC-02929: sandbox inference returning 503s, investigating sorry",
+  "ts": "1763322240.403814"
+ },
+ {
+  "type": "message",
+  "user": "U0703D",
+  "text": "Anneke is on call this week, Yannick is backup lol",
+  "ts": "1763322480.378638"
+ },
+ {
+  "type": "message",
+  "user": "U0723X",
+  "text": "honestly customer impact limited to the public sandbox, no production exposure",
+  "ts": "1763325060.150661"
+ }
+]

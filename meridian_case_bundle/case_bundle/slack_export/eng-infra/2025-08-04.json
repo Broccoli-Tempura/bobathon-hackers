@@ -1,0 +1,50 @@
+[
+ {
+  "type": "message",
+  "user": "U0703D",
+  "text": "reminder: moving on-call handoff to thursdays, fridays were chaos :)",
+  "ts": "1754292120.898537"
+ },
+ {
+  "type": "message",
+  "user": "U0704E",
+  "text": "ok so PR up for INFRA-2169, it is enormous and i am sorry more later",
+  "ts": "1754301720.933309"
+ },
+ {
+  "type": "message",
+  "user": "U0707H",
+  "text": "update: does anyone actually know what the legacy staging path is still used for sorry",
+  "ts": "1754306340.788600"
+ },
+ {
+  "type": "message",
+  "user": "U0701B",
+  "text": "gpu queue is jammed, 26 jobs pending under a service account",
+  "ts": "1754309460.297762"
+ },
+ {
+  "type": "message",
+  "user": "U0718S",
+  "text": "quick one: the migration runbook is in INFRA-2291, please actually read it will update",
+  "ts": "1754317080.316245"
+ },
+ {
+  "type": "message",
+  "user": "U0707H",
+  "text": "again: the storage docs describe the 2023 architecture, PLAT-1905 tracks fixing it :)",
+  "ts": "1754321040.117729"
+ },
+ {
+  "type": "message",
+  "user": "U0705F",
+  "text": "who owns the nightly backfill cron, it has been failing silently for six days thanks all",
+  "ts": "1754326260.325011"
+ },
+ {
+  "type": "message",
+  "user": "U0721V",
+  "text": "again: does anyone actually know what the legacy staging path is still used for more later",
+  "ts": "1754327760.251062"
+ }
+]

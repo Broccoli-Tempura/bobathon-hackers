@@ -1,0 +1,14 @@
+[
+ {
+  "type": "message",
+  "user": "U0722W",
+  "text": "ok so false alarm, the monitoring agent itself fell over lol",
+  "ts": "1760259840.484129"
+ },
+ {
+  "type": "message",
+  "user": "U0711L",
+  "text": "update: confirmed, node pool scaled to zero overnight, autoscaler config regression sorry",
+  "ts": "1760282640.150490"
+ }
+]

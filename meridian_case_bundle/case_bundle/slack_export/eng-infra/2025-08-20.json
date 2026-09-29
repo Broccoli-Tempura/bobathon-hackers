@@ -1,0 +1,74 @@
+[
+ {
+  "type": "message",
+  "user": "U0714O",
+  "text": "fyi can someone approve the terraform change, it is one line, it is genuinely one line :)",
+  "ts": "1755670020.861450"
+ },
+ {
+  "type": "message",
+  "user": "U0716Q",
+  "text": "quick one: moving the on-call handoff to mondays because fridays were chaos",
+  "ts": "1755672540.352436"
+ },
+ {
+  "type": "message",
+  "user": "U0702C",
+  "text": "kestrel access cleanup still open. it is on the board. the board is long",
+  "ts": "1755675300.934586"
+ },
+ {
+  "type": "message",
+  "user": "U0721V",
+  "text": "small thing: can someone approve the terraform change for DATA-2187, it is one line lol",
+  "ts": "1755677340.739149"
+ },
+ {
+  "type": "message",
+  "user": "U0705F",
+  "text": "not to be dramatic but the rsync to cold storage is crawling again, 9 hours in and at 59%",
+  "ts": "1755688920.331638"
+ },
+ {
+  "type": "message",
+  "user": "U0719T",
+  "text": "not to be dramatic but checkpoint sync is slow again, probably the decompress-on-write thing :)",
+  "ts": "1755693420.929145"
+ },
+ {
+  "type": "message",
+  "user": "U0713N",
+  "text": "again: moving the on-call handoff to mondays because fridays were chaos see DATA-2586",
+  "ts": "1755700260.881824"
+ },
+ {
+  "type": "message",
+  "user": "U0711L",
+  "text": "quick one: snapshot cleanup on scratch-01 freed 5TB, should hold until the migration thanks all",
+  "ts": "1755706860.638361"
+ },
+ {
+  "type": "message",
+  "user": "U0716Q",
+  "text": "who owns the nightly backfill cron, it has been failing for 29 days",
+  "ts": "1755706980.100448"
+ },
+ {
+  "type": "message",
+  "user": "U0723X",
+  "text": "fyi does anyone actually know what the legacy staging path is still used for",
+  "ts": "1755709260.178871"
+ },
+ {
+  "type": "message",
+  "user": "U0703D",
+  "text": "bumping the retention on the eval bucket, shout if that breaks anything",
+  "ts": "1755710100.330295"
+ },
+ {
+  "type": "message",
+  "user": "U0707H",
+  "text": "fyi the storage docs describe the 2023 architecture, ML-2213 tracks fixing it send help",
+  "ts": "1755712080.146161"
+ }
+]

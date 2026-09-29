@@ -1,0 +1,20 @@
+[
+ {
+  "type": "message",
+  "user": "U0720U",
+  "text": "reminder: root cause for INC-02424: a cert expired that nobody knew existed",
+  "ts": "1762176900.232377"
+ },
+ {
+  "type": "message",
+  "user": "U0711L",
+  "text": "paging on-call, p99 latency above threshold for 48 minutes more later",
+  "ts": "1762180620.154181"
+ },
+ {
+  "type": "message",
+  "user": "U0702C",
+  "text": "fyi Kemi is on call this week, Dessie is backup thanks all",
+  "ts": "1762195080.818412"
+ }
+]

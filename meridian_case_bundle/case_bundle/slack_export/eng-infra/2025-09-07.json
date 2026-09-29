@@ -1,0 +1,50 @@
+[
+ {
+  "type": "message",
+  "user": "U0712M",
+  "text": "small thing: the scratch array is at 71%, nobody panic, i am just saying it out loud",
+  "ts": "1757233080.746614"
+ },
+ {
+  "type": "message",
+  "user": "U0714O",
+  "text": "psa: bumping the retention on the eval bucket, shout if that breaks anything :)",
+  "ts": "1757236800.849143"
+ },
+ {
+  "type": "message",
+  "user": "U0707H",
+  "text": "deploy to staging is green, promoting at 21:00 unless someone objects send help",
+  "ts": "1757239140.565088"
+ },
+ {
+  "type": "message",
+  "user": "U0713N",
+  "text": "ok so the storage docs describe the 2023 architecture, INFRA-2116 tracks fixing it send help",
+  "ts": "1757245680.874087"
+ },
+ {
+  "type": "message",
+  "user": "U0712M",
+  "text": "again: can someone approve the terraform change for ML-2426, it is one line",
+  "ts": "1757256180.171677"
+ },
+ {
+  "type": "message",
+  "user": "U0702C",
+  "text": "honestly checkpoint sync is slow again, i think it is the decompress-on-write thing thanks all",
+  "ts": "1757269920.846520"
+ },
+ {
+  "type": "message",
+  "user": "U0719T",
+  "text": "ok so bumping the retention on the eval bucket, shout if that breaks anything",
+  "ts": "1757270100.216355"
+ },
+ {
+  "type": "message",
+  "user": "U0705F",
+  "text": "again: cluster is back. it was DNS. it is always DNS more later",
+  "ts": "1757275020.477059"
+ }
+]

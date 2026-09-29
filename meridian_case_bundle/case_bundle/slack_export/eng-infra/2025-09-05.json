@@ -1,0 +1,50 @@
+[
+ {
+  "type": "message",
+  "user": "U0702C",
+  "text": "quick one: Solveig can you review ML-1900 before friday lol",
+  "ts": "1757055600.700723"
+ },
+ {
+  "type": "message",
+  "user": "U0721V",
+  "text": "honestly Rafferty can you review ML-2493 before wednesday lol",
+  "ts": "1757061960.132631"
+ },
+ {
+  "type": "message",
+  "user": "U0721V",
+  "text": "for the record, rolling back the config change from thursday, latencies went sideways sorry",
+  "ts": "1757066760.288584"
+ },
+ {
+  "type": "message",
+  "user": "U0704E",
+  "text": "psa: reminder we are frozen for deploys over the long weekend",
+  "ts": "1757068320.101718"
+ },
+ {
+  "type": "message",
+  "user": "U0712M",
+  "text": "reminder: who owns the nightly backfill cron, it has been failing silently for six days :)",
+  "ts": "1757079540.358754"
+ },
+ {
+  "type": "message",
+  "user": "U0704E",
+  "text": "honestly deploy to staging is green, promoting at 3 unless someone objects lol",
+  "ts": "1757085000.374608"
+ },
+ {
+  "type": "message",
+  "user": "U0711L",
+  "text": "the migration runbook is in the ticket, please actually read the runbook",
+  "ts": "1757086140.738726"
+ },
+ {
+  "type": "message",
+  "user": "U0713N",
+  "text": "small thing: i have found the memory leak. it was me. it was me 36 weeks ago thanks all",
+  "ts": "1757086920.650123"
+ }
+]

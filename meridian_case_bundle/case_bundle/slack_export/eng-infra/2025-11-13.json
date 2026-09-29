@@ -1,0 +1,68 @@
+[
+ {
+  "type": "message",
+  "user": "U0703D",
+  "text": "fyi training loss went flat at step 38k, either very good or very bad see DATA-2409",
+  "ts": "1763019480.655305"
+ },
+ {
+  "type": "message",
+  "user": "U0704E",
+  "text": "ok so gpu queue is jammed, someone has 40 jobs pending under a service account see DATA-2444",
+  "ts": "1763020920.980019"
+ },
+ {
+  "type": "message",
+  "user": "U0721V",
+  "text": "ok so the rsync to cold storage is crawling again, 42 hours in and at 94% lol",
+  "ts": "1763021760.392149"
+ },
+ {
+  "type": "message",
+  "user": "U0713N",
+  "text": "ok so restarted the backfill from scratch, the partial output was garbage will update",
+  "ts": "1763025060.589824"
+ },
+ {
+  "type": "message",
+  "user": "U0705F",
+  "text": "reminder: gpu queue is jammed, someone has 40 jobs pending under a service account",
+  "ts": "1763025120.164500"
+ },
+ {
+  "type": "message",
+  "user": "U0719T",
+  "text": "small thing: rolling back the config change from monday, latencies went sideways cc Dov",
+  "ts": "1763036820.594344"
+ },
+ {
+  "type": "message",
+  "user": "U0711L",
+  "text": "deploy to staging is green, promoting at 16:00 unless someone objects cc Marcus",
+  "ts": "1763047920.534101"
+ },
+ {
+  "type": "message",
+  "user": "U0702C",
+  "text": "again: the rsync to cold storage is crawling again, 19 hours in and at 89%",
+  "ts": "1763055000.541413"
+ },
+ {
+  "type": "message",
+  "user": "U0704E",
+  "text": "psa: restarted the backfill from scratch, the partial output was garbage will update",
+  "ts": "1763055300.636714"
+ },
+ {
+  "type": "message",
+  "user": "U0714O",
+  "text": "honestly deploy to staging is green, promoting at 3 unless someone objects more later",
+  "ts": "1763055600.649486"
+ },
+ {
+  "type": "message",
+  "user": "U0723X",
+  "text": "gpu queue is jammed, someone has 40 jobs pending under a service account see INFRA-2578",
+  "ts": "1763060280.619584"
+ }
+]

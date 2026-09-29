@@ -1,0 +1,34 @@
+HALCYON SYSTEMS · INVESTIGATION RECORD · INTERVIEW 07 OF 08
+Interviewee: Dr. Kurt Steiner, Chief Scientist
+Interviewer: Nadia Arslan (NA)
+Date: Friday 21.11.2025 · Recording start 13:34 · end 15:22
+Location: rented meeting room, Rosenbergstrasse, St. Gallen (off-site)
+Recording: audio, automatic transcription (TranscribeDesk 3.2). Not proofread. Speaker labels are automatic and may be wrong.
+----------------------------------------------------------------------
+
+[00:00:04] NA: Dr Steiner, thank you. Recorded, stays with me, please don't discuss it afterwards.
+[00:00:09] SPEAKER 2: I'm told this makes me a suspect. I've never been a suspect. Do go on.
+[00:00:15] NA: You were in the building on the Sunday of the long weekend.
+[00:00:19] SPEAKER 2: I was. I am most Sundays. The office is quiet and I like it. I read. Papers, mostly, and a novel about a lighthouse keeper that is far too long.
+[00:00:29] NA: What time did you arrive and leave?
+[00:00:32] SPEAKER 2: No idea. Late morning? Mid-afternoon? I don't wear a watch on Sundays, it's a principle. Dov messaged me asking if I was in the office again, so I suppose whatever time that was I was there.
+[00:00:44] NA: Did you use your badge?
+[00:00:46] SPEAKER 2: I often come in behind somebody else. I have done for six years. On a Sunday behind the cleaners, probably. I drove, I know that, I always drive, I park on level two by the lift.
+[00:00:57] NA: And the Friday evening?
+[00:01:00] SPEAKER 2: Dinner at the Stadtclub with some old colleagues from the university. Seven o'clock. We are all old men and we tell the same stories and it takes a long time. Home after eleven, I should think. My wife will tell you I woke her up.
+[00:01:14] NA: You have administrator accounts on most systems.
+[00:01:17] SPEAKER 2: I'm told I do. I don't know what most of them do. Iris tells me this is bad. Iris has told me in writing, which I believe is the security equivalent of putting it in a frame.
+[00:01:27] SPEAKER 2: [rustling] My passwords. They live in this notebook. You may look. I'm told that's also bad.
+[00:01:34] NA: I'll leave the notebook with you. Do you know what a checkpoint bundle is?
+[00:01:38] SPEAKER 2: In the sense that I know what a carburettor is. I know what it's for. I could not find one, change one, or steal one, and if you sat me in front of the thing and told me to copy it somewhere I should think I'd take down the company by accident inside ten minutes.
+[00:01:54] NA: Did anyone ever ask to borrow your accounts?
+[00:01:57] SPEAKER 2: Not that I remember. Iris took some away in the spring. She was very polite about it.
+[00:02:03] NA: Did you see the February board deck?
+[00:02:06] SPEAKER 2: I'm not on the board. I used to be, in the early years. Now I have a title, an office and a standing Thursday lunch with Dov.
+[00:02:15] NA: Who do you think did this?
+[00:02:18] SPEAKER 2: I have no idea. I founded this company with Dov and I have hired half the people in it, and I would have said none of them. [pause] Which is, I suspect, exactly what everyone says.
+[00:02:30] SPEAKER 2: May I tell you about 1994?
+[00:02:32] NA: If it's short.
+[00:02:34] SPEAKER 2: It is not.
+[00:02:36] [the following 101 minutes concern a paper published in 1994, the early years of Halcyon, and the architecture of MERIDIAN, which the interviewee says he no longer entirely understands; not transcribed]
+[01:47:10] NA: Recording stopped.

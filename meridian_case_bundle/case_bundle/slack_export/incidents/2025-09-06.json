@@ -1,0 +1,26 @@
+[
+ {
+  "type": "message",
+  "user": "U0705F",
+  "text": "psa: false alarm, the monitoring agent itself fell over more later",
+  "ts": "1757158680.966752"
+ },
+ {
+  "type": "message",
+  "user": "U0703D",
+  "text": "reminder: we have a gap in the on-call rotation over the long weekend, i am fixing it now",
+  "ts": "1757170980.838398"
+ },
+ {
+  "type": "message",
+  "user": "U0722W",
+  "text": "root cause for INC-01111: a cert expired that nobody knew existed see PLAT-2491",
+  "ts": "1757173500.522102"
+ },
+ {
+  "type": "message",
+  "user": "U0713N",
+  "text": "fyi customer impact limited to the public sandbox, no production exposure (again)",
+  "ts": "1757187300.729989"
+ }
+]

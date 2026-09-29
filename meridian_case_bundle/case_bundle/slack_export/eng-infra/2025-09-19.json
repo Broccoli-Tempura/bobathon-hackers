@@ -1,0 +1,74 @@
+[
+ {
+  "type": "message",
+  "user": "U0705F",
+  "text": "honestly bumping retention on the eval bucket to 20 days, shout if that breaks anything",
+  "ts": "1758264660.708182"
+ },
+ {
+  "type": "message",
+  "user": "U0723X",
+  "text": "again: PR up for the tokenizer refactor, it is enormous and i am sorry more later",
+  "ts": "1758264840.909762"
+ },
+ {
+  "type": "message",
+  "user": "U0723X",
+  "text": "again: restarted the backfill from scratch, the partial output was garbage send help",
+  "ts": "1758272280.936409"
+ },
+ {
+  "type": "message",
+  "user": "U0721V",
+  "text": "quick one: deploy to staging is green, promoting at 18:00 unless someone objects thanks all",
+  "ts": "1758275460.295715"
+ },
+ {
+  "type": "message",
+  "user": "U0704E",
+  "text": "quick one: i have found the memory leak. it was me. it was me four months ago thanks all",
+  "ts": "1758281760.275132"
+ },
+ {
+  "type": "message",
+  "user": "U0720U",
+  "text": "not to be dramatic but deploy to staging is green, promoting at 9:00 unless someone objects",
+  "ts": "1758291660.288977"
+ },
+ {
+  "type": "message",
+  "user": "U0710K",
+  "text": "again: flaky test in the integration suite again, it is the same one, it is always the same one",
+  "ts": "1758292200.871878"
+ },
+ {
+  "type": "message",
+  "user": "U0701B",
+  "text": "eval run 4417 finished, nothing interesting, will rerun with the new sampler see DATA-2431",
+  "ts": "1758295500.355178"
+ },
+ {
+  "type": "message",
+  "user": "U0723X",
+  "text": "update: adding a lint rule and preemptively apologising to everyone's diff (again)",
+  "ts": "1758305280.736238"
+ },
+ {
+  "type": "message",
+  "user": "U0723X",
+  "text": "reminder: i have found the memory leak. it was me. it was me 9 weeks ago cc Halina",
+  "ts": "1758306240.333230"
+ },
+ {
+  "type": "message",
+  "user": "U0710K",
+  "text": "snapshot cleanup on scratch-01 freed 2TB, should hold until the migration cc Bruno",
+  "ts": "1758309360.326079"
+ },
+ {
+  "type": "message",
+  "user": "U0702C",
+  "text": "again: PR up for INFRA-2336, it is enormous and i am sorry lol",
+  "ts": "1758310800.297506"
+ }
+]

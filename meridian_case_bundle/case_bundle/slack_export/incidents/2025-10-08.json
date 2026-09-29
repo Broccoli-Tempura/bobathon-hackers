@@ -1,0 +1,38 @@
+[
+ {
+  "type": "message",
+  "user": "U0721V",
+  "text": "quick one: INC-02929: sandbox inference returning 503s, investigating",
+  "ts": "1759912200.669751"
+ },
+ {
+  "type": "message",
+  "user": "U0720U",
+  "text": "psa: INC-04848: sandbox inference returning 503s, investigating see INFRA-2291",
+  "ts": "1759921200.250345"
+ },
+ {
+  "type": "message",
+  "user": "U0722W",
+  "text": "again: INC-02727 mitigated, writing it up, the writeup will be embarrassing",
+  "ts": "1759926300.547424"
+ },
+ {
+  "type": "message",
+  "user": "U0711L",
+  "text": "small thing: we have a gap in the on-call rotation over the long weekend, i am fixing it now",
+  "ts": "1759929180.606468"
+ },
+ {
+  "type": "message",
+  "user": "U0716Q",
+  "text": "small thing: INC-033: sandbox inference returning 503s, investigating will update",
+  "ts": "1759932540.958983"
+ },
+ {
+  "type": "message",
+  "user": "U0707H",
+  "text": "paging on-call, latency p99 above threshold for 12 minutes",
+  "ts": "1759948200.996907"
+ }
+]

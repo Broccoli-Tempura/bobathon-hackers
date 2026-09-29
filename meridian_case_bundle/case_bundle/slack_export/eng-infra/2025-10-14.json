@@ -1,0 +1,68 @@
+[
+ {
+  "type": "message",
+  "user": "U0704E",
+  "text": "portable arrays back in the IT cage, seals intact, noted on the HD ticket",
+  "ts": "1760425920.818823"
+ },
+ {
+  "type": "message",
+  "user": "U0704E",
+  "text": "for the record, training loss went flat at step 37k, either very good or very bad will update",
+  "ts": "1760426700.626488"
+ },
+ {
+  "type": "message",
+  "user": "U0716Q",
+  "text": "reminder: does anyone actually know what the legacy staging path is still used for lol",
+  "ts": "1760429700.632428"
+ },
+ {
+  "type": "message",
+  "user": "U0723X",
+  "text": "gpu queue is jammed, someone has 40 jobs pending under a service account lol",
+  "ts": "1760431260.586422"
+ },
+ {
+  "type": "message",
+  "user": "U0718S",
+  "text": "Wen-Li can you review PLAT-2106 before thursday more later",
+  "ts": "1760432040.952761"
+ },
+ {
+  "type": "message",
+  "user": "U0721V",
+  "text": "flaky test in the integration suite again, it is the same one, it is always the same one :)",
+  "ts": "1760450520.840548"
+ },
+ {
+  "type": "message",
+  "user": "U0705F",
+  "text": "opened DATA-1877 about scratch-02, free space over the long weekend looks deranged. fills, drops ~9TB in one step overnight, fills again. probably a migration script being inelegant but writing it down",
+  "ts": "1760451120.342965"
+ },
+ {
+  "type": "message",
+  "user": "U0704E",
+  "text": "that was not me, i was in val müstair being shown a barn",
+  "ts": "1760451600.283230"
+ },
+ {
+  "type": "message",
+  "user": "U0705F",
+  "text": "then it was a script. low priority, parked",
+  "ts": "1760451720.769417"
+ },
+ {
+  "type": "message",
+  "user": "U0707H",
+  "text": "psa: can we talk about why the storage docs describe an architecture we stopped using in 2023 sorry",
+  "ts": "1760460660.314828"
+ },
+ {
+  "type": "message",
+  "user": "U0707H",
+  "text": "for the record, the storage docs describe the 2023 architecture, PLAT-2014 tracks fixing it thanks all",
+  "ts": "1760467380.224267"
+ }
+]

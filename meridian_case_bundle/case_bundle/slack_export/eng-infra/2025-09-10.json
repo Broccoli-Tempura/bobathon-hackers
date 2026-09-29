@@ -1,0 +1,74 @@
+[
+ {
+  "type": "message",
+  "user": "U0722W",
+  "text": "update: eval run 4417 finished, nothing interesting, will rerun with the new sampler",
+  "ts": "1757484840.767738"
+ },
+ {
+  "type": "message",
+  "user": "U0703D",
+  "text": "cluster is back. it was DNS. it is always DNS",
+  "ts": "1757487420.763079"
+ },
+ {
+  "type": "message",
+  "user": "U0719T",
+  "text": "psa: gpu queue is jammed, 24 jobs pending under a service account",
+  "ts": "1757492160.653295"
+ },
+ {
+  "type": "message",
+  "user": "U0718S",
+  "text": "small thing: PR up for the tokenizer refactor, it is enormous and i am sorry see ML-1958",
+  "ts": "1757494140.352175"
+ },
+ {
+  "type": "message",
+  "user": "U0714O",
+  "text": "adding a lint rule and preemptively apologising to everyone's diff :)",
+  "ts": "1757505540.163369"
+ },
+ {
+  "type": "message",
+  "user": "U0702C",
+  "text": "ok so gpu queue is jammed, 7 jobs pending under a service account",
+  "ts": "1757506560.162006"
+ },
+ {
+  "type": "message",
+  "user": "U0712M",
+  "text": "quick one: rolling back the config change, latencies went sideways send help",
+  "ts": "1757510760.388873"
+ },
+ {
+  "type": "message",
+  "user": "U0707H",
+  "text": "update: the scratch array is at 71%, nobody panic, i am just saying it out loud",
+  "ts": "1757512800.249934"
+ },
+ {
+  "type": "message",
+  "user": "U0716Q",
+  "text": "quick one: the rsync to cold storage is crawling again, 39 hours in and at 89%",
+  "ts": "1757525760.354524"
+ },
+ {
+  "type": "message",
+  "user": "U0705F",
+  "text": "small thing: checkpoint sync is slow again, probably the decompress-on-write thing will update",
+  "ts": "1757527980.978938"
+ },
+ {
+  "type": "message",
+  "user": "U0707H",
+  "text": "PR up for the tokenizer refactor, it is enormous and i am sorry send help",
+  "ts": "1757532180.153333"
+ },
+ {
+  "type": "message",
+  "user": "U0707H",
+  "text": "small thing: Dov can you review ML-2577 before friday lol",
+  "ts": "1757533740.817383"
+ }
+]

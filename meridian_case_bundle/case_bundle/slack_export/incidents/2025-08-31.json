@@ -1,0 +1,50 @@
+[
+ {
+  "type": "message",
+  "user": "U0723X",
+  "text": "disk usage alert on scratch-01 at 61%, acknowledged, not urgent (again)",
+  "ts": "1756620660.694173"
+ },
+ {
+  "type": "message",
+  "user": "U0721V",
+  "text": "again: INC-01515: sandbox inference returning 503s, investigating lol",
+  "ts": "1756621860.915413"
+ },
+ {
+  "type": "message",
+  "user": "U0710K",
+  "text": "root cause for INC-04646: a cert expired that nobody knew existed sorry",
+  "ts": "1756639680.376377"
+ },
+ {
+  "type": "message",
+  "user": "U0702C",
+  "text": "quick one: INC-04444: sandbox inference returning 503s, investigating",
+  "ts": "1756644540.473325"
+ },
+ {
+  "type": "message",
+  "user": "U0722W",
+  "text": "INC-01919 mitigated, writing it up, the writeup will be embarrassing",
+  "ts": "1756651260.374157"
+ },
+ {
+  "type": "message",
+  "user": "U0711L",
+  "text": "again: paging on-call, latency p99 above threshold for 12 minutes lol",
+  "ts": "1756653420.179702"
+ },
+ {
+  "type": "message",
+  "user": "U0702C",
+  "text": "INC-02222: sandbox inference returning 503s, investigating",
+  "ts": "1756656420.620804"
+ },
+ {
+  "type": "message",
+  "user": "U0720U",
+  "text": "not to be dramatic but customer impact limited to the public sandbox, no production exposure (again)",
+  "ts": "1756670280.717931"
+ }
+]

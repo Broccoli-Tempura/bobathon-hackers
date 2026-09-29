@@ -1,0 +1,80 @@
+[
+ {
+  "type": "message",
+  "user": "U0723X",
+  "text": "fyi portable array from the IT cage is back on the shelf, seals intact sorry",
+  "ts": "1757660880.372736"
+ },
+ {
+  "type": "message",
+  "user": "U0704E",
+  "text": "again: can someone approve the terraform change for DATA-2013, it is one line :)",
+  "ts": "1757665800.561160"
+ },
+ {
+  "type": "message",
+  "user": "U0702C",
+  "text": "moving on-call handoff to wednesdays, fridays were chaos more later",
+  "ts": "1757667600.572853"
+ },
+ {
+  "type": "message",
+  "user": "U0704E",
+  "text": "can someone approve the terraform change for DATA-2307, it is one line",
+  "ts": "1757670840.189154"
+ },
+ {
+  "type": "message",
+  "user": "U0719T",
+  "text": "psa: snapshot cleanup on scratch-01 freed 9TB, should hold until the migration more later",
+  "ts": "1757677260.366785"
+ },
+ {
+  "type": "message",
+  "user": "U0714O",
+  "text": "ok so eval run 4417 finished, nothing interesting, will rerun with the new sampler send help",
+  "ts": "1757683980.572233"
+ },
+ {
+  "type": "message",
+  "user": "U0719T",
+  "text": "update: eval run 4417 finished, nothing interesting, will rerun with the new sampler cc Dessie",
+  "ts": "1757690640.515128"
+ },
+ {
+  "type": "message",
+  "user": "U0711L",
+  "text": "moving on-call handoff to tuesdays, fridays were chaos more later",
+  "ts": "1757695380.922267"
+ },
+ {
+  "type": "message",
+  "user": "U0710K",
+  "text": "snapshot cleanup on scratch-01 freed 10TB, should hold until the migration thanks all",
+  "ts": "1757696700.480774"
+ },
+ {
+  "type": "message",
+  "user": "U0705F",
+  "text": "bumping retention on the eval bucket to 24 days, shout if that breaks anything lol",
+  "ts": "1757697720.749476"
+ },
+ {
+  "type": "message",
+  "user": "U0721V",
+  "text": "i have found the memory leak. it was me. it was me 18 weeks ago sorry",
+  "ts": "1757703120.705079"
+ },
+ {
+  "type": "message",
+  "user": "U0720U",
+  "text": "reminder: Andrin can you review ML-2025 before tuesday",
+  "ts": "1757703420.549254"
+ },
+ {
+  "type": "message",
+  "user": "U0710K",
+  "text": "does anyone actually know what the legacy staging path is still used for thanks all",
+  "ts": "1757706720.244470"
+ }
+]

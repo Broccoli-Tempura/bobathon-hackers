@@ -1,0 +1,26 @@
+[
+ {
+  "type": "message",
+  "user": "U0705F",
+  "text": "not to be dramatic but disk usage alert on scratch-01 at 56%, acknowledged, not urgent",
+  "ts": "1762328460.506897"
+ },
+ {
+  "type": "message",
+  "user": "U0714O",
+  "text": "INC-03030 mitigated, writing it up, the writeup will be embarrassing lol",
+  "ts": "1762331640.122824"
+ },
+ {
+  "type": "message",
+  "user": "U0716Q",
+  "text": "update: we have a gap in the on-call rotation over the long weekend, i am fixing it now",
+  "ts": "1762335840.879720"
+ },
+ {
+  "type": "message",
+  "user": "U0707H",
+  "text": "disk usage alert on scratch-01 at 83%, acknowledged, not urgent thanks all",
+  "ts": "1762374420.679830"
+ }
+]

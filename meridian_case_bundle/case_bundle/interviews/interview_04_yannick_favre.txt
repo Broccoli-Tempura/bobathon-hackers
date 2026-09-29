@@ -1,0 +1,46 @@
+HALCYON SYSTEMS · INVESTIGATION RECORD · INTERVIEW 04 OF 08
+Interviewee: Yannick Favre, Infrastructure Engineer
+Interviewer: Nadia Arslan (NA)
+Date: Friday 21.11.2025 · Recording start 09:01 · end 10:27
+Location: rented meeting room, Rosenbergstrasse, St. Gallen (off-site)
+Recording: audio, automatic transcription (TranscribeDesk 3.2). Not proofread. Speaker labels are automatic and may be wrong.
+----------------------------------------------------------------------
+
+[00:00:02] SPEAKER 2: Sorry. Sorry, I'm early. Is that okay? Sorry.
+[00:00:06] NA: It's fine. Sit. Recorded, stays with me, please don't discuss it afterwards.
+[00:00:11] SPEAKER 2: Yes. Sorry. Yes.
+[00:00:13] NA: You built the scratch volumes.
+[00:00:16] SPEAKER 2: Scratch-01 and scratch-02, yes. Fast arrays, no redundancy, for bulk copies. They're not wired into the audit pipeline because they were never meant to hold anything important, which, I know. I know.
+[00:00:28] NA: Can you draw me the storage layout?
+[00:00:30] SPEAKER 2: Can I use the back of this? [paper] So. Object store here. Legacy staging path here, that's what the docs say. Current staging path here, that's where the real checkpoints actually sit before promotion. Scratch arrays hang off the side here. And the data room export prefix, the Kestrel thing, sits over here, and it can see... [pause] it can see this whole tree. Which it shouldn't.
+[00:00:58] NA: Tell me about that.
+[00:01:00] SPEAKER 2: Okay. So in April the data room needed an export role to generate the diligence documents in bulk, and it was scoped to a storage prefix that was broader than it needed to be, because we were in a hurry and nobody had time to do it properly. When the requests narrowed nobody re-scoped it. When the deal died nobody revoked it. Iris has raised it three times. It's on me. I kept saying after the migration.
+[00:01:27] NA: Could somebody use that role to find the real checkpoints?
+[00:01:31] SPEAKER 2: They'd see the tree. [pause] Filenames. Sizes. Twenty things that all look like checkpoints, eleven of which are Iris's fakes and nine of which aren't, and no way on God's earth to tell them apart from the outside, because that's the whole design. You'd need somebody to hand you the list.
+[00:01:49] NA: Who has the list?
+[00:01:52] SPEAKER 2: Iris made it. It went to the board in February. And then it went on Confluence, because... because I put it on Confluence. In March. I was trying to be helpful. I permissioned it to eng-all because that's the default and I didn't think, and it's been sitting there for seven months, and when Iris finds out I'm going to walk into the sea.
+[00:02:14] NA: She knows.
+[00:02:16] SPEAKER 2: [pause] Oh. Right. Yes. She would.
+[00:02:20] NA: Who looked at the page?
+[00:02:22] SPEAKER 2: The analytics say sixteen views, nine accounts. I opened it four times, but I open everything four times because I read on my phone on the bus and I keep losing my place.
+[00:02:33] NA: Where were you the weekend of the tenth?
+[00:02:36] SPEAKER 2: Val Müstair. My girlfriend's family has a farm up there. We went up on the Thursday evening by train, and there's a PostBus for the last bit that stops at six. I don't have a car. It's four hours each way. On Saturday I was on a video call with Lukas for four hours from their kitchen table, fixing the sandbox, while her grandfather explained cheese to me.
+[00:02:58] NA: Is there anything you want to tell me that you think I'll find anyway?
+[00:03:02] SPEAKER 2: [long pause] Yes. I've been moonlighting. Since June. About eleven hours a week for a seed-stage company in Winterthur. It's against my contract, which I signed at twenty-four without reading. It's four hundred francs a week and it's for a guy I went to school with and it's a scheduling app for dog groomers. It is the least industrial-espionage-adjacent thing in the world and I've been sick about it for a month.
+[00:03:28] NA: Thank you for telling me.
+[00:03:30] SPEAKER 2: Am I fired?
+[00:03:32] NA: That's not my department.
+[00:03:34] NA: The migration. You wrote the ticket?
+[00:03:37] SPEAKER 2: INFRA-2291. The collector writes to the storage that was being moved, so it had to stop, otherwise you corrupt the audit store itself. Iris signed off. Twenty-one hundred Friday to six Saturday. I posted it in eng-infra, it was in standup, it was everywhere. I also borrowed two portable arrays from the IT cage for the migration staging, which I realise now sounds terrible, but they went to the colo in Glattbrugg on Thursday and came back Monday with the seals intact. June logged it.
+[00:04:04] NA: Portable arrays.
+[00:04:06] SPEAKER 2: Eighteen terabyte ones. Normal migration kit. They never came to St. Gallen that weekend. The colo tech has a receipt.
+[00:04:14] NA: Did the migration touch the scratch volumes?
+[00:04:17] SPEAKER 2: No. Nothing in the runbook touches scratch. That's why Chiara's ticket was weird, when she asked about scratch-02 on the Tuesday. I said it wasn't me, because it wasn't, I was looking at a barn.
+[00:04:29] NA: What did her ticket say?
+[00:04:31] SPEAKER 2: That the free space on scratch-02 did something strange over the long weekend. Filled up, dropped by a lot, filled up again. We both thought it was a script. [pause] I don't think it was a script now.
+[00:04:43] NA: Who do you think could have done it?
+[00:04:46] SPEAKER 2: Anyone who knew the list. Which is my fault, partly. Sorry.
+[00:04:50] NA: Thank you, Yannick.
+[00:04:52] SPEAKER 2: Sorry. Thank you. Sorry.
+[00:04:55] [recording continues, 81 minutes removed]
+[01:26:04] NA: Recording stopped.

@@ -1,0 +1,56 @@
+[
+ {
+  "type": "message",
+  "user": "U0702C",
+  "text": "quick one: the rsync to cold storage is crawling again, 30 hours in and at 87%",
+  "ts": "1758868800.867760"
+ },
+ {
+  "type": "message",
+  "user": "U0719T",
+  "text": "again: the scratch array is at 71%, nobody panic, i am just saying it out loud",
+  "ts": "1758878760.702686"
+ },
+ {
+  "type": "message",
+  "user": "U0714O",
+  "text": "not to be dramatic but gpu queue is jammed, 10 jobs pending under a service account thanks all",
+  "ts": "1758879180.901962"
+ },
+ {
+  "type": "message",
+  "user": "U0713N",
+  "text": "i have found the memory leak. it was me. it was me 45 weeks ago more later",
+  "ts": "1758880860.994773"
+ },
+ {
+  "type": "message",
+  "user": "U0703D",
+  "text": "scratch array at 71%, nobody panic, i am just saying it out loud",
+  "ts": "1758885360.618227"
+ },
+ {
+  "type": "message",
+  "user": "U0723X",
+  "text": "psa: we are out of disk on scratch-01 again, someone is writing tarballs there",
+  "ts": "1758899340.680460"
+ },
+ {
+  "type": "message",
+  "user": "U0721V",
+  "text": "small thing: i have found the memory leak. it was me. it was me 33 weeks ago send help",
+  "ts": "1758901500.750371"
+ },
+ {
+  "type": "message",
+  "user": "U0719T",
+  "text": "psa: i have found the memory leak. it was me. it was me 9 weeks ago :)",
+  "ts": "1758903600.819719"
+ },
+ {
+  "type": "message",
+  "user": "U0714O",
+  "text": "portable array from the IT cage is back on the shelf, seals intact lol",
+  "ts": "1758906960.321241"
+ }
+]

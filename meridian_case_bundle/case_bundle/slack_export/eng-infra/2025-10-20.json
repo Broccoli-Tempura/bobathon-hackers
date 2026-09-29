@@ -1,0 +1,50 @@
+[
+ {
+  "type": "message",
+  "user": "U0712M",
+  "text": "again: free space graph on scratch-01 looks weird, it is Chiara's tarballs again cc Chiara",
+  "ts": "1760942280.708725"
+ },
+ {
+  "type": "message",
+  "user": "U0719T",
+  "text": "small thing: cluster is back. it was DNS. it is always DNS sorry",
+  "ts": "1760946420.226437"
+ },
+ {
+  "type": "message",
+  "user": "U0707H",
+  "text": "update: training loss went flat at step 45k, either very good or very bad sorry",
+  "ts": "1760958060.167648"
+ },
+ {
+  "type": "message",
+  "user": "U0723X",
+  "text": "ok so gpu queue is jammed, someone has 40 jobs pending under a service account send help",
+  "ts": "1760963340.983564"
+ },
+ {
+  "type": "message",
+  "user": "U0722W",
+  "text": "honestly snapshot cleanup on scratch-01 freed 11TB, should hold until the migration (again)",
+  "ts": "1760969100.865767"
+ },
+ {
+  "type": "message",
+  "user": "U0701B",
+  "text": "honestly reminder we are frozen for deploys over the long weekend more later",
+  "ts": "1760974560.695774"
+ },
+ {
+  "type": "message",
+  "user": "U0711L",
+  "text": "small thing: free space graph on scratch-01 looks weird, it is Anneke's tarballs again :)",
+  "ts": "1760977620.904219"
+ },
+ {
+  "type": "message",
+  "user": "U0711L",
+  "text": "gpu queue is jammed, 8 jobs pending under a service account",
+  "ts": "1760988180.689332"
+ }
+]

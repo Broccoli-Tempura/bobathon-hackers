@@ -1,0 +1,38 @@
+[
+ {
+  "type": "message",
+  "user": "U0702C",
+  "text": "small thing: customer impact limited to the public sandbox, no production exposure",
+  "ts": "1756880880.907552"
+ },
+ {
+  "type": "message",
+  "user": "U0710K",
+  "text": "honestly INC-03838 mitigated, writing it up, the writeup will be embarrassing lol",
+  "ts": "1756890840.472949"
+ },
+ {
+  "type": "message",
+  "user": "U0702C",
+  "text": "paging on-call, p99 latency above threshold for 39 minutes thanks all",
+  "ts": "1756898580.415699"
+ },
+ {
+  "type": "message",
+  "user": "U0713N",
+  "text": "small thing: INC-022: sandbox inference returning 503s, investigating",
+  "ts": "1756900020.925465"
+ },
+ {
+  "type": "message",
+  "user": "U0711L",
+  "text": "sandbox inference cluster is returning 503s, investigating more later",
+  "ts": "1756913760.624766"
+ },
+ {
+  "type": "message",
+  "user": "U0713N",
+  "text": "update: customer impact limited to the public sandbox, no production exposure :)",
+  "ts": "1756921560.935909"
+ }
+]

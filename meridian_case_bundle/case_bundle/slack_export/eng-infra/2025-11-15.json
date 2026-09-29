@@ -1,0 +1,92 @@
+[
+ {
+  "type": "message",
+  "user": "U0716Q",
+  "text": "bumping the retention on the eval bucket, shout if that breaks anything lol",
+  "ts": "1763207640.494579"
+ },
+ {
+  "type": "message",
+  "user": "U0703D",
+  "text": "checkpoint sync is slow again, probably the decompress-on-write thing more later",
+  "ts": "1763214060.202507"
+ },
+ {
+  "type": "message",
+  "user": "U0719T",
+  "text": "PR up for the tokenizer refactor, it is enormous and i am sorry will update",
+  "ts": "1763216400.708514"
+ },
+ {
+  "type": "message",
+  "user": "U0721V",
+  "text": "cluster is back. it was DNS. it is always DNS",
+  "ts": "1763216520.802864"
+ },
+ {
+  "type": "message",
+  "user": "U0718S",
+  "text": "the storage docs describe the 2023 architecture, INFRA-2003 tracks fixing it",
+  "ts": "1763217420.332172"
+ },
+ {
+  "type": "message",
+  "user": "U0710K",
+  "text": "again: cluster is back. it was DNS. it is always DNS more later",
+  "ts": "1763218440.990646"
+ },
+ {
+  "type": "message",
+  "user": "U0723X",
+  "text": "small thing: does anyone actually know what the legacy staging path is still used for lol",
+  "ts": "1763220060.389309"
+ },
+ {
+  "type": "message",
+  "user": "U0703D",
+  "text": "moving on-call handoff to tuesdays, fridays were chaos",
+  "ts": "1763224560.505152"
+ },
+ {
+  "type": "message",
+  "user": "U0710K",
+  "text": "snapshot cleanup on scratch-01 freed 5TB, should hold until the migration",
+  "ts": "1763228400.132685"
+ },
+ {
+  "type": "message",
+  "user": "U0716Q",
+  "text": "for the record, deploy to staging is green, promoting at 3 unless someone objects",
+  "ts": "1763228460.279304"
+ },
+ {
+  "type": "message",
+  "user": "U0718S",
+  "text": "ok so checkpoint sync is slow again, probably the decompress-on-write thing :)",
+  "ts": "1763230140.879257"
+ },
+ {
+  "type": "message",
+  "user": "U0721V",
+  "text": "reminder: PR up for the tokenizer refactor, it is enormous and i am sorry thanks all",
+  "ts": "1763231160.604611"
+ },
+ {
+  "type": "message",
+  "user": "U0714O",
+  "text": "bumping retention on the eval bucket to 38 days, shout if that breaks anything :)",
+  "ts": "1763231640.475270"
+ },
+ {
+  "type": "message",
+  "user": "U0704E",
+  "text": "training loss went flat at step 46k, either very good or very bad more later",
+  "ts": "1763235960.542773"
+ },
+ {
+  "type": "message",
+  "user": "U0712M",
+  "text": "fyi free space graph on scratch-01 looks weird, it is Solveig's tarballs again",
+  "ts": "1763239980.248433"
+ }
+]

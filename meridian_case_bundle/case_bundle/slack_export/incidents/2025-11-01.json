@@ -1,0 +1,38 @@
+[
+ {
+  "type": "message",
+  "user": "U0721V",
+  "text": "fyi we have a gap in the on-call rotation over the long weekend, i am fixing it now",
+  "ts": "1761981900.224415"
+ },
+ {
+  "type": "message",
+  "user": "U0704E",
+  "text": "not to be dramatic but root cause: a cert expired that nobody knew existed see PLAT-2351",
+  "ts": "1761982440.406885"
+ },
+ {
+  "type": "message",
+  "user": "U0707H",
+  "text": "customer impact limited to the public sandbox, no production exposure sorry",
+  "ts": "1761992160.593974"
+ },
+ {
+  "type": "message",
+  "user": "U0714O",
+  "text": "again: paging on-call, p99 latency above threshold for 35 minutes",
+  "ts": "1762000980.750019"
+ },
+ {
+  "type": "message",
+  "user": "U0701B",
+  "text": "honestly postmortem for INC-033 is up, blameless, add anything i missed more later",
+  "ts": "1762011120.183057"
+ },
+ {
+  "type": "message",
+  "user": "U0722W",
+  "text": "INC-04242: sandbox inference returning 503s, investigating",
+  "ts": "1762011240.223912"
+ }
+]

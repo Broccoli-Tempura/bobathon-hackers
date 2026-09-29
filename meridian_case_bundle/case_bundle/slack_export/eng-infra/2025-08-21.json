@@ -1,0 +1,68 @@
+[
+ {
+  "type": "message",
+  "user": "U0710K",
+  "text": "not to be dramatic but cluster is back. it was DNS. it is always DNS sorry",
+  "ts": "1755760800.561198"
+ },
+ {
+  "type": "message",
+  "user": "U0702C",
+  "text": "reminder: checkpoint sync is slow again, probably the decompress-on-write thing see INFRA-2580",
+  "ts": "1755762540.322708"
+ },
+ {
+  "type": "message",
+  "user": "U0703D",
+  "text": "reminder: training loss went flat at step 33k, either very good or very bad cc Iris",
+  "ts": "1755767100.316863"
+ },
+ {
+  "type": "message",
+  "user": "U0713N",
+  "text": "not to be dramatic but the storage docs describe the 2023 architecture, PLAT-2596 tracks fixing it lol",
+  "ts": "1755768120.169611"
+ },
+ {
+  "type": "message",
+  "user": "U0704E",
+  "text": "update: snapshot cleanup on scratch-01 freed 14TB, should hold until the migration lol",
+  "ts": "1755770520.861254"
+ },
+ {
+  "type": "message",
+  "user": "U0716Q",
+  "text": "for the record, i have found the memory leak. it was me. it was me four months ago",
+  "ts": "1755781680.182502"
+ },
+ {
+  "type": "message",
+  "user": "U0720U",
+  "text": "reminder: copy job for the eval shards failed at 70%, restarting from the beginning because resume is broken cc Bruno",
+  "ts": "1755785340.696535"
+ },
+ {
+  "type": "message",
+  "user": "U0705F",
+  "text": "i have found the memory leak. it was me. it was me 39 weeks ago",
+  "ts": "1755787140.247726"
+ },
+ {
+  "type": "message",
+  "user": "U0704E",
+  "text": "fyi restarted the backfill from scratch, the partial output was garbage see PLAT-1913",
+  "ts": "1755787800.383478"
+ },
+ {
+  "type": "message",
+  "user": "U0714O",
+  "text": "fyi i have found the memory leak. it was me. it was me 32 weeks ago",
+  "ts": "1755793680.797981"
+ },
+ {
+  "type": "message",
+  "user": "U0718S",
+  "text": "ok so running a big copy tonight, expect the array to look weird in the graphs (again)",
+  "ts": "1755794220.373999"
+ }
+]

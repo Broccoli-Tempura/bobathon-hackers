@@ -1,0 +1,68 @@
+[
+ {
+  "type": "message",
+  "user": "U0711L",
+  "text": "fyi checkpoint sync is slow again, probably the decompress-on-write thing",
+  "ts": "1757139000.970950"
+ },
+ {
+  "type": "message",
+  "user": "U0720U",
+  "text": "fyi gpu queue is jammed, 6 jobs pending under a service account lol",
+  "ts": "1757139780.824503"
+ },
+ {
+  "type": "message",
+  "user": "U0722W",
+  "text": "the storage docs describe the 2023 architecture, INFRA-1943 tracks fixing it",
+  "ts": "1757153220.250027"
+ },
+ {
+  "type": "message",
+  "user": "U0722W",
+  "text": "honestly can someone approve the terraform change, it is one line, it is genuinely one line more later",
+  "ts": "1757153520.541323"
+ },
+ {
+  "type": "message",
+  "user": "U0716Q",
+  "text": "the rsync to cold storage is crawling again, 19 hours in and at 77% (again)",
+  "ts": "1757157000.269504"
+ },
+ {
+  "type": "message",
+  "user": "U0704E",
+  "text": "for the record, the storage docs describe the 2023 architecture, ML-2516 tracks fixing it send help",
+  "ts": "1757158980.353672"
+ },
+ {
+  "type": "message",
+  "user": "U0723X",
+  "text": "quick one: copy job for the eval shards failed at 86%, restarting from the beginning because resume is broken see DATA-2591",
+  "ts": "1757161320.865307"
+ },
+ {
+  "type": "message",
+  "user": "U0718S",
+  "text": "quick one: cluster is back. it was DNS. it is always DNS",
+  "ts": "1757161980.520899"
+ },
+ {
+  "type": "message",
+  "user": "U0712M",
+  "text": "reminder: cluster is back. it was DNS. it is always DNS thanks all",
+  "ts": "1757164680.115790"
+ },
+ {
+  "type": "message",
+  "user": "U0712M",
+  "text": "quick one: the storage docs describe the 2023 architecture, ML-2425 tracks fixing it :)",
+  "ts": "1757172480.821664"
+ },
+ {
+  "type": "message",
+  "user": "U0710K",
+  "text": "flaky test in the integration suite again, it is the same one, it is always the same one",
+  "ts": "1757184060.186539"
+ }
+]

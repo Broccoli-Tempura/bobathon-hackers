@@ -1,0 +1,68 @@
+[
+ {
+  "type": "message",
+  "user": "U0720U",
+  "text": "for the record, training loss went flat at step 40k which is either very good or very bad cc Cormac",
+  "ts": "1761981720.569282"
+ },
+ {
+  "type": "message",
+  "user": "U0707H",
+  "text": "reminder: rolling back the config change, latencies went sideways",
+  "ts": "1761987060.281502"
+ },
+ {
+  "type": "message",
+  "user": "U0701B",
+  "text": "update: can we talk about why the storage docs describe an architecture we stopped using in 2023",
+  "ts": "1761991080.124382"
+ },
+ {
+  "type": "message",
+  "user": "U0713N",
+  "text": "PR up for PLAT-2440, it is enormous and i am sorry (again)",
+  "ts": "1762000320.767990"
+ },
+ {
+  "type": "message",
+  "user": "U0722W",
+  "text": "update: i have found the memory leak. it was me. it was me 27 weeks ago send help",
+  "ts": "1762000800.970295"
+ },
+ {
+  "type": "message",
+  "user": "U0713N",
+  "text": "not to be dramatic but the rsync to cold storage is crawling again, 20 hours in and at 63% more later",
+  "ts": "1762007880.360073"
+ },
+ {
+  "type": "message",
+  "user": "U0714O",
+  "text": "psa: can someone approve the terraform change for INFRA-2372, it is one line",
+  "ts": "1762009740.183062"
+ },
+ {
+  "type": "message",
+  "user": "U0703D",
+  "text": "honestly i have found the memory leak. it was me. it was me 45 weeks ago will update",
+  "ts": "1762014060.326802"
+ },
+ {
+  "type": "message",
+  "user": "U0704E",
+  "text": "reminder: can someone approve the terraform change, it is one line, it is genuinely one line send help",
+  "ts": "1762021020.169645"
+ },
+ {
+  "type": "message",
+  "user": "U0702C",
+  "text": "fyi restarted the backfill from scratch, the partial output was garbage send help",
+  "ts": "1762022940.951069"
+ },
+ {
+  "type": "message",
+  "user": "U0711L",
+  "text": "for the record, the storage docs describe the 2023 architecture, DATA-2558 tracks fixing it sorry",
+  "ts": "1762026360.354535"
+ }
+]

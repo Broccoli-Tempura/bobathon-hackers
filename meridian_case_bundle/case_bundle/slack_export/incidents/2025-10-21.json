@@ -1,0 +1,32 @@
+[
+ {
+  "type": "message",
+  "user": "U0716Q",
+  "text": "quick one: confirmed, node pool scaled to zero overnight, autoscaler config regression cc Andrin",
+  "ts": "1761027240.981642"
+ },
+ {
+  "type": "message",
+  "user": "U0714O",
+  "text": "Renata is on call this week, Iris is backup cc Renata",
+  "ts": "1761030900.941123"
+ },
+ {
+  "type": "message",
+  "user": "U0718S",
+  "text": "for the record, Renata is on call this week, Andrin is backup lol",
+  "ts": "1761036960.680914"
+ },
+ {
+  "type": "message",
+  "user": "U0721V",
+  "text": "not to be dramatic but root cause for INC-04040: a cert expired that nobody knew existed (again)",
+  "ts": "1761054180.614493"
+ },
+ {
+  "type": "message",
+  "user": "U0707H",
+  "text": "ok so root cause: a cert expired that nobody knew existed thanks all",
+  "ts": "1761062580.486333"
+ }
+]

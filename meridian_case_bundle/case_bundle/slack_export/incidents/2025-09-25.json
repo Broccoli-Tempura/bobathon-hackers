@@ -1,0 +1,14 @@
+[
+ {
+  "type": "message",
+  "user": "U0720U",
+  "text": "for the record, paging on-call, p99 latency above threshold for 39 minutes more later",
+  "ts": "1758811140.487201"
+ },
+ {
+  "type": "message",
+  "user": "U0723X",
+  "text": "ok so false alarm, monitoring agent itself was the thing that fell over",
+  "ts": "1758816300.134407"
+ }
+]

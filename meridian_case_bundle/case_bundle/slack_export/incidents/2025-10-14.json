@@ -1,0 +1,50 @@
+[
+ {
+  "type": "message",
+  "user": "U0702C",
+  "text": "psa: postmortem doc is up, blameless, please add anything i missed will update",
+  "ts": "1760422320.350210"
+ },
+ {
+  "type": "message",
+  "user": "U0721V",
+  "text": "not to be dramatic but confirmed, node pool scaled to zero overnight, autoscaler config regression :)",
+  "ts": "1760422740.452520"
+ },
+ {
+  "type": "message",
+  "user": "U0722W",
+  "text": "honestly paging on-call, latency p99 above threshold for 12 minutes",
+  "ts": "1760439960.472859"
+ },
+ {
+  "type": "message",
+  "user": "U0720U",
+  "text": "false alarm, monitoring agent itself was the thing that fell over send help",
+  "ts": "1760440620.198845"
+ },
+ {
+  "type": "message",
+  "user": "U0714O",
+  "text": "again: customer impact limited to the public sandbox, no production exposure",
+  "ts": "1760445480.253580"
+ },
+ {
+  "type": "message",
+  "user": "U0722W",
+  "text": "honestly false alarm, monitoring agent itself was the thing that fell over lol",
+  "ts": "1760448480.459819"
+ },
+ {
+  "type": "message",
+  "user": "U0722W",
+  "text": "Kurt is on call this week, Chiara is backup will update",
+  "ts": "1760449740.452157"
+ },
+ {
+  "type": "message",
+  "user": "U0718S",
+  "text": "small thing: June is on call this week, Priya is backup",
+  "ts": "1760451480.304483"
+ }
+]

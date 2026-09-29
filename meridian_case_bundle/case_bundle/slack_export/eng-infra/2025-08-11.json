@@ -1,0 +1,44 @@
+[
+ {
+  "type": "message",
+  "user": "U0719T",
+  "text": "update: deploy to staging is green, promoting at 18:00 unless someone objects (again)",
+  "ts": "1754892420.740778"
+ },
+ {
+  "type": "message",
+  "user": "U0703D",
+  "text": "the migration runbook is in the ticket, please actually read the runbook (again)",
+  "ts": "1754896080.213779"
+ },
+ {
+  "type": "message",
+  "user": "U0720U",
+  "text": "restarted the backfill from scratch, the partial output was garbage",
+  "ts": "1754899500.519945"
+ },
+ {
+  "type": "message",
+  "user": "U0701B",
+  "text": "honestly moving the on-call handoff to mondays because fridays were chaos",
+  "ts": "1754904240.904420"
+ },
+ {
+  "type": "message",
+  "user": "U0714O",
+  "text": "fyi copy job for the eval shards failed at 84%, restarting from the beginning because resume is broken",
+  "ts": "1754905380.275712"
+ },
+ {
+  "type": "message",
+  "user": "U0703D",
+  "text": "can someone approve the terraform change, it is one line, it is genuinely one line cc Yuki",
+  "ts": "1754914860.855414"
+ },
+ {
+  "type": "message",
+  "user": "U0720U",
+  "text": "quick one: flaky test in the integration suite again, it is the same one, it is always the same one see ML-2503",
+  "ts": "1754937360.552856"
+ }
+]

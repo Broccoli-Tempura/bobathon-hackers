@@ -1,0 +1,74 @@
+[
+ {
+  "type": "message",
+  "user": "U0701B",
+  "text": "free space graph on scratch-01 looks weird, it is Halina's tarballs again thanks all",
+  "ts": "1759308720.567263"
+ },
+ {
+  "type": "message",
+  "user": "U0701B",
+  "text": "honestly eval run 3636 finished, nothing interesting, rerunning with the new sampler thanks all",
+  "ts": "1759317780.292346"
+ },
+ {
+  "type": "message",
+  "user": "U0714O",
+  "text": "for the record, the scratch array is at 71%, nobody panic, i am just saying it out loud",
+  "ts": "1759322640.384315"
+ },
+ {
+  "type": "message",
+  "user": "U0718S",
+  "text": "cluster is back. it was DNS. it is always DNS",
+  "ts": "1759322640.915912"
+ },
+ {
+  "type": "message",
+  "user": "U0720U",
+  "text": "fyi snapshot cleanup on scratch-01 freed 5TB, should hold until the migration :)",
+  "ts": "1759323480.415951"
+ },
+ {
+  "type": "message",
+  "user": "U0723X",
+  "text": "gpu queue is jammed, 13 jobs pending under a service account",
+  "ts": "1759326660.263813"
+ },
+ {
+  "type": "message",
+  "user": "U0718S",
+  "text": "ok so rolling back the config change, latencies went sideways will update",
+  "ts": "1759326900.186607"
+ },
+ {
+  "type": "message",
+  "user": "U0719T",
+  "text": "reminder: PR up for ML-2062, it is enormous and i am sorry",
+  "ts": "1759331460.843250"
+ },
+ {
+  "type": "message",
+  "user": "U0702C",
+  "text": "update: deploy to staging is green, promoting at 13:00 unless someone objects more later",
+  "ts": "1759337820.159970"
+ },
+ {
+  "type": "message",
+  "user": "U0707H",
+  "text": "the migration runbook is in INFRA-2291, please actually read it will update",
+  "ts": "1759343640.141661"
+ },
+ {
+  "type": "message",
+  "user": "U0703D",
+  "text": "running a big copy tonight, expect the array to look weird in the graphs cc Bruno",
+  "ts": "1759344960.776717"
+ },
+ {
+  "type": "message",
+  "user": "U0711L",
+  "text": "i have turned it off and on again and it worked and i am furious",
+  "ts": "1759348740.393746"
+ }
+]
