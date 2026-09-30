@@ -197,8 +197,8 @@ em{color:var(--paper)}
     <div class="rv" style="--d:3;margin-top:30px;display:flex;gap:18px;flex-wrap:wrap;font-family:var(--mono);font-size:15px;color:var(--steel)">
       <span style="border:1px solid var(--line);padding:6px 12px;border-radius:2px">8 suspects judged</span>
       <span style="border:1px solid var(--line);padding:6px 12px;border-radius:2px">Every claim sourced</span>
-      <span style="border:1px solid var(--line);padding:6px 12px;border-radius:2px">Confidence <strong style="color:var(--amber)">0.87</strong></span>
-      <span style="border:1px solid var(--line);padding:6px 12px;border-radius:2px"><strong style="color:var(--oxide)">Andrin Caduff</strong></span>
+      <span style="border:1px solid var(--line);padding:6px 12px;border-radius:2px">Confidence <strong style="color:var(--amber)">0.97</strong></span>
+      <span style="border:1px solid var(--line);padding:6px 12px;border-radius:2px"><strong style="color:var(--oxide)">Renata Vogel</strong></span>
     </div>
   </div>
 </section>
@@ -282,59 +282,57 @@ em{color:var(--paper)}
   <div class="wrap two">
     <div class="stack">
       <div class="eyebrow rv" style="--d:0">The verdict</div>
-      <h2 class="rv" style="--d:1">Andrin Caduff</h2>
-      <p class="rv" style="--d:2" style="font-family:var(--mono);color:var(--steel)">Principal Research Engineer · confidence 0.87</p>
-      <p class="rv" style="--d:2">The only suspect with <strong>knowledge of the real paths</strong>, <strong>no verifiable alibi</strong>, and a documented motive. Ran a checkpoint sweep on the exact night of the theft while admitting he knew audit logging was off.</p>
+      <h2 class="rv" style="--d:1">Renata Vogel</h2>
+      <p class="rv" style="--d:2" style="font-family:var(--mono);color:var(--steel)">Chief of Staff · confidence 0.97</p>
+      <p class="rv" style="--d:2">Her car was in the garage <strong>all night</strong>. It exited <strong>11 minutes after the device was detached</strong>. Her claimed Friday-evening drive to Ascona is directly refuted by the garage log and card evidence.</p>
       <div class="rv" style="--d:3;margin-top:8px">
         <span class="stamp hit" style="--sd:0.8s;font-size:clamp(22px,2.5vw,34px);border-width:4px;padding:7px 20px 4px">Culprit</span>
       </div>
     </div>
     <div class="stack rv" style="--d:2">
       <div class="ev accent">
-        <span class="k">Knew real paths</span>
-        <p>"The current path is where I read from. It is not documented. Lukas knows, Iris knows, Yannick knows."</p>
-        <code>interviews/interview_03_andrin_caduff.txt:40</code>
+        <span class="k">Car in garage all night — no departure 10 Oct</span>
+        <p>SG 482 117 enters at raw 07:41 on 10 Oct. No exit recorded on 10 Oct. Partial plate SG 482 1?7 exits raw 05:09 Sat = <strong>06:09 CEST = 04:09 UTC</strong>, 11 min post-detach.</p>
+        <code>garage_barrier_log.csv:2990 + :3017 · parking_permits.xlsx:PB-2400</code>
       </div>
       <div class="ev accent">
-        <span class="k">On the night — VPN sweep, ~22:00 CEST</span>
-        <p>"I ran an evaluation sweep from home, over the VPN, reading the checkpoints. I started it around ten in the evening."</p>
-        <code>interviews/interview_03_andrin_caduff.txt:27</code>
+        <span class="k">Alibi refuted by card chain</span>
+        <p>Claims to have left "about six" for Ascona. Card shows her in <strong>St. Gallen 07:52 CEST Sat</strong>, then driving south via Maienfeld and San Bernardino — Saturday morning, not Friday evening.</p>
+        <code>card_feed_q4.csv:TX880909–TX880911</code>
       </div>
       <div class="ev accent">
-        <span class="k">Admitted knowing the window</span>
-        <p>"Everyone knew. It was in the channel. I did not think about it."</p>
-        <code>interviews/interview_03_andrin_caduff.txt:29</code>
+        <span class="k">Retained real/decoy map (slide 11)</span>
+        <p>Assembled Feb board pack including slide 11 (real/decoy artifact mapping by path). Instructed to delete it; kept the distributed PDF: "I can't recall those."</p>
+        <code>email_export.mbox:149–161</code>
       </div>
     </div>
   </div>
 </section>
 
-<!-- 5 · WHY CADUFF — motive + no alibi -->
-<section class="slide" data-sec="The culprit" data-title="Motive and opportunity">
+<!-- 5 · WHY VOGEL — physical presence + motive -->
+<section class="slide" data-sec="The culprit" data-title="Physical presence + motive">
   <div class="wrap">
-    <div class="eyebrow rv" style="--d:0">Motive · opportunity · access</div>
-    <h2 class="rv" style="--d:1">Three things only Caduff can't explain</h2>
+    <div class="eyebrow rv" style="--d:0">Physical presence · decoy knowledge · motive</div>
+    <h2 class="rv" style="--d:1">The three facts that close the case</h2>
     <div class="ev-grid">
       <div class="ev accent rv" style="--d:2">
-        <span class="k">Motive</span>
-        <p>Research line closed in the September replan. Role ending August 2026. <strong>31 checkpoint accesses in 4 weeks</strong> — company median: 2.</p>
-        <code>investigator_notebook.md:50</code>
-        <p style="font-size:clamp(15px,1.3vw,18px);margin-top:4px">"I am leaving. In September, Lukas told me my research line is being closed."</p>
-        <code>interviews/interview_03_andrin_caduff.txt:14</code>
+        <span class="k">Physical presence — the garage record</span>
+        <p>No suspect car was in the garage overnight except Vogel's (SG 482 117). The barrier clock was on CET (winter time) — real CEST = raw <strong>+ 1h</strong>, verified by Rochat's exit matching "~22:30". Exit at raw 05:09 = <strong>06:09 CEST</strong> = 04:09 UTC.</p>
+        <code>garage_barrier_log.csv:3017 · helpdesk_and_facilities.md:890</code>
       </div>
       <div class="ev accent rv" style="--d:3">
-        <span class="k">No alibi</span>
-        <p>Alone at home in St. Gallen Friday night. No independent corroboration. <strong>No car</strong> — but the copy ran from a local console, not remotely.</p>
-        <code>interviews/interview_03_andrin_caduff.txt:25</code>
-        <p style="font-size:clamp(15px,1.3vw,18px);margin-top:4px">"the Friday and the Monday I was at home, working on this paper, which I cannot prove either."</p>
-        <code>interviews/interview_03_andrin_caduff.txt:25</code>
+        <span class="k">How she knew which bundles were real</span>
+        <p>Assembled the February board pack. Slide 11 showed the real/decoy mapping by filesystem path. Was told to delete it — kept the board PDF. No other non-engineer on the suspect list had this.</p>
+        <code>email_export.mbox:149–161 · investigator_notebook.md:21</code>
+        <p style="font-size:clamp(15px,1.3vw,18px);margin-top:4px">"please pull slide 11 (the real/decoy mapping) from any copy you keep"</p>
+        <code>email_export.mbox:149</code>
       </div>
       <div class="ev accent rv" style="--d:4">
-        <span class="k">Access — unique knowledge</span>
-        <p>On Iris's list of <strong>five people</strong> who knew the real staging paths. Lukas confirmed his checkpoint access was orally approved for a paper.</p>
-        <code>interviews/followup_01_lukas_hofer.txt:9</code>
-        <p style="font-size:clamp(15px,1.3vw,18px);margin-top:4px">Copy started at 21:10 UTC from a <strong>local console</strong> on the engineering floor.</p>
-        <code>forensic_summary_bakalian.pdf:1</code>
+        <span class="k">Motive — Kestrel's offer</span>
+        <p>Gilles Aubert (Kestrel) offered her a continuing role in May. She was Kestrel's counterpart for 120 days and gave them the "map." Kestrel's preprint carries Halcyon's watermark — proof they obtained the real model.</p>
+        <code>email_export.mbox:4283 · investigator_notebook.md:13</code>
+        <p style="font-size:clamp(15px,1.3vw,18px);margin-top:4px">"If we get there, I would want you in a continuing role on our side."</p>
+        <code>email_export.mbox:4283</code>
       </div>
     </div>
   </div>
@@ -403,9 +401,14 @@ em{color:var(--paper)}
     <h2 class="rv" style="--d:1">Seven cleared. One culprit.</h2>
     <div class="sus-list rv" style="--d:2">
       <div class="sus-row top">
-        <span class="sus-name">Andrin Caduff</span>
+        <span class="sus-name">Renata Vogel</span>
         <span class="sus-verdict culprit">Culprit</span>
-        <span class="sus-reason">Only suspect with path knowledge, no alibi, and a VPN sweep on the theft night. Score +3.</span>
+        <span class="sus-reason">Car in garage overnight. Exit 11 min post-device-detach. Alibi refuted by card chain. Retained slide 11 (real/decoy map). Kestrel motive. <span class="cite">garage:3017</span></span>
+      </div>
+      <div class="sus-row">
+        <span class="sus-name">Andrin Caduff</span>
+        <span class="sus-verdict cleared">Cleared</span>
+        <span class="sus-reason">No car, no parking permit. Forensic job ran from local console. VPN sweep read-only confirmed by Hofer; no egress. <span class="cite">interview_03:36 · followup_01:13</span></span>
       </div>
       <div class="sus-row">
         <span class="sus-name">Iris Ammann</span>
@@ -437,11 +440,6 @@ em{color:var(--paper)}
         <span class="sus-verdict cleared">Cleared</span>
         <span class="sus-reason">Building only on Sunday — theft done Friday. Technically unable to operate checkpoint arrays. <span class="cite">interview_07:23</span></span>
       </div>
-      <div class="sus-row">
-        <span class="sus-name">Renata Vogel</span>
-        <span class="sus-verdict cleared">Cleared</span>
-        <span class="sus-reason">Drove to Ascona ~18:00 Fri. No knowledge of real paths — Lukas confirmed personally. <span class="cite">interview_08:30</span></span>
-      </div>
     </div>
   </div>
 </section>
@@ -467,16 +465,16 @@ em{color:var(--paper)}
     </div>
     <div class="stack">
       <div class="ev accent rv" style="--d:2">
-        <span class="k">Right name — Andrin Caduff</span>
-        <p>Both misleading suspects (Chiara + Noemi) explained with file:line citations. Score: +3 only remaining candidate.</p>
+        <span class="k">Right name — Renata Vogel</span>
+        <p>Both misleading suspects (Chiara + Noemi) explained with file:line citations. Physical presence resolved by garage log — the only unambiguous record that survived the audit blackout.</p>
       </div>
       <div class="ev accent rv" style="--d:3">
         <span class="k">Sources — 0 unverified quotes</span>
         <p>Every evidence entry in <span class="cite">verdict.json</span> verified against <span class="cite">LINE_INDEX</span> before submission. Auto-check runs in pipeline.</p>
       </div>
       <div class="ev accent rv" style="--d:4">
-        <span class="k">Uncertainty — confidence 0.87</span>
-        <p>Honest: strong case but no physical witness. All 8 suspects assigned <span class="cite">culprit</span> or <span class="cite">cleared</span> with evidence.</p>
+        <span class="k">Uncertainty — confidence 0.97</span>
+        <p>Genuine: garage record + refuted alibi + retained slide 11 + Kestrel motive. All 8 suspects assigned <span class="cite">culprit</span> or <span class="cite">cleared</span> with evidence.</p>
       </div>
     </div>
   </div>
@@ -526,12 +524,12 @@ em{color:var(--paper)}
 <section class="slide" data-sec="Answer" data-title="The answer">
   <div class="wrap">
     <div class="eyebrow rv" style="--d:0">Case 2025-1011 · meridian-bobathon</div>
-    <h1 class="rv" style="--d:1;margin-top:16px;font-size:clamp(52px,10vw,130px)">Andrin<br>Caduff</h1>
-    <p class="lede rv" style="--d:2;margin-top:22px;max-width:42ch">Principal Research Engineer. Knew the real paths. No alibi. Ran a checkpoint sweep on the exact night the audit log went dark.</p>
+    <h1 class="rv" style="--d:1;margin-top:16px;font-size:clamp(52px,10vw,130px)">Renata<br>Vogel</h1>
+    <p class="lede rv" style="--d:2;margin-top:22px;max-width:42ch">Chief of Staff. Car in garage all night. Exited 11 minutes after device detached. Slide 11 in her PDF. Kestrel offer on file.</p>
     <div class="rv" style="--d:3;margin-top:28px;display:flex;gap:20px;flex-wrap:wrap;align-items:center">
       <span class="stamp hit" style="--sd:0.6s;font-size:clamp(24px,3vw,42px);border-width:4px;padding:8px 24px 5px">Culprit</span>
       <div style="font-family:var(--mono);font-size:clamp(16px,1.6vw,21px);color:var(--steel);line-height:1.8">
-        confidence <strong style="color:var(--amber)">0.87</strong><br>
+        confidence <strong style="color:var(--amber)">0.97</strong><br>
         all 8 suspects judged<br>
         0 unverified quotes<br>
         7 cleared with evidence

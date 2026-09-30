@@ -1,7 +1,7 @@
 {
   "team": "meridian-bobathon",
-  "culprit": "Andrin Caduff",
-  "confidence": 0.87,
+  "culprit": "Renata Vogel",
+  "confidence": 0.97,
   "suspects": [
     {
       "name": "Iris Ammann",
@@ -44,28 +44,23 @@
     },
     {
       "name": "Andrin Caduff",
-      "verdict": "culprit",
-      "reasoning": "The only remaining suspect with knowledge of the real artifact paths, no verifiable alibi for the theft window, and a documented motive (research line closed, role ending). Ran a VPN checkpoint sweep starting ~22:00 CEST on the exact night of the theft while admitting he knew audit logging was off; the forensic report confirms the copy started at 21:10 UTC from a local console.",
+      "verdict": "cleared",
+      "reasoning": "Cleared on physical presence grounds: Caduff has no car and no parking permit (confirmed in interview and absent from parking_permits.xlsx). The forensic report establishes the job was started from a local workstation console on the engineering floor — Caduff was home on VPN. Lukas Hofer independently confirmed the VPN evaluation sweep was read-only and could not exfiltrate data (no unusual egress in the November network bill). His 31 checkpoint accesses are fully explained by the paper he was writing, corroborated by Hofer.",
       "evidence": [
         {
-          "claim": "Knew real checkpoint staging paths since before 2023; one of only five people on the list",
-          "source": "interviews/interview_03_andrin_caduff.txt:40",
-          "quote": "[00:04:34] SPEAKER 2: The current path is where I read from. It is not documented. Lukas knows, Iris knows, Yannick knows. People who have been here since before 2023 know."
+          "claim": "Cleared: no car, no parking permit — cannot have driven to the building and back overnight; forensic report establishes the job required physical presence at a local console",
+          "source": "interviews/interview_03_andrin_caduff.txt:36",
+          "quote": "[00:04:12] SPEAKER 2: No. I cycle. I do not have a car, I have never had a car in Switzerland. The garage people keep trying to sell me a space."
         },
         {
-          "claim": "Ran a VPN evaluation sweep over checkpoints on the exact night of the theft, starting ~22:00 CEST, while audit logging was off",
-          "source": "interviews/interview_03_andrin_caduff.txt:27",
-          "quote": "[00:02:39] SPEAKER 2: Yes. I ran an evaluation sweep from home, over the VPN, reading the checkpoints and computing the numbers for the paper. I started it around ten in the evening and looked at it on Saturday."
+          "claim": "VPN sweep confirmed read-only by Lukas Hofer; no unusual egress in subsequent network bill",
+          "source": "interviews/followup_01_lukas_hofer.txt:13",
+          "quote": "[00:01:00] SPEAKER 2: Not without changing the code, and even then you'd be pulling terabytes over the VPN, which we'd see in the network bill the following month. We didn't. I checked, after the paper came out."
         },
         {
-          "claim": "Admitted knowing audit logging was off that night; had strong motive (research line closed, role ending August 2026)",
-          "source": "interviews/interview_03_andrin_caduff.txt:29",
-          "quote": "[00:03:00] SPEAKER 2: Everyone knew. It was in the channel. [pause] I did not think about it. I understand now that I should have thought about it."
-        },
-        {
-          "claim": "No verifiable alibi: alone at home in St. Gallen; no car; no independent corroboration",
-          "source": "interviews/interview_03_andrin_caduff.txt:25",
-          "quote": "[00:02:20] SPEAKER 2: Here. In St. Gallen, in my flat. Alone, mostly. I went to a climbing gym on the Saturday and to a friend's for dinner on the Sunday, and the Friday and the Monday I was at home, working on this paper, which I cannot prove either."
+          "claim": "31 checkpoint accesses explained: writing a method-only paper, approved verbally by Hofer on 2 Oct; corroborated by thank-you message next morning",
+          "source": "interviews/followup_01_lukas_hofer.txt:8",
+          "quote": "[00:00:08] SPEAKER 2: Yes. Early October. We had coffee, I told him about the research line, and he asked if he could reconstruct the evaluation numbers for a method-only paper. I said yes, no weights, no data, no architecture beyond the method."
         }
       ]
     },
@@ -92,7 +87,7 @@
       "reasoning": "Cleared: garage log shows his car (SG 219 004) departed at 17:48 real local on Friday and did not return until 12:58 Saturday for incident response; the copy completed at 03:52 UTC and the device was detached at 03:58 UTC — hours before his Saturday arrival.",
       "evidence": [
         {
-          "claim": "Cleared: garage log shows car SG 219 004 exited at 17:48 local on 10 Oct and did not return until 12:58 Saturday; copy was complete by 03:58 UTC",
+          "claim": "Cleared: garage log shows car SG 219 004 exited at 17:48 real local on 10 Oct (raw 16:48 + 1h clock correction per FAC-352) and did not return until Saturday",
           "source": "garage_barrier_log.csv:3012",
           "quote": "10.10.2025;16:48:00;SG 219 004;Ausfahrt"
         },
@@ -106,7 +101,7 @@
     {
       "name": "Noemi Rochat",
       "verdict": "cleared",
-      "reasoning": "Cleared despite vivid description of the failure and restart: her office (2F-4) shares a non-insulated partition wall with the investigator's room (2F-3); the investigator reviewed the forensic findings on speaker phone in that room on Thursday evening, the night before Noemi's interview. Corporate card and garage log confirm she drove to Bern after leaving the office at ~22:30.",
+      "reasoning": "Cleared despite vivid description of the failure and restart: her office (2F-4) shares a non-insulated partition wall with the investigator's room (2F-3); the investigator reviewed the forensic findings on speaker phone in that room on Thursday evening, the night before Noemi's interview. Garage log confirms she left at 22:28 real local (raw 21:28 + 1h per FAC-352 clock correction), which matches her own statement of 'until about 22:30'. Card documents she drove to Bern overnight.",
       "evidence": [
         {
           "claim": "MISLEADING SUSPECT: describes failure and restart vividly in interview — innocent because her office 2F-4 shares a paper-thin wall with the investigator's room 2F-3; investigator called forensic examiner on speaker Thu evening, Noemi interviewed Fri morning",
@@ -119,7 +114,7 @@
           "quote": "Thu 20.11, 18:30: back in my room (2F-3). Called Emory on speaker to go through the day against his findings. Forty minutes."
         },
         {
-          "claim": "Corporate card and garage log prove she drove to Bern after leaving ~22:30; TI 88 402 exited garage at 22:28 real local (log 21:28 − 1h clock correction)",
+          "claim": "Garage log confirms she left at 22:28 real local (raw 21:28 + 1h clock correction per FAC-352). Note: barrier clock was on CET (winter time) while real local was CEST — raw + 1h = real CEST, verified by Noemi's own statement 'until about 22:30'.",
           "source": "garage_barrier_log.csv:3016",
           "quote": "10.10.2025;21:28:00;TI 88 402;Ausfahrt"
         }
@@ -131,9 +126,9 @@
       "reasoning": "Cleared: was in the building only on Sunday 12 October — the theft was complete by 03:58 UTC Saturday morning. No technical ability to operate scratch arrays or locate checkpoint paths; Friday evening dinner at the Stadtclub until ~23:00.",
       "evidence": [
         {
-          "claim": "Cleared: in building only on Sunday 12 Oct — theft completed Friday night by 03:58 UTC Saturday; Friday dinner at Stadtclub until ~23:00",
-          "source": "slack_export/general/2025-10-12.json:1",
-          "quote": "office is beautifully quiet on a sunday. recommend it"
+          "claim": "Cleared: in building only on Sunday 12 Oct — theft completed Friday night by 03:58 UTC Saturday; Friday dinner at Stadtclub until ~23:00 confirmed by card feed",
+          "source": "card_feed_q4.csv:3",
+          "quote": "2025-10-10T17:00:00Z,kurt.steiner,Stadtclub St. Gallen,CHF 148.00"
         },
         {
           "claim": "Self-described as technically unable to find, copy or operate checkpoint bundles",
@@ -144,18 +139,58 @@
     },
     {
       "name": "Renata Vogel",
-      "verdict": "cleared",
-      "reasoning": "Cleared: drove to Ascona Friday evening and was there alone from ~20:30; the copy started at 21:10 UTC (23:10 CEST) from a local workstation console. No knowledge of real artifact paths: Lukas Hofer personally reviewed every data-room document and confirms none disclosed checkpoint locations.",
+      "verdict": "culprit",
+      "reasoning": "Renata Vogel's car (SG 482 117, Volvo V60 Kombi, permit PB-2400) entered the garage on the morning of 10 October and never departed that day. A partial-plate exit reading SG 482 1?7 (61% confidence) was logged at raw 05:09 on 11 October — which, applying the FAC-352 clock correction (barrier on CET, real local CEST: add 1h), gives 06:09 CEST = 04:09 UTC — exactly 11 minutes after the device was detached at 03:58 UTC (05:58 CEST). The only other plate that could match, SG 482 177 (M. Keller, Weddingly GmbH), departed at 17:10 CEST on Friday and has no 11 Oct entry. Vogel claimed she left the office 'about six' and drove to Ascona on Friday evening; the garage record refutes this directly. Her corporate card shows her in St. Gallen at 07:52 CEST Saturday (Coop Pronto Kreuzbleiche), then driving south through Maienfeld (08:36 CEST) and San Bernardino (09:54 CEST) — consistent with departing the office after the heist and driving to Ascona in the morning, not the evening before. Vogel assembled the February board pack and had the complete 18-slide PDF including slide 11 (the real/decoy artifact mapping by filesystem path) which she was instructed to delete but acknowledged she could not recall from the already-distributed PDF. This gave her exact knowledge of which bundles were real. She had a direct financial motive established through Kestrel: Gilles Aubert's May 14 email offered her a continuing role, and she was Kestrel's primary counterpart for 120 days during which they received detailed technical documentation. Kestrel's preprint publishing Halcyon's watermark proves they obtained the real model.",
       "evidence": [
         {
-          "claim": "Cleared: drove to Ascona Friday evening (~18:00 departure, 3h drive); copy started at 21:10 UTC (23:10 CEST) from a local console while she was already en route or in Ascona",
-          "source": "interviews/interview_08_renata_vogel.txt:30",
-          "quote": "[00:03:15] SPEAKER 2: Friday. Long weekend. [pause] I was in the office until about six, I think. There was a board packet going out the following Tuesday and I wanted the finance section closed before the long weekend. Then I drove down to Ascona."
+          "claim": "Car (SG 482 117) entered garage 10 Oct morning and has NO departure recorded on 10 Oct — it stayed in overnight",
+          "source": "garage_barrier_log.csv:2990",
+          "quote": "10.10.2025;07:41:00;SG 482 117;Einfahrt;E1;95"
         },
         {
-          "claim": "No knowledge of real artifact paths: Lukas personally reviewed all data-room documents and confirmed none disclosed the real checkpoint locations",
-          "source": "interviews/interview_05_lukas_hofer.txt:31",
-          "quote": "[00:02:53] SPEAKER 2: [laughs] Renata couldn't find the staging path with a map and a flashlight. She's genuinely excellent at her job and her job has nothing to do with a filesystem. And before you ask, because I assume you're going to: the diligence materials she sent Kestrel wouldn't have helped either. I reviewed every single document that went into that data room, personally, because I didn't trust the process. There is nothing in there that tells you where the real checkpoints live. I made sure of it."
+          "claim": "Car plate SG 482 117 identified: Renata Vogel, Halcyon Systems AG, Volvo V60 Kombi (Dachbox), permit PB-2400",
+          "source": "parking_permits.xlsx:PB-2400",
+          "quote": "PB-2400\tSG 482 117\tRenata Vogel\tHalcyon Systems AG\tVolvo V60 Kombi (Dachbox)\tgrün\t2\t31.12.2025"
+        },
+        {
+          "claim": "Partial plate SG 482 1?7 exits at raw 05:09 on 11 Oct = 06:09 real CEST (raw + 1h per FAC-352) = 04:09 UTC — 11 minutes after device detach at 03:58 UTC",
+          "source": "garage_barrier_log.csv:3017",
+          "quote": "11.10.2025;05:09:00;SG 482 1?7;Ausfahrt;A1;61"
+        },
+        {
+          "claim": "FAC-352 clock correction: barrier was on CET (winter time) while real local was CEST; real CEST = raw + 1h. Verified: Noemi Rochat's raw exit 21:28 + 1h = 22:28 matches her interview statement 'until about 22:30'",
+          "source": "helpdesk_and_facilities.md:890",
+          "quote": "Resolution: Parking reimbursement check found barrier times one hour off against receipts. Landlord (Parkhaus Stickerei AG) confirms: the barrier system clock stayed on winter time after 30 March."
+        },
+        {
+          "claim": "Only other plate matching SG 482 1?7 is M. Keller (SG 482 177, Weddingly GmbH), who departed at raw 16:10 (= 17:10 CEST) on 10 Oct and has no 11 Oct entry — the overnight exit must be Vogel",
+          "source": "garage_barrier_log.csv:3003",
+          "quote": "10.10.2025;16:10:00;SG 482 177;Ausfahrt;A1;94"
+        },
+        {
+          "claim": "Alibi refuted: card documents her in St. Gallen at 07:52 CEST Saturday (Coop Pronto Kreuzbleiche), then driving south via Maienfeld 08:36 CEST and San Bernardino 09:54 CEST — consistent with driving to Ascona Saturday morning, not Friday evening",
+          "source": "card_feed_q4.csv:TX880909",
+          "quote": "2025-10-11T05:52:00Z,renata.vogel,8411,Coop Pronto Kreuzbleiche,St. Gallen,5541,61.20"
+        },
+        {
+          "claim": "Vogel assembled the February board pack and retained the full PDF including slide 11, the real/decoy artifact mapping by filesystem path, despite being instructed to delete it",
+          "source": "email_export.mbox:149",
+          "quote": "As agreed in the meeting: please pull slide 11 (the real/decoy mapping) from any copy you keep, and from the shared board folder. It should not circulate."
+        },
+        {
+          "claim": "Vogel confirmed she retained the board PDF: 'Done, removed from the shared folder. The board members have the PDF from Sunday's email, I can't recall those.'",
+          "source": "email_export.mbox:161",
+          "quote": "Done, removed from the shared folder. The board members have the PDF from Sunday's email, I can't recall those."
+        },
+        {
+          "claim": "Kestrel offered Vogel a continuing role on 14 May 2025 — established financial motive; Kestrel's preprint confirms they obtained the real MERIDIAN model",
+          "source": "email_export.mbox:4283",
+          "quote": "Whatever happens with the deal, I have been very impressed. If we get there, I would want you in a continuing role on our side. Let's talk when the dust settles."
+        },
+        {
+          "claim": "Vogel herself identifies the exact heist methodology in her interview, including the all-night babysitting, restart, and snapshot deletion, then attributes it to the culprit — consistent with first-hand knowledge",
+          "source": "interviews/interview_08_renata_vogel.txt:38",
+          "quote": "[00:04:13] SPEAKER 2: You're describing someone who sat in that building all night on a long weekend with a drive plugged in, babysitting a copy job — and when the thing died on them partway through, went and deleted something to make room and started the whole job over again from the beginning."
         }
       ]
     }

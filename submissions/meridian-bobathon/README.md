@@ -65,9 +65,13 @@ the case bundle:
    and hardcoded in `build_profiles.py::PLATE_TO_SUSPECT` for cross-referencing
    with the garage log.
 
-3. **Garage clock correction (−1 hour)** — read from `helpdesk_and_facilities.md:890`
+3. **Garage clock correction (+1 hour)** — read from `helpdesk_and_facilities.md:890`
    (FAC-352: "barrier system clock stayed on winter time after 30 March").
-   Hardcoded as `GARAGE_CLOCK_CORRECTION_HOURS = -1`.
+   The barrier was on CET (UTC+1) while real local time was CEST (UTC+2); real
+   CEST = raw barrier time + 1 hour. Verified independently: Noemi Rochat's raw
+   garage exit of 21:28 + 1h = 22:28 CEST, matching her interview statement
+   "until about 22:30" (`interviews/interview_06_noemi_rochat.txt`).
+   Hardcoded as `GARAGE_CLOCK_CORRECTION_HOURS = +1`.
 
 4. **Forensic UTC times** — read from `forensic_summary_bakalian.pdf` page 1:
    copy started 21:10 UTC, failed ~00:20, snapshot deleted 00:41, restarted
@@ -83,8 +87,18 @@ the case bundle:
    commented he was in Val Müstair. Used as innocent explanation for
    Chiara Bernasconi's interview pivot hit.
 
-7. **Renata Vogel's Ascona alibi** — read from `interviews/interview_08_renata_vogel.txt:30–34`:
-   drove to Ascona Friday evening, alone until Saturday morning.
+7. **Renata Vogel's board pack assembly role** — read from
+   `interviews/interview_08_renata_vogel.txt:52–61`: she assembled the February
+   board pack including slide 11 (the real/decoy mapping), and was instructed to
+   delete it (`email_export.mbox:149–161`) but acknowledged she could not recall
+   the distributed PDF.
+
+8. **Garage overnight analysis** — read from `garage_barrier_log.csv`:
+   SG 482 117 (Vogel) entered at raw 07:41 on 10 Oct with no corresponding
+   departure that day. Partial plate SG 482 1?7 exits at raw 05:09 on 11 Oct
+   (= 06:09 CEST = 04:09 UTC, 11 minutes post-device-detach at 03:58 UTC).
+   M. Keller (SG 482 177) is excluded: departed at raw 16:10 on 10 Oct, no
+   11 Oct entry.
 
 No suspect names, dates, or evidence were invented or assumed without
 being found in the bundle files at the cited source:line.
@@ -93,19 +107,29 @@ being found in the bundle files at the cited source:line.
 
 ## Answer
 
-**Culprit: Andrin Caduff**  
-**Confidence: 0.87**
+**Culprit: Renata Vogel**  
+**Confidence: 0.97**
 
-### Why Caduff
+### Why Vogel
 
 | Evidence | Source |
 |---|---|
-| Knew real staging paths (on Iris's list of 5) | `investigator_notebook.md:19` |
-| Ran checkpoint sweep on theft night, VPN, ~22:00 CEST | `interviews/interview_03_andrin_caduff.txt:27` |
-| Admitted knowing audit logging was off | `interviews/interview_03_andrin_caduff.txt:29` |
-| Research line closed; role ending Aug 2026 | `investigator_notebook.md:51` |
-| No car; alone at home; no independent alibi | `interviews/interview_03_andrin_caduff.txt:25` |
-| 31 checkpoint accesses in 4 weeks (median 2) | `investigator_notebook.md:51` |
+| Car (SG 482 117) in garage all night — no departure recorded 10 Oct | `garage_barrier_log.csv:2990` + `parking_permits.xlsx:PB-2400` |
+| Partial plate SG 482 1?7 exits raw 05:09 Sat = **06:09 CEST = 04:09 UTC** — 11 min after device detach | `garage_barrier_log.csv:3017` |
+| Clock correction verified: raw + 1h = real CEST (Rochat raw 21:28 + 1h = 22:28 ≈ "~22:30") | `helpdesk_and_facilities.md:890` + interview_06 |
+| Alibi refuted: card at St. Gallen 07:52 CEST Sat, then driving south — not returning from Ascona | `card_feed_q4.csv:TX880909–TX880911` |
+| Assembled board pack, retained PDF with slide 11 (real/decoy mapping by path) | `email_export.mbox:149–161` |
+| Kestrel "continuing role" offer (14 May); 120 days as Kestrel's counterpart | `email_export.mbox:4283` |
+| Describes the exact heist methodology (all-night sit, snapshot delete, restart) in interview | `interviews/interview_08_renata_vogel.txt:38` |
+
+### Why Andrin Caduff is cleared (not culprit)
+
+Caduff was the previous leading suspect. The garage evidence resolves the case against him:
+the forensic job ran from a **local console** on the engineering floor — Caduff has **no car**
+and **no parking permit** (confirmed `interview_03_andrin_caduff.txt:36`, absent from
+`parking_permits.xlsx`). His VPN sweep was independently confirmed read-only by Lukas Hofer
+with no network egress (`followup_01_lukas_hofer.txt:13`). His 31 checkpoint accesses are
+fully explained by his method-only paper, corroborated by Hofer (`followup_01:8`).
 
 ### Why not Chiara Bernasconi (misleading suspect 1)
 

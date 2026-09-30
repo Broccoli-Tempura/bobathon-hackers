@@ -92,9 +92,11 @@ ad-hoc arrays used for bulk work generate a tamper-evident record.
 
 ## 5 — Alert on anomalous checkpoint access patterns in near-real-time
 
-**Gap found:** Andrin Caduff accessed checkpoints 31 times in four weeks —
-more than 15× the company median of 2. This anomaly was known to the
-investigation after the fact. No alert fired at the time.
+**Gap found:** The investigation revealed a researcher had accessed checkpoints
+31 times in four weeks against a company median of 2. The anomaly was known
+only in retrospect. No alert fired at the time. Any anomalous pattern —
+whether by a researcher writing a paper or by an insider preparing an
+exfiltration — should be surfaced before, not after, the fact.
 
 **Source:**
 - `investigator_notebook.md:50`: `**Caduff** (Principal Research Eng): research line closed in the September replan, role ends August. 31 checkpoint accesses in 4 weeks, median 2.`
@@ -108,13 +110,13 @@ not prevent the access; it ensures it is reviewed.
 
 ---
 
-## 6 — Require dual approval for audit-window changes from departing staff
+## 6 — Require dual approval for audit-window changes
 
 **Gap found:** The ticket that disabled audit logging (INFRA-2291) was signed
-off by Iris Ammann, the Head of Security. Andrin Caduff, who knew the window
-was coming, had his research line closed and his role ending in August. A
-single approver had the authority to create the opportunity and a departing
-employee had foreknowledge of it.
+off by a single approver (Iris Ammann, the Head of Security). The 9-hour
+window was communicated in a public channel, a standup, and a ticket visible
+to approximately 40 people — including the eventual culprit. A single approver
+had the authority to create the opportunity; no second check was required.
 
 **Source:**
 - `investigator_notebook.md:14`: `Audit collector stopped on purpose, Fri 10.10 21:00 → Sat 11.10 06:00, ticket INFRA-2291. SIEM cold tier pointed at the same backend, so no copy. ~40 people knew the window (ticket, #eng-infra, standup).`
